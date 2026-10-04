@@ -8,18 +8,20 @@
 		<title>Nift × Omarchy — an agentic rewrite experiment</title>
 		<meta name="description" content="A transparent case study comparing a fast Nift reconstruction of the Omarchy website with its original Astro implementation.">
 		<link rel="stylesheet" href="assets/css/style.css">
+		
+		<link rel="icon" href="../../labs/favicon.svg" type="image/svg+xml">
 	</head>
 	<body>
 		<a class="skip-link" href="./#main">Skip to content</a>
 		
 		<header class="site-header">
 		  <div class="wrap nav-row">
-		    <a class="brand" href="../" aria-label="Nift and Omarchy experiment home"><span class="mark">N</span><span>Nift × Omarchy</span></a>
+		    <a class="brand" href="./" aria-label="Nift and Omarchy experiment home"><span class="mark">N</span><span>Nift × Omarchy</span></a>
 		    <nav aria-label="On this page">
-		      <a href="../#results">Results</a>
-		      <a href="../#dx">DX</a>
-		      <a href="../#method">Method</a>
-		      <a href="../#verdict">Verdict</a>
+		      <a href="./#results">Results</a>
+		      <a href="./#dx">DX</a>
+		      <a href="./#method">Method</a>
+		      <a href="./#verdict">Verdict</a>
 		    </nav>
 		  </div>
 		</header>
@@ -30,7 +32,7 @@
 		    <h1>What happens when an agent rewrites Omarchy’s Astro site with Nift?</h1>
 		    <p class="lede">We rebuilt a 2,647-page production-shaped website around Nift templates, retained React only for the elaborate animated showcases, and measured the result. The experiment was fast, messy, revealing—and considerably more successful than the first prototype.</p>
 		    <div class="hero-actions">
-		      <a class="button primary" href="../#results">See the measurements</a>
+		      <a class="button primary" href="./#results">See the measurements</a>
 		      <a class="button" href="https://nift.dev">Visit Nift <span aria-hidden="true">↗</span></a>
 		      <a class="button" href="https://github.com/omarchy-website/nift-rewrite">Inspect the Nift rewrite <span aria-hidden="true">↗</span></a>
 		      <a class="button" href="https://github.com/omacom/omarchy-site">Original Astro repository <span aria-hidden="true">↗</span></a>
@@ -123,7 +125,7 @@ time taken: 0.149989 seconds</code></pre>
 		      <article><strong>10,503</strong><h3>@pathto calls</h3><p>Internal pages, styles, scripts, images, media, WASM, and island-provided URLs resolve through Nift.</p></article><article><strong>5,981</strong><h3>recorded requirements</h3><p>Nift metadata captures build relationships across 1,259 unique targets.</p></article><article><strong>9,531</strong><h3>references audited</h3><p>An independent output check covered literal local references in generated HTML, CSS, and JavaScript.</p></article><article><strong>0</strong><h3>missing targets</h3><p>The final generated-output audit completed without a broken local relationship.</p></article>
 		    </div>
 		    <div class="code-pair">
-		      <div><p class="code-label">Structured content</p><pre><code>@json(site_themes, "content/omarchy/data/site-themes.json")
+		      <div><p class="code-label">Structured content</p><pre><code>@json(site_themes, "content/sites/omarchy/data/site-themes.json")
 @for(theme : site_themes){
   &lt;button data-preview="@pathto('public/assets/images/theme-previews/$[theme.id].webp')"&gt;
     $[theme.name]
@@ -178,6 +180,6 @@ $ nift build
 		  </section>
 		</main>
 		
-		<footer><div class="wrap"><p>Independent feasibility experiment. Measurements and caveats reported together.</p><a href="../#main">Back to top ↑</a></div></footer>
+		<footer><div class="wrap"><p>Independent feasibility experiment. Measurements and caveats reported together.</p><a href="./#main">Back to top ↑</a></div></footer>
 	</body>
 </html>

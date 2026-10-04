@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="color-scheme" content="dark">
+      <meta name="theme-color" content="#151310">
+      <title>Website experiments — Nift Labs</title>
+      <meta name="description" content="Experiments, benchmarks and real-world builds exploring Nift. Public evidence, independent designs, reproducible workloads.">
+      <link rel="icon" href="../labs/favicon.svg" type="image/svg+xml">
+      <link rel="stylesheet" href="../labs/style.css"></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead wrap">
+  <a class="brand" href="../"><span class="brand-mark">N/</span> Nift <span class="brand-suffix">Labs</span></a>
+  <nav aria-label="Main"><a href="./">Website experiments</a><a href="https://nift.dev">Nift ↗</a></nav>
+</header>
+<main id="main" class="wrap"><section class="hero catalogue-hero">
+                               <p class="eyebrow"><a href="../">Nift Labs</a> / Collection 01</p>
+                               <h1>Real websites.<br><em>New ways to build.</em></h1>
+                               <p class="lede">Experiments using substantial public content corpora to explore build performance, implementation choices, and the experience of working with Nift.</p>
+                             </section>
+                             <section class="section" aria-label="Website experiments">
+                               <div class="collection-heading"><p class="eyebrow">The collection</p><span>Independent designs. Shared curiosity.</span></div>
+                               
+                               <div class="experiment-grid" id="site-catalogue" data-page-size="8"><article class="experiment cloudflare-docs">
+                                                                                                     <div class="entry-top"><span class="eyebrow">Documentation / benchmark</span><span class="status">Results published</span></div>
+                                                                                                     <a class="entry-link" href="cloudflare-docs/"><h3>Cloudflare Docs <span>↗</span></h3></a>
+                                                                                                     <p>A frozen documentation corpus, strict output audits, and a transparent comparison of Nift and Astro build workflows.</p>
+                                                                                                     <dl class="entry-meta"><div><dt>Upstream</dt><dd>Astro</dd></div><div><dt>Corpus</dt><dd>8,803 pages</dd></div></dl>
+                                                                                                     <a class="read-link" href="cloudflare-docs/">Read the experiment <span>→</span></a>
+                                                                                                   </article><article class="experiment omarchy">
+                                                                                                     <div class="entry-top"><span class="eyebrow">Website / feasibility study</span><span class="status">Results published</span></div>
+                                                                                                     <a class="entry-link" href="omarchy/"><h3>Omarchy <span>↗</span></h3></a>
+                                                                                                     <p>An agentic reconstruction of a production-shaped website. Build speed, dependency footprint, and developer experience under the microscope.</p>
+                                                                                                     <dl class="entry-meta"><div><dt>Upstream</dt><dd>Astro</dd></div><div><dt>Corpus</dt><dd>2,647 pages</dd></div></dl>
+                                                                                                     <a class="read-link" href="omarchy/">Read the experiment <span>→</span></a>
+                                                                                                   </article></div>
+                               <nav class="pagination" id="catalogue-pagination" aria-label="Collection pages" hidden></nav>
+                               <p class="sr-only" id="catalogue-status" role="status" aria-live="polite"></p>
+                               <script src="../labs/catalogue.js" defer></script>
+                             </section>
+                             <section class="methodology section" aria-labelledby="method-title">
+                               <p class="eyebrow">A note on method</p>
+                               <div><h2 id="method-title">The workload is real.<br>The design is an experiment.</h2><p>We use real public content corpora to investigate build-system performance and implementation characteristics. Unless a report explicitly says otherwise, these are independent interpretations rather than pixel-perfect migrations.</p><p>Exact upstream commits are recorded where available so each result can be tied to a specific corpus. Each report describes its measurement boundaries, evidence, and limitations.</p></div>
+                             </section></main>
+<footer class="wrap"><span>Nift Labs / an open notebook</span><a href="./">Explore the experiments ↗</a></footer>
+</body>
+</html>
