@@ -1,0 +1,42 @@
+{
+  "metrics": [
+    {"value":"2,647","label":"pages tracked","note":"The complete static distribution, not a homepage-only demonstration."},
+    {"value":"0.490s","label":"complete Nift build","note":"Median including the deliberately limited React animation bundle."},
+    {"value":"50.6 MiB","label":"peak build memory","note":"Versus approximately 1,019 MiB for the original Astro build."},
+    {"value":"19 MiB","label":"installed Node modules","note":"Versus 676 MiB in the original Astro checkout."}
+  ],
+  "builds": [
+    {"name":"Nift no-op check","time":"0.136s","memory":"8.3 MiB","scope":"Dependency/status pass; no output required rebuilding."},
+    {"name":"Nift one-page edit","time":"0.154s","memory":"8.3 MiB","scope":"The common content, template, data, or path iteration loop."},
+    {"name":"Nift forced full render","time":"0.245s","memory":"17.0 MiB","scope":"All 2,647 tracked pages rendered; island bundle unchanged."},
+    {"name":"Nift + React island","time":"0.490s","memory":"50.6 MiB","scope":"Benchmark checkpoint: island bundle plus a forced render of every page."},
+    {"name":"Original Astro","time":"5.007s","memory":"1,018.6 MiB","scope":"Original production build on the same benchmark machine."}
+  ],
+  "comparisons": [
+    {"topic":"Ordinary iteration","nift":"The same nift build command is used in development and production. It checks the graph and renders only affected pages; most edits do not wake Node or rebuild the island.","astro":"The framework build owns page generation, component compilation, integrations, and client assets together."},
+    {"topic":"Architecture","nift":"HTML templates and JSON own static structure. Ordinary JavaScript owns small interactions. React is constrained to animation lifecycle and coordinated showcase state.","astro":"Astro components organise the site and integrate React components through the framework’s island model."},
+    {"topic":"Dependency surface","nift":"One small native executable plus 30 Node lockfile entries for the optional React island bundle.","astro":"A familiar JavaScript toolchain with 794 lockfile entries and a much larger installed dependency tree."},
+    {"topic":"Path safety","nift":"@pathto turns page and asset relationships into checked build requirements, supplemented by a final-output audit.","astro":"Asset and route correctness comes from framework conventions, module imports, integrations, and whatever additional link checking the project configures."},
+    {"topic":"Source maturity","nift":"A successful but crude prototype. Its repeated theme UI and route families are structured; more extracted HTML should still be refactored.","astro":"The established upstream implementation, with mature source organisation and production history."},
+    {"topic":"Onboarding","nift":"A small model that is quick to inspect, but a smaller community and less accumulated team familiarity.","astro":"Broader familiarity, documentation, integrations, examples, and an existing pool of experienced developers."}
+  ],
+  "contracts": [
+    {"value":"10,503","label":"@pathto calls","detail":"Internal pages, styles, scripts, images, media, WASM, and island-provided URLs resolve through Nift."},
+    {"value":"5,981","label":"recorded requirements","detail":"Nift metadata captures build relationships across 1,259 unique targets."},
+    {"value":"9,531","label":"references audited","detail":"An independent output check covered literal local references in generated HTML, CSS, and JavaScript."},
+    {"value":"0","label":"missing targets","detail":"The final generated-output audit completed without a broken local relationship."}
+  ],
+  "ai_dx": [
+    {"title":"Short feedback loops","text":"A one-page edit rebuilt in roughly 0.15 seconds in the constrained container. Fast verification changes how often an agent can afford to check its work."},
+    {"title":"Explicit relationships","text":"@input, @json, and @pathto state dependencies close to their use. The build can explain why a page is stale or reject a missing target."},
+    {"title":"Low context tax","text":"The central model fits into a small mental map. Agents spend fewer tokens rediscovering framework lifecycle and configuration layers."},
+    {"title":"No immunity from mistakes","text":"The agent still produced visual mismatches and JavaScript integration regressions. Nift made fixes cheap; it did not replace acceptance testing."}
+  ],
+  "method": [
+    {"number":"01","title":"Match the actual scope","text":"Both implementations were evaluated as complete 2,647-page sites. The first simplified-homepage attempt was rejected as an invalid comparison."},
+    {"number":"02","title":"Restore visual and interactive behaviour","text":"The homepage was iterated against the live Omarchy site, including its pixel hero, mouse interaction, theme showcase, music, and draggable rails."},
+    {"number":"03","title":"Move structure into Nift","text":"Homepage sections, redirect families, repeated theme data, and internal relationships were moved into templates, JSON, loops, inputs, and path contracts."},
+    {"number":"04","title":"Measure warmed builds","text":"Five runs were collected for each workflow and medians reported. Astro and the comparable Nift production build ran in the same constrained environment."},
+    {"number":"05","title":"Validate the output","text":"Nift status confirmed every tracked page current, while an independent audit resolved local HTML, CSS, and JavaScript references against generated files."}
+  ]
+}

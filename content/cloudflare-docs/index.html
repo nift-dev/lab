@@ -1,0 +1,491 @@
+<a class="skip-link" href="#main">Skip to evidence</a>
+
+<header class="site-header" data-header>
+  <a class="brand" href="#top" aria-label="Benchmark home">
+    <span class="brand-mark" aria-hidden="true">CF</span>
+    <span><strong>Build Ledger</strong><small>Cloudflare Docs experiment</small></span>
+  </a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <span class="sr-only">Toggle navigation</span>
+    <span></span><span></span>
+  </button>
+  <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+    <a href="#validity">Validity</a>
+    <a href="#results">Results</a>
+    <a href="#scenarios">Scenarios</a>
+    <a href="#method">Method</a>
+    <a href="#discussion">Discussion</a>
+    <a href="#ai-dx">AI-DX</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span>Method v6</span> Frozen build-system benchmark</p>
+        <h1 id="hero-title">What does a docs build cost when the corpus gets <em>real?</em></h1>
+        <p class="lede">Nift and Astro were measured against the same frozen Cloudflare Docs source: thousands of routes, strict output audits, and resource accounting at the cgroup boundary.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#results">Read the formal result</a>
+          <a class="button button-plain" href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Inspect the experiment <span aria-hidden="true">&nearr;</span></a>
+        </div>
+      </div>
+      <aside class="hero-spec" aria-label="Frozen experiment specification">
+        <div class="spec-head"><span>EXPERIMENT</span><span>CFD-M6</span></div>
+        <dl>
+          <div><dt>Corpus</dt><dd>8,803 HTML pages</dd></div>
+          <div><dt>Upstream</dt><dd><code>bc2bdaee</code></dd></div>
+          <div><dt>Machine</dt><dd>6 vCPU / 16.77 GB</dd></div>
+          <div><dt>Clean series</dt><dd><span class="status-dot"></span> 3 of 3 valid</dd></div>
+        </dl>
+        <div class="spec-stamp" aria-hidden="true">COMPLETE</div>
+      </aside>
+    </div>
+
+    <aside class="read-first" aria-labelledby="read-first-title">
+      <p class="flag">Read first</p>
+      <div>
+        <h2 id="read-first-title">The clean series is complete, but its boundary matters.</h2>
+        <p>This is tool-native generated-page timing, not equal empty-output complete-site assembly. Nift's static shell and assets were pre-staged, while Astro copied public assets into <code>dist</code> during its timed build. All three pairs were infrastructure-valid: Nift matched its certified manifest byte-for-byte; Astro was normalized-equivalent with no rejected or unclassified differences.</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="signal-strip" aria-label="Benchmark scope">
+    <div><strong>8,986</strong><span>audited endpoints</span></div>
+    <div><strong>164</strong><span>visual comparisons</span></div>
+    <div><strong>2</strong><span>browser engines</span></div>
+    <div><strong>0</strong><span>swap bytes</span></div>
+  </section>
+
+  <section class="section section-validity" id="validity" aria-labelledby="validity-title">
+    <div class="section-heading reveal">
+      <p class="kicker">01 / Before speed</p>
+      <h2 id="validity-title">Parity has to be earned.</h2>
+      <p>A quick build is irrelevant if it produces the wrong site. The frozen corpus is checked at several layers before timing data can qualify.</p>
+    </div>
+    <div class="validity-layout">
+      <div class="check-grid">
+        <article class="check-card reveal"><span>01</span><h3>Structure</h3><p>Generated HTML and expected route families are compared across the corpus.</p></article>
+        <article class="check-card reveal"><span>02</span><h3>Metadata</h3><p>Document-level metadata is audited rather than inferred from page count.</p></article>
+        <article class="check-card reveal"><span>03</span><h3>Accessibility</h3><p>Automated checks form part of corpus qualification, alongside semantic review.</p></article>
+        <article class="check-card reveal"><span>04</span><h3>Routes &amp; leakage</h3><p>8,986 endpoints are audited for expected routing and unintended source leakage.</p></article>
+      </div>
+      <aside class="coverage-card reveal">
+        <p class="mini-label">Visual coverage</p>
+        <strong>164</strong>
+        <p>comparisons sampled in Chromium and Vantage/WebKitGTK.</p>
+        <div class="engine-row"><span>Chromium</span><span>WebKitGTK</span></div>
+        <p class="fine-print">The audit breadth supports parity confidence; it does not imply every pixel of every route has been manually reviewed.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-results" id="results" aria-labelledby="results-title">
+    <div class="section-heading light reveal">
+      <p class="kicker">02 / Formal clean result</p>
+      <h2 id="results-title">Three valid pairs. One bounded conclusion.</h2>
+      <p>The completed clean series reports all raw runs and descriptive statistics. Nift incremental workflows and the final three Astro incremental invocations are reported separately below.</p>
+    </div>
+
+    <div class="result-panel reveal">
+      <div class="panel-topline">
+        <div><span class="live-dot"></span> Formal clean series / final</div>
+        <div>n=3 valid pairs / ABB order</div>
+      </div>
+      <div class="result-columns">
+        <article class="result-card nift-result">
+          <div class="tool-title"><span class="tool-badge">N</span><h3>Nift</h3><small>4.5.0</small></div>
+          <p class="metric"><strong>5.18</strong><span>seconds median</span></p>
+          <p class="submetric"><strong>708,198,400</strong> bytes <span>(675.39 MiB)</span> median aggregate peak</p>
+          <div class="bar-track" aria-label="Nift median elapsed time: 5.18 seconds"><span style="--size: 0.91%"></span></div>
+        </article>
+        <article class="result-card astro-result">
+          <div class="tool-title"><span class="tool-badge">A</span><h3>Astro</h3><small>7.3.2</small></div>
+          <p class="metric"><strong>570.96</strong><span>seconds median</span></p>
+          <p class="submetric"><strong>11,845,435,392</strong> bytes <span>(11.03 GiB)</span> median aggregate peak</p>
+          <div class="bar-track" aria-label="Astro median elapsed time: 570.96 seconds"><span style="--size: 100%"></span></div>
+        </article>
+      </div>
+      <div class="ratio-row">
+        <p><strong>110.2239x</strong><span>wall-time median ratio</span></p>
+        <p><strong>16.7262x</strong><span>aggregate peak median ratio</span></p>
+      </div>
+      <p class="panel-note"><strong>Timing scope:</strong> tool-native generated-page work. Nift static shell/assets were pre-staged; Astro copied <code>public</code> assets into <code>dist</code> during timing. This is not an equal empty-output complete-site assembly measurement.</p>
+    </div>
+
+    <div class="formal-stats reveal">
+      <div class="stats-heading">
+        <p class="mini-label">Raw values and descriptive statistics</p>
+        <p>Population standard deviation; seconds and bytes are reported without unit conversion. All three runs are included.</p>
+      </div>
+      <div class="table-wrap">
+        <table class="stats-table">
+          <caption class="sr-only">Formal clean benchmark raw values and statistics, three valid runs</caption>
+          <thead><tr><th scope="col">Measure</th><th scope="col">Statistic</th><th scope="col">Nift</th><th scope="col">Astro</th></tr></thead>
+          <tbody>
+            <tr><th scope="row" rowspan="5">Wall seconds</th><td>Raw, ABB order</td><td>5.29 / 5.18 / 5.03</td><td>567.49 / 571.48 / 570.96</td></tr>
+            <tr><td>Median</td><td>5.18</td><td>570.96</td></tr>
+            <tr><td>Mean</td><td>5.1666666667</td><td>569.9766666667</td></tr>
+            <tr><td>Min / max</td><td>5.03 / 5.29</td><td>567.49 / 571.48</td></tr>
+            <tr><td>Population SD</td><td>0.1065624491</td><td>1.7711076258</td></tr>
+            <tr><th scope="row" rowspan="5">Aggregate peak bytes</th><td>Raw, ABB order</td><td>713,728,000 / 708,198,400 / 700,067,840</td><td>11,845,435,392 / 12,016,066,560 / 11,753,394,176</td></tr>
+            <tr><td>Median</td><td>708,198,400</td><td>11,845,435,392</td></tr>
+            <tr><td>Mean</td><td>707,331,413.333</td><td>11,871,632,042.667</td></tr>
+            <tr><td>Min / max</td><td>700,067,840 / 713,728,000</td><td>11,753,394,176 / 12,016,066,560</td></tr>
+            <tr><td>Population SD</td><td>5,610,332.267</td><td>108,823,691.381</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="stats-note"><strong>n=3 valid pairs.</strong> Fixed ABB first-tool order. Wall-time CV was 2.06% for Nift and 0.31% for Astro, below methodology v6's 15% extension threshold. No valid runs were discarded.</p>
+    </div>
+
+    <div class="correctness-report reveal">
+      <div>
+        <p class="mini-label">Correctness status</p>
+        <h3>Exact and normalized evidence, named separately.</h3>
+      </div>
+      <div class="correctness-columns">
+        <article><strong>Nift</strong><p>Byte-content exact against the certified manifest for every formal run.</p></article>
+        <article><strong>Astro</strong><p>Normalized-equivalent across 21,610 entries / 12,447 files, with zero rejected or unclassified differences.</p></article>
+      </div>
+      <p class="digest">Common normalization digest <code>b2261e6a694f26653cec8871a98571b93e6eda5452ba6fbf148a6d727e9b389d</code></p>
+      <p class="normalization-detail">The narrow normalization classes cover build-generated random IDs, nine sampled-prompt pages, one Shiki rule-order difference, one sitemap fallback timestamp, and content-identical alternate SVG names. Raw artifacts remain published for independent review; normalized correctness is not described as byte identity.</p>
+    </div>
+
+    <div class="qualification reveal">
+      <div class="qualification-copy">
+        <p class="mini-label">Qualification, not formal headline</p>
+        <h3>Harness checkpoints</h3>
+        <p>These runs tested correctness and repeatability before the paired formal sequence. They are context, not substitutes for that sequence.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">Benchmark qualification measurements</caption>
+          <thead><tr><th scope="col">Checkpoint</th><th scope="col">Elapsed</th><th scope="col">Aggregate cgroup peak</th><th scope="col">Note</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Nift <code>-1</code></th><td>4.585 s median</td><td>516,749,312 B median</td><td>8 runs</td></tr>
+            <tr><th scope="row">Astro clean reference</th><td>571.37 s</td><td>11,359,162,368 B</td><td>First correctness-valid</td></tr>
+            <tr><th scope="row">Astro no-change</th><td>626.52 s</td><td>13,389,099,008 B</td><td>Reported 9,022 pages built</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="scenarios" aria-labelledby="scenarios-title">
+    <div class="section-heading reveal">
+      <p class="kicker">03 / Workflows under test</p>
+      <h2 id="scenarios-title">One corpus, six different questions.</h2>
+      <p>Clean speed is only one operating condition. The formal suite is designed around the edits maintainers actually make.</p>
+    </div>
+    <div class="scenario-list">
+      <article class="scenario reveal">
+        <div class="scenario-number">A</div><div><h3>Clean build</h3><p>Generate the production corpus from clean benchmark state.</p></div>
+        <div class="complete"><span>Formal series complete</span><small>n=3 valid pairs</small></div>
+      </article>
+      <article class="scenario reveal">
+        <div class="scenario-number">B</div><div><h3>No-change build</h3><p><code>nift build</code> completed without touching output. Astro's three final incremental commands each rebuilt all 9,022 pages; two passed normalized correctness and one failed closed on changed Shiki styling.</p></div>
+        <div class="partial"><span>Campaign complete</span><small>Astro: 2 of 3 formal-valid</small></div>
+      </article>
+      <article class="scenario reveal">
+        <div class="scenario-number">C</div><div><h3>One-page, normal workflow</h3><p>A normal <code>nift build</code> rebuilt the edited page in 0.94 seconds median. This includes graph inspection; explicit targeting remains materially faster.</p></div>
+        <div class="complete"><span>Nift series complete</span><small>n=3 / 1 page each</small></div>
+      </article>
+      <article class="scenario reveal">
+        <div class="scenario-number">D</div><div><h3>Explicit page target</h3><p><code>nift build workers/get-started/guide/</code> rebuilt exactly <code>workers/get-started/guide/index.html</code>. Astro has no equivalent explicit named-route production build command in this project/toolchain, so no counterpart or speed ratio is reported.</p></div>
+        <div class="complete"><span>Formal series complete</span><small>n=30 valid Nift runs</small></div>
+      </article>
+      <article class="scenario reveal">
+        <div class="scenario-number">E</div><div><h3>Five-page batch</h3><p>Normal graph discovery rebuilt five pages in 0.98 seconds median. Explicitly naming all five targets completed in 0.16 seconds median across 20 valid runs.</p></div>
+        <div class="complete"><span>Nift series complete</span><small>n=3 normal / n=20 target</small></div>
+      </article>
+      <article class="scenario reveal">
+        <div class="scenario-number">F</div><div><h3>Shared-template fan-out</h3><p>An inert metadata marker in the shared head template caused Nift's normal incremental path to rebuild all 8,803 pages in 4.89 seconds median.</p></div>
+        <div class="complete"><span>Nift series complete</span><small>n=3 / 8,803 pages each</small></div>
+      </article>
+    </div>
+
+    <div class="workflow-results reveal" aria-labelledby="workflow-results-title">
+      <div class="workflow-heading">
+        <div><p class="mini-label">Nift incremental workflows</p><h3 id="workflow-results-title">Graph discovery costs about a second. Explicit targets cost a fraction of it.</h3></div>
+        <p>Normal runs check the dependency graph. Targeted runs receive exact tracked names. These are distinct workflows, not interchangeable labels, and no Astro targeted counterpart is invented.</p>
+      </div>
+      <div class="workflow-grid">
+        <article class="workflow-card"><span>Normal / one edit</span><strong>0.94 s</strong><p>10,129,408 B median aggregate peak. Three runs rebuilt exactly one designated page.</p></article>
+        <article class="workflow-card"><span>Targeted / one edit</span><strong>0.15 s</strong><p>7,280,640 B median aggregate peak. Thirty runs changed exactly one output.</p></article>
+        <article class="workflow-card"><span>Normal / five edits</span><strong>0.98 s</strong><p>10,563,584 B median aggregate peak. Three runs rebuilt the five designated pages.</p></article>
+        <article class="workflow-card"><span>Targeted / five edits</span><strong>0.16 s</strong><p>8,681,472 B median aggregate peak. Twenty runs changed exactly five outputs.</p></article>
+        <article class="workflow-card"><span>Normal / shared template</span><strong>4.89 s</strong><p>444,751,872 B median aggregate peak. Three runs reported all 8,803 pages rebuilt.</p></article>
+      </div>
+      <div class="table-wrap workflow-table">
+        <table>
+          <caption class="sr-only">Nift incremental workflow descriptive statistics</caption>
+          <thead><tr><th scope="col">Workflow</th><th scope="col">Runs</th><th scope="col">Wall median</th><th scope="col">Wall range</th><th scope="col">Peak median</th><th scope="col">Validated outputs</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">One-page normal</th><td>3</td><td>0.94 s</td><td>0.89–0.95 s</td><td>10,129,408 B</td><td>1 each run</td></tr>
+            <tr><th scope="row">One-page targeted</th><td>30</td><td>0.15 s</td><td>0.14–0.25 s</td><td>7,280,640 B</td><td>1 each run</td></tr>
+            <tr><th scope="row">Five-page normal</th><td>3</td><td>0.98 s</td><td>0.94–0.99 s</td><td>10,563,584 B</td><td>5 each run</td></tr>
+            <tr><th scope="row">Five-page targeted</th><td>20</td><td>0.16 s</td><td>0.15–0.21 s</td><td>8,681,472 B</td><td>5 each run</td></tr>
+            <tr><th scope="row">Shared-template normal</th><td>3</td><td>4.89 s</td><td>4.73–4.96 s</td><td>444,751,872 B</td><td>5 representatives</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="workflow-scope"><strong>Validation scope:</strong> the lean normal-workflow runs checked marker presence and changed hashes only for the intended outputs, as declared before measurement. They did not rescan or serialize the full site. The shared-template series checked five frozen representative outputs and Nift's reported fan-out count.</p>
+    </div>
+
+    <aside class="nochange-report reveal" aria-labelledby="nochange-title">
+      <div class="nochange-heading">
+        <div>
+          <p class="mini-label">No-change evidence / unpaired</p>
+          <h3 id="nochange-title">The graph checked. The output stayed still.</h3>
+        </div>
+        <p>Nift's three recorded runs followed one warmup and were all formal-valid. Astro then ran exactly three final incremental commands without another warmup or clean build; two were formal-valid and one was retained as a correctness failure. No paired speedup is claimed.</p>
+      </div>
+      <div class="nochange-evidence">
+        <div><strong>0.90 s</strong><span>median wall time</span></div>
+        <div><strong>9.242 MiB</strong><span>median aggregate peak</span></div>
+        <div><strong>0 outputs</strong><span>touched or regenerated</span></div>
+      </div>
+      <div class="nochange-command"><span>Exact command</span><code>nift build</code></div>
+      <div class="nochange-stats table-wrap">
+        <table>
+          <caption class="sr-only">Formal Nift-only no-change run values and descriptive statistics</caption>
+          <thead><tr><th scope="col">Measure</th><th scope="col">Raw runs</th><th scope="col">Median</th><th scope="col">Mean</th><th scope="col">Min / max</th><th scope="col">Population SD</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Wall seconds</th><td>0.98 / 0.90 / 0.87</td><td>0.90</td><td>0.9166667</td><td>0.87 / 0.98</td><td>0.046428</td></tr>
+            <tr><th scope="row">Aggregate peak bytes</th><td>9,650,176 / 9,908,224 / 9,691,136</td><td>9,691,136</td><td>9,749,845.333</td><td>9,650,176 / 9,908,224</td><td>113,232.157</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="output-audit" aria-label="Output audit for every recorded no-change run">
+        <div><strong>0</strong><span>touched</span></div><div><strong>0</strong><span>regenerated</span></div><div><strong>0</strong><span>content changed</span></div><div><strong>0</strong><span>mtime-only</span></div>
+      </div>
+      <p class="nochange-note"><strong>Scope:</strong> Nift-only formal evidence, n=3. The Astro no-change value shown earlier is a qualification checkpoint and is not used as this series' formal counterpart.</p>
+      <div class="nochange-evidence astro-outcome" aria-label="Final Astro incremental campaign observations">
+        <div><strong>688.10 s</strong><span>observed median, all 3 commands</span></div>
+        <div><strong>13,067,665,408 B</strong><span>(12.17 GiB) observed median aggregate peak</span></div>
+        <div><strong>9,022 pages</strong><span>reported each command</span></div>
+        <div><strong>2 / 3</strong><span>formal-valid</span></div>
+      </div>
+      <p class="nochange-note"><strong>Astro outcome:</strong> all three commands were infrastructure-valid. Runs 1 and 2 were normalized-equivalent at 680.27 and 688.26 seconds. Run 3 completed in 688.10 seconds but changed Shiki declaration bodies and corresponding token styling, so correctness failed closed. The observed median includes all three invocations and is not used for a formal ratio.</p>
+    </aside>
+  </section>
+
+  <section class="section section-memory" id="memory" aria-labelledby="memory-title">
+    <div class="section-heading reveal">
+      <p class="kicker">04 / Resource envelope</p>
+      <h2 id="memory-title">Memory is a suitability constraint.</h2>
+      <p>Aggregate cgroup peak captures the workload boundary, not just one convenient process. That matters when child processes and toolchains share a build.</p>
+    </div>
+    <div class="memory-grid">
+      <div class="memory-chart reveal" role="img" aria-label="Formal median aggregate cgroup peak: Nift 708,198,400 bytes, Astro 11,845,435,392 bytes">
+        <div class="chart-scale"><span>0</span><span>4 GB</span><span>8 GB</span><span>12 GB</span></div>
+        <div class="memory-row"><strong>Nift</strong><div class="memory-track"><span class="memory-fill nift-fill" style="--size: 5.98%"></span></div><code>0.708 GB</code></div>
+        <div class="memory-row"><strong>Astro</strong><div class="memory-track"><span class="memory-fill astro-fill" style="--size: 100%"></span></div><code>11.845 GB</code></div>
+        <p>Formal medians, n=3; decimal GB shown for orientation. Ratio: 16.7262x.</p>
+      </div>
+      <aside class="machine-card reveal">
+        <p class="mini-label">Controlled machine</p>
+        <dl>
+          <div><dt>CPU allocation</dt><dd>6 vCPU</dd></div>
+          <div><dt>Physical memory</dt><dd>16,769,368,064 B</dd></div>
+          <div><dt>Swap</dt><dd>None</dd></div>
+          <div><dt>Measurement</dt><dd>Aggregate cgroup peak</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-footprint" id="footprint" aria-labelledby="footprint-title">
+    <div class="section-heading reveal">
+      <p class="kicker">05 / Dependency footprint</p>
+      <h2 id="footprint-title">Count what must be trusted, installed, and kept current.</h2>
+      <p>Dependency surface is part of operational cost. This inventory separates declared packages, resolved pnpm entries, generated caches, filesystem allocation, and output so unlike categories are not collapsed into one number.</p>
+    </div>
+    <div class="footprint-grid">
+      <article class="footprint-card reveal"><span class="tool-badge">N</span><h3>Nift toolchain</h3><p>Nift 4.5.0 is a native executable. The benchmark project contains no <code>node_modules</code> directory and requires no Node package graph for its build.</p><dl class="footprint-metrics"><div><dt>Node dependencies</dt><dd>0</dd></div><div><dt><code>node_modules</code></dt><dd>absent</dd></div><div><dt>Nift binary</dt><dd>3,497,360 B</dd></div><div><dt>Source checkout</dt><dd>255,100,730 B</dd></div><div><dt>Build metadata</dt><dd>49,979,498 B</dd></div><div><dt>Generated output</dt><dd>870,706,566 B</dd></div></dl></article>
+      <article class="footprint-card reveal"><span class="tool-badge">A</span><h3>Astro toolchain</h3><p>Astro 7.3.2 runs through Node 24.21.0 and pnpm 12.4.2. Counts below distinguish direct declarations from resolved package identities.</p><dl class="footprint-metrics"><div><dt>Direct dev dependencies</dt><dd>105</dd></div><div><dt>pnpm store entries</dt><dd>1,120</dd></div><div><dt>Lockfile snapshots</dt><dd>1,327</dd></div><div><dt><code>node_modules</code></dt><dd>1,194,890,090 B</dd></div><div><dt>Installed regular files</dt><dd>55,232</dd></div><div><dt>Generated <code>.astro</code> cache</dt><dd>1,528,202,322 B</dd></div></dl></article>
+    </div>
+    <p class="footprint-note"><strong>Definitions:</strong> byte values are logical <code>lstat</code> sizes with hard-linked objects counted once. Astro's <code>node_modules</code> total excludes <code>node_modules/.astro</code>, which is reported separately; it occupies 1,366,536,192 allocated bytes before that cache. Nift and Astro source-checkout figures exclude Git history, dependencies, generated metadata, and output. Generated output size is not dependency size.</p>
+  </section>
+
+  <section class="section" id="method" aria-labelledby="method-title">
+    <div class="section-heading reveal">
+      <p class="kicker">06 / Reproducibility</p>
+      <h2 id="method-title">Freeze inputs. Expose uncertainty.</h2>
+      <p>The experiment repository contains the harness and stage branch. Methodology version 6 is the measurement contract for the numbers on this page.</p>
+    </div>
+    <div class="method-layout">
+      <ol class="method-steps">
+        <li class="reveal"><span>1</span><div><h3>Pin the source</h3><p>Cloudflare Docs is frozen at commit <code>bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf</code>.</p></div></li>
+        <li class="reveal"><span>2</span><div><h3>Qualify correctness</h3><p>Structural, metadata, accessibility, route, leakage, and sampled visual checks gate timing validity.</p></div></li>
+        <li class="reveal"><span>3</span><div><h3>Measure the boundary</h3><p>Elapsed time and aggregate cgroup memory are collected on the same 6 vCPU, no-swap machine.</p></div></li>
+        <li class="reveal"><span>4</span><div><h3>Pair formal runs</h3><p>Three infrastructure-valid pairs used fixed ABB first-tool order. No valid run was discarded and the 15% CV extension threshold was not triggered.</p></div></li>
+        <li class="reveal"><span>5</span><div><h3>Audit artifacts</h3><p>Nift is certified-manifest exact. Astro's published raw artifacts reduce to one common normalization digest with zero rejected or unclassified differences.</p></div></li>
+      </ol>
+      <aside class="manifest reveal">
+        <div class="manifest-head"><span>RUN MANIFEST</span><span>v6</span></div>
+        <dl>
+          <div><dt>Nift</dt><dd>4.5.0</dd></div><div><dt>Astro</dt><dd>7.3.2</dd></div><div><dt>Node</dt><dd>24.21.0</dd></div><div><dt>pnpm</dt><dd>12.4.2</dd></div><div><dt>Astro pages</dt><dd>9,022</dd></div><div><dt>Astro files</dt><dd>12,447</dd></div><div><dt>Astro bytes</dt><dd>1,977,890,517</dd></div>
+        </dl>
+        <a href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Open stage repository <span aria-hidden="true">&nearr;</span></a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-limitations" id="limitations" aria-labelledby="limitations-title">
+    <div class="section-heading light reveal">
+      <p class="kicker">07 / Limitations</p>
+      <h2 id="limitations-title">What the evidence does not yet say.</h2>
+    </div>
+    <div class="limitation-grid">
+      <article class="reveal"><span>01</span><p>The formal clean result has three pairs. It reports dispersion, but n=3 remains a small sample and does not characterize every host.</p></article>
+      <article class="reveal"><span>02</span><p>Timing covers tool-native generated-page work, not equal empty-output assembly: Nift assets were pre-staged while Astro copied public assets.</p></article>
+      <article class="reveal"><span>03</span><p>Astro correctness is normalized-equivalent, not byte-exact. The narrow classes and raw artifacts remain available for scrutiny.</p></article>
+      <article class="reveal"><span>04</span><p>Machine-specific timing should not be generalized to every host, filesystem, container runtime, or CI provider.</p></article>
+      <article class="reveal"><span>05</span><p>This measures a static documentation workload, not framework quality across applications, islands, SSR, or integrations.</p></article>
+      <article class="reveal"><span>06</span><p>Nift normal edit runs use a deliberately narrow contract: intended outputs are marker-checked and hashed, while the rest of the site is not rescanned. Astro's final incremental campaign produced two formal-valid runs out of three, so no no-change speed ratio is claimed.</p></article>
+    </div>
+  </section>
+
+  <section class="section section-discussion" id="discussion" aria-labelledby="discussion-title">
+    <div class="section-heading reveal">
+      <p class="kicker">08 / Engineering interpretation</p>
+      <h2 id="discussion-title">The useful question is fit, not fandom.</h2>
+      <p>The formal clean gap is substantial. It is not permission to flatten two different tools into a universal ranking.</p>
+    </div>
+    <div class="essay-grid">
+      <article class="essay-card featured reveal"><p class="essay-index">01</p><h3>Start with workload fit</h3><p>Cloudflare Docs is a large, mostly static documentation corpus. That shape rewards a builder that can map explicit source dependencies to independent outputs. Astro remains a rational choice when component integration, adapters, and ecosystem familiarity carry more value than a minimal build surface.</p></article>
+      <article class="essay-card reveal"><p class="essay-index">02</p><h3>Page count is not the explanation</h3><p>8,803 generated HTML pages describe scale, not mechanism. Scaling depends on how much work each page triggers: module evaluation, content loading, transforms, rendering, serialization, and process coordination. A large corpus amplifies those choices; it does not explain them alone.</p></article>
+      <article class="essay-card reveal"><p class="essay-index">03</p><h3>Rebuild model beats a clean-build trophy</h3><p>Maintainers more often change one guide or one shared template than clone from zero. No-change, one-page, five-page, and fan-out scenarios reveal whether the system can limit work correctly. Those results may matter more to daily engineering than the clean headline.</p></article>
+      <article class="essay-card reveal"><p class="essay-index">04</p><h3>Targeting should follow dependencies</h3><p>An explicit <code>nift build &lt;name&gt;</code> target is useful because tracked relationships still define what must rebuild. Targeting without dependency knowledge can be dangerously fast; the completed formal series shows dependency-aware targeting changing exactly the intended output across all 30 runs.</p></article>
+      <article class="essay-card reveal"><p class="essay-index">05</p><h3>Resources define suitability</h3><p>Memory affects whether builds fit on modest CI runners, coexist with other jobs, or fail under pressure. Time affects iteration and deployment recovery. Neither metric proves output quality, but both are architecture inputs, not cosmetic optimizations.</p></article>
+      <article class="essay-card reveal"><p class="essay-index">06</p><h3>Dependencies have carrying cost</h3><p>Here, Nift needs zero Node packages and one 3.50 MB native executable. The Astro checkout declares 105 direct dev dependencies, resolves 1,120 pnpm store entries, and installs 1.19 GB of logical <code>node_modules</code> data before its 1.53 GB generated <code>.astro</code> cache. That ecosystem buys integrations and familiarity, but also expands cache weight, update churn, and supply-chain review.</p></article>
+      <article class="essay-card reveal"><p class="essay-index">07</p><h3>A small mental model compounds</h3><p>Nift's core map is short: tracked pages, content, templates, and dependencies. That can reduce context switching for people and agents. Astro's conventions can provide a different kind of leverage to teams already fluent in its component model. Local expertise changes the equation.</p></article>
+      <article class="essay-card reveal"><p class="essay-index">08</p><h3>Cheap checks benefit people and agents</h3><p>The maintenance loop is edit, build, inspect, validate, decide, repeat. Nift evidence now spans a 0.15-second targeted page, a 0.16-second targeted five-page batch, normal graph-aware edits under one second, and a 0.90-second no-change check. Everyone still requires visual, accessibility, and behavioral acceptance tests. Cheap checks improve the economics of verifying continuously; they do not remove the need to check.</p></article>
+    </div>
+
+    <aside class="agent-loop reveal" aria-labelledby="agent-loop-title">
+      <div class="agent-loop-heading">
+        <p class="mini-label">Formal targeted evidence / n=30</p>
+        <h3 id="agent-loop-title">Feedback latency changes how agents work.</h3>
+        <p>After three warmups, all 30 recorded Nift runs were formal-valid and none were discarded. Every run changed exactly <code>workers/get-started/guide/index.html</code>, with zero added, removed, unclassified, or mtime-only output paths.</p>
+      </div>
+      <ol class="loop-sequence" aria-label="Agent iteration loop">
+        <li><span>01</span>Edit</li><li><span>02</span>Build</li><li><span>03</span>Inspect</li><li><span>04</span>Validate</li><li><span>05</span>Decide</li><li><span>06</span>Repeat</li>
+      </ol>
+      <div class="agent-evidence">
+        <div><strong>0.15 s</strong><span>median targeted build</span></div>
+        <div><strong>6.943 MiB</strong><span>median aggregate peak</span></div>
+        <div><strong>1 output</strong><span>changed in every run</span></div>
+      </div>
+      <div class="target-command"><span>Exact command</span><code>nift build workers/get-started/guide/</code></div>
+      <div class="target-stats table-wrap">
+        <table>
+          <caption class="sr-only">Formal targeted Nift series descriptive statistics</caption>
+          <thead><tr><th scope="col">Measure</th><th scope="col">Median</th><th scope="col">Mean</th><th scope="col">Min / max</th><th scope="col">Population SD</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Wall seconds</th><td>0.15</td><td>0.1543333333</td><td>0.14 / 0.25</td><td>0.0264175867</td></tr>
+            <tr><th scope="row">Aggregate peak bytes</th><td>7,280,640</td><td>7,280,640</td><td>7,274,496 / 7,290,880</td><td>3,467.5166</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <details class="run-disclosure">
+        <summary>Show all 30 recorded wall-time values</summary>
+        <p>0.15, 0.14, 0.15, 0.14, 0.14, 0.14, 0.16, 0.14, 0.15, 0.15, 0.16, 0.16, 0.15, 0.14, 0.15, 0.14, 0.15, 0.14, 0.14, 0.15, 0.25, 0.15, 0.25, 0.15, 0.14, 0.15, 0.14, 0.15, 0.16, 0.15 seconds.</p>
+      </details>
+      <div class="agent-argument">
+        <p>Near-instant production feedback makes continuous validation economically sensible: an agent can make one bounded change, inspect the actual output, run the relevant checks, and use that evidence to choose the next edit.</p>
+        <p>When every production check means rebuilding the whole corpus for several minutes, waiting dominates the loop. The practical pressure is to batch more changes between checks or verify less often, increasing the amount of work that must be diagnosed when something fails. That is a workflow-quality and verification-economics difference, not merely a faster benchmark bar. Astro has no equivalent named-route production command here, so this evidence makes no cross-tool speed claim.</p>
+      </div>
+      <p class="agent-blink"><span>agent changes page</span><span>Nift: done</span><span>agent blinks</span><span>Nift: still done</span></p>
+    </aside>
+
+    <div class="scrutiny reveal">
+      <div><p class="mini-label">Invitation, not conclusion</p><h3>Audit the harness. Challenge the classifications. Re-run the pairs.</h3><p>The raw experiment is public precisely so that surprising results can be inspected rather than converted into marketing folklore.</p></div>
+      <a class="button button-dark" href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Inspect on GitHub <span aria-hidden="true">&nearr;</span></a>
+    </div>
+
+    <div class="agent-assessment reveal" id="ai-dx" aria-labelledby="ai-dx-title">
+      <div class="assessment-heading">
+        <div>
+          <p class="mini-label">AI-DX + human DX / qualitative</p>
+          <h3 id="ai-dx-title">Which architecture would I rather maintain?</h3>
+        </div>
+        <p><strong>AI-DX</strong> is the developer experience of a coding agent. <strong>Agent-mediated human DX</strong> asks a related question: if an agent can own routine integration mechanics, how much complexity must the human personally carry? This is my assessment after working extensively across both implementations. It is opinion, not benchmark evidence.</p>
+      </div>
+
+      <div class="assessment-verdict">
+        <p class="mini-label">Primary qualitative conclusion</p>
+        <p><strong>For this mostly static workload, I would choose Nift for both agent DX and human DX when capable coding agents are part of the development workflow.</strong> Its explicit build behavior, targetable production commands, dependency-aware rebuilds, low resource footprint, ordinary tool boundaries, and cheap production verification make work unusually easy to inspect against the artifact that will ship.</p>
+        <p><strong>With capable coding agents handling most integration plumbing, I would choose Nift for the human developer experience too.</strong> Humans can retain MDX, Vite, framework islands, browser HMR, and familiar frontend tooling without personally carrying most of the surrounding configuration and glue. In return, they share the same cheap production feedback loop: bounded edits can be built and checked without leaving the task.</p>
+      </div>
+
+      <div class="preference-summary" aria-label="Qualitative preference by working model">
+        <article><span>Agent DX</span><strong>Nift preferred</strong></article>
+        <article><span>Human DX with capable agents</span><strong>Nift preferred</strong></article>
+        <article><span>Manual work in these exact repositories</span><strong>Astro preferred for authoring</strong></article>
+        <article><span>Deeply integrated component work</span><strong>Astro retains conveniences</strong></article>
+      </div>
+
+      <div class="assessment-grid">
+        <article>
+          <span>01 / Agent-mediated human DX</span>
+          <h4>The human need not maintain every seam by hand.</h4>
+          <p><strong>Agent handles:</strong> MDX and package integration, Vite configuration, island wiring, bundle entries, asset references, integration tests, package synchronization, and routine configuration maintenance.</p>
+          <p><strong>Human keeps:</strong> familiar content authoring, React, Vue, or other frontend tools where useful, browser and HMR workflows for islands, plus architecture, component boundaries, UX, accessibility, security, and semantic decisions.</p>
+          <p><strong>Both gain:</strong> Nift's cheap, targetable production build and verification loop. Complexity does not vanish, but the human does not need to carry every mechanical seam personally.</p>
+        </article>
+        <article>
+          <span>02 / Composition today</span>
+          <h4>MDX and islands do not need to live in Nift core.</h4>
+          <p>A Nift project can already use a package or external MDX compiler, compose the rendered result with normal templates, emit mount points and checked assets, and let Vite plus React, Preact, Vue, Svelte, Solid, or another browser framework own selected islands.</p>
+          <p>The practical model is selective integration: humans keep the frontend capabilities they need, agents maintain much of the plumbing, and Nift remains the outer production composition layer.</p>
+        </article>
+        <article>
+          <span>03 / Astro's remaining advantage</span>
+          <h4>Integrated conventions still have real value.</h4>
+          <p>Astro internalizes MDX, component rendering, Vite, hydration conventions, TypeScript relationships, image handling, content collections, one dev server, and framework-aware HMR. That is a smoother environment for intensive, tightly coupled frontend and component development.</p>
+          <p>Nift exposes more seams, even when an agent maintains them. Astro's conventions reduce integration risk and provide mature ecosystem behavior; Nift's countervailing advantage is that mostly static pages need not pay the production-generation cost of the complete integrated stack.</p>
+        </article>
+        <article>
+          <span>04 / Exact-repository caveat</span>
+          <h4>If manual authoring is restricted to these two trees, I pick Astro.</h4>
+          <p>Cloudflare's Astro source is readable MDX with semantically named components. This Nift implementation is a compatibility reproduction containing numeric body fragments, generated HTML, importer rules, and a mixed Markdown/HTML pipeline.</p>
+          <p>If a human must work manually without agent assistance in these repositories exactly as they exist, Astro is the nicer authoring source. That is a limitation of the reproduction, not a requirement of Nift's architecture, and it does not reverse the broader agent or human-with-agent preference.</p>
+        </article>
+      </div>
+
+      <div class="evidence-levels" aria-label="Three evidence levels used in the qualitative assessment">
+        <article><span>01 / Measured today</span><h4>Production feedback</h4><p>Nift's retained production medians range from 0.15 seconds for one explicit page to 4.89 seconds for an 8,803-page template fan-out. Astro's three final incremental commands took 680.27, 688.26, and 688.10 seconds, each reporting all 9,022 pages built; only two were formal-valid.</p></article>
+        <article><span>02 / Capability today</span><h4>Composable tooling</h4><p>Optional MDX tooling, Vite, and framework islands can already compose with a Nift project. Astro's advantage is integrated convention, typing, dev-server behavior, and HMR, not exclusive access to those technologies.</p></article>
+        <article><span>03 / Proposed improvement</span><h4>First-class source tracking</h4><p>A future tracked-source API could let Nift own processor identity, imported dependencies, stale selection, diagnostics, and opaque transformed content. It would improve an already viable workflow rather than unlock MDX or frontend composition.</p></article>
+      </div>
+
+      <div class="assessment-future">
+        <p class="mini-label">Current composition + future integration</p>
+        <p class="future-stack"><span>today: optional MDX tooling</span><span>today: Nift production generation</span><span>today: selective Vite islands</span><span>today: agent-maintained seams</span><span>future: tracked-source API</span></p>
+        <p>Nift can already be the outer website layer while an MDX package renders authored content and Vite plus a browser framework own selected islands. A future tracked-source API would bring processor identity, imported dependencies, and incremental orchestration into Nift's graph more seamlessly. The current 0.15-second result does not include optional MDX compilation, a persistent worker, source maps, or Vite bundling, so no end-to-end package workflow latency is claimed here.</p>
+      </div>
+
+      <aside class="parser-transparency" aria-labelledby="parser-note-title">
+        <div><p class="mini-label">What the experiment found about Nift</p><h4 id="parser-note-title">The corpus exposed a real parser-state defect.</h4></div>
+        <div>
+          <p>During CP10 shared-template work, a closed HTML comment in an included head fragment could affect later page content. In <code>ParserTemplate.cpp</code>, the optimized plain-text scanner did not stop at <code>--&gt;</code>. It could copy the closer without executing the branch that decremented <code>html_comment_depth_</code>; because that state persists while composing <code>\@input</code> and <code>\@content</code>, later <code>&lt;pre&gt;</code> recognition and escaping could be desynchronized.</p>
+          <p>The fix makes the scanner stop at the next comment closer, then preserves and consumes that closer while clearing the state. A regression test covers an expression inside the included comment followed by Mermaid-style <code>&lt;--&gt;</code> text in a page <code>&lt;pre&gt;</code>. Expressions inside HTML comments retain their existing behavior. The failed case was isolated and fixed rather than omitted from the development record.</p>
+        </div>
+      </aside>
+    </div>
+
+    <blockquote class="closing-question reveal">
+      <p>If a documentation build can know exactly what changed, <em>how much of the stack really needs to wake up?</em></p>
+    </blockquote>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div><strong>Build Ledger / CFD-M6</strong><p>An independent benchmark record with retained evidence.</p></div>
+  <div class="footer-links"><a href="https://nift.dev">Nift <span aria-hidden="true">&nearr;</span></a><a href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Experiment <span aria-hidden="true">&nearr;</span></a><a href="#top">Back to top &uarr;</a></div>
+</footer>

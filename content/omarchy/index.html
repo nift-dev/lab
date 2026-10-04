@@ -1,0 +1,152 @@
+@json(report, "content/omarchy/data/report.json")
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="brand" href="@pathto('/')" aria-label="Nift and Omarchy experiment home"><span class="mark">N</span><span>Nift × Omarchy</span></a>
+    <nav aria-label="On this page">
+      <a href="@pathto('/')#results">Results</a>
+      <a href="@pathto('/')#dx">DX</a>
+      <a href="@pathto('/')#method">Method</a>
+      <a href="@pathto('/')#verdict">Verdict</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <p class="eyebrow">A feasibility study · September 2026</p>
+    <h1>What happens when an agent rewrites Omarchy’s Astro site with Nift?</h1>
+    <p class="lede">We rebuilt a 2,647-page production-shaped website around Nift templates, retained React only for the elaborate animated showcases, and measured the result. The experiment was fast, messy, revealing—and considerably more successful than the first prototype.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="@pathto('/')#results">See the measurements</a>
+      <a class="button" href="https://nift.dev">Visit Nift <span aria-hidden="true">↗</span></a>
+      <a class="button" href="https://github.com/omarchy-website/nift-rewrite">Inspect the Nift rewrite <span aria-hidden="true">↗</span></a>
+      <a class="button" href="https://github.com/omacom/omarchy-site">Original Astro repository <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="disclosure"><strong>Read this first.</strong> This was a quick agentic feasibility experiment, not a proposed production migration. The final page closely reproduced the original, but a production rewrite would require deliberate content modelling, accessibility and cross-browser QA, visual regression testing, and further source refactoring.</div>
+  </section>
+
+  <section class="band" aria-labelledby="snapshot-title">
+    <div class="wrap">
+      <div class="section-heading"><p class="eyebrow">At a glance</p><h2 id="snapshot-title">A much smaller build surface</h2></div>
+      <div class="metric-grid">
+        @for(metric : report.metrics){
+        <article class="metric">
+          <p class="metric-value">$[metric.value]</p>
+          <h3>$[metric.label]</h3>
+          <p>$[metric.note]</p>
+        </article>
+        }
+      </div>
+    </div>
+  </section>
+
+  <section id="results" class="wrap section" aria-labelledby="results-title">
+    <div class="section-heading"><p class="eyebrow">Measured results</p><h2 id="results-title">Same site shape, radically different build profile</h2><p>Five warmed runs were collected in the same container. Medians are shown. Peak RSS is the maximum resident memory reported for the build process tree.</p></div>
+    <div class="table-shell">
+      <table>
+        <thead><tr><th scope="col">Workflow</th><th scope="col">Median</th><th scope="col">Peak RSS</th><th scope="col">What it represents</th></tr></thead>
+        <tbody>
+          @for(row : report.builds){<tr><th scope="row">$[row.name]</th><td class="number">$[row.time]</td><td class="number">$[row.memory]</td><td>$[row.scope]</td></tr>}
+        </tbody>
+      </table>
+    </div>
+    <div class="callout"><span class="callout-number">10.2×</span><p><strong>faster complete production build</strong><br>Astro’s 5.007s median versus 0.490s for the Nift render plus React-island bundle.</p><span class="callout-number">20.1×</span><p><strong>lower peak memory</strong><br>About 1,019 MiB for Astro versus 50.6 MiB for the complete Nift production build.</p></div>
+    <div class="callout"><span class="callout-number">32.5×</span><p><strong>faster typical development build</strong><br>A one-page Nift iteration took 0.154s versus 5.007s for Astro’s measured build command.</p><span class="callout-number">≈123×</span><p><strong>lower peak memory during that iteration</strong><br>The Nift edit used about 8.3 MiB versus approximately 1,019 MiB for the measured Astro build.</p></div>
+    <p class="fine-print">The development comparison reflects the commands each workflow normally needs after a content/template edit: Nift incrementally rebuilt the affected page, whereas the measured Astro build regenerated the project. It is intentionally labelled separately from the forced full-render comparison.</p>
+    <p class="fine-print">The output validator is reported separately because the original Astro timing did not include an equivalent post-build crawler. Adding Nift’s independent 9,531-reference audit brought its full checkpoint to 1.402s. Absolute timings are hardware-specific.</p>
+  </section>
+
+  <section class="band" aria-labelledby="nuc-title">
+    <div class="wrap two-col">
+      <div><p class="eyebrow">Independent machine observation</p><h2 id="nuc-title">The checked build remained extremely fast on a NUC</h2><p>On a roughly 20-core Intel NUC12, the final project—with 10,503 <code>\@pathto</code> calls—reported 0.085s for a no-op build and 0.150s for rebuilding all 2,647 pages.</p><p>This is not a direct Astro comparison because Astro was not rerun on that machine. It is useful evidence that thousands of explicit path contracts did not erase Nift’s speed advantage.</p></div>
+      <pre aria-label="Nift build output"><code>$ nift build
+✓ 2647 tracked files are up to date
+time taken: 0.085204 seconds
+
+$ nift build --all
+📦 2647 files built successfully
+time taken: 0.149989 seconds</code></pre>
+    </div>
+  </section>
+
+  <section id="dx" class="wrap section" aria-labelledby="dx-title">
+    <div class="section-heading"><p class="eyebrow">Developer experience</p><h2 id="dx-title">The meaningful difference was iteration, not syntax</h2><p>Both codebases can produce an excellent website. The contrast is where complexity lives and how much machinery must wake up after an edit.</p></div>
+    <div class="comparison-grid">
+      @for(item : report.comparisons){
+      <article class="comparison-card"><p class="comparison-label">$[item.topic]</p><div><h3>Nift rewrite</h3><p>$[item.nift]</p></div><div><h3>Original Astro</h3><p>$[item.astro]</p></div></article>
+      }
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="dependency-title">
+    <div class="wrap">
+      <div class="section-heading"><p class="eyebrow">Installed footprint</p><h2 id="dependency-title">A 35× smaller Node installation</h2><p>The Nift executable itself was approximately 1.6 MiB. Node remained only to bundle the limited React animation island.</p></div>
+      <div class="dependency-bars" role="img" aria-label="Astro node_modules was 676 MiB and Nift node_modules was 19 MiB">
+        <div><span>Original Astro</span><strong>676 MiB · 27,746 files · 794 lockfile entries</strong><i style="--size:100%"></i></div>
+        <div><span>Nift rewrite</span><strong>19 MiB · 96 files · 30 lockfile entries</strong><i style="--size:2.81%"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contracts" class="wrap section" aria-labelledby="contracts-title">
+    <div class="section-heading"><p class="eyebrow">Correctness contracts</p><h2 id="contracts-title">Fast should not mean fragile</h2><p>The final revision moved local relationships out of unchecked strings and into Nift’s dependency graph.</p></div>
+    <div class="evidence-grid">
+      @for(item : report.contracts){<article><strong>$[item.value]</strong><h3>$[item.label]</h3><p>$[item.detail]</p></article>}
+    </div>
+    <div class="code-pair">
+      <div><p class="code-label">Structured content</p><pre><code>\@json(site_themes, "content/omarchy/data/site-themes.json")
+\@for(theme : site_themes){
+  &lt;button data-preview="\@pathto('public/assets/images/theme-previews/\$[theme.id].webp')"&gt;
+    \$[theme.name]
+  &lt;/button&gt;
+}</code></pre></div>
+      <div><p class="code-label">Normal edit loop</p><pre><code># Content, template, data, or path change
+$ nift build
+
+# Only when the animation island changes
+$ npm run build:islands
+$ nift build</code></pre></div>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="ai-title">
+    <div class="wrap two-col copy-heavy">
+      <div><p class="eyebrow">AI-DX</p><h2 id="ai-title">Small explicit systems are unusually legible to agents</h2><p>Nift’s strongest agentic quality was not that an agent never made mistakes—we made several. It was that the build model was compact enough to recover quickly: content, templates, data, tracked pages, and explicit path requirements.</p><p>An agent could inspect the whole architecture, change one section, rebuild one affected page, and receive an immediate dependency error. There was less framework-specific indirection to rediscover between iterations.</p></div>
+      <div class="principles">
+        @for(point : report.ai_dx){<article><h3>$[point.title]</h3><p>$[point.text]</p></article>}
+      </div>
+    </div>
+  </section>
+
+  <section id="method" class="wrap section" aria-labelledby="method-title">
+    <div class="section-heading"><p class="eyebrow">Reproducibility</p><h2 id="method-title">What was compared—and what was not</h2></div>
+    <div class="two-col build-instructions"><div><h3>Complete build from a clean checkout</h3><p>Install the island’s deliberately small Node dependency set, bundle that island, then let Nift build every output it determines is stale.</p><p><code>nift build</code> is the production build command. Its dependency and path contracts make forcing every page unnecessary; <code>nift build --all</code> was used only to measure worst-case full rendering.</p></div><pre><code>$ npm ci
+$ npm run build:islands
+$ nift build
+
+✓ 2647 tracked files are up to date</code></pre></div>
+    <article class="reverse-direction">
+      <div><p class="eyebrow">The reverse-direction test</p><h3>How difficult would it be to reconstruct an Astro project from the Nift rewrite?</h3></div>
+      <div><p><strong>A crude output-equivalent port would be easy.</strong> An agent could place the generated HTML and existing browser assets behind an Astro page quickly. That would prove very little—just as the first simplified Nift attempt proved very little. It would use Astro as a wrapper rather than recreate an idiomatic Astro codebase.</p><p><strong>A maintainable, idiomatic reconstruction would be materially harder.</strong> Starting from the Nift source alone, the agent would need to invent Astro component boundaries, layouts, content collections or data loaders, framework configuration, asset conventions, and React hydration directives; translate Nift’s tracked-page graph and 10,503 path contracts; then verify that those new abstractions still produce the same 2,647 routes and interactive homepage.</p><p>My reasoned estimate is <strong>roughly 2–3× the implementation and verification effort</strong> of this Nift experiment. That is an engineering estimate, not a timed benchmark. The asymmetry comes from expanding a small explicit build model into more framework-specific structure, not from Astro being incapable of reproducing the site.</p><p>There is an important qualification: the real original Astro repository already exists. Reusing it would obviously be easier than reverse-engineering Astro from the Nift rewrite. The hypothetical is useful because it asks how much information and architecture each finished codebase makes an agent reconstruct when moving in the other direction.</p></div>
+    </article>
+    <ol class="method-list">
+      @for(step : report.method){<li><span>$[step.number]</span><div><h3>$[step.title]</h3><p>$[step.text]</p></div></li>}
+    </ol>
+    <div class="limitations"><h3>Limitations worth keeping visible</h3><ul><li>Total human-and-agent development time was not instrumented, so no precise rewrite-duration claim is made.</li><li>The experiment converged through visual feedback, but did not finish a production-grade screenshot-diff matrix across browsers and viewports.</li><li>The current source still contains extracted page HTML that should be further modelled into reusable templates and structured content.</li><li>The benchmark compares build systems and dependency footprints, not runtime superiority of one UI framework over another.</li><li>The experiment’s early revisions were materially wrong. That history is evidence for stronger visual acceptance tests, not something to hide.</li></ul></div>
+  </section>
+
+  <section class="band" aria-labelledby="fit-title">
+    <div class="wrap">
+      <div class="section-heading"><p class="eyebrow">Where each approach fits</p><h2 id="fit-title">Nift does not need to replace the application stack</h2></div>
+      <div class="fit-grid"><article><h3>Nift is especially compelling for</h3><ul><li>content-heavy sites and documentation</li><li>large static route sets</li><li>projects valuing tiny, deterministic build tooling</li><li>server-rendered systems needing a template and dependency layer</li><li>sites with a few focused interactive islands</li><li>agent-maintained repositories where explicitness matters</li></ul></article><article><h3>Astro remains a natural choice when</h3><ul><li>a team already relies on its component ecosystem</li><li>framework-component integration is the organising model</li><li>existing adapters and conventions reduce organisational risk</li><li>the additional Node dependency surface is acceptable</li><li>the project benefits more from established familiarity than minimal machinery</li></ul></article></div>
+  </section>
+
+  <section id="verdict" class="wrap section verdict" aria-labelledby="verdict-title">
+    <p class="eyebrow">Conclusion</p><h2 id="verdict-title">Promising enough to justify a serious second pass</h2>
+    <p class="verdict-lede">The experiment does not prove that Omarchy should migrate. It does show that Nift can own a complex, visually distinctive static site while leaving sophisticated browser interaction to a small React island—and do so with dramatically less build time, memory, and installed tooling.</p>
+    <p>The next useful step is not to ship this prototype. It is to let independent agents and maintainers examine the Nift implementation, Nift’s source and test suites, and the original Astro codebase; define production acceptance criteria; then see whether a planned rewrite preserves the advantages under stricter engineering conditions.</p>
+    <div class="verdict-actions"><a class="button primary" href="https://nift.dev">Explore Nift <span aria-hidden="true">↗</span></a><a class="button" href="https://github.com/omarchy-website/nift-rewrite">Inspect the Nift rewrite <span aria-hidden="true">↗</span></a><a class="button" href="https://github.com/omacom/omarchy-site">Inspect the Astro source <span aria-hidden="true">↗</span></a></div>
+  </section>
+</main>
+
+<footer><div class="wrap"><p>Independent feasibility experiment. Measurements and caveats reported together.</p><a href="@pathto('/')#main">Back to top ↑</a></div></footer>
