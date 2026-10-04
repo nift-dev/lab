@@ -1,0 +1,7 @@
+<article class="experiment $[experiment.slug]">
+  <div class="entry-top"><span class="eyebrow">$[experiment.category]</span><span class="status">$[experiment.status]</span></div>
+  <a class="entry-link" href="@path('$[experiment.page]')"><h3>$[experiment.name] <span>↗</span></h3></a>
+  <p>$[experiment.description]</p>
+  <dl class="entry-meta"><div><dt>Upstream</dt><dd>$[experiment.upstream_framework]</dd></div><div><dt>Corpus</dt><dd>$[experiment.page_count] pages</dd></div></dl>
+  <a class="read-link" href="@path('$[experiment.page]')">Read the experiment <span>→</span></a>
+</article>

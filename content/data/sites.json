@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Cloudflare Docs",
+    "slug": "cloudflare-docs",
+    "page": "sites/cloudflare-docs/",
+    "description": "A frozen documentation corpus, strict output audits, and a transparent comparison of Nift and Astro build workflows.",
+    "category": "Documentation / benchmark",
+    "status": "Results published",
+    "upstream_framework": "Astro",
+    "page_count": "8,803",
+    "upstream_repo": "https://github.com/cloudflare/cloudflare-docs",
+    "upstream_commit": "bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf",
+    "experiment_repo": "https://github.com/nift-experiments/cloudflare-docs-experiment"
+  },
+  {
+    "name": "Omarchy",
+    "slug": "omarchy",
+    "page": "sites/omarchy/",
+    "description": "An agentic reconstruction of a production-shaped website. Build speed, dependency footprint, and developer experience under the microscope.",
+    "category": "Website / feasibility study",
+    "status": "Results published",
+    "upstream_framework": "Astro",
+    "page_count": "2,647",
+    "upstream_repo": "https://github.com/omacom/omarchy-site",
+    "upstream_commit": null,
+    "experiment_repo": "https://github.com/omarchy-website/nift-rewrite"
+  }
+]

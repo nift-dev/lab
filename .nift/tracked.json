@@ -2,8 +2,13 @@
   "tracked": [
     {
       "name": "/",
-      "title": "index",
-      "template": "templates/template.html"
+      "title": "Nift Labs \u2014 ideas put to the test",
+      "template": "templates/labs/template.html"
+    },
+    {
+      "name": "sites/",
+      "title": "Website experiments \u2014 Nift Labs",
+      "template": "templates/labs/template.html"
     },
     {
       "name": "sites/cloudflare-docs/",

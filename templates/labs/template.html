@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>@input('templates/labs/head.html')</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead wrap">
+  <a class="brand" href="@path('/')"><span class="brand-mark">N/</span> Nift <span class="brand-suffix">Labs</span></a>
+  <nav aria-label="Main"><a href="@path('sites/')">Website experiments</a><a href="https://nift.dev">Nift ↗</a></nav>
+</header>
+<main id="main" class="wrap">@content</main>
+<footer class="wrap"><span>Nift Labs / an open notebook</span><a href="@path('sites/')">Explore the experiments ↗</a></footer>
+</body>
+</html>

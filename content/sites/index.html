@@ -1,0 +1,14 @@
+<section class="hero catalogue-hero">
+  <p class="eyebrow"><a href="@path('/')">Nift Labs</a> / Collection 01</p>
+  <h1>Real websites.<br><em>New ways to build.</em></h1>
+  <p class="lede">Experiments using substantial public content corpora to explore build performance, implementation choices, and the experience of working with Nift.</p>
+</section>
+<section class="section" aria-label="Website experiments">
+  <div class="collection-heading"><p class="eyebrow">The collection</p><span>Independent designs. Shared curiosity.</span></div>
+  @json(experiments, 'content/data/sites.json')
+  <div class="experiment-grid" id="site-catalogue" data-page-size="8">@for(experiment : experiments){@input('templates/labs/entry.html')}</div>
+  <nav class="pagination" id="catalogue-pagination" aria-label="Collection pages" hidden></nav>
+  <p class="sr-only" id="catalogue-status" role="status" aria-live="polite"></p>
+  <script src="@path('public/labs/catalogue.js')" defer></script>
+</section>
+@input('templates/labs/methodology.html')
