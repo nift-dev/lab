@@ -1,7 +1,7 @@
 {
   "name": "/",
-  "title": "index",
-  "template": "templates/template.html",
+  "title": "Nift Labs — ideas put to the test",
+  "template": "templates/labs/template.html",
   "content": "content/index.html",
   "output": "public/index.html",
   "minify": false,
@@ -14,9 +14,19 @@
   "project-fingerprint": "",
   "hierarchy-fingerprint": "",
   "dependencies": [
+    "content/data/sites.json",
     "content/index.html",
-    "templates/head.html",
-    "templates/template.html"
+    "templates/labs/entry.html",
+    "templates/labs/head.html",
+    "templates/labs/methodology.html",
+    "templates/labs/template.html"
   ],
-  "reqs": []
+  "reqs": [
+    "public/index.html",
+    "public/labs/favicon.svg",
+    "public/labs/style.css",
+    "public/sites/cloudflare-docs/index.html",
+    "public/sites/index.html",
+    "public/sites/omarchy/index.html"
+  ]
 }
