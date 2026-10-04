@@ -73,8 +73,14 @@ focus rings, charts, gradients, hover states, and browser theme metadata.
 This rule does **not** apply to recreated experiment websites maintained in their
 own repositories. Those sites may preserve their upstream design language,
 support light/dark themes, and use blue. In particular, both Capgo websites should
-follow styles similar to the existing Capgo website. The alternative Capgo
-implementation can have its own layouts while remaining in that visual family.
+follow the existing Capgo visual family. The planned sibling experiments are
+[`capgo`](https://github.com/nift-experiments/capgo), the human+agent reference
+recreation, and [`capgo-agent`](https://github.com/nift-experiments/capgo-agent),
+the agent-first recreation with normalized maintained content. Layouts may differ
+where maintainability benefits; different branding is not the experiment goal.
+Both prefer HTML/CSS/vanilla JS and allow justified local framework islands for
+complex state. Future reports compare build/system and equivalent maintenance
+work separately. These are planning references, not published experiment entries.
 Do not confuse a Labs report about an experiment with the experiment website.
 
 There is no blanket static-only requirement for experiment websites. Nift can
