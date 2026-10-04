@@ -65,12 +65,27 @@ No deployment or push is implied by a local build or commit.
 
 ## Design and methodology
 
-All Labs websites and experiment designs must use dark mode, regardless of OS
-preference. No blue belongs in the palettes, including links, focus rings,
-charts, gradients, hover states, and browser theme metadata. Use neutral dark
-surfaces with warm or green accents and legible contrast. Designs remain
-independent: the parent catalogue has a charcoal/amber notebook identity,
-Cloudflare a warm orange editorial layout, and Omarchy a green technical layout.
+The pages hosted on `lab.nift.dev` / `labs.nift.dev`, including the Labs
+homepage, catalogue, and experiment **report pages**, must use dark mode,
+regardless of OS preference. No blue belongs in those palettes, including links,
+focus rings, charts, gradients, hover states, and browser theme metadata.
+
+This rule does **not** apply to recreated experiment websites maintained in their
+own repositories. Those sites may preserve their upstream design language,
+support light/dark themes, and use blue. In particular, both Capgo websites should
+follow styles similar to the existing Capgo website. The alternative Capgo
+implementation can have its own layouts while remaining in that visual family.
+Do not confuse a Labs report about an experiment with the experiment website.
+
+There is no blanket static-only requirement for experiment websites. Nift can
+compose pages and assets while ordinary client/server tooling handles APIs and
+runtime features. Downloaded projects should be usable with users' own API
+configuration. GitHub Pages can host a static preview, but cannot run backend
+features; document the full application's local and deployment requirements.
+
+Labs report designs remain independent: the parent catalogue has a
+charcoal/amber notebook identity, Cloudflare a warm orange editorial layout,
+and Omarchy a green technical layout.
 
 Use public content corpora to investigate real workloads and implementation
 characteristics. Pixel-perfect upstream migration is not the default goal.
