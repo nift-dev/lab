@@ -6,14 +6,14 @@
       "template": "templates/template.html"
     },
     {
-      "name": "cloudflare-docs/",
+      "name": "sites/cloudflare-docs/",
       "title": "Cloudflare Docs: Nift vs Astro Benchmark",
-      "template": "templates/cloudflare-docs/template.html"
+      "template": "templates/sites/cloudflare-docs/template.html"
     },
     {
-      "name": "omarchy/",
+      "name": "sites/omarchy/",
       "title": "Omarchy: Nift vs Astro benchmark",
-      "template": "templates/omarchy/template.html"
+      "template": "templates/sites/omarchy/template.html"
     }
   ]
 }

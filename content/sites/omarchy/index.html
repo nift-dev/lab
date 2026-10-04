@@ -1,12 +1,12 @@
-@json(report, "content/omarchy/data/report.json")
+@json(report, "content/sites/omarchy/data/report.json")
 <header class="site-header">
   <div class="wrap nav-row">
-    <a class="brand" href="@pathto('/')" aria-label="Nift and Omarchy experiment home"><span class="mark">N</span><span>Nift × Omarchy</span></a>
+    <a class="brand" href="@path('sites/omarchy/')" aria-label="Nift and Omarchy experiment home"><span class="mark">N</span><span>Nift × Omarchy</span></a>
     <nav aria-label="On this page">
-      <a href="@pathto('/')#results">Results</a>
-      <a href="@pathto('/')#dx">DX</a>
-      <a href="@pathto('/')#method">Method</a>
-      <a href="@pathto('/')#verdict">Verdict</a>
+      <a href="@path('sites/omarchy/')#results">Results</a>
+      <a href="@path('sites/omarchy/')#dx">DX</a>
+      <a href="@path('sites/omarchy/')#method">Method</a>
+      <a href="@path('sites/omarchy/')#verdict">Verdict</a>
     </nav>
   </div>
 </header>
@@ -17,7 +17,7 @@
     <h1>What happens when an agent rewrites Omarchy’s Astro site with Nift?</h1>
     <p class="lede">We rebuilt a 2,647-page production-shaped website around Nift templates, retained React only for the elaborate animated showcases, and measured the result. The experiment was fast, messy, revealing—and considerably more successful than the first prototype.</p>
     <div class="hero-actions">
-      <a class="button primary" href="@pathto('/')#results">See the measurements</a>
+      <a class="button primary" href="@path('sites/omarchy/')#results">See the measurements</a>
       <a class="button" href="https://nift.dev">Visit Nift <span aria-hidden="true">↗</span></a>
       <a class="button" href="https://github.com/omarchy-website/nift-rewrite">Inspect the Nift rewrite <span aria-hidden="true">↗</span></a>
       <a class="button" href="https://github.com/omacom/omarchy-site">Original Astro repository <span aria-hidden="true">↗</span></a>
@@ -94,7 +94,7 @@ time taken: 0.149989 seconds</code></pre>
       @for(item : report.contracts){<article><strong>$[item.value]</strong><h3>$[item.label]</h3><p>$[item.detail]</p></article>}
     </div>
     <div class="code-pair">
-      <div><p class="code-label">Structured content</p><pre><code>\@json(site_themes, "content/omarchy/data/site-themes.json")
+      <div><p class="code-label">Structured content</p><pre><code>\@json(site_themes, "content/sites/omarchy/data/site-themes.json")
 \@for(theme : site_themes){
   &lt;button data-preview="\@pathto('public/assets/images/theme-previews/\$[theme.id].webp')"&gt;
     \$[theme.name]
@@ -149,4 +149,4 @@ $ nift build
   </section>
 </main>
 
-<footer><div class="wrap"><p>Independent feasibility experiment. Measurements and caveats reported together.</p><a href="@pathto('/')#main">Back to top ↑</a></div></footer>
+<footer><div class="wrap"><p>Independent feasibility experiment. Measurements and caveats reported together.</p><a href="@path('sites/omarchy/')#main">Back to top ↑</a></div></footer>

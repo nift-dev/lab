@@ -1,2 +1,10 @@
 .nift/.lock
-public/
+public/**
+!public/CNAME
+!public/labs/
+!public/labs/**
+!public/sites/
+public/sites/**
+!public/sites/*/
+!public/sites/*/assets/
+!public/sites/*/assets/**
