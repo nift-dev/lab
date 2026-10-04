@@ -10,7 +10,7 @@
     "page_count": "8,803",
     "upstream_repo": "https://github.com/cloudflare/cloudflare-docs",
     "upstream_commit": "bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf",
-    "experiment_repo": "https://github.com/nift-experiments/cloudflare-docs-experiment"
+    "experiment_repo": "https://github.com/nift-experiments/cloudflare-docs"
   },
   {
     "name": "Omarchy",
@@ -23,6 +23,6 @@
     "page_count": "2,647",
     "upstream_repo": "https://github.com/omacom/omarchy-site",
     "upstream_commit": null,
-    "experiment_repo": "https://github.com/omarchy-website/nift-rewrite"
+    "experiment_repo": "https://github.com/nift-experiments/omarchy"
   }
 ]
