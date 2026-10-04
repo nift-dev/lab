@@ -43,14 +43,14 @@
         <p class="lede">Nift and Astro were measured against the same frozen Cloudflare Docs source: thousands of routes, strict output audits, and resource accounting at the cgroup boundary.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#results">Read the formal result</a>
-          <a class="button button-plain" href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Inspect the experiment <span aria-hidden="true">&nearr;</span></a>
+          <a class="button button-plain" href="https://github.com/nift-experiments/cloudflare-docs/tree/stage">Inspect the experiment <span aria-hidden="true">&nearr;</span></a>
         </div>
       </div>
       <aside class="hero-spec" aria-label="Frozen experiment specification">
         <div class="spec-head"><span>EXPERIMENT</span><span>CFD-M6</span></div>
         <dl>
           <div><dt>Corpus</dt><dd>8,803 HTML pages</dd></div>
-          <div><dt>Upstream</dt><dd><code>bc2bdaee</code></dd></div>
+          <div><dt>Upstream</dt><dd><a href="https://github.com/cloudflare/cloudflare-docs/tree/bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf"><code>bc2bdaee</code></a></dd></div>
           <div><dt>Machine</dt><dd>6 vCPU / 16.77 GB</dd></div>
           <div><dt>Clean series</dt><dd><span class="status-dot"></span> 3 of 3 valid</dd></div>
         </dl>
@@ -334,7 +334,7 @@
     </div>
     <div class="method-layout">
       <ol class="method-steps">
-        <li class="reveal"><span>1</span><div><h3>Pin the source</h3><p>Cloudflare Docs is frozen at commit <code>bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf</code>.</p></div></li>
+        <li class="reveal"><span>1</span><div><h3>Pin the source</h3><p>Cloudflare Docs is frozen at commit <a href="https://github.com/cloudflare/cloudflare-docs/tree/bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf"><code>bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf</code></a>.</p></div></li>
         <li class="reveal"><span>2</span><div><h3>Qualify correctness</h3><p>Structural, metadata, accessibility, route, leakage, and sampled visual checks gate timing validity.</p></div></li>
         <li class="reveal"><span>3</span><div><h3>Measure the boundary</h3><p>Elapsed time and aggregate cgroup memory are collected on the same 6 vCPU, no-swap machine.</p></div></li>
         <li class="reveal"><span>4</span><div><h3>Pair formal runs</h3><p>Three infrastructure-valid pairs used fixed ABB first-tool order. No valid run was discarded and the 15% CV extension threshold was not triggered.</p></div></li>
@@ -345,7 +345,7 @@
         <dl>
           <div><dt>Nift</dt><dd>4.5.0</dd></div><div><dt>Astro</dt><dd>7.3.2</dd></div><div><dt>Node</dt><dd>24.21.0</dd></div><div><dt>pnpm</dt><dd>12.4.2</dd></div><div><dt>Astro pages</dt><dd>9,022</dd></div><div><dt>Astro files</dt><dd>12,447</dd></div><div><dt>Astro bytes</dt><dd>1,977,890,517</dd></div>
         </dl>
-        <a href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Open stage repository <span aria-hidden="true">&nearr;</span></a>
+        <a href="https://github.com/nift-experiments/cloudflare-docs/tree/stage">Open stage repository <span aria-hidden="true">&nearr;</span></a>
       </aside>
     </div>
   </section>
@@ -420,7 +420,7 @@
 
     <div class="scrutiny reveal">
       <div><p class="mini-label">Invitation, not conclusion</p><h3>Audit the harness. Challenge the classifications. Re-run the pairs.</h3><p>The raw experiment is public precisely so that surprising results can be inspected rather than converted into marketing folklore.</p></div>
-      <a class="button button-dark" href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Inspect on GitHub <span aria-hidden="true">&nearr;</span></a>
+      <a class="button button-dark" href="https://github.com/nift-experiments/cloudflare-docs/tree/stage">Inspect on GitHub <span aria-hidden="true">&nearr;</span></a>
     </div>
 
     <div class="agent-assessment reveal" id="ai-dx" aria-labelledby="ai-dx-title">
@@ -502,7 +502,7 @@
 
 <footer class="site-footer">
   <div><strong>Build Ledger / CFD-M6</strong><p>An independent benchmark record with retained evidence.</p></div>
-  <div class="footer-links"><a href="https://nift.dev">Nift <span aria-hidden="true">&nearr;</span></a><a href="https://github.com/nift-experiments/cloudflare-docs-experiment/tree/stage">Experiment <span aria-hidden="true">&nearr;</span></a><a href="#top">Back to top &uarr;</a></div>
+  <div class="footer-links"><a href="https://nift.dev">Nift <span aria-hidden="true">&nearr;</span></a><a href="https://github.com/nift-experiments/cloudflare-docs/tree/stage">Experiment <span aria-hidden="true">&nearr;</span></a><a href="#top">Back to top &uarr;</a></div>
 </footer>
 	</body>
 </html>
