@@ -313,3 +313,7 @@ Then read feature documentation only when the task requires it, for example:
 - integration with other application stacks.
 
 Prefer documented Nift behaviour and the existing project structure over guessing based on another website generator or framework.
+
+## Capgo report publication
+
+Published `/sites/capgo/` and added it to the homepage and website catalogue. Distinguishes faithful human+agent migration from agent-native maintenance near the top; final repeated results, workload/cache caveats, corpus accounting, validation, maintenance tradeoffs and pinned evidence are included. Report owns dark charcoal/plum/ivory assets. Full measurements fit mobile rows. See `docs/CAPGO-PUBLICATION.md` for provenance and validation. Both experiment repos were left untouched.
