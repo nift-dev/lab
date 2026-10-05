@@ -24,5 +24,19 @@
     "upstream_repo": "https://github.com/omacom/omarchy-site",
     "upstream_commit": null,
     "experiment_repo": "https://github.com/nift-experiments/omarchy"
+  },
+  {
+    "name": "Capgo",
+    "slug": "capgo",
+    "page": "sites/capgo/",
+    "description": "One production site, two migration philosophies. Faithful MDX authoring and an agent-maintained HTML reconstruction, compared with the original Astro build.",
+    "category": "Migration / maintenance study",
+    "status": "Results published",
+    "upstream_framework": "Astro",
+    "page_count": "1,347",
+    "upstream_repo": "https://github.com/Cap-go/website",
+    "upstream_commit": "7d5b69d6ba8a6630384dffc7d012431ee3ed22ec",
+    "experiment_repo": "https://github.com/nift-experiments/capgo",
+    "agent_repo": "https://github.com/nift-experiments/capgo-agent"
   }
 ]

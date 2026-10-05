@@ -1,0 +1,62 @@
+{
+  "implementations": [
+    {
+      "name": "Original Astro",
+      "code": "upstream",
+      "seconds": 106.09,
+      "memory": "3.61 GiB",
+      "range": "92.18\u2013124.61s",
+      "runs": 5
+    },
+    {
+      "name": "Faithful Nift",
+      "code": "faithful",
+      "seconds": 5.67,
+      "memory": "235.8 MiB",
+      "range": "5.56\u20135.67s",
+      "runs": 3
+    },
+    {
+      "name": "Agent Nift",
+      "code": "agent",
+      "seconds": 2.23,
+      "memory": "101.7 MiB",
+      "range": "2.21\u20132.34s",
+      "runs": 3
+    }
+  ],
+  "ratios": {
+    "faithfulTime": 18.7,
+    "agentTime": 47.6,
+    "agentFaithful": 2.54,
+    "faithfulMemory": 15.7,
+    "agentMemory": 36.3
+  },
+  "incremental": [
+    {
+      "name": "No-op",
+      "faithful": 4.6,
+      "agent": 1.08
+    },
+    {
+      "name": "Docs edit",
+      "faithful": 5.78,
+      "agent": 1.08
+    },
+    {
+      "name": "Rich docs edit",
+      "faithful": 6.41,
+      "agent": 1.06
+    },
+    {
+      "name": "Product / marketing edit",
+      "faithful": 4.28,
+      "agent": 1.09
+    },
+    {
+      "name": "Blog edit",
+      "faithful": 4.35,
+      "agent": 1.04
+    }
+  ]
+}

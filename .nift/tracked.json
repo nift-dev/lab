@@ -19,6 +19,11 @@
       "name": "sites/omarchy/",
       "title": "Omarchy: Nift vs Astro benchmark",
       "template": "templates/sites/omarchy/template.html"
+    },
+    {
+      "name": "sites/capgo/",
+      "title": "Capgo: faithful migration and agent-native reconstruction",
+      "template": "templates/sites/capgo/template.html"
     }
   ]
 }
