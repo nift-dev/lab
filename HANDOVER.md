@@ -317,3 +317,7 @@ Prefer documented Nift behaviour and the existing project structure over guessin
 ## Capgo report publication
 
 Published `/sites/capgo/` and added it to the homepage and website catalogue. Distinguishes faithful human+agent migration from agent-native maintenance near the top; final repeated results, workload/cache caveats, corpus accounting, validation, maintenance tradeoffs and pinned evidence are included. Report owns dark charcoal/plum/ivory assets. Full measurements fit mobile rows. See `docs/CAPGO-PUBLICATION.md` for provenance and validation. Both experiment repos were left untouched.
+
+## Maintenance analysis correction
+
+Report-only investigation pushed to capgo-agent at 7d45594. Public case study now replaces unsupported content/component/i18n/integration superiority with concrete schema/discovery/compiler conveniences, separately deployed translation coverage, and Nift orchestration seams. Choices follow intended authoring/agent workflow; no unconditional retain-Astro recommendation. Experiment implementations and timings remain untouched.
