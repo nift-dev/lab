@@ -6,7 +6,10 @@
       "seconds": 106.09,
       "memory": "3.61 GiB",
       "range": "92.18\u2013124.61s",
-      "runs": 5
+      "runs": 5,
+      "timePercent": 96.4455,
+      "memoryPercent": 92.3804,
+      "peakRssKiB": 3783900
     },
     {
       "name": "Faithful Nift",
@@ -14,7 +17,10 @@
       "seconds": 5.67,
       "memory": "235.8 MiB",
       "range": "5.56\u20135.67s",
-      "runs": 3
+      "runs": 3,
+      "timePercent": 5.1545,
+      "memoryPercent": 5.8946,
+      "peakRssKiB": 241444
     },
     {
       "name": "Agent Nift",
@@ -22,7 +28,10 @@
       "seconds": 2.23,
       "memory": "101.7 MiB",
       "range": "2.21\u20132.34s",
-      "runs": 3
+      "runs": 3,
+      "timePercent": 2.0273,
+      "memoryPercent": 2.5434,
+      "peakRssKiB": 104176
     }
   ],
   "ratios": {
@@ -57,6 +66,48 @@
       "name": "Blog edit",
       "faithful": 4.35,
       "agent": 1.04
+    }
+  ],
+  "targeted": [
+    {
+      "name": "Docs paragraph",
+      "target": "docs/getting-started/quickstart/",
+      "faithful": 3.21,
+      "agent": 0.91,
+      "faithfulRange": "3.06\u20133.39",
+      "agentRange": "0.85\u20130.94",
+      "faithfulRss": 255.9,
+      "agentRss": 101.6
+    },
+    {
+      "name": "Rich docs",
+      "target": "docs/builder/getting-started/",
+      "faithful": 3.71,
+      "agent": 0.86,
+      "faithfulRange": "3.65\u20133.74",
+      "agentRange": "0.83\u20130.91",
+      "faithfulRss": 275.3,
+      "agentRss": 101.5
+    },
+    {
+      "name": "Product title / text",
+      "target": "native-build/",
+      "faithful": 2.07,
+      "agent": 0.89,
+      "faithfulRange": "2.07\u20132.36",
+      "agentRange": "0.84\u20130.93",
+      "faithfulRss": 236.6,
+      "agentRss": 101.2
+    },
+    {
+      "name": "Blog article",
+      "target": "blog/yarn-clear-cache/",
+      "faithful": 2.33,
+      "agent": 0.87,
+      "faithfulRange": "1.87\u20132.38",
+      "agentRange": "0.86\u20130.89",
+      "faithfulRss": 236.4,
+      "agentRss": 101.6
     }
   ]
 }

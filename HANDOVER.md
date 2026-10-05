@@ -321,3 +321,8 @@ Published `/sites/capgo/` and added it to the homepage and website catalogue. Di
 ## Maintenance analysis correction
 
 Report-only investigation pushed to capgo-agent at 7d45594. Public case study now replaces unsupported content/component/i18n/integration superiority with concrete schema/discovery/compiler conveniences, separately deployed translation coverage, and Nift orchestration seams. Choices follow intended authoring/agent workflow; no unconditional retain-Astro recommendation. Experiment implementations and timings remain untouched.
+
+
+## 2026-10-06 — graphs and visible iteration evidence
+
+Added linear, zero-origin build-time and peak-process-memory graphs. Ordinary edits/no-op and explicit-target edits are visible, with workflow-specific maintenance recommendations. Three real edits per family for both migrations are recorded at capgo-agent b555abe (24 samples); historical ordinary cases are not paired with this new suite. Astro edit/HMR remains unmeasured. Faithful ordinary restoration left targeted test output in some cases; an unmeasured full rebuild restored complete parity. Cause remains unestablished; caveat and raw gates are published. No migration implementation changed.
