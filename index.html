@@ -55,6 +55,29 @@
                                                               <a class="read-link" href="sites/docker/">Read the experiment <span>→</span></a>
                                                             </article></div>
                              </section>
+                             <section id="benchmarks" class="section" aria-labelledby="benchmarks-title">
+                               <div class="section-label"><p class="eyebrow">03 / Benchmarks</p><h2 id="benchmarks-title">Start it. Run it. Build with it.</h2></div>
+                               
+                               <div class="experiment-grid"><article class="experiment benchmark-scripting">
+                                                              <div class="entry-top"><span class="eyebrow">Runtime / language comparison</span><span class="status">Results published</span></div>
+                                                              <a class="entry-link" href="benchmarks/scripting/"><h3>Scripting Benchmark <span>↗</span></h3></a>
+                                                              <p>Startup-sensitive snippets, sustained computation, and file/data workloads. Compare all participating languages with checked outputs and retained samples.</p>
+                                                              <dl class="entry-meta"><div><dt>Systems</dt><dd>Nift + 6 runtimes</dd></div><div><dt>Coverage</dt><dd>15 workload families</dd></div></dl>
+                                                              <a class="read-link" href="benchmarks/scripting/">Read the benchmark <span>→</span></a>
+                                                            </article><article class="experiment benchmark-website-generator">
+                                                              <div class="entry-top"><span class="eyebrow">Build systems / corpus scaling</span><span class="status">Results published</span></div>
+                                                              <a class="entry-link" href="benchmarks/website-generator/"><h3>Website Generator Benchmark <span>↗</span></h3></a>
+                                                              <p>From 100 to 10,000 pages: full builds, Nift incremental and targeted builds, elapsed time, and memory—with output equivalence and state boundaries attached.</p>
+                                                              <dl class="entry-meta"><div><dt>Systems</dt><dd>Nift, Hugo, Astro, VitePress</dd></div><div><dt>Coverage</dt><dd>3 corpus sizes</dd></div></dl>
+                                                              <a class="read-link" href="benchmarks/website-generator/">Read the benchmark <span>→</span></a>
+                                                            </article><article class="experiment benchmark-shell">
+                                                              <div class="entry-top"><span class="eyebrow">Shells / startup distributions</span><span class="status">Results published</span></div>
+                                                              <a class="entry-link" href="benchmarks/shell/"><h3>Shell Benchmark <span>↗</span></h3></a>
+                                                              <p>Time to a usable prompt, explicit RC/configuration costs, and process orchestration. Bash and Zsh join Fish, Nushell, and Nift in validated comparisons.</p>
+                                                              <dl class="entry-meta"><div><dt>Systems</dt><dd>5 shells</dd></div><div><dt>Coverage</dt><dd>Startup + orchestration</dd></div></dl>
+                                                              <a class="read-link" href="benchmarks/shell/">Read the benchmark <span>→</span></a>
+                                                            </article></div>
+                             </section>
                              <section class="methodology section" aria-labelledby="method-title">
                                <p class="eyebrow">A note on method</p>
                                <div><h2 id="method-title">The workload is real.<br>The design is an experiment.</h2><p>We use real public content corpora to investigate build-system performance and implementation characteristics. Unless a report explicitly says otherwise, these are independent interpretations rather than pixel-perfect migrations.</p><p>Exact upstream commits are recorded where available so each result can be tied to a specific corpus. Each report describes its measurement boundaries, evidence, and limitations.</p></div>
