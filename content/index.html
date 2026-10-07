@@ -15,4 +15,9 @@
   @json(experiments, 'content/data/sites.json')
   <div class="experiment-grid">@for(experiment : experiments){@input('templates/labs/entry.html')}</div>
 </section>
+<section id="benchmarks" class="section" aria-labelledby="benchmarks-title">
+  <div class="section-label"><p class="eyebrow">03 / Benchmarks</p><h2 id="benchmarks-title">Start it. Run it. Build with it.</h2></div>
+  @json(benchmarks, 'content/data/benchmarks.json')
+  <div class="experiment-grid">@for(benchmark : benchmarks){@input('templates/labs/benchmark-entry.html')}</div>
+</section>
 @input('templates/labs/methodology.html')

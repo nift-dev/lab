@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Scripting Benchmark",
+    "slug": "scripting",
+    "page": "benchmarks/scripting/",
+    "category": "Runtime / language comparison",
+    "description": "Startup-sensitive snippets, sustained computation, and file/data workloads. Compare all participating languages with checked outputs and retained samples.",
+    "systems": "Nift + 6 runtimes",
+    "workload": "15 workload families"
+  },
+  {
+    "name": "Website Generator Benchmark",
+    "slug": "website-generator",
+    "page": "benchmarks/website-generator/",
+    "category": "Build systems / corpus scaling",
+    "description": "From 100 to 10,000 pages: full builds, Nift incremental and targeted builds, elapsed time, and memory\u2014with output equivalence and state boundaries attached.",
+    "systems": "Nift, Hugo, Astro, VitePress",
+    "workload": "3 corpus sizes"
+  },
+  {
+    "name": "Shell Benchmark",
+    "slug": "shell",
+    "page": "benchmarks/shell/",
+    "category": "Shells / startup distributions",
+    "description": "Time to a usable prompt, explicit RC/configuration costs, and process orchestration. Bash and Zsh join Fish, Nushell, and Nift in validated comparisons.",
+    "systems": "5 shells",
+    "workload": "Startup + orchestration"
+  }
+]

@@ -14,8 +14,10 @@
   "project-fingerprint": "",
   "hierarchy-fingerprint": "",
   "dependencies": [
+    "content/data/benchmarks.json",
     "content/data/sites.json",
     "content/index.html",
+    "templates/labs/benchmark-entry.html",
     "templates/labs/entry.html",
     "templates/labs/head.html",
     "templates/labs/methodology.html",
@@ -23,6 +25,9 @@
   ],
   "reqs": [
     "public/benchmarks/index.html",
+    "public/benchmarks/scripting/index.html",
+    "public/benchmarks/shell/index.html",
+    "public/benchmarks/website-generator/index.html",
     "public/index.html",
     "public/labs/favicon.svg",
     "public/labs/style.css",
