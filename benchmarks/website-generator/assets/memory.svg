@@ -336,7 +336,7 @@ L 95.77705 81.501852
 L 95.77705 97.184983 
 L -205490.337874 97.184983 
 z
-" clip-path="url(#p47476cadc1)" style="fill: url(#h13718a4c15); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M -205490.337874 129.906578 
@@ -344,7 +344,7 @@ L 336.439553 129.906578
 L 336.439553 145.58971 
 L -205490.337874 145.58971 
 z
-" clip-path="url(#p47476cadc1)" style="fill: url(#h13718a4c15); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M -205490.337874 178.311304 
@@ -352,7 +352,7 @@ L 570.638408 178.311304
 L 570.638408 193.994436 
 L -205490.337874 193.994436 
 z
-" clip-path="url(#p47476cadc1)" style="fill: url(#h13718a4c15); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M -205490.337874 226.716031 
@@ -360,7 +360,7 @@ L 544.337062 226.716031
 L 544.337062 242.399162 
 L -205490.337874 242.399162 
 z
-" clip-path="url(#p47476cadc1)" style="fill: url(#h13718a4c15); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 63.97 251.315312 
@@ -440,7 +440,7 @@ L 175.41875 44.076572
 L 175.41875 38.476572 
 L 159.41875 38.476572 
 z
-" style="fill: url(#h13718a4c15); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
     </g>
     <g id="text_18">
      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f1e9da" x="181.81875" y="44.076572" transform="rotate(-0 181.81875 44.076572)">Warm full</text>
@@ -454,8 +454,8 @@ z
   </clipPath>
  </defs>
  <defs>
-  <pattern id="h13718a4c15" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
-   <rect x="0" y="0" width="73" height="73" fill="#c7b68b"/>
+  <pattern id="h5354f0d2dc" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#f06bb4"/>
    <path d="M -36 36 
 L 36 -36 
 M -30 42 
