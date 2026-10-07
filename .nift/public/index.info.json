@@ -33,6 +33,7 @@
     "public/labs/style.css",
     "public/sites/capgo/index.html",
     "public/sites/cloudflare-docs/index.html",
+    "public/sites/deno/index.html",
     "public/sites/docker/index.html",
     "public/sites/index.html",
     "public/sites/omarchy/index.html"

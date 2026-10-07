@@ -49,6 +49,11 @@
       "name": "sites/docker/",
       "title": "Docker Docs: same publication, two Nift pipelines",
       "template": "templates/sites/docker/template.html"
+    },
+    {
+      "name": "sites/deno/",
+      "title": "Deno Docs: keep the source, shorten the loop",
+      "template": "templates/sites/deno/template.html"
     }
   ]
 }

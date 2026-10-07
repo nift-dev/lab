@@ -326,3 +326,7 @@ Report-only investigation pushed to capgo-agent at 7d45594. Public case study no
 ## 2026-10-06 — graphs and visible iteration evidence
 
 Added linear, zero-origin build-time and peak-process-memory graphs. Ordinary edits/no-op and explicit-target edits are visible, with workflow-specific maintenance recommendations. Three real edits per family for both migrations are recorded at capgo-agent b555abe (24 samples); historical ordinary cases are not paired with this new suite. Astro edit/HMR remains unmeasured. Faithful ordinary restoration left targeted test output in some cases; an unmeasured full rebuild restored complete parity. Cause remains unestablished; caveat and raw gates are published. No migration implementation changed.
+
+## Deno Labs report publication
+
+Added `/sites/deno/` with its own dark bone/olive circular pipeline identity, prominent common-edit feedback loop, complete publication/HTTP/browser/lifecycle acceptance, generated five-sample tables and visible workload/RSS/service qualifications. Source models remain distinct; the assessment prefers deno for both agent-led and mixed editing because authoritative source derives ancillary projections. Native changed-input production is explicitly separate from unmeasured dev-server behavior. Historical architecture/campaign results remain visible. See docs/DENO-PUBLICATION.md, retained JSON and responsive/link-validation ledgers. Completed Deno migration repositories and Nift core are untouched.

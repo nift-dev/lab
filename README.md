@@ -158,3 +158,16 @@ medians/sample counts against retained summaries. Use each suite's
 `scripts/summarize.py` to regenerate every distribution statistic independently.
 The plotting library is a publication dependency only, outside all measurements.
 Retain historical diagnostics separately; never merge them into official tables.
+
+## Deno report publication
+
+The independent bone/olive report at `/sites/deno/` emphasizes source ownership and everyday iteration. Its data snapshots live in `content/sites/deno/data/`; `scripts/render_deno.py` validates headline medians, sample counts, changed-versus-forced equality and retained browser differences before rendering. Full upstream, prepared-input publication, forced migration and cached publication remain separate. `scripts/check_deno_links.py` verifies every external repository/evidence link through read-only GitHub API calls. Both completed migration repositories remain untouched. See `docs/DENO-PUBLICATION.md`.
+
+```sh
+python3 scripts/render_deno.py
+nift build --all
+nift build
+python3 scripts/validate.py
+python3 scripts/check_deno_links.py
+nift status
+```

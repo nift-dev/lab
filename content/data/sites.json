@@ -54,5 +54,21 @@
     "agent_repo": "https://github.com/nift-experiments/docker-agent",
     "date": "2026-10-08",
     "report": "https://github.com/nift-experiments/docker/blob/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/C7-COMPARISON.md"
+  },
+  {
+    "name": "Deno Docs",
+    "slug": "deno",
+    "page": "sites/deno/",
+    "description": "Authoritative Markdown or maintained HTML: a faithful production publication, profiled source derivation and measured everyday iteration loops.",
+    "category": "Migration / iteration study",
+    "status": "Results published",
+    "upstream_framework": "Lume / Deno",
+    "page_count": "834 HTML",
+    "upstream_repo": "https://github.com/denoland/docs",
+    "upstream_commit": "9e5dd8d930c8734defe1c3172986e6312353ac1c",
+    "experiment_repo": "https://github.com/nift-experiments/deno",
+    "agent_repo": "https://github.com/nift-experiments/deno-agent",
+    "date": "2026-10-08",
+    "report": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/D9-COMPARISON.md"
   }
 ]
