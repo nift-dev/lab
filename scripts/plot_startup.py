@@ -61,3 +61,22 @@ def draw_comparison(labels, series, output, title, unit, slug, log=False):
     ax.legend(loc='lower left',bbox_to_anchor=(0,1.01),ncol=len(series),facecolor=bg,edgecolor=line,labelcolor=ink,fontsize=8)
     fig.tight_layout();output=Path(output);output.parent.mkdir(parents=True,exist_ok=True)
     fig.savefig(output,metadata={'Date':None,'Title':title});fig.savefig(output.with_suffix('.png'),dpi=160);plt.close(fig)
+
+def draw_corpus_scaling(runs, supplemental, output):
+    """Keep the targeted follow-up on its own axes rather than pooling nodes."""
+    bg,ink,line='#211d17','#f1e9da','#514332'
+    fig,axes=plt.subplots(1,2,figsize=(12,5.8),gridspec_kw={'width_ratios':[1.5,1]})
+    fig.set_facecolor(bg);colors=['#e7ac62','#c7b68b','#d18b73','#a9c098','#e4ca78','#c5a5c3','#f2dfb2']
+    xs=[r['pages'] for r in runs];by=[{j['id']:j['summary'] for j in r['jobs']} for r in runs]
+    specs=[(n+' full',n+'/application-cold') for n in ('Nift','Hugo','Astro','VitePress')]+[('Nift incremental '+case,'Nift/incremental/'+case) for case in ('no-op','one-page','shared-template')]
+    for k,(label,key) in enumerate(specs):
+        axes[0].plot(xs,[d[key]['median_ms']/1000 for d in by],label=label,color=colors[k],marker=['o','s','^','D','v','P','X'][k],linestyle='-' if k<4 else '--')
+    sb={j['id']:j['summary'] for j in supplemental['jobs']}
+    for key,label,color,marker,style in [('fresh-full','Fresh full reference','#e7ac62','o','-'),('targeted-one-page','Explicit target: page-1','#e4ca78','X','--')]:
+        axes[1].plot(xs,[sb[f'Nift/{n}/{key}']['median_ms']/1000 for n in xs],label=label,color=color,marker=marker,linestyle=style)
+    for ax,title in zip(axes,('Original campaign: full + incremental','Separate follow-up node: explicit target')):
+        ax.set_facecolor(bg);ax.set_xscale('log');ax.set_yscale('log');ax.set_xticks(xs,[f'{n:,}' for n in xs]);ax.tick_params(colors=ink);ax.grid(color=line);ax.set_xlabel('Corpus pages (log scale)',color=ink);ax.set_ylabel('Median seconds (log scale)',color=ink);ax.set_title(title,color=ink,fontsize=11)
+        for spine in ax.spines.values():spine.set_color(line)
+        ax.legend(loc='upper left',bbox_to_anchor=(0,-.2),facecolor=bg,edgecolor=line,labelcolor=ink,fontsize=8,ncol=2 if ax is axes[0] else 1)
+    fig.subplots_adjust(bottom=.34,wspace=.3,top=.9);output=Path(output)
+    fig.savefig(output,metadata={'Date':None,'Title':'Corpus scaling: original full and incremental builds; separate targeted follow-up'});fig.savefig(output.with_suffix('.png'),dpi=160);plt.close(fig)
