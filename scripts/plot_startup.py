@@ -32,7 +32,7 @@ def draw_shell_plot(data, output):
     plt.close(fig)
 
 def draw_comparison(labels, series, output, title, unit, slug, log=False):
-    palettes={'shell':('#1b1420','#f4edf6','#49314d',['#ed85dc','#c5f777','#b59dcc','#f6c477']), 'scripting':('#171e18','#eaf2e8','#354737',['#b4de79','#e4bd72','#d393b6','#84c8b0']), 'website-generator':('#211d17','#f1e9da','#514332',['#e7ac62','#f06bb4','#d18b73','#a9c098'])}
+    palettes={'shell':('#1b1420','#f4edf6','#49314d',['#ed85dc','#c5f777','#b59dcc','#f6c477']), 'scripting':('#171e18','#eaf2e8','#354737',['#b4de79','#e4bd72','#d393b6','#84c8b0']), 'website-generator':('#211d17','#f1e9da','#514332',['#59f58a','#f06bb4','#d18b73','#a9c098'])}
     output=Path(output)
     bg,ink,line,colors=palettes[slug]
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'svg.hashsalt':'nift-october-2026','svg.fonttype':'none'})
@@ -49,7 +49,7 @@ def draw_comparison(labels, series, output, title, unit, slug, log=False):
         fig.tight_layout();fig.savefig(output,metadata={'Date':None,'Title':title});fig.savefig(output.with_suffix('.png'),dpi=160);plt.close(fig);return
     for k,(name,values) in enumerate(series.items()):
         positions=[i-.36+height/2+k*height for i in range(len(labels))]
-        ax.barh(positions,values,height=height*.9,color=colors[k%len(colors)],label=name,hatch=['','//','xx','..'][k%4],edgecolor=ink,linewidth=.3)
+        ax.barh(positions,values,height=height*.9,color=([colors[i%len(colors)] for i in range(len(labels))] if slug=='website-generator' else colors[k%len(colors)]),label=name,hatch=['','//','xx','..'][k%4],edgecolor=ink,linewidth=.3)
         for y,v in zip(positions,values):ax.annotate(f'{v:,.3f}' if v<100 else f'{v:,.1f}',(v,y),xytext=(4,0),textcoords='offset points',va='center',color=ink,fontsize=8)
     ax.set_yticks(range(len(labels)),labels);ax.invert_yaxis()
     if log:ax.set_xscale('log');ax.set_xlim(left=min(v for vals in series.values() for v in vals)*.7)
@@ -58,7 +58,11 @@ def draw_comparison(labels, series, output, title, unit, slug, log=False):
     ax.set_xlabel(unit+(' — logarithmic scale' if log else ''),color=ink);ax.set_title(title,color=ink,pad=35)
     ax.tick_params(colors=ink);ax.grid(axis='x',color=line);ax.set_axisbelow(True)
     for spine in ax.spines.values():spine.set_color(line)
-    ax.legend(loc='lower left',bbox_to_anchor=(0,1.01),ncol=len(series),facecolor=bg,edgecolor=line,labelcolor=ink,fontsize=8)
+    legend_args={}
+    if slug=='website-generator':
+        from matplotlib.patches import Patch
+        legend_args['handles']=[Patch(facecolor='#756b60',edgecolor=ink,hatch=['','//','xx','..'][k%4],label=name) for k,name in enumerate(series)]
+    ax.legend(loc='lower left',bbox_to_anchor=(0,1.01),ncol=len(series),facecolor=bg,edgecolor=line,labelcolor=ink,fontsize=8,**legend_args)
     fig.tight_layout();output=Path(output);output.parent.mkdir(parents=True,exist_ok=True)
     fig.savefig(output,metadata={'Date':None,'Title':title});fig.savefig(output.with_suffix('.png'),dpi=160);plt.close(fig)
 
@@ -66,13 +70,13 @@ def draw_corpus_scaling(runs, supplemental, output):
     """Keep the targeted follow-up on its own axes rather than pooling nodes."""
     bg,ink,line='#211d17','#f1e9da','#514332'
     fig,axes=plt.subplots(1,2,figsize=(12,5.8),gridspec_kw={'width_ratios':[1.5,1]})
-    fig.set_facecolor(bg);colors=['#e7ac62','#f06bb4','#d18b73','#a9c098','#e4ca78','#c5a5c3','#f2dfb2']
+    fig.set_facecolor(bg);colors=['#59f58a','#f06bb4','#d18b73','#a9c098','#b5f563','#35cc70','#a6f4b6']
     xs=[r['pages'] for r in runs];by=[{j['id']:j['summary'] for j in r['jobs']} for r in runs]
     specs=[(n+' full',n+'/application-cold') for n in ('Nift','Hugo','Astro','VitePress')]+[('Nift incremental '+case,'Nift/incremental/'+case) for case in ('no-op','one-page','shared-template')]
     for k,(label,key) in enumerate(specs):
         axes[0].plot(xs,[d[key]['median_ms']/1000 for d in by],label=label,color=colors[k],marker=['o','s','^','D','v','P','X'][k],linestyle='-' if k<4 else '--')
     sb={j['id']:j['summary'] for j in supplemental['jobs']}
-    for key,label,color,marker,style in [('fresh-full','Fresh full reference','#e7ac62','o','-'),('targeted-one-page','Explicit target: page-1','#e4ca78','X','--')]:
+    for key,label,color,marker,style in [('fresh-full','Fresh full reference','#59f58a','o','-'),('targeted-one-page','Explicit target: page-1','#b5f563','X','--')]:
         axes[1].plot(xs,[sb[f'Nift/{n}/{key}']['median_ms']/1000 for n in xs],label=label,color=color,marker=marker,linestyle=style)
     for ax,title in zip(axes,('Original campaign: full + incremental','Separate follow-up node: explicit target')):
         ax.set_facecolor(bg);ax.set_xscale('log');ax.set_yscale('log');ax.set_xticks(xs,[f'{n:,}' for n in xs]);ax.tick_params(colors=ink);ax.grid(color=line);ax.set_xlabel('Corpus pages (log scale)',color=ink);ax.set_ylabel('Median seconds (log scale)',color=ink);ax.set_title(title,color=ink,fontsize=11)
