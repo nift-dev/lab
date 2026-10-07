@@ -22,6 +22,7 @@
     "templates/labs/template.html"
   ],
   "reqs": [
+    "public/benchmarks/index.html",
     "public/index.html",
     "public/labs/favicon.svg",
     "public/labs/style.css",

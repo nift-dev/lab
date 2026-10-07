@@ -137,3 +137,24 @@ should remain intact when reorganising routes.
 
 Other collections can add `content/<category>/`, `templates/<category>/`, and
 `public/<category>/` independently; nothing assumes all future research is a site.
+
+## Benchmark publication
+
+The October benchmark articles have independent templates and palettes in
+`templates/benchmarks/` and `public/benchmarks/*/assets/`. Their content and
+standalone startup figure are generated from retained raw JSON, not hand-entered
+medians. After acquiring the campaign evidence in `content/benchmarks/data/`:
+
+```sh
+python3 -m venv .venv-benchmarks
+.venv-benchmarks/bin/pip install -r scripts/requirements-benchmarks.txt
+.venv-benchmarks/bin/python scripts/render_benchmarks.py
+nift build --all
+python3 scripts/validate.py
+```
+
+The generator rejects non-publishable runs or incorrect samples and checks raw
+medians/sample counts against retained summaries. Use each suite's
+`scripts/summarize.py` to regenerate every distribution statistic independently.
+The plotting library is a publication dependency only, outside all measurements.
+Retain historical diagnostics separately; never merge them into official tables.

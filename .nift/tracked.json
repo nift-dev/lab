@@ -24,6 +24,26 @@
       "name": "sites/capgo/",
       "title": "Capgo: faithful migration and agent-native reconstruction",
       "template": "templates/sites/capgo/template.html"
+    },
+    {
+      "name": "benchmarks/",
+      "title": "Nift Benchmarks \u2014 Nift Labs",
+      "template": "templates/labs/template.html"
+    },
+    {
+      "name": "benchmarks/scripting/",
+      "title": "Scripting Benchmark \u2014 Nift Labs",
+      "template": "templates/benchmarks/scripting/template.html"
+    },
+    {
+      "name": "benchmarks/website-generator/",
+      "title": "Website Generator Benchmark \u2014 Nift Labs",
+      "template": "templates/benchmarks/website-generator/template.html"
+    },
+    {
+      "name": "benchmarks/shell/",
+      "title": "Shell Benchmark \u2014 Nift Labs",
+      "template": "templates/benchmarks/shell/template.html"
     }
   ]
 }

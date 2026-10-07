@@ -1,2 +1,4 @@
 .nift/.lock
 public/
+.venv-benchmarks/
+scripts/__pycache__/
