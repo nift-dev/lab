@@ -32,7 +32,7 @@ def draw_shell_plot(data, output):
     plt.close(fig)
 
 def draw_comparison(labels, series, output, title, unit, slug, log=False):
-    palettes={'shell':('#1b1420','#f4edf6','#49314d',['#ed85dc','#c5f777','#b59dcc','#f6c477']), 'scripting':('#171e18','#eaf2e8','#354737',['#b4de79','#e4bd72','#d393b6','#84c8b0']), 'website-generator':('#211d17','#f1e9da','#514332',['#e7ac62','#c7b68b','#d18b73','#a9c098'])}
+    palettes={'shell':('#1b1420','#f4edf6','#49314d',['#ed85dc','#c5f777','#b59dcc','#f6c477']), 'scripting':('#171e18','#eaf2e8','#354737',['#b4de79','#e4bd72','#d393b6','#84c8b0']), 'website-generator':('#211d17','#f1e9da','#514332',['#e7ac62','#f06bb4','#d18b73','#a9c098'])}
     output=Path(output)
     bg,ink,line,colors=palettes[slug]
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'svg.hashsalt':'nift-october-2026','svg.fonttype':'none'})
@@ -66,7 +66,7 @@ def draw_corpus_scaling(runs, supplemental, output):
     """Keep the targeted follow-up on its own axes rather than pooling nodes."""
     bg,ink,line='#211d17','#f1e9da','#514332'
     fig,axes=plt.subplots(1,2,figsize=(12,5.8),gridspec_kw={'width_ratios':[1.5,1]})
-    fig.set_facecolor(bg);colors=['#e7ac62','#c7b68b','#d18b73','#a9c098','#e4ca78','#c5a5c3','#f2dfb2']
+    fig.set_facecolor(bg);colors=['#e7ac62','#f06bb4','#d18b73','#a9c098','#e4ca78','#c5a5c3','#f2dfb2']
     xs=[r['pages'] for r in runs];by=[{j['id']:j['summary'] for j in r['jobs']} for r in runs]
     specs=[(n+' full',n+'/application-cold') for n in ('Nift','Hugo','Astro','VitePress')]+[('Nift incremental '+case,'Nift/incremental/'+case) for case in ('no-op','one-page','shared-template')]
     for k,(label,key) in enumerate(specs):
