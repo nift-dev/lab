@@ -304,7 +304,7 @@ L 95.77705 64.076151
 L 95.77705 79.759282 
 L -205490.337874 79.759282 
 z
-" clip-path="url(#p47476cadc1)" style="fill: #e7ac62; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: #59f58a; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M -205490.337874 112.480877 
@@ -312,7 +312,7 @@ L 331.358501 112.480877
 L 331.358501 128.164008 
 L -205490.337874 128.164008 
 z
-" clip-path="url(#p47476cadc1)" style="fill: #e7ac62; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: #f06bb4; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M -205490.337874 160.885603 
@@ -320,7 +320,7 @@ L 575.387509 160.885603
 L 575.387509 176.568734 
 L -205490.337874 176.568734 
 z
-" clip-path="url(#p47476cadc1)" style="fill: #e7ac62; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: #d18b73; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M -205490.337874 209.290329 
@@ -328,7 +328,7 @@ L 544.692266 209.290329
 L 544.692266 224.97346 
 L -205490.337874 224.97346 
 z
-" clip-path="url(#p47476cadc1)" style="fill: #e7ac62; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: #a9c098; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M -205490.337874 81.501852 
@@ -336,7 +336,7 @@ L 95.77705 81.501852
 L 95.77705 97.184983 
 L -205490.337874 97.184983 
 z
-" clip-path="url(#p47476cadc1)" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: url(#h25de806965); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M -205490.337874 129.906578 
@@ -352,7 +352,7 @@ L 570.638408 178.311304
 L 570.638408 193.994436 
 L -205490.337874 193.994436 
 z
-" clip-path="url(#p47476cadc1)" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: url(#hcbd86f3dd1); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M -205490.337874 226.716031 
@@ -360,7 +360,7 @@ L 544.337062 226.716031
 L 544.337062 242.399162 
 L -205490.337874 242.399162 
 z
-" clip-path="url(#p47476cadc1)" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p47476cadc1)" style="fill: url(#he9fde2d487); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 63.97 251.315312 
@@ -429,7 +429,7 @@ L 87.17 44.076572
 L 87.17 38.476572 
 L 71.17 38.476572 
 z
-" style="fill: #e7ac62; stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" style="fill: #756b60; stroke: #f1e9da; stroke-linejoin: miter"/>
     </g>
     <g id="text_17">
      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f1e9da" x="93.57" y="44.076572" transform="rotate(-0 93.57 44.076572)">Fresh fixture</text>
@@ -440,7 +440,7 @@ L 175.41875 44.076572
 L 175.41875 38.476572 
 L 159.41875 38.476572 
 z
-" style="fill: url(#h5354f0d2dc); stroke: #f1e9da; stroke-width: 0.3; stroke-linejoin: miter"/>
+" style="fill: url(#ha3bbd83056); stroke: #f1e9da; stroke-linejoin: miter"/>
     </g>
     <g id="text_18">
      <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f1e9da" x="181.81875" y="44.076572" transform="rotate(-0 181.81875 44.076572)">Warm full</text>
@@ -454,8 +454,128 @@ z
   </clipPath>
  </defs>
  <defs>
+  <pattern id="h25de806965" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#59f58a"/>
+   <path d="M -36 36 
+L 36 -36 
+M -30 42 
+L 42 -30 
+M -24 48 
+L 48 -24 
+M -18 54 
+L 54 -18 
+M -12 60 
+L 60 -12 
+M -6 66 
+L 66 -6 
+M 0 72 
+L 72 0 
+M 6 78 
+L 78 6 
+M 12 84 
+L 84 12 
+M 18 90 
+L 90 18 
+M 24 96 
+L 96 24 
+M 30 102 
+L 102 30 
+M 36 108 
+L 108 36 
+" style="fill: #f1e9da; stroke: #f1e9da; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
   <pattern id="h5354f0d2dc" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#f06bb4"/>
+   <path d="M -36 36 
+L 36 -36 
+M -30 42 
+L 42 -30 
+M -24 48 
+L 48 -24 
+M -18 54 
+L 54 -18 
+M -12 60 
+L 60 -12 
+M -6 66 
+L 66 -6 
+M 0 72 
+L 72 0 
+M 6 78 
+L 78 6 
+M 12 84 
+L 84 12 
+M 18 90 
+L 90 18 
+M 24 96 
+L 96 24 
+M 30 102 
+L 102 30 
+M 36 108 
+L 108 36 
+" style="fill: #f1e9da; stroke: #f1e9da; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+  <pattern id="hcbd86f3dd1" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#d18b73"/>
+   <path d="M -36 36 
+L 36 -36 
+M -30 42 
+L 42 -30 
+M -24 48 
+L 48 -24 
+M -18 54 
+L 54 -18 
+M -12 60 
+L 60 -12 
+M -6 66 
+L 66 -6 
+M 0 72 
+L 72 0 
+M 6 78 
+L 78 6 
+M 12 84 
+L 84 12 
+M 18 90 
+L 90 18 
+M 24 96 
+L 96 24 
+M 30 102 
+L 102 30 
+M 36 108 
+L 108 36 
+" style="fill: #f1e9da; stroke: #f1e9da; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+  <pattern id="he9fde2d487" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#a9c098"/>
+   <path d="M -36 36 
+L 36 -36 
+M -30 42 
+L 42 -30 
+M -24 48 
+L 48 -24 
+M -18 54 
+L 54 -18 
+M -12 60 
+L 60 -12 
+M -6 66 
+L 66 -6 
+M 0 72 
+L 72 0 
+M 6 78 
+L 78 6 
+M 12 84 
+L 84 12 
+M 18 90 
+L 90 18 
+M 24 96 
+L 96 24 
+M 30 102 
+L 102 30 
+M 36 108 
+L 108 36 
+" style="fill: #f1e9da; stroke: #f1e9da; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+  <pattern id="ha3bbd83056" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#756b60"/>
    <path d="M -36 36 
 L 36 -36 
 M -30 42 
