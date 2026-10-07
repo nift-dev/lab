@@ -38,5 +38,21 @@
     "upstream_commit": "7d5b69d6ba8a6630384dffc7d012431ee3ed22ec",
     "experiment_repo": "https://github.com/nift-experiments/capgo",
     "agent_repo": "https://github.com/nift-experiments/capgo-agent"
+  },
+  {
+    "name": "Docker Docs",
+    "slug": "docker",
+    "page": "sites/docker/",
+    "description": "A real Hugo documentation migration. Preserved Markdown and maintained HTML, with publication parity, profiled builds and explicit maintenance tradeoffs.",
+    "category": "Migration / build architecture",
+    "status": "Results published",
+    "upstream_framework": "Hugo",
+    "page_count": "3,901 HTML",
+    "upstream_repo": "https://github.com/docker/docs",
+    "upstream_commit": "6cf1b1c167f032e8a6629da211602300b623b20e",
+    "experiment_repo": "https://github.com/nift-experiments/docker",
+    "agent_repo": "https://github.com/nift-experiments/docker-agent",
+    "date": "2026-10-08",
+    "report": "https://github.com/nift-experiments/docker/blob/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/C7-COMPARISON.md"
   }
 ]

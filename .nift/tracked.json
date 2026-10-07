@@ -44,6 +44,11 @@
       "name": "benchmarks/shell/",
       "title": "Shell Benchmark \u2014 Nift Labs",
       "template": "templates/benchmarks/shell/template.html"
+    },
+    {
+      "name": "sites/docker/",
+      "title": "Docker Docs: same publication, two Nift pipelines",
+      "template": "templates/sites/docker/template.html"
     }
   ]
 }
