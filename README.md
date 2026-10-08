@@ -188,3 +188,7 @@ nift status
 ## Temporal report publication
 
 Independent amber event-history report at `/sites/temporal/`. Run `python3 scripts/render_temporal.py` to regenerate from hash-verified accepted T9 evidence, then normal full/incremental builds and validation. `python3 scripts/check_temporal_links.py` checks pinned links. See docs/TEMPORAL-PUBLICATION.md. Both accepted migrations remain untouched.
+
+## Major report publication identity
+
+The Labs homepage establishes the family identity; individual major experiments establish their own publication identity. Share navigation, footer conventions, evidence access, typography families and dark responsive quality. Give each report its own hero composition, section layout, visualization language, accent palette and motif rather than the catalogue card system. Temporal uses asymmetric event-history rails and replay/edit traces; website-generator uses an instrumentation timing rig. Presentation additions regenerate from accepted evidence; they do not replace methodology or change measured values.

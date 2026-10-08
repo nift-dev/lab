@@ -338,3 +338,7 @@ Added `/sites/ai-sdk/` with independent graphite/acid graph-and-trace assets, th
 ## Temporal Labs publication
 
 Added `/sites/temporal/` with independent amber event-history assets, parity before performance, retained React islands, prominent production iteration and fresh-state ownership distinctions. Qualified memory scopes and initial/rejected evidence remain visible. The judgement prefers Nift authored-source for both maintenance scenarios and supports a bounded Docusaurus-to-Nift evaluation. See docs/TEMPORAL-PUBLICATION.md and responsive/link ledgers. Completed migration repositories and Nift core remain untouched.
+
+## Dedicated report presentation
+
+Temporal now uses an asymmetric event-history/replay system; website-generator uses a graphite/lime measurement rig. Accepted engineering content, values, caveats and evidence are retained. README.md records the family-versus-publication design convention. See docs/REPORT-REDESIGN.md for preservation and responsive gates. No migration repositories changed.

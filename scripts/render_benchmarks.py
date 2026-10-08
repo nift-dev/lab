@@ -70,6 +70,9 @@ def evidence(slug,files,repo,cmd):
 
  return section('Reproduce / scrutinise','Every sample is retained.',p(links)+(p(f'Clean-checkout validation on the measurement node: <a href="@path(\'{clean_link}\')">complete smoke run</a>.') if meta else p(f'Independent clean-checkout reproduction: <a href="@path(\'{clean_link}\')">validated raw run</a>.'))+p(f'<a href="https://github.com/nift-dev/{repo}/tree/{branch}">Suite, audit and provisioning instructions ↗</a>. Check out the <a href="https://github.com/nift-dev/{repo}/tree/{revision}">exact measured suite revision</a> and acquire its pinned tools. <code>scripts/summarize.py</code> regenerates summaries from one validated run; historical machines and revisions are never merged.')+'<pre>'+esc(cmd)+'</pre>'+p('Warmups are retained separately. Correctness failures/timeouts stop publication. Corrected observations are all retained; superseded method, tool-pin and workload series are archived as diagnostics with reasons for exclusion. Percentiles use linear interpolation and describe this sample distribution; they are not confidence intervals.'),'reproduce')
 def write(slug,text):
+ if slug=='website-generator':
+  from report_presentation import website
+  text=website(text)
  nav='<nav class="section-nav" aria-label="Report sections"><a href="#results">Results</a><a href="#method">Method</a><a href="#machine">Machine</a><a href="#reproduce">Evidence</a></nav>'
  text=text.replace('</section>','</section>'+series_notice(slug)+nav,1)
  (ROOT/f'content/benchmarks/{slug}/index.html').write_text('<main id="main">'+text+related(slug)+'</main>')
