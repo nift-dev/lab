@@ -7,3 +7,5 @@
 
 /* Value/unit boundaries stay explicit in text and layout at every breakpoint. */
 .headline .value .unit{display:inline-block;margin-top:0;margin-inline-start:.45em;vertical-align:baseline}.scale span{margin-inline-start:.45em}.chart-label strong{word-spacing:.08em}
+
+.iteration-memory{margin-top:40px}.iteration-memory table{min-width:0}.iteration-memory th,.iteration-memory td{white-space:normal;overflow-wrap:anywhere}.iteration-memory td small{display:block;font-size:11px}.iteration-memory caption{text-align:left;font-size:12px;line-height:1.7}.iteration-memory .qualification{font-size:13px;line-height:1.7}
