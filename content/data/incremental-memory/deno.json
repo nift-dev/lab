@@ -3,6 +3,7 @@
   "metric": "Maximum measured individual process/phase RSS; not aggregate simultaneous memory",
   "sample_policy": "Changed-input cases: single original observations. Unchanged: five-sample median [min\u2013max]. Upstream: largest measured production phase, not dev/HMR.",
   "provenance": {
+    "nift": "4.8.0",
     "authored_evidence_pin": "7d663e4212d8f976b8ba0b29d819b9331db24522",
     "rendered_evidence_pin": "0b42efec8239f49214c821e32fe5f0cc8e389f15",
     "upstream": "9e5dd8d930c8734defe1c3172986e6312353ac1c"

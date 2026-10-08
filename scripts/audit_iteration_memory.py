@@ -21,10 +21,11 @@ for t in tracked:
  revisions=sorted(set(re.findall(r'(?<![a-zA-Z0-9])[0-9a-f]{40}(?![a-zA-Z0-9])',body)))
  if site.get('upstream_commit'):revisions.append(site['upstream_commit'])
  extra=R/'content/data/incremental-memory'/f'{slug}.json'
+ provenance=json.loads(extra.read_text())['provenance'] if extra.exists() else {'upstream':site.get('upstream_commit'),'experiment_revision':'Unknown original capture binding; use stated published provenance rather than current HEAD'}
  if extra.exists():revisions+=re.findall(r'(?<![a-zA-Z0-9])[0-9a-f]{40}(?![a-zA-Z0-9])',extra.read_text())
  if slug in ['shell','scripting']:
   data=json.loads((R/'content/benchmarks/data/series.json').read_text())[slug];revisions.append(data['nift_revision'])
- entries.append({'report_url':'https://lab.nift.dev/'+name,'source':str(source.relative_to(R)),'template':t['template'],'repository':site.get('experiment_repo','https://github.com/nift-dev/'+('website-generator-benchmark' if slug=='website-generator' else slug+'-benchmark')),'original_platform':host,'pins':sorted(set(revisions)),'displayed_incremental_cases':cases,'timing_evidence':slug not in ['shell','scripting'],'memory_metric':metric,'action':action,'evidence':str(extra.relative_to(R)) if extra.exists() else 'Existing report and linked original evidence','status':'not applicable' if slug in ['shell','scripting'] else 'partial provenance gap' if slug=='omarchy' else 'awaiting supplemental gates' if slug=='ai-sdk' else 'complete'})
+ entries.append({'report_url':'https://lab.nift.dev/'+name,'source':str(source.relative_to(R)),'template':t['template'],'repository':site.get('experiment_repo','https://github.com/nift-dev/'+('website-generator-benchmark' if slug=='website-generator' else slug+'-benchmark')),'original_platform':host,'pins':sorted(set(revisions)),'revision_context':provenance,'displayed_incremental_cases':cases,'timing_evidence':slug not in ['shell','scripting'],'memory_metric':metric,'action':action,'evidence':str(extra.relative_to(R)) if extra.exists() else 'Existing report and linked original evidence','status':'not applicable' if slug in ['shell','scripting'] else 'partial provenance gap' if slug=='omarchy' else 'awaiting supplemental gates' if slug=='ai-sdk' else 'complete'})
 for slug in ['shell','scripting']:
  out=R/f'public/benchmarks/{slug}/series/20261008-v480/index.html';assert out.exists()
  identity=json.loads((R/f'content/benchmarks/archives/20261008-v480/{slug}/archive-identity.json').read_text())
@@ -35,6 +36,9 @@ if ai.exists():
  complete=json.loads(ai.read_text())
  if complete.get('published_cases')==26 and complete.get('all_forced_equal') and complete.get('restoration_passed'):
   next(x for x in entries if '/sites/ai-sdk/' in x['report_url'])['status']='complete / supplemental local evidence'
+for entry in entries:
+ entry['incremental_applicability']='not applicable' if entry['status']=='not applicable' else 'applicable'
+ entry['memory_evidence_status']='not applicable' if entry['status']=='not applicable' else 'original container evidence exists; historical NUC memory missing/unreproducible' if 'omarchy/' in entry['report_url'] else 'original unchanged/upstream plus supplemental migration memory' if 'ai-sdk/' in entry['report_url'] and entry['status'].startswith('complete') else 'original unchanged/upstream exists; migration changed-input supplement pending' if 'ai-sdk/' in entry['report_url'] else 'original exact-workload evidence exists'
 ledger=R/'investigation/incremental-memory-audit.json';ledger.write_text(json.dumps({'discovery':'Current catalogue + tracked report routes + two published series archives; three index pages excluded as catalogues','reports':entries,'cloud_instances_created':0,'cloud_instances_deleted':0,'credentials_accessed':False},indent=2)+'\n')
 md='# Labs incremental-memory audit\n\nScope discovered from catalogue JSON, tracked report routes, benchmark navigation and deployed archive HTML: **12 reports** (7 site reports, 3 current benchmark reports, 2 archived benchmark reports). Homepage, sites catalogue and benchmarks catalogue are navigation, not additional measurements.\n\n| Report | Original host | Incremental cases | Memory metric | Action/status | Evidence |\n|---|---|---|---|---|---|\n'
 for x in entries:md+='| ['+x['report_url'].replace('https://lab.nift.dev/','')+']('+x['report_url']+') | '+x['original_platform']+' | '+x['displayed_incremental_cases']+' | '+x['memory_metric']+' | '+x['action']+' **'+x['status']+'** | '+x['evidence']+' |\n'

@@ -25,7 +25,10 @@ def prepare_existing():
   for model,label in [('docker','Nift docker'),('docker-agent','Nift docker-agent')]:
    v=[x['peak_rss_kib']/1024 for x in raw if x['case']==case and x['project']==model];assert len(v)==5;row[label]=distribution(v)
   rows.append(row)
- snapshot('docker',raw,rows,'GNU time maximum individual process/phase RSS; not aggregate simultaneous pipeline RSS','Five original samples per case: median [min–max], same runs as accepted changed-input timings.',{'implementation_commits':read(R/'content/sites/docker/data/implementation-commits.json'),'upstream':'6cf1b1c167f032e8a6629da211602300b623b20e','nift':'4.7.2'})
+ hugo=read(BASE/'docker/investigation/c6/hugo-changed/runs.json');assert len(hugo)==30 and all(x['semantic_output_checked'] for x in hugo)
+ for case in dict.fromkeys(x['case'] for x in hugo):
+  v=[x['peak_rss_kib']/1024 for x in hugo if x['case']==case];assert len(v)==5;rows.append({'case':'Upstream Hugo / '+case,'Upstream Hugo production':distribution(v)})
+ snapshot('docker',{'nift_original_changes':raw,'hugo_original_changes':hugo},rows,'GNU time maximum individual process/phase RSS; not aggregate simultaneous pipeline RSS','Five original samples per case: median [min–max], same Nift runs as accepted changed-input timings. Hugo is the retained initial production cohort, separate from optimized Nift; not dev/HMR or paired cohort evidence.',{'implementation_commits':read(R/'content/sites/docker/data/implementation-commits.json'),'measurement_environment':read(BASE/'docker/investigation/c6-optimized/environment.json'),'upstream':'6cf1b1c167f032e8a6629da211602300b623b20e','nift':'4.7.2'})
  raw=read(R/'content/sites/deno/data/d8-production-lifecycle.json');warm=read(R/'content/sites/deno/data/d9-final-profile-benchmark.json');rows=[]
  for case in ['unchanged']+list(dict.fromkeys(x['case'] for x in raw)):
   row={'case':case}
@@ -33,7 +36,7 @@ def prepare_existing():
    matches=[x for x in (warm if case=='unchanged' else raw) if x['model']==model and x['case']==('warm-normal-publication' if case=='unchanged' else case)];v=[x['maximum_measured_process_rss_mib'] for x in matches];assert len(v)==(5 if case=='unchanged' else 1);row[label]=distribution(v)
   rows.append(row)
  up=read(R/'content/sites/deno/data/d9-final-upstream-changed-input.json');rows.append({'case':'Upstream one-body production','Upstream Deno/Lume':distribution([max(x['maximum_measured_process_rss_mib'] for x in up['components'].values())])})
- snapshot('deno',{'lifecycle':raw,'unchanged':warm,'upstream_body':up},rows,'Maximum measured individual process/phase RSS; not aggregate simultaneous memory','Changed-input cases: single original observations. Unchanged: five-sample median [min–max]. Upstream: largest measured production phase, not dev/HMR.',{'authored_evidence_pin':'7d663e4212d8f976b8ba0b29d819b9331db24522','rendered_evidence_pin':'0b42efec8239f49214c821e32fe5f0cc8e389f15','upstream':'9e5dd8d930c8734defe1c3172986e6312353ac1c'})
+ snapshot('deno',{'lifecycle':raw,'unchanged':warm,'upstream_body':up},rows,'Maximum measured individual process/phase RSS; not aggregate simultaneous memory','Changed-input cases: single original observations. Unchanged: five-sample median [min–max]. Upstream: largest measured production phase, not dev/HMR.',{'nift':'4.8.0','authored_evidence_pin':'7d663e4212d8f976b8ba0b29d819b9331db24522','rendered_evidence_pin':'0b42efec8239f49214c821e32fe5f0cc8e389f15','upstream':'9e5dd8d930c8734defe1c3172986e6312353ac1c'})
  raw=read(R/'content/sites/temporal/data/summary.json');rows=[]
  for case in ['unchanged']+list(dict.fromkeys(x['case'] for x in raw['changes']+raw['lifecycle'])):
   row={'case':case}
@@ -47,7 +50,7 @@ def prepare_existing():
   rows.append(row)
  for x in raw['upstream_changes']:
   m=x['measurement'];rows.append({'case':'Upstream '+x['case']+' production','Upstream / individual':distribution([m['maximum_individual_descendant_rss_mib']]),'Upstream / sampled sum':distribution([m['sampled_descendant_rss_sum_peak_mib']])})
- snapshot('temporal',raw,rows,'Maximum individual process/phase RSS and separate sampled descendant resident-page sum; these are different scopes','Changed-input: single original observations. Unchanged: five-sample median [min–max]. Sampled ~50ms sums can double-count shared pages, miss peaks and are not PSS. Explicit maintenance memory is outside publication.',raw['source_commits'])
+ snapshot('temporal',raw,rows,'Maximum individual process/phase RSS and separate sampled descendant resident-page sum; these are different scopes','Changed-input: single original observations. Unchanged: five-sample median [min–max]. Sampled ~50ms sums can double-count shared pages, miss peaks and are not PSS. Explicit maintenance memory is outside publication.',{**raw['source_commits'],'nift_version':'4.9.0','nift_sha256':'790bbce6325b0eadce6d98fbb27527ccd4c43fa082b23d1ca3667e54022bc862'})
  # All ordinary corpus sizes and the separate targeted follow-up retain their own samples.
  raw=[read(R/f'content/benchmarks/data/website-{n}.json') for n in [100,1000,10000]];target=read(R/'content/benchmarks/data/targeted-builds.json');rows=[]
  for d in raw:
@@ -75,6 +78,7 @@ def prepare_ai():
       if model=='ai-sdk-agent' and proof['case'] in ['historical-version','provider-reference','metadata-update-remove']:continue
       assert proof['incremental_forced_equal'];x=next(x for x in measurements if x['project']==model and x['suite']==suite and x['case']==proof['case']);assert x['exit_code']==0
       proofs.append(proof);rows.append({'case':('Nift authored' if model=='ai-sdk' else 'Nift rendered')+' / '+proof['case'],'Individual':distribution([x['maximum_process_phase_rss_kib']/1024]),'Sampled sum':distribution([x['sampled_peak_sum_rss_bytes']/1048576])})
+ if (R/'investigation/incremental-memory/ai-sdk/completion.json').exists():assert len(proofs)==26
  snapshot('ai-sdk',{'original_unchanged':normal,'original_upstream_changes':upstream,'supplemental_migration_memory':measurements,'supplemental_forced_proofs':proofs},rows,'Individual = GNU maximum individual process/phase RSS, not aggregate simultaneous memory. Sampled sum = ~50ms live descendant resident-page sum, shared pages can be double-counted, short peaks missed; not PSS','Original unchanged: five-sample median [min–max]. Upstream changed inputs: original single observations. Migration changed inputs: supplemental single observations on the same active NUC, pinned accepted implementation/protocol; accepted timing values are retained separately, not paired as one original cohort.',{'implementation_revisions':{'ai-sdk':'7bb3b9f1713aed61291e73136ab100c2a6f5457c','ai-sdk-agent':'dd568e4ec671dd6ddde38f06f7e24836840f3cb4'},'upstream':'3ebefff610f96892c50be48cf1838c453e2349f7','nift':'4.8.0','supplemental_environment':read(R/'investigation/incremental-memory/ai-sdk/environment.json') if (R/'investigation/incremental-memory/ai-sdk/environment.json').exists() else None})
 
 def panel(slug):
@@ -97,6 +101,7 @@ def panel(slug):
   out+=f'<div class="{wrapper}" role="region" tabindex="0" aria-label="{html.escape(caption)}"><table><caption>{caption} · accepted timings unchanged</caption><thead><tr><th scope="col">Case</th>'+''.join('<th scope="col">'+html.escape(k.split(' / individual')[0].split(' / sampled sum')[0])+'</th>' for k in columns)+'</tr></thead><tbody>'
   for row in rows:out+='<tr><th scope="row">'+html.escape(row['case'])+'</th>'+''.join('<td data-label="'+html.escape(k)+'">'+cell(row[k])+'</td>' for k in columns)+'</tr>'
   out+='</tbody></table></div>'
+ if slug=='ai-sdk' and (R/'investigation/incremental-memory/ai-sdk/completion.json').exists():out+='<p class="qualification"><a href="@path(\'public/benchmarks/evidence/incremental-memory/ai-sdk-supplement.tar.gz\')">Supplemental raw receipts, forced/restoration gates, environment and checksums ↗</a></p>'
  out+='<p class="qualification">Different scopes and hosts remain separate; full-build memory is not substituted for an edit. <a href="@path(\'public/benchmarks/evidence/incremental-memory/'+slug+'.json\')">Raw measurements, provenance and memory scopes ↗</a></p></div>'
 
  return out

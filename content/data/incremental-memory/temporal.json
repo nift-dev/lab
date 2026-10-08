@@ -5,7 +5,9 @@
   "provenance": {
     "upstream": "5d9703a237a9efc9a7da48ac09f79526823b8182",
     "temporal": "756db298c972e4d31d9d3b75f0ceed0473168a93",
-    "temporal-agent": "5e80384aa5d95c18138b0ac58340a08a7055f34e"
+    "temporal-agent": "5e80384aa5d95c18138b0ac58340a08a7055f34e",
+    "nift_version": "4.9.0",
+    "nift_sha256": "790bbce6325b0eadce6d98fbb27527ccd4c43fa082b23d1ca3667e54022bc862"
   },
   "rows": [
     {
