@@ -59,7 +59,7 @@ for path, page in pages.items():
 for slug in ('cloudflare-docs', 'omarchy'):
     if (PUBLIC / slug).exists():
         errors.append(f'stale output directory: {slug}')
-for route in ('index.html', 'sites/index.html', 'sites/cloudflare-docs/index.html', 'sites/omarchy/index.html', 'sites/capgo/index.html', 'sites/docker/index.html', 'sites/deno/index.html', 'benchmarks/index.html', 'benchmarks/scripting/index.html', 'benchmarks/website-generator/index.html', 'benchmarks/shell/index.html'):
+for route in ('index.html', 'sites/index.html', 'sites/cloudflare-docs/index.html', 'sites/omarchy/index.html', 'sites/capgo/index.html', 'sites/docker/index.html', 'sites/deno/index.html', 'sites/ai-sdk/index.html', 'benchmarks/index.html', 'benchmarks/scripting/index.html', 'benchmarks/website-generator/index.html', 'benchmarks/shell/index.html'):
     if not (PUBLIC / route).is_file():
         errors.append(f'missing route: {route}')
 

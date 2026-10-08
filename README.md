@@ -171,3 +171,16 @@ python3 scripts/validate.py
 python3 scripts/check_deno_links.py
 nift status
 ```
+
+## AI SDK report publication
+
+The independent graphite/acid report at `/sites/ai-sdk/` compares three complete production workflows while retaining React islands and the distinction between authored and rendered source. `scripts/render_ai_sdk.py` validates frozen JSON provenance, five-sample medians, components/memory, all thirteen changed-input rows and parity gates. `scripts/check_ai_sdk_links.py` verifies all pinned repository/evidence links. See `docs/AI-SDK-PUBLICATION.md`.
+
+```sh
+python3 scripts/render_ai_sdk.py
+nift build --all
+nift build
+python3 scripts/validate.py
+python3 scripts/check_ai_sdk_links.py
+nift status
+```

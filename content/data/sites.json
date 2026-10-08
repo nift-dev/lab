@@ -70,5 +70,21 @@
     "agent_repo": "https://github.com/nift-experiments/deno-agent",
     "date": "2026-10-08",
     "report": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/D9-COMPARISON.md"
+  },
+  {
+    "name": "AI SDK docs",
+    "slug": "ai-sdk",
+    "page": "sites/ai-sdk/",
+    "description": "Three production workflows, retained React islands and two source models. Faithful publication, profiled builds, memory and coordinated maintenance.",
+    "category": "Migration / islands / source models",
+    "status": "Results published",
+    "upstream_framework": "Next.js / Geistdocs",
+    "page_count": "1,674 HTML",
+    "upstream_repo": "https://github.com/vercel/ai",
+    "upstream_commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "experiment_repo": "https://github.com/nift-experiments/ai-sdk",
+    "agent_repo": "https://github.com/nift-experiments/ai-sdk-agent",
+    "date": "2026-10-08",
+    "report": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A10-REPORT.md"
   }
 ]

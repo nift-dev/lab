@@ -54,6 +54,11 @@
       "name": "sites/deno/",
       "title": "Deno Docs: keep the source, shorten the loop",
       "template": "templates/sites/deno/template.html"
+    },
+    {
+      "name": "sites/ai-sdk/",
+      "title": "AI SDK docs: keep the islands, change the build",
+      "template": "templates/sites/ai-sdk/template.html"
     }
   ]
 }
