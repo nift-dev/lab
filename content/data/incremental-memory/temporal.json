@@ -1,0 +1,3498 @@
+{
+  "report": "temporal",
+  "metric": "Maximum individual process/phase RSS and separate sampled descendant resident-page sum; these are different scopes",
+  "sample_policy": "Changed-input: single original observations. Unchanged: five-sample median [min\u2013max]. Sampled ~50ms sums can double-count shared pages, miss peaks and are not PSS. Explicit maintenance memory is outside publication.",
+  "provenance": {
+    "upstream": "5d9703a237a9efc9a7da48ac09f79526823b8182",
+    "temporal": "756db298c972e4d31d9d3b75f0ceed0473168a93",
+    "temporal-agent": "5e80384aa5d95c18138b0ac58340a08a7055f34e"
+  },
+  "rows": [
+    {
+      "case": "unchanged",
+      "Nift authored / individual": {
+        "samples": 5,
+        "statistic": "median",
+        "value_mib": 284.3984375,
+        "range_mib": [
+          278.29296875,
+          288.64453125
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 5,
+        "statistic": "median",
+        "value_mib": 286.0703125,
+        "range_mib": [
+          281.81640625,
+          295.7890625
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 5,
+        "statistic": "median",
+        "value_mib": 154.76953125,
+        "range_mib": [
+          153.3203125,
+          156.828125
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 5,
+        "statistic": "median",
+        "value_mib": 152.203125,
+        "range_mib": [
+          145.953125,
+          156.88671875
+        ]
+      }
+    },
+    {
+      "case": "body-1",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 890.06640625,
+        "range_mib": [
+          890.06640625,
+          890.06640625
+        ],
+        "raw_mib": [
+          890.06640625
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1156.671875,
+        "range_mib": [
+          1156.671875,
+          1156.671875
+        ],
+        "raw_mib": [
+          1156.671875
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 153.59375,
+        "range_mib": [
+          153.59375,
+          153.59375
+        ],
+        "raw_mib": [
+          153.59375
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 153.046875,
+        "range_mib": [
+          153.046875,
+          153.046875
+        ],
+        "raw_mib": [
+          153.046875
+        ]
+      }
+    },
+    {
+      "case": "body-10",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 893.86328125,
+        "range_mib": [
+          893.86328125,
+          893.86328125
+        ],
+        "raw_mib": [
+          893.86328125
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1172.83984375,
+        "range_mib": [
+          1172.83984375,
+          1172.83984375
+        ],
+        "raw_mib": [
+          1172.83984375
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 156.44921875,
+        "range_mib": [
+          156.44921875,
+          156.44921875
+        ],
+        "raw_mib": [
+          156.44921875
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 159.57421875,
+        "range_mib": [
+          159.57421875,
+          159.57421875
+        ],
+        "raw_mib": [
+          159.57421875
+        ]
+      }
+    },
+    {
+      "case": "body-100",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 891.0078125,
+        "range_mib": [
+          891.0078125,
+          891.0078125
+        ],
+        "raw_mib": [
+          891.0078125
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1393.62890625,
+        "range_mib": [
+          1393.62890625,
+          1393.62890625
+        ],
+        "raw_mib": [
+          1393.62890625
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 153.87109375,
+        "range_mib": [
+          153.87109375,
+          153.87109375
+        ],
+        "raw_mib": [
+          153.87109375
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 184.265625,
+        "range_mib": [
+          184.265625,
+          184.265625
+        ],
+        "raw_mib": [
+          184.265625
+        ]
+      }
+    },
+    {
+      "case": "metadata",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 578.78515625,
+        "range_mib": [
+          578.78515625,
+          578.78515625
+        ],
+        "raw_mib": [
+          578.78515625
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 594.91015625,
+        "range_mib": [
+          594.91015625,
+          594.91015625
+        ],
+        "raw_mib": [
+          594.91015625
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 220.828125,
+        "range_mib": [
+          220.828125,
+          220.828125
+        ],
+        "raw_mib": [
+          220.828125
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 229.92578125,
+        "range_mib": [
+          229.92578125,
+          229.92578125
+        ],
+        "raw_mib": [
+          229.92578125
+        ]
+      }
+    },
+    {
+      "case": "shared-layout",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 914.97265625,
+        "range_mib": [
+          914.97265625,
+          914.97265625
+        ],
+        "raw_mib": [
+          914.97265625
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 959.72265625,
+        "range_mib": [
+          959.72265625,
+          959.72265625
+        ],
+        "raw_mib": [
+          959.72265625
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 548.1328125,
+        "range_mib": [
+          548.1328125,
+          548.1328125
+        ],
+        "raw_mib": [
+          548.1328125
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 597.25,
+        "range_mib": [
+          597.25,
+          597.25
+        ],
+        "raw_mib": [
+          597.25
+        ]
+      }
+    },
+    {
+      "case": "navigation",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 898.05078125,
+        "range_mib": [
+          898.05078125,
+          898.05078125
+        ],
+        "raw_mib": [
+          898.05078125
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1092.859375,
+        "range_mib": [
+          1092.859375,
+          1092.859375
+        ],
+        "raw_mib": [
+          1092.859375
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 776.72265625,
+        "range_mib": [
+          776.72265625,
+          776.72265625
+        ],
+        "raw_mib": [
+          776.72265625
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 856.671875,
+        "range_mib": [
+          856.671875,
+          856.671875
+        ],
+        "raw_mib": [
+          856.671875
+        ]
+      }
+    },
+    {
+      "case": "diagram",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 890.8671875,
+        "range_mib": [
+          890.8671875,
+          890.8671875
+        ],
+        "raw_mib": [
+          890.8671875
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1169.09375,
+        "range_mib": [
+          1169.09375,
+          1169.09375
+        ],
+        "raw_mib": [
+          1169.09375
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 152.97265625,
+        "range_mib": [
+          152.97265625,
+          152.97265625
+        ],
+        "raw_mib": [
+          152.97265625
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 152.09375,
+        "range_mib": [
+          152.09375,
+          152.09375
+        ],
+        "raw_mib": [
+          152.09375
+        ]
+      }
+    },
+    {
+      "case": "generated-synced",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 902.375,
+        "range_mib": [
+          902.375,
+          902.375
+        ],
+        "raw_mib": [
+          902.375
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1138.76171875,
+        "range_mib": [
+          1138.76171875,
+          1138.76171875
+        ],
+        "raw_mib": [
+          1138.76171875
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 153.671875,
+        "range_mib": [
+          153.671875,
+          153.671875
+        ],
+        "raw_mib": [
+          153.671875
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 150.74609375,
+        "range_mib": [
+          150.74609375,
+          150.74609375
+        ],
+        "raw_mib": [
+          150.74609375
+        ]
+      }
+    },
+    {
+      "case": "search-visible",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 883.8125,
+        "range_mib": [
+          883.8125,
+          883.8125
+        ],
+        "raw_mib": [
+          883.8125
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1148.3828125,
+        "range_mib": [
+          1148.3828125,
+          1148.3828125
+        ],
+        "raw_mib": [
+          1148.3828125
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 151.87109375,
+        "range_mib": [
+          151.87109375,
+          151.87109375
+        ],
+        "raw_mib": [
+          151.87109375
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 151.25390625,
+        "range_mib": [
+          151.25390625,
+          151.25390625
+        ],
+        "raw_mib": [
+          151.25390625
+        ]
+      }
+    },
+    {
+      "case": "island-source",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 929.96484375,
+        "range_mib": [
+          929.96484375,
+          929.96484375
+        ],
+        "raw_mib": [
+          929.96484375
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1082.84375,
+        "range_mib": [
+          1082.84375,
+          1082.84375
+        ],
+        "raw_mib": [
+          1082.84375
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 791.8515625,
+        "range_mib": [
+          791.8515625,
+          791.8515625
+        ],
+        "raw_mib": [
+          791.8515625
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 869.265625,
+        "range_mib": [
+          869.265625,
+          869.265625
+        ],
+        "raw_mib": [
+          869.265625
+        ]
+      }
+    },
+    {
+      "case": "route-add",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 985.390625,
+        "range_mib": [
+          985.390625,
+          985.390625
+        ],
+        "raw_mib": [
+          985.390625
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1494.98828125,
+        "range_mib": [
+          1494.98828125,
+          1494.98828125
+        ],
+        "raw_mib": [
+          1494.98828125
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 782.6171875,
+        "range_mib": [
+          782.6171875,
+          782.6171875
+        ],
+        "raw_mib": [
+          782.6171875
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 859.2890625,
+        "range_mib": [
+          859.2890625,
+          859.2890625
+        ],
+        "raw_mib": [
+          859.2890625
+        ]
+      }
+    },
+    {
+      "case": "route-rename",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 990.46875,
+        "range_mib": [
+          990.46875,
+          990.46875
+        ],
+        "raw_mib": [
+          990.46875
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1475.42578125,
+        "range_mib": [
+          1475.42578125,
+          1475.42578125
+        ],
+        "raw_mib": [
+          1475.42578125
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 756.63671875,
+        "range_mib": [
+          756.63671875,
+          756.63671875
+        ],
+        "raw_mib": [
+          756.63671875
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 829.55859375,
+        "range_mib": [
+          829.55859375,
+          829.55859375
+        ],
+        "raw_mib": [
+          829.55859375
+        ]
+      }
+    },
+    {
+      "case": "route-delete",
+      "Nift authored / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 964.7578125,
+        "range_mib": [
+          964.7578125,
+          964.7578125
+        ],
+        "raw_mib": [
+          964.7578125
+        ]
+      },
+      "Nift authored / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1478.61328125,
+        "range_mib": [
+          1478.61328125,
+          1478.61328125
+        ],
+        "raw_mib": [
+          1478.61328125
+        ]
+      },
+      "Nift rendered / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 770.81640625,
+        "range_mib": [
+          770.81640625,
+          770.81640625
+        ],
+        "raw_mib": [
+          770.81640625
+        ]
+      },
+      "Nift rendered / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 847.90625,
+        "range_mib": [
+          847.90625,
+          847.90625
+        ],
+        "raw_mib": [
+          847.90625
+        ]
+      }
+    },
+    {
+      "case": "Upstream body production",
+      "Upstream / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 6949.80078125,
+        "range_mib": [
+          6949.80078125,
+          6949.80078125
+        ],
+        "raw_mib": [
+          6949.80078125
+        ]
+      },
+      "Upstream / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 7043.44921875,
+        "range_mib": [
+          7043.44921875,
+          7043.44921875
+        ],
+        "raw_mib": [
+          7043.44921875
+        ]
+      }
+    },
+    {
+      "case": "Upstream navigation production",
+      "Upstream / individual": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 6932.7890625,
+        "range_mib": [
+          6932.7890625,
+          6932.7890625
+        ],
+        "raw_mib": [
+          6932.7890625
+        ]
+      },
+      "Upstream / sampled sum": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 7025.00390625,
+        "range_mib": [
+          7025.00390625,
+          7025.00390625
+        ],
+        "raw_mib": [
+          7025.00390625
+        ]
+      }
+    }
+  ],
+  "raw": {
+    "definitions": {
+      "warm-full": "Complete upstream production command; Nift --force recomputes conversion, bundles, body/shell/projections, and all Nift pages. Installed dependencies and OS caches retained.",
+      "fresh-app": "Delete application/compiler/publication caches (upstream includes OG cache); preserve installed dependencies and pinned external source clone. Nift maintained OG assets remain source inputs, not caches. OS caches uncontrolled.",
+      "unchanged": "Normal complete command with unchanged maintained inputs after prior publication; upstream still runs prebuild/build/postbuild."
+    },
+    "source_commits": {
+      "upstream": "5d9703a237a9efc9a7da48ac09f79526823b8182",
+      "temporal": "756db298c972e4d31d9d3b75f0ceed0473168a93",
+      "temporal-agent": "5e80384aa5d95c18138b0ac58340a08a7055f34e"
+    },
+    "scenarios": {
+      "warm-full": {
+        "upstream": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 34.15565218194388,
+            "range": [
+              32.10252332687378,
+              36.49338818597607
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 6945.70703125,
+            "range": [
+              6895.61328125,
+              6971.67578125
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 7039.109375,
+            "range": [
+              6986.765625,
+              7063.375
+            ]
+          },
+          "output_counts": [
+            3984
+          ],
+          "output_bytes": [
+            265647255
+          ],
+          "og_stats": [
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            }
+          ]
+        },
+        "temporal": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 26.049934091046453,
+            "range": [
+              25.731134185101837,
+              26.094090498052537
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 949.24609375,
+            "range": [
+              943.87109375,
+              963.2578125
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 1464.15625,
+            "range": [
+              1438.8046875,
+              1494.46875
+            ]
+          },
+          "output_counts": [
+            2996
+          ],
+          "output_bytes": [
+            220842371
+          ]
+        },
+        "temporal-agent": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 10.347962989937514,
+            "range": [
+              10.146901958156377,
+              10.498583565931767
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 773.18359375,
+            "range": [
+              763.73828125,
+              791.984375
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 851.8828125,
+            "range": [
+              842.515625,
+              873.25390625
+            ]
+          },
+          "output_counts": [
+            2996
+          ],
+          "output_bytes": [
+            220532933
+          ]
+        }
+      },
+      "fresh-app": {
+        "upstream": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 289.6392484889366,
+            "range": [
+              289.35290403990075,
+              341.44390037003905
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 6945.18359375,
+            "range": [
+              6925.28125,
+              6962.11328125
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 7036.94140625,
+            "range": [
+              7018.453125,
+              7055.94140625
+            ]
+          },
+          "output_counts": [
+            3984
+          ],
+          "output_bytes": [
+            265647260
+          ],
+          "og_stats": [
+            {
+              "generated": 792,
+              "cached": 1,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 258835,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 792,
+              "cached": 1,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 257222,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 792,
+              "cached": 1,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 257254,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 792,
+              "cached": 1,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 274211,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 792,
+              "cached": 1,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 305664,
+              "outputBytes": 43666210
+            }
+          ]
+        },
+        "temporal": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 26.437300963094458,
+            "range": [
+              25.93947961507365,
+              29.08894784608856
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 959.03515625,
+            "range": [
+              946.046875,
+              965.78515625
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 1474.203125,
+            "range": [
+              1464.2421875,
+              1484.109375
+            ]
+          },
+          "output_counts": [
+            2996
+          ],
+          "output_bytes": [
+            220842371
+          ]
+        },
+        "temporal-agent": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 10.610870936885476,
+            "range": [
+              10.3525121929124,
+              15.730125253088772
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 766.86328125,
+            "range": [
+              758.828125,
+              787.80078125
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 847.5859375,
+            "range": [
+              837.578125,
+              863.8828125
+            ]
+          },
+          "output_counts": [
+            2996
+          ],
+          "output_bytes": [
+            220532933
+          ]
+        }
+      },
+      "unchanged": {
+        "upstream": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 44.636952890083194,
+            "range": [
+              34.812116890912876,
+              48.78878073114902
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 6948.890625,
+            "range": [
+              6850.90625,
+              6977.18359375
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 7040.1015625,
+            "range": [
+              6944.78515625,
+              7066.5546875
+            ]
+          },
+          "output_counts": [
+            3984
+          ],
+          "output_bytes": [
+            265647255
+          ],
+          "og_stats": [
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            },
+            {
+              "generated": 0,
+              "cached": 793,
+              "overridden": 0,
+              "skipped": 1,
+              "renderMs": 0,
+              "outputBytes": 43666210
+            }
+          ]
+        },
+        "temporal": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 1.7674762569367886,
+            "range": [
+              1.5638956429902464,
+              2.174452539999038
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 284.3984375,
+            "range": [
+              278.29296875,
+              288.64453125
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 286.0703125,
+            "range": [
+              281.81640625,
+              295.7890625
+            ]
+          },
+          "output_counts": [
+            2996
+          ],
+          "output_bytes": [
+            220842371
+          ]
+        },
+        "temporal-agent": {
+          "samples": 5,
+          "wall_seconds": {
+            "median": 1.3160342250484973,
+            "range": [
+              1.0093962519895285,
+              1.5167237289715558
+            ]
+          },
+          "maximum_individual_descendant_rss_mib": {
+            "median": 154.76953125,
+            "range": [
+              153.3203125,
+              156.828125
+            ]
+          },
+          "sampled_descendant_rss_sum_peak_mib": {
+            "median": 152.203125,
+            "range": [
+              145.953125,
+              156.88671875
+            ]
+          },
+          "output_counts": [
+            2996
+          ],
+          "output_bytes": [
+            220532933
+          ]
+        }
+      }
+    },
+    "components": {
+      "warm-full-upstream": {
+        "build_marker_to_postbuild_marker": {
+          "median": 28.893424632959068,
+          "range": [
+            28.6508945771493,
+            30.484585485886782
+          ]
+        },
+        "command_start_to_prebuild_marker": {
+          "median": 0.1520325110759586,
+          "range": [
+            0.15185328014194965,
+            0.15237472811713815
+          ]
+        },
+        "postbuild_marker_to_exit": {
+          "median": 0.05060696601867676,
+          "range": [
+            0.05046920897439122,
+            0.050726088928058743
+          ]
+        },
+        "prebuild_marker_to_build_marker": {
+          "median": 5.301814986858517,
+          "range": [
+            3.006507972953841,
+            6.063841355964541
+          ]
+        }
+      },
+      "warm-full-temporal": {
+        "browser_bundle": {
+          "median": 1.9774740060000005,
+          "range": [
+            1.9490774269999984,
+            1.995428503000001
+          ]
+        },
+        "complete": {
+          "median": 25.851986194000002,
+          "range": [
+            25.545904196000002,
+            25.900348241
+          ]
+        },
+        "local_cookbook_inputs": {
+          "median": 0.077269244,
+          "range": [
+            0.07421318699999999,
+            0.09276070900000002
+          ]
+        },
+        "markdown_downloads_or_static": {
+          "median": 1.6707189600000019,
+          "range": [
+            1.612673523999998,
+            1.6981678759999996
+          ]
+        },
+        "markdown_mdx": {
+          "median": 10.124351160999998,
+          "range": [
+            10.006692983,
+            10.227052873999998
+          ]
+        },
+        "nift_composition": {
+          "median": 0.3297700170000026,
+          "range": [
+            0.31304925000000006,
+            0.3601351590000013
+          ]
+        },
+        "react_ssr_or_html_source": {
+          "median": 2.620524009999999,
+          "range": [
+            2.557222727,
+            2.651031131
+          ]
+        },
+        "retained_components_server_bundle": {
+          "median": 2.295784737,
+          "range": [
+            2.258707388000001,
+            2.3367292509999986
+          ]
+        },
+        "shell_and_dependencies": {
+          "median": 6.15196153,
+          "range": [
+            6.119582155,
+            6.235823594000001
+          ]
+        },
+        "sitemap": {
+          "median": 0.04126086099999884,
+          "range": [
+            0.03744800799999939,
+            0.04166351200000281
+          ]
+        },
+        "source_catalogue_and_context": {
+          "median": 0.241098,
+          "range": [
+            0.23885813799999997,
+            0.250231458
+          ]
+        },
+        "static_and_browser_publication": {
+          "median": 0.13376063799999974,
+          "range": [
+            0.12211286000000109,
+            0.13567572700000163
+          ]
+        }
+      },
+      "warm-full-temporal-agent": {
+        "browser_bundle": {
+          "median": 1.967244593,
+          "range": [
+            1.922432442,
+            1.9938628609999998
+          ]
+        },
+        "complete": {
+          "median": 10.209666437,
+          "range": [
+            9.999049803,
+            10.372051789999999
+          ]
+        },
+        "markdown_downloads_or_static": {
+          "median": 0.11010301299999992,
+          "range": [
+            0.10981169899999986,
+            0.13012415900000088
+          ]
+        },
+        "nift_composition": {
+          "median": 0.3182728780000016,
+          "range": [
+            0.303338561999999,
+            0.3384855370000005
+          ]
+        },
+        "react_ssr_or_html_source": {
+          "median": 0.5143923169999998,
+          "range": [
+            0.51055116,
+            0.5303244399999999
+          ]
+        },
+        "retained_components_server_bundle": {
+          "median": 0.8634129990000001,
+          "range": [
+            0.8194910329999998,
+            0.961080164
+          ]
+        },
+        "shell_and_dependencies": {
+          "median": 6.120132046999999,
+          "range": [
+            6.036958698,
+            6.238255481
+          ]
+        },
+        "sitemap": {
+          "median": 0.037984614999999396,
+          "range": [
+            0.03583335199999965,
+            0.04042729200000031
+          ]
+        },
+        "static_and_browser_publication": {
+          "median": 0.12062686499999836,
+          "range": [
+            0.12003693999999995,
+            0.12450378100000126
+          ]
+        }
+      },
+      "fresh-app-upstream": {
+        "build_marker_to_postbuild_marker": {
+          "median": 286.2202766831033,
+          "range": [
+            284.0264667258598,
+            336.22260048403405
+          ]
+        },
+        "command_start_to_prebuild_marker": {
+          "median": 0.15221902797929943,
+          "range": [
+            0.1518589451443404,
+            0.20300953299738467
+          ]
+        },
+        "postbuild_marker_to_exit": {
+          "median": 0.050704252906143665,
+          "range": [
+            0.050420119892805815,
+            0.10145115409977734
+          ]
+        },
+        "prebuild_marker_to_build_marker": {
+          "median": 4.916839198907837,
+          "range": [
+            3.2160198469646275,
+            9.700120699824765
+          ]
+        }
+      },
+      "fresh-app-temporal": {
+        "browser_bundle": {
+          "median": 1.9958500810000006,
+          "range": [
+            1.9752288310000004,
+            2.2373369600000004
+          ]
+        },
+        "complete": {
+          "median": 26.237334342,
+          "range": [
+            25.711421822000002,
+            28.873342452
+          ]
+        },
+        "local_cookbook_inputs": {
+          "median": 0.07801596000000001,
+          "range": [
+            0.07607405499999999,
+            0.082337883
+          ]
+        },
+        "markdown_downloads_or_static": {
+          "median": 1.6716170599999969,
+          "range": [
+            1.6067392929999986,
+            1.9181062880000026
+          ]
+        },
+        "markdown_mdx": {
+          "median": 10.307592332,
+          "range": [
+            10.058996134,
+            11.229230046000001
+          ]
+        },
+        "nift_composition": {
+          "median": 0.3362190929999997,
+          "range": [
+            0.3195108139999975,
+            0.3870732149999967
+          ]
+        },
+        "react_ssr_or_html_source": {
+          "median": 2.7266136100000002,
+          "range": [
+            2.6286237340000005,
+            3.370169371
+          ]
+        },
+        "retained_components_server_bundle": {
+          "median": 2.325995513000002,
+          "range": [
+            2.280388725000001,
+            2.564975120000001
+          ]
+        },
+        "shell_and_dependencies": {
+          "median": 6.340275236999998,
+          "range": [
+            6.204548259999999,
+            7.399379314999998
+          ]
+        },
+        "sitemap": {
+          "median": 0.039872284000000945,
+          "range": [
+            0.038701053000000686,
+            0.044065177000000406
+          ]
+        },
+        "source_catalogue_and_context": {
+          "median": 0.242738783,
+          "range": [
+            0.23691037599999998,
+            0.28355925000000004
+          ]
+        },
+        "static_and_browser_publication": {
+          "median": 0.12497475399999894,
+          "range": [
+            0.1232443400000011,
+            0.14133299500000066
+          ]
+        }
+      },
+      "fresh-app-temporal-agent": {
+        "browser_bundle": {
+          "median": 2.0074609330000004,
+          "range": [
+            1.956255737,
+            2.221804912
+          ]
+        },
+        "complete": {
+          "median": 10.486620327999999,
+          "range": [
+            10.193204395,
+            15.606706033999998
+          ]
+        },
+        "markdown_downloads_or_static": {
+          "median": 0.10680210299999998,
+          "range": [
+            0.10283009499999934,
+            0.13194233400000122
+          ]
+        },
+        "nift_composition": {
+          "median": 0.33440907100000006,
+          "range": [
+            0.30829796499999973,
+            0.4506959430000006
+          ]
+        },
+        "react_ssr_or_html_source": {
+          "median": 0.5655257379999998,
+          "range": [
+            0.5448210139999996,
+            0.591787378
+          ]
+        },
+        "retained_components_server_bundle": {
+          "median": 0.8613635170000002,
+          "range": [
+            0.8117688630000001,
+            0.9068282359999998
+          ]
+        },
+        "shell_and_dependencies": {
+          "median": 6.398195265,
+          "range": [
+            6.185197654000001,
+            11.069461278999999
+          ]
+        },
+        "sitemap": {
+          "median": 0.038189851000000996,
+          "range": [
+            0.03672349999999824,
+            0.0436625499999991
+          ]
+        },
+        "static_and_browser_publication": {
+          "median": 0.12455970399999933,
+          "range": [
+            0.11263237099999969,
+            0.1466368710000006
+          ]
+        }
+      },
+      "unchanged-upstream": {
+        "build_marker_to_postbuild_marker": {
+          "median": 40.2544011909049,
+          "range": [
+            30.391332912025973,
+            42.72656806698069
+          ]
+        },
+        "command_start_to_prebuild_marker": {
+          "median": 0.20333068305626512,
+          "range": [
+            0.15227915812283754,
+            0.2068698350340128
+          ]
+        },
+        "postbuild_marker_to_exit": {
+          "median": 0.05046966182999313,
+          "range": [
+            0.050442764069885015,
+            0.05076279118657112
+          ]
+        },
+        "prebuild_marker_to_build_marker": {
+          "median": 4.788781285053119,
+          "range": [
+            4.128364512929693,
+            5.808119189925492
+          ]
+        }
+      },
+      "unchanged-temporal": {
+        "browser_bundle": {
+          "median": 0.00012443999999993595,
+          "range": [
+            6.545799999992142e-05,
+            0.00016804000000001905
+          ]
+        },
+        "complete": {
+          "median": 1.6344610859999997,
+          "range": [
+            1.444613554,
+            2.034270574
+          ]
+        },
+        "local_cookbook_inputs": {
+          "median": 0.09400692499999999,
+          "range": [
+            0.071950266,
+            0.122830158
+          ]
+        },
+        "markdown_downloads_or_static": {
+          "median": 0.06660906899999987,
+          "range": [
+            0.060821415000000115,
+            0.09407620799999995
+          ]
+        },
+        "markdown_mdx": {
+          "median": 0.25240872799999997,
+          "range": [
+            0.22798236799999996,
+            0.32803506000000004
+          ]
+        },
+        "nift_composition": {
+          "median": 0.08696296200000006,
+          "range": [
+            0.06484098999999992,
+            0.11728948100000003
+          ]
+        },
+        "react_ssr_or_html_source": {
+          "median": 0.09510843699999987,
+          "range": [
+            0.07382596200000001,
+            0.10300407699999982
+          ]
+        },
+        "retained_components_server_bundle": {
+          "median": 0.299339469,
+          "range": [
+            0.269551413,
+            0.39545715900000006
+          ]
+        },
+        "shell_and_dependencies": {
+          "median": 0.2110644809999999,
+          "range": [
+            0.181629459,
+            0.2885380970000001
+          ]
+        },
+        "sitemap": {
+          "median": 0.04082129599999985,
+          "range": [
+            0.039426279999999904,
+            0.06624832900000001
+          ]
+        },
+        "source_catalogue_and_context": {
+          "median": 0.286897183,
+          "range": [
+            0.25759270500000003,
+            0.37727562800000003
+          ]
+        },
+        "static_and_browser_publication": {
+          "median": 0.11971937599999978,
+          "range": [
+            0.10590939700000013,
+            0.14881804599999987
+          ]
+        }
+      },
+      "unchanged-temporal-agent": {
+        "browser_bundle": {
+          "median": 4.084100000000035e-05,
+          "range": [
+            2.6490000000002567e-05,
+            4.6453999999997106e-05
+          ]
+        },
+        "complete": {
+          "median": 1.209818883,
+          "range": [
+            0.9089372940000001,
+            1.3985065079999999
+          ]
+        },
+        "markdown_downloads_or_static": {
+          "median": 0.07260306300000002,
+          "range": [
+            0.05960399099999995,
+            0.09324956199999997
+          ]
+        },
+        "nift_composition": {
+          "median": 0.06736340499999983,
+          "range": [
+            0.06349564500000009,
+            0.11604593399999999
+          ]
+        },
+        "react_ssr_or_html_source": {
+          "median": 0.47948243100000004,
+          "range": [
+            0.3634930920000001,
+            0.6256721639999999
+          ]
+        },
+        "retained_components_server_bundle": {
+          "median": 0.027569039000000004,
+          "range": [
+            0.020646562000000004,
+            0.02871096200000001
+          ]
+        },
+        "shell_and_dependencies": {
+          "median": 0.23085974499999998,
+          "range": [
+            0.16441398700000007,
+            0.25923660500000006
+          ]
+        },
+        "sitemap": {
+          "median": 0.045825955999999904,
+          "range": [
+            0.04108446000000004,
+            0.05938985300000013
+          ]
+        },
+        "static_and_browser_publication": {
+          "median": 0.18503118000000007,
+          "range": [
+            0.14099502500000005,
+            0.21202276299999995
+          ]
+        }
+      }
+    },
+    "changes": [
+      {
+        "project": "temporal",
+        "case": "body-1",
+        "incremental_seconds": 6.113042015815154,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 6.113042015815154,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.08723232399999999,
+            "source_catalogue_and_context": 0.278005265,
+            "markdown_mdx": 0.41718454000000005,
+            "browser_bundle": 0.00010706100000004426,
+            "retained_components_server_bundle": 2.54630995,
+            "react_ssr_or_html_source": 0.1084051129999998,
+            "shell_and_dependencies": 0.2116669959999999,
+            "static_and_browser_publication": 0.12895766700000014,
+            "markdown_downloads_or_static": 1.946421533,
+            "sitemap": 0.03954778499999975,
+            "nift_composition": 0.09103359799999998,
+            "complete": 5.952450982
+          },
+          "files": 2996,
+          "bytes": 220843228,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:47:01.964957+00:00",
+          "exit_code": 0,
+          "wall_seconds": 6.113042015815154,
+          "maximum_individual_descendant_rss_mib": 890.06640625,
+          "sampled_descendant_rss_sum_peak_mib": 1156.671875,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.08723232399999999,
+              "source_catalogue_and_context": 0.278005265,
+              "markdown_mdx": 0.41718454000000005,
+              "browser_bundle": 0.00010706100000004426,
+              "retained_components_server_bundle": 2.54630995,
+              "react_ssr_or_html_source": 0.1084051129999998,
+              "shell_and_dependencies": 0.2116669959999999,
+              "static_and_browser_publication": 0.12895766700000014,
+              "markdown_downloads_or_static": 1.946421533,
+              "sitemap": 0.03954778499999975,
+              "nift_composition": 0.09103359799999998,
+              "complete": 5.952450982
+            },
+            "files": 2996,
+            "bytes": 220843228,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "body-10",
+        "incremental_seconds": 6.467344049131498,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 6.467344049131498,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.10349009999999999,
+            "source_catalogue_and_context": 0.32029986399999993,
+            "markdown_mdx": 0.644245799,
+            "browser_bundle": 7.21969999999601e-05,
+            "retained_components_server_bundle": 2.6105318040000003,
+            "react_ssr_or_html_source": 0.137423323,
+            "shell_and_dependencies": 0.20117615699999988,
+            "static_and_browser_publication": 0.12307987899999989,
+            "markdown_downloads_or_static": 1.9463234030000003,
+            "sitemap": 0.04424784799999998,
+            "nift_composition": 0.08552046299999984,
+            "complete": 6.308438572
+          },
+          "files": 2996,
+          "bytes": 220850993,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:47:46.162986+00:00",
+          "exit_code": 0,
+          "wall_seconds": 6.467344049131498,
+          "maximum_individual_descendant_rss_mib": 893.86328125,
+          "sampled_descendant_rss_sum_peak_mib": 1172.83984375,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.10349009999999999,
+              "source_catalogue_and_context": 0.32029986399999993,
+              "markdown_mdx": 0.644245799,
+              "browser_bundle": 7.21969999999601e-05,
+              "retained_components_server_bundle": 2.6105318040000003,
+              "react_ssr_or_html_source": 0.137423323,
+              "shell_and_dependencies": 0.20117615699999988,
+              "static_and_browser_publication": 0.12307987899999989,
+              "markdown_downloads_or_static": 1.9463234030000003,
+              "sitemap": 0.04424784799999998,
+              "nift_composition": 0.08552046299999984,
+              "complete": 6.308438572
+            },
+            "files": 2996,
+            "bytes": 220850993,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "body-100",
+        "incremental_seconds": 8.683748385170475,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 8.683748385170475,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.072600786,
+            "source_catalogue_and_context": 0.255745181,
+            "markdown_mdx": 2.957855921,
+            "browser_bundle": 0.00010766300000022966,
+            "retained_components_server_bundle": 2.5200059710000007,
+            "react_ssr_or_html_source": 0.4189336789999998,
+            "shell_and_dependencies": 0.18597513399999935,
+            "static_and_browser_publication": 0.13110269799999968,
+            "markdown_downloads_or_static": 1.7614433910000007,
+            "sitemap": 0.037185851000000186,
+            "nift_composition": 0.11205442700000094,
+            "complete": 8.530394392
+          },
+          "files": 2996,
+          "bytes": 220929940,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:48:31.858588+00:00",
+          "exit_code": 0,
+          "wall_seconds": 8.683748385170475,
+          "maximum_individual_descendant_rss_mib": 891.0078125,
+          "sampled_descendant_rss_sum_peak_mib": 1393.62890625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.072600786,
+              "source_catalogue_and_context": 0.255745181,
+              "markdown_mdx": 2.957855921,
+              "browser_bundle": 0.00010766300000022966,
+              "retained_components_server_bundle": 2.5200059710000007,
+              "react_ssr_or_html_source": 0.4189336789999998,
+              "shell_and_dependencies": 0.18597513399999935,
+              "static_and_browser_publication": 0.13110269799999968,
+              "markdown_downloads_or_static": 1.7614433910000007,
+              "sitemap": 0.037185851000000186,
+              "nift_composition": 0.11205442700000094,
+              "complete": 8.530394392
+            },
+            "files": 2996,
+            "bytes": 220929940,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "metadata",
+        "incremental_seconds": 4.085853612981737,
+        "explicit_maintenance_seconds": 0.8498120529111475,
+        "whole_operation_seconds": 4.935665665892884,
+        "files": 2997,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.078219543,
+            "source_catalogue_and_context": 0.265773999,
+            "markdown_mdx": 0.39484744000000005,
+            "browser_bundle": 8.046200000001136e-05,
+            "retained_components_server_bundle": 0.2626604980000001,
+            "react_ssr_or_html_source": 0.41802108,
+            "shell_and_dependencies": 0.2708472629999999,
+            "static_and_browser_publication": 0.19137824799999997,
+            "markdown_downloads_or_static": 1.833044782,
+            "sitemap": 0.04007057799999984,
+            "nift_composition": 0.08817931499999986,
+            "complete": 3.9176348229999998
+          },
+          "files": 2997,
+          "bytes": 220906160,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:49:16.233785+00:00",
+          "exit_code": 0,
+          "wall_seconds": 4.085853612981737,
+          "maximum_individual_descendant_rss_mib": 578.78515625,
+          "sampled_descendant_rss_sum_peak_mib": 594.91015625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.078219543,
+              "source_catalogue_and_context": 0.265773999,
+              "markdown_mdx": 0.39484744000000005,
+              "browser_bundle": 8.046200000001136e-05,
+              "retained_components_server_bundle": 0.2626604980000001,
+              "react_ssr_or_html_source": 0.41802108,
+              "shell_and_dependencies": 0.2708472629999999,
+              "static_and_browser_publication": 0.19137824799999997,
+              "markdown_downloads_or_static": 1.833044782,
+              "sitemap": 0.04007057799999984,
+              "nift_composition": 0.08817931499999986,
+              "complete": 3.9176348229999998
+            },
+            "files": 2997,
+            "bytes": 220906160,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "shared-layout",
+        "incremental_seconds": 8.876562539022416,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 8.876562539022416,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.08162256700000001,
+            "source_catalogue_and_context": 0.269984543,
+            "markdown_mdx": 0.22116289400000005,
+            "browser_bundle": 7.355700000005071e-05,
+            "retained_components_server_bundle": 0.274661062,
+            "react_ssr_or_html_source": 0.075009682,
+            "shell_and_dependencies": 7.065580756999999,
+            "static_and_browser_publication": 0.12337613199999942,
+            "markdown_downloads_or_static": 0.06671680100000049,
+            "sitemap": 0.04049585200000001,
+            "nift_composition": 0.404348954000001,
+            "complete": 8.696566652
+          },
+          "files": 2996,
+          "bytes": 220878927,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:50:00.150257+00:00",
+          "exit_code": 0,
+          "wall_seconds": 8.876562539022416,
+          "maximum_individual_descendant_rss_mib": 914.97265625,
+          "sampled_descendant_rss_sum_peak_mib": 959.72265625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.08162256700000001,
+              "source_catalogue_and_context": 0.269984543,
+              "markdown_mdx": 0.22116289400000005,
+              "browser_bundle": 7.355700000005071e-05,
+              "retained_components_server_bundle": 0.274661062,
+              "react_ssr_or_html_source": 0.075009682,
+              "shell_and_dependencies": 7.065580756999999,
+              "static_and_browser_publication": 0.12337613199999942,
+              "markdown_downloads_or_static": 0.06671680100000049,
+              "sitemap": 0.04049585200000001,
+              "nift_composition": 0.404348954000001,
+              "complete": 8.696566652
+            },
+            "files": 2996,
+            "bytes": 220878927,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "navigation",
+        "incremental_seconds": 19.46204222389497,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 19.46204222389497,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.085726137,
+            "source_catalogue_and_context": 0.255693456,
+            "markdown_mdx": 0.22640823200000004,
+            "browser_bundle": 2.2691909029999997,
+            "retained_components_server_bundle": 2.3342295200000005,
+            "react_ssr_or_html_source": 4.114775616000001,
+            "shell_and_dependencies": 9.120467624999998,
+            "static_and_browser_publication": 0.18028532300000005,
+            "markdown_downloads_or_static": 0.07701886000000013,
+            "sitemap": 0.04302055499999915,
+            "nift_composition": 0.4715830370000003,
+            "complete": 19.25911799
+          },
+          "files": 2996,
+          "bytes": 220914223,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:50:58.594209+00:00",
+          "exit_code": 0,
+          "wall_seconds": 19.46204222389497,
+          "maximum_individual_descendant_rss_mib": 898.05078125,
+          "sampled_descendant_rss_sum_peak_mib": 1092.859375,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.085726137,
+              "source_catalogue_and_context": 0.255693456,
+              "markdown_mdx": 0.22640823200000004,
+              "browser_bundle": 2.2691909029999997,
+              "retained_components_server_bundle": 2.3342295200000005,
+              "react_ssr_or_html_source": 4.114775616000001,
+              "shell_and_dependencies": 9.120467624999998,
+              "static_and_browser_publication": 0.18028532300000005,
+              "markdown_downloads_or_static": 0.07701886000000013,
+              "sitemap": 0.04302055499999915,
+              "nift_composition": 0.4715830370000003,
+              "complete": 19.25911799
+            },
+            "files": 2996,
+            "bytes": 220914223,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "diagram",
+        "incremental_seconds": 6.020144758047536,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 6.020144758047536,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.08508442400000002,
+            "source_catalogue_and_context": 0.294750406,
+            "markdown_mdx": 0.42433268399999996,
+            "browser_bundle": 7.46239999999716e-05,
+            "retained_components_server_bundle": 2.6558207740000004,
+            "react_ssr_or_html_source": 0.1236449419999999,
+            "shell_and_dependencies": 0.1963899250000004,
+            "static_and_browser_publication": 0.12470278299999972,
+            "markdown_downloads_or_static": 1.7613678120000005,
+            "sitemap": 0.04620247699999982,
+            "nift_composition": 0.09830067999999938,
+            "complete": 5.891395135
+          },
+          "files": 2996,
+          "bytes": 220842371,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:52:01.584562+00:00",
+          "exit_code": 0,
+          "wall_seconds": 6.020144758047536,
+          "maximum_individual_descendant_rss_mib": 890.8671875,
+          "sampled_descendant_rss_sum_peak_mib": 1169.09375,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.08508442400000002,
+              "source_catalogue_and_context": 0.294750406,
+              "markdown_mdx": 0.42433268399999996,
+              "browser_bundle": 7.46239999999716e-05,
+              "retained_components_server_bundle": 2.6558207740000004,
+              "react_ssr_or_html_source": 0.1236449419999999,
+              "shell_and_dependencies": 0.1963899250000004,
+              "static_and_browser_publication": 0.12470278299999972,
+              "markdown_downloads_or_static": 1.7613678120000005,
+              "sitemap": 0.04620247699999982,
+              "nift_composition": 0.09830067999999938,
+              "complete": 5.891395135
+            },
+            "files": 2996,
+            "bytes": 220842371,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "generated-synced",
+        "incremental_seconds": 5.706355317961425,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 5.706355317961425,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.085529755,
+            "source_catalogue_and_context": 0.25822460999999997,
+            "markdown_mdx": 0.37737836399999997,
+            "browser_bundle": 4.2501000000015665e-05,
+            "retained_components_server_bundle": 2.435330224,
+            "react_ssr_or_html_source": 0.12513691400000015,
+            "shell_and_dependencies": 0.18998045600000024,
+            "static_and_browser_publication": 0.11778530300000012,
+            "markdown_downloads_or_static": 1.773886453,
+            "sitemap": 0.04423042900000019,
+            "nift_composition": 0.08665670499999942,
+            "complete": 5.572264543
+          },
+          "files": 2996,
+          "bytes": 220843278,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:52:42.587126+00:00",
+          "exit_code": 0,
+          "wall_seconds": 5.706355317961425,
+          "maximum_individual_descendant_rss_mib": 902.375,
+          "sampled_descendant_rss_sum_peak_mib": 1138.76171875,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.085529755,
+              "source_catalogue_and_context": 0.25822460999999997,
+              "markdown_mdx": 0.37737836399999997,
+              "browser_bundle": 4.2501000000015665e-05,
+              "retained_components_server_bundle": 2.435330224,
+              "react_ssr_or_html_source": 0.12513691400000015,
+              "shell_and_dependencies": 0.18998045600000024,
+              "static_and_browser_publication": 0.11778530300000012,
+              "markdown_downloads_or_static": 1.773886453,
+              "sitemap": 0.04423042900000019,
+              "nift_composition": 0.08665670499999942,
+              "complete": 5.572264543
+            },
+            "files": 2996,
+            "bytes": 220843278,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "search-visible",
+        "incremental_seconds": 5.7072391249239445,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 5.7072391249239445,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.080262186,
+            "source_catalogue_and_context": 0.25878814499999997,
+            "markdown_mdx": 0.41457748099999997,
+            "browser_bundle": 8.830000000000381e-05,
+            "retained_components_server_bundle": 2.40907255,
+            "react_ssr_or_html_source": 0.10707332499999984,
+            "shell_and_dependencies": 0.19523556699999972,
+            "static_and_browser_publication": 0.1202404230000002,
+            "markdown_downloads_or_static": 1.776345394,
+            "sitemap": 0.042332029000000146,
+            "nift_composition": 0.08887314100000003,
+            "complete": 5.564816609
+          },
+          "files": 2996,
+          "bytes": 220843268,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:53:23.663193+00:00",
+          "exit_code": 0,
+          "wall_seconds": 5.7072391249239445,
+          "maximum_individual_descendant_rss_mib": 883.8125,
+          "sampled_descendant_rss_sum_peak_mib": 1148.3828125,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.080262186,
+              "source_catalogue_and_context": 0.25878814499999997,
+              "markdown_mdx": 0.41457748099999997,
+              "browser_bundle": 8.830000000000381e-05,
+              "retained_components_server_bundle": 2.40907255,
+              "react_ssr_or_html_source": 0.10707332499999984,
+              "shell_and_dependencies": 0.19523556699999972,
+              "static_and_browser_publication": 0.1202404230000002,
+              "markdown_downloads_or_static": 1.776345394,
+              "sitemap": 0.042332029000000146,
+              "nift_composition": 0.08887314100000003,
+              "complete": 5.564816609
+            },
+            "files": 2996,
+            "bytes": 220843268,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "island-source",
+        "incremental_seconds": 17.21458163112402,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 17.21458163112402,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained Markdown/MDX",
+          "force": false,
+          "stages": {
+            "local_cookbook_inputs": 0.077481988,
+            "source_catalogue_and_context": 0.24975784499999998,
+            "markdown_mdx": 0.21567889599999995,
+            "browser_bundle": 2.005112958,
+            "retained_components_server_bundle": 2.0429904330000004,
+            "react_ssr_or_html_source": 3.2214039789999998,
+            "shell_and_dependencies": 6.742729893,
+            "static_and_browser_publication": 0.14636807800000134,
+            "markdown_downloads_or_static": 1.8070399580000012,
+            "sitemap": 0.04716526799999701,
+            "nift_composition": 0.37375406900000235,
+            "complete": 17.004290706
+          },
+          "files": 2996,
+          "bytes": 220842423,
+          "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:54:16.394881+00:00",
+          "exit_code": 0,
+          "wall_seconds": 17.21458163112402,
+          "maximum_individual_descendant_rss_mib": 929.96484375,
+          "sampled_descendant_rss_sum_peak_mib": 1082.84375,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.077481988,
+              "source_catalogue_and_context": 0.24975784499999998,
+              "markdown_mdx": 0.21567889599999995,
+              "browser_bundle": 2.005112958,
+              "retained_components_server_bundle": 2.0429904330000004,
+              "react_ssr_or_html_source": 3.2214039789999998,
+              "shell_and_dependencies": 6.742729893,
+              "static_and_browser_publication": 0.14636807800000134,
+              "markdown_downloads_or_static": 1.8070399580000012,
+              "sitemap": 0.04716526799999701,
+              "nift_composition": 0.37375406900000235,
+              "complete": 17.004290706
+            },
+            "files": 2996,
+            "bytes": 220842423,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "body-1",
+        "incremental_seconds": 1.113308124942705,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 1.113308124942705,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 3.915699999998878e-05,
+            "retained_components_server_bundle": 0.02272322799999999,
+            "react_ssr_or_html_source": 0.37896880299999997,
+            "shell_and_dependencies": 0.16916949499999998,
+            "static_and_browser_publication": 0.14492082700000003,
+            "markdown_downloads_or_static": 0.15821243000000004,
+            "sitemap": 0.04272645299999999,
+            "nift_composition": 0.07842926499999998,
+            "complete": 1.050416063
+          },
+          "files": 2996,
+          "bytes": 220533000,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:55:05.138423+00:00",
+          "exit_code": 0,
+          "wall_seconds": 1.113308124942705,
+          "maximum_individual_descendant_rss_mib": 153.59375,
+          "sampled_descendant_rss_sum_peak_mib": 153.046875,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 3.915699999998878e-05,
+              "retained_components_server_bundle": 0.02272322799999999,
+              "react_ssr_or_html_source": 0.37896880299999997,
+              "shell_and_dependencies": 0.16916949499999998,
+              "static_and_browser_publication": 0.14492082700000003,
+              "markdown_downloads_or_static": 0.15821243000000004,
+              "sitemap": 0.04272645299999999,
+              "nift_composition": 0.07842926499999998,
+              "complete": 1.050416063
+            },
+            "files": 2996,
+            "bytes": 220533000,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "body-10",
+        "incremental_seconds": 1.0591195619199425,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 1.0591195619199425,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 2.5711999999998625e-05,
+            "retained_components_server_bundle": 0.020605044,
+            "react_ssr_or_html_source": 0.36561463400000005,
+            "shell_and_dependencies": 0.175160951,
+            "static_and_browser_publication": 0.14817681900000002,
+            "markdown_downloads_or_static": 0.13745430899999997,
+            "sitemap": 0.03906514400000003,
+            "nift_composition": 0.05745286199999998,
+            "complete": 0.991268198
+          },
+          "files": 2996,
+          "bytes": 220533633,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:55:20.543971+00:00",
+          "exit_code": 0,
+          "wall_seconds": 1.0591195619199425,
+          "maximum_individual_descendant_rss_mib": 156.44921875,
+          "sampled_descendant_rss_sum_peak_mib": 159.57421875,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.5711999999998625e-05,
+              "retained_components_server_bundle": 0.020605044,
+              "react_ssr_or_html_source": 0.36561463400000005,
+              "shell_and_dependencies": 0.175160951,
+              "static_and_browser_publication": 0.14817681900000002,
+              "markdown_downloads_or_static": 0.13745430899999997,
+              "sitemap": 0.03906514400000003,
+              "nift_composition": 0.05745286199999998,
+              "complete": 0.991268198
+            },
+            "files": 2996,
+            "bytes": 220533633,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "body-100",
+        "incremental_seconds": 1.2135338459629565,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 1.2135338459629565,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 4.136700000000104e-05,
+            "retained_components_server_bundle": 0.022390060000000007,
+            "react_ssr_or_html_source": 0.411788231,
+            "shell_and_dependencies": 0.18136046199999997,
+            "static_and_browser_publication": 0.13926797999999996,
+            "markdown_downloads_or_static": 0.15092156599999998,
+            "sitemap": 0.042592510999999944,
+            "nift_composition": 0.10521961799999997,
+            "complete": 1.103058458
+          },
+          "files": 2996,
+          "bytes": 220540233,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:55:42.415879+00:00",
+          "exit_code": 0,
+          "wall_seconds": 1.2135338459629565,
+          "maximum_individual_descendant_rss_mib": 153.87109375,
+          "sampled_descendant_rss_sum_peak_mib": 184.265625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 4.136700000000104e-05,
+              "retained_components_server_bundle": 0.022390060000000007,
+              "react_ssr_or_html_source": 0.411788231,
+              "shell_and_dependencies": 0.18136046199999997,
+              "static_and_browser_publication": 0.13926797999999996,
+              "markdown_downloads_or_static": 0.15092156599999998,
+              "sitemap": 0.042592510999999944,
+              "nift_composition": 0.10521961799999997,
+              "complete": 1.103058458
+            },
+            "files": 2996,
+            "bytes": 220540233,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "metadata",
+        "incremental_seconds": 1.4645813049282879,
+        "explicit_maintenance_seconds": 0.6794089849572629,
+        "whole_operation_seconds": 2.1439902898855507,
+        "files": 2997,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 3.8124000000010486e-05,
+            "retained_components_server_bundle": 0.02405374400000001,
+            "react_ssr_or_html_source": 0.419488981,
+            "shell_and_dependencies": 0.47294478300000004,
+            "static_and_browser_publication": 0.13072165900000005,
+            "markdown_downloads_or_static": 0.14188991699999998,
+            "sitemap": 0.042827054999999975,
+            "nift_composition": 0.07859602999999993,
+            "complete": 1.363718398
+          },
+          "files": 2997,
+          "bytes": 220596659,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:56:00.034113+00:00",
+          "exit_code": 0,
+          "wall_seconds": 1.4645813049282879,
+          "maximum_individual_descendant_rss_mib": 220.828125,
+          "sampled_descendant_rss_sum_peak_mib": 229.92578125,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 3.8124000000010486e-05,
+              "retained_components_server_bundle": 0.02405374400000001,
+              "react_ssr_or_html_source": 0.419488981,
+              "shell_and_dependencies": 0.47294478300000004,
+              "static_and_browser_publication": 0.13072165900000005,
+              "markdown_downloads_or_static": 0.14188991699999998,
+              "sitemap": 0.042827054999999975,
+              "nift_composition": 0.07859602999999993,
+              "complete": 1.363718398
+            },
+            "files": 2997,
+            "bytes": 220596659,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "shared-layout",
+        "incremental_seconds": 9.940810260130093,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 9.940810260130093,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 3.863900000000342e-05,
+            "retained_components_server_bundle": 0.023567459,
+            "react_ssr_or_html_source": 0.440689653,
+            "shell_and_dependencies": 8.55208922,
+            "static_and_browser_publication": 0.16864628799999992,
+            "markdown_downloads_or_static": 0.06328589199999987,
+            "sitemap": 0.039640138000000665,
+            "nift_composition": 0.4377303969999994,
+            "complete": 9.781790754
+          },
+          "files": 2996,
+          "bytes": 220569489,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:56:26.471325+00:00",
+          "exit_code": 0,
+          "wall_seconds": 9.940810260130093,
+          "maximum_individual_descendant_rss_mib": 548.1328125,
+          "sampled_descendant_rss_sum_peak_mib": 597.25,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 3.863900000000342e-05,
+              "retained_components_server_bundle": 0.023567459,
+              "react_ssr_or_html_source": 0.440689653,
+              "shell_and_dependencies": 8.55208922,
+              "static_and_browser_publication": 0.16864628799999992,
+              "markdown_downloads_or_static": 0.06328589199999987,
+              "sitemap": 0.039640138000000665,
+              "nift_composition": 0.4377303969999994,
+              "complete": 9.781790754
+            },
+            "files": 2996,
+            "bytes": 220569489,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "navigation",
+        "incremental_seconds": 11.15641323896125,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 11.15641323896125,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 2.103019648,
+            "retained_components_server_bundle": 0.9262348499999998,
+            "react_ssr_or_html_source": 0.3761885769999999,
+            "shell_and_dependencies": 6.936515012000001,
+            "static_and_browser_publication": 0.13482669100000022,
+            "markdown_downloads_or_static": 0.058057293999998365,
+            "sitemap": 0.0409958659999993,
+            "nift_composition": 0.3689586940000008,
+            "complete": 10.983078418000002
+          },
+          "files": 2996,
+          "bytes": 220535256,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:56:59.635682+00:00",
+          "exit_code": 0,
+          "wall_seconds": 11.15641323896125,
+          "maximum_individual_descendant_rss_mib": 776.72265625,
+          "sampled_descendant_rss_sum_peak_mib": 856.671875,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.103019648,
+              "retained_components_server_bundle": 0.9262348499999998,
+              "react_ssr_or_html_source": 0.3761885769999999,
+              "shell_and_dependencies": 6.936515012000001,
+              "static_and_browser_publication": 0.13482669100000022,
+              "markdown_downloads_or_static": 0.058057293999998365,
+              "sitemap": 0.0409958659999993,
+              "nift_composition": 0.3689586940000008,
+              "complete": 10.983078418000002
+            },
+            "files": 2996,
+            "bytes": 220535256,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "diagram",
+        "incremental_seconds": 0.9589159118477255,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 0.9589159118477255,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 2.3355000000002235e-05,
+            "retained_components_server_bundle": 0.020619053999999998,
+            "react_ssr_or_html_source": 0.35556277799999997,
+            "shell_and_dependencies": 0.16481924699999997,
+            "static_and_browser_publication": 0.125612761,
+            "markdown_downloads_or_static": 0.059061760000000046,
+            "sitemap": 0.047157897999999934,
+            "nift_composition": 0.07303132200000005,
+            "complete": 0.894788213
+          },
+          "files": 2996,
+          "bytes": 220532933,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:57:24.177789+00:00",
+          "exit_code": 0,
+          "wall_seconds": 0.9589159118477255,
+          "maximum_individual_descendant_rss_mib": 152.97265625,
+          "sampled_descendant_rss_sum_peak_mib": 152.09375,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.3355000000002235e-05,
+              "retained_components_server_bundle": 0.020619053999999998,
+              "react_ssr_or_html_source": 0.35556277799999997,
+              "shell_and_dependencies": 0.16481924699999997,
+              "static_and_browser_publication": 0.125612761,
+              "markdown_downloads_or_static": 0.059061760000000046,
+              "sitemap": 0.047157897999999934,
+              "nift_composition": 0.07303132200000005,
+              "complete": 0.894788213
+            },
+            "files": 2996,
+            "bytes": 220532933,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "generated-synced",
+        "incremental_seconds": 1.0588686720002443,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 1.0588686720002443,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 2.469299999999919e-05,
+            "retained_components_server_bundle": 0.020514636000000003,
+            "react_ssr_or_html_source": 0.361744886,
+            "shell_and_dependencies": 0.16699573999999995,
+            "static_and_browser_publication": 0.13828677899999992,
+            "markdown_downloads_or_static": 0.14004974300000003,
+            "sitemap": 0.04088806899999997,
+            "nift_composition": 0.053828773999999954,
+            "complete": 0.969137937
+          },
+          "files": 2996,
+          "bytes": 220533030,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:57:39.047427+00:00",
+          "exit_code": 0,
+          "wall_seconds": 1.0588686720002443,
+          "maximum_individual_descendant_rss_mib": 153.671875,
+          "sampled_descendant_rss_sum_peak_mib": 150.74609375,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.469299999999919e-05,
+              "retained_components_server_bundle": 0.020514636000000003,
+              "react_ssr_or_html_source": 0.361744886,
+              "shell_and_dependencies": 0.16699573999999995,
+              "static_and_browser_publication": 0.13828677899999992,
+              "markdown_downloads_or_static": 0.14004974300000003,
+              "sitemap": 0.04088806899999997,
+              "nift_composition": 0.053828773999999954,
+              "complete": 0.969137937
+            },
+            "files": 2996,
+            "bytes": 220533030,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "search-visible",
+        "incremental_seconds": 1.059265844989568,
+        "explicit_maintenance_seconds": 0,
+        "whole_operation_seconds": 1.059265844989568,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 2.9176999999997122e-05,
+            "retained_components_server_bundle": 0.020860355000000004,
+            "react_ssr_or_html_source": 0.359028696,
+            "shell_and_dependencies": 0.17037026200000002,
+            "static_and_browser_publication": 0.14077898200000005,
+            "markdown_downloads_or_static": 0.14136890399999993,
+            "sitemap": 0.042583811999999964,
+            "nift_composition": 0.05286307499999998,
+            "complete": 0.975218924
+          },
+          "files": 2996,
+          "bytes": 220533024,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:57:53.805202+00:00",
+          "exit_code": 0,
+          "wall_seconds": 1.059265844989568,
+          "maximum_individual_descendant_rss_mib": 151.87109375,
+          "sampled_descendant_rss_sum_peak_mib": 151.25390625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.9176999999997122e-05,
+              "retained_components_server_bundle": 0.020860355000000004,
+              "react_ssr_or_html_source": 0.359028696,
+              "shell_and_dependencies": 0.17037026200000002,
+              "static_and_browser_publication": 0.14077898200000005,
+              "markdown_downloads_or_static": 0.14136890399999993,
+              "sitemap": 0.042583811999999964,
+              "nift_composition": 0.05286307499999998,
+              "complete": 0.975218924
+            },
+            "files": 2996,
+            "bytes": 220533024,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "island-source",
+        "incremental_seconds": 10.955902562011033,
+        "explicit_maintenance_seconds": 1.2728919659275562,
+        "whole_operation_seconds": 12.22879452793859,
+        "files": 2996,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "observable_change_verified": true,
+        "components": {
+          "sourceModel": "maintained HTML",
+          "force": false,
+          "stages": {
+            "browser_bundle": 2.041576948,
+            "retained_components_server_bundle": 0.8765507080000002,
+            "react_ssr_or_html_source": 0.38101135799999974,
+            "shell_and_dependencies": 6.872654735,
+            "static_and_browser_publication": 0.13760234200000013,
+            "markdown_downloads_or_static": 0.05429849300000023,
+            "sitemap": 0.0403865679999999,
+            "nift_composition": 0.37088668700000016,
+            "complete": 10.813029698000001
+          },
+          "files": 2996,
+          "bytes": 220532871,
+          "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+        },
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:58:19.626897+00:00",
+          "exit_code": 0,
+          "wall_seconds": 10.955902562011033,
+          "maximum_individual_descendant_rss_mib": 791.8515625,
+          "sampled_descendant_rss_sum_peak_mib": 869.265625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.041576948,
+              "retained_components_server_bundle": 0.8765507080000002,
+              "react_ssr_or_html_source": 0.38101135799999974,
+              "shell_and_dependencies": 6.872654735,
+              "static_and_browser_publication": 0.13760234200000013,
+              "markdown_downloads_or_static": 0.05429849300000023,
+              "sitemap": 0.0403865679999999,
+              "nift_composition": 0.37088668700000016,
+              "complete": 10.813029698000001
+            },
+            "files": 2996,
+            "bytes": 220532871,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      }
+    ],
+    "lifecycle": [
+      {
+        "project": "temporal",
+        "case": "route-add",
+        "incremental_seconds": 29.385509612970054,
+        "files": 3000,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "expected_behavior_verified": true,
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T19:59:12.542651+00:00",
+          "exit_code": 0,
+          "wall_seconds": 29.385509612970054,
+          "maximum_individual_descendant_rss_mib": 985.390625,
+          "sampled_descendant_rss_sum_peak_mib": 1494.98828125,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.091126689,
+              "source_catalogue_and_context": 0.280188939,
+              "markdown_mdx": 11.247813769,
+              "browser_bundle": 2.2439760270000004,
+              "retained_components_server_bundle": 2.515411386,
+              "react_ssr_or_html_source": 3.0613175489999995,
+              "shell_and_dependencies": 7.1697179680000005,
+              "static_and_browser_publication": 0.14521052799999962,
+              "markdown_downloads_or_static": 1.867296871999999,
+              "sitemap": 0.045632487999999284,
+              "nift_composition": 0.3982423860000017,
+              "complete": 29.156288527
+            },
+            "files": 3000,
+            "bytes": 220944707,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "route-rename",
+        "incremental_seconds": 29.75221199495718,
+        "files": 3000,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "expected_behavior_verified": true,
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T20:00:11.982375+00:00",
+          "exit_code": 0,
+          "wall_seconds": 29.75221199495718,
+          "maximum_individual_descendant_rss_mib": 990.46875,
+          "sampled_descendant_rss_sum_peak_mib": 1475.42578125,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.07973489,
+              "source_catalogue_and_context": 0.268610019,
+              "markdown_mdx": 11.401983892,
+              "browser_bundle": 2.1553005020000002,
+              "retained_components_server_bundle": 2.140836473000001,
+              "react_ssr_or_html_source": 3.493625946000002,
+              "shell_and_dependencies": 7.419453517000002,
+              "static_and_browser_publication": 0.16416897799999788,
+              "markdown_downloads_or_static": 1.8977095289999997,
+              "sitemap": 0.049282866000001375,
+              "nift_composition": 0.4010183280000019,
+              "complete": 29.556518121
+            },
+            "files": 3000,
+            "bytes": 220944851,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal",
+        "case": "route-delete",
+        "incremental_seconds": 30.054025165038183,
+        "files": 2997,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "expected_behavior_verified": true,
+        "measurement": {
+          "project": "temporal",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T20:01:12.157096+00:00",
+          "exit_code": 0,
+          "wall_seconds": 30.054025165038183,
+          "maximum_individual_descendant_rss_mib": 964.7578125,
+          "sampled_descendant_rss_sum_peak_mib": 1478.61328125,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained Markdown/MDX",
+            "force": false,
+            "stages": {
+              "local_cookbook_inputs": 0.077179239,
+              "source_catalogue_and_context": 0.270117102,
+              "markdown_mdx": 11.47020972,
+              "browser_bundle": 2.1523691400000007,
+              "retained_components_server_bundle": 2.128695195,
+              "react_ssr_or_html_source": 3.4776946370000004,
+              "shell_and_dependencies": 7.682833805999999,
+              "static_and_browser_publication": 0.16725395600000048,
+              "markdown_downloads_or_static": 1.8911255210000018,
+              "sitemap": 0.04780866199999946,
+              "nift_composition": 0.39677858399999966,
+              "complete": 29.853696463
+            },
+            "files": 2997,
+            "bytes": 220879840,
+            "scope": "Complete production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "route-add",
+        "incremental_seconds": 11.708514481084421,
+        "files": 2999,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "expected_behavior_verified": true,
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T20:01:55.923298+00:00",
+          "exit_code": 0,
+          "wall_seconds": 11.708514481084421,
+          "maximum_individual_descendant_rss_mib": 782.6171875,
+          "sampled_descendant_rss_sum_peak_mib": 859.2890625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.176250916,
+              "retained_components_server_bundle": 0.9659501370000003,
+              "react_ssr_or_html_source": 0.4236962989999997,
+              "shell_and_dependencies": 7.182718524999999,
+              "static_and_browser_publication": 0.13238636700000098,
+              "markdown_downloads_or_static": 0.1382759730000016,
+              "sitemap": 0.041171304999999846,
+              "nift_composition": 0.4565292320000008,
+              "complete": 11.556762211999999
+            },
+            "files": 2999,
+            "bytes": 220600682,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "route-rename",
+        "incremental_seconds": 11.402836597058922,
+        "files": 2999,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "expected_behavior_verified": true,
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T20:02:20.313518+00:00",
+          "exit_code": 0,
+          "wall_seconds": 11.402836597058922,
+          "maximum_individual_descendant_rss_mib": 756.63671875,
+          "sampled_descendant_rss_sum_peak_mib": 829.55859375,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.145340055,
+              "retained_components_server_bundle": 0.9587570310000001,
+              "react_ssr_or_html_source": 0.39704744200000003,
+              "shell_and_dependencies": 7.053473497000001,
+              "static_and_browser_publication": 0.13660769299999992,
+              "markdown_downloads_or_static": 0.1291321279999993,
+              "sitemap": 0.03932377599999927,
+              "nift_composition": 0.3809636390000014,
+              "complete": 11.281610895
+            },
+            "files": 2999,
+            "bytes": 220600762,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      },
+      {
+        "project": "temporal-agent",
+        "case": "route-delete",
+        "incremental_seconds": 11.302041961112991,
+        "files": 2997,
+        "independent_clean_forced_equal": true,
+        "differences": [],
+        "expected_behavior_verified": true,
+        "measurement": {
+          "project": "temporal-agent",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+            "tools/publish.cjs"
+          ],
+          "timestamp_utc": "2026-10-08T20:02:43.725252+00:00",
+          "exit_code": 0,
+          "wall_seconds": 11.302041961112991,
+          "maximum_individual_descendant_rss_mib": 770.81640625,
+          "sampled_descendant_rss_sum_peak_mib": 847.90625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "components": {
+            "sourceModel": "maintained HTML",
+            "force": false,
+            "stages": {
+              "browser_bundle": 2.108096182,
+              "retained_components_server_bundle": 0.8991742709999999,
+              "react_ssr_or_html_source": 0.394719454,
+              "shell_and_dependencies": 7.019695861999999,
+              "static_and_browser_publication": 0.1349018329999999,
+              "markdown_downloads_or_static": 0.13403112200000034,
+              "sitemap": 0.03955783100000008,
+              "nift_composition": 0.3917108599999992,
+              "complete": 11.16619671
+            },
+            "files": 2997,
+            "bytes": 220570402,
+            "scope": "Complete maintained-HTML production publication; Content-verified stage caches; complete publication including source preparation, retained components, static assets, projections and Nift composition"
+          }
+        }
+      }
+    ],
+    "fresh_clones": [
+      {
+        "project": "temporal",
+        "public_clone_commit": "756db298c972e4d31d9d3b75f0ceed0473168a93",
+        "dependency_install_seconds_outside_publication": 5.904716485878453,
+        "clean_normal_publication_seconds_diagnostic": 27.337669455911964,
+        "files": 2996,
+        "byte_manifest_equals_working_publication": true,
+        "differences": [],
+        "source_clean": true,
+        "node_modules_is_symlink": false
+      },
+      {
+        "project": "temporal-agent",
+        "public_clone_commit": "5e80384aa5d95c18138b0ac58340a08a7055f34e",
+        "dependency_install_seconds_outside_publication": 5.873779044952244,
+        "clean_normal_publication_seconds_diagnostic": 10.897843156941235,
+        "files": 2996,
+        "byte_manifest_equals_working_publication": true,
+        "differences": [],
+        "source_clean": true,
+        "node_modules_is_symlink": false
+      }
+    ],
+    "upstream_changes": [
+      {
+        "case": "body",
+        "observable_change_verified": true,
+        "measurement": {
+          "project": "upstream",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/yarn/node_modules/.bin/yarn",
+            "build"
+          ],
+          "timestamp_utc": "2026-10-08T20:03:37.291627+00:00",
+          "exit_code": 0,
+          "wall_seconds": 40.24910517106764,
+          "maximum_individual_descendant_rss_mib": 6949.80078125,
+          "sampled_descendant_rss_sum_peak_mib": 7043.44921875,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "cookbook_pin": "2385cc030f9ca1cc67b05082f1990d20cfc3a38c",
+          "output": {
+            "files": 3984,
+            "bytes": 265647910
+          },
+          "observed_phase_markers_seconds": {
+            "prebuild": 0.2025949601083994,
+            "docusaurus_build": 7.283809904009104,
+            "postbuild": 40.19854317395948
+          },
+          "observed_phase_seconds": {
+            "command_start_to_prebuild_marker": 0.2025949601083994,
+            "prebuild_marker_to_build_marker": 7.081214943900704,
+            "build_marker_to_postbuild_marker": 32.914733269950375,
+            "postbuild_marker_to_exit": 0.05056199710816145
+          },
+          "phase_qualification": "CLI marker arrival observed from production log at roughly 50 ms polling resolution; includes Yarn transitions; not internal compiler instrumentation"
+        }
+      },
+      {
+        "case": "navigation",
+        "observable_change_verified": true,
+        "measurement": {
+          "project": "upstream",
+          "command": [
+            "/home/nick/Repositories/nift/nift-experiments/temporal-baseline/toolchain/yarn/node_modules/.bin/yarn",
+            "build"
+          ],
+          "timestamp_utc": "2026-10-08T20:04:53.160633+00:00",
+          "exit_code": 0,
+          "wall_seconds": 37.88538798992522,
+          "maximum_individual_descendant_rss_mib": 6932.7890625,
+          "sampled_descendant_rss_sum_peak_mib": 7025.00390625,
+          "sample_period_target_seconds": 0.05,
+          "rss_qualification": "ru_maxrss is maximum individual descendant process/phase; sampled sum is aggregate resident-page counts, includes shared-page double counting, is not PSS and may miss peaks",
+          "dependency_acquisition_outside_timing": true,
+          "os_caches": "uncontrolled",
+          "production_not_dev_hmr": true,
+          "force": false,
+          "cookbook_pin": "2385cc030f9ca1cc67b05082f1990d20cfc3a38c",
+          "output": {
+            "files": 3984,
+            "bytes": 265702615
+          },
+          "observed_phase_markers_seconds": {
+            "prebuild": 0.152167972875759,
+            "docusaurus_build": 3.439968287013471,
+            "postbuild": 37.83493016799912
+          },
+          "observed_phase_seconds": {
+            "command_start_to_prebuild_marker": 0.152167972875759,
+            "prebuild_marker_to_build_marker": 3.287800314137712,
+            "build_marker_to_postbuild_marker": 34.39496188098565,
+            "postbuild_marker_to_exit": 0.05045782192610204
+          },
+          "phase_qualification": "CLI marker arrival observed from production log at roughly 50 ms polling resolution; includes Yarn transitions; not internal compiler instrumentation"
+        }
+      }
+    ],
+    "post_publication_gate": [
+      {
+        "project": "temporal",
+        "files": 2996,
+        "final_publication_equals_accepted_clean_clone": true,
+        "source_clean": true
+      },
+      {
+        "project": "temporal-agent",
+        "files": 2996,
+        "final_publication_equals_accepted_clean_clone": true,
+        "source_clean": true
+      },
+      {
+        "project": "upstream",
+        "files": 3984,
+        "reference_identical_files": 3983,
+        "operational_difference_only": [
+          ".og-image-stats.json"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,536 @@
+[
+  {
+    "url": "https://github.com/Cap-go/website/tree/7d5b69d6ba8a6630384dffc7d012431ee3ed22ec",
+    "endpoint": "repos/Cap-go/website/commits/7d5b69d6ba8a6630384dffc7d012431ee3ed22ec",
+    "valid": true,
+    "sha": "7d5b69d6ba8a6630384dffc7d012431ee3ed22ec"
+  },
+  {
+    "url": "https://github.com/cloudflare/cloudflare-docs/tree/bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf",
+    "endpoint": "repos/cloudflare/cloudflare-docs/commits/bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf",
+    "valid": true,
+    "sha": "bc2bdaee16098ec1b0bb782b80cf3a73f9557ddf"
+  },
+  {
+    "url": "https://github.com/denoland/docs",
+    "endpoint": "repos/denoland/docs",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/denoland/docs/tree/9e5dd8d930c8734defe1c3172986e6312353ac1c",
+    "endpoint": "repos/denoland/docs/commits/9e5dd8d930c8734defe1c3172986e6312353ac1c",
+    "valid": true,
+    "sha": "9e5dd8d930c8734defe1c3172986e6312353ac1c"
+  },
+  {
+    "url": "https://github.com/docker/docs/tree/6cf1b1c167f032e8a6629da211602300b623b20e",
+    "endpoint": "repos/docker/docs/commits/6cf1b1c167f032e8a6629da211602300b623b20e",
+    "valid": true,
+    "sha": "6cf1b1c167f032e8a6629da211602300b623b20e"
+  },
+  {
+    "url": "https://github.com/nift-dev/nift/tree/aaadeb31219251b7cc02a62fbf75360ac3e11aaf",
+    "endpoint": "repos/nift-dev/nift/commits/aaadeb31219251b7cc02a62fbf75360ac3e11aaf",
+    "valid": true,
+    "sha": "aaadeb31219251b7cc02a62fbf75360ac3e11aaf"
+  },
+  {
+    "url": "https://github.com/nift-dev/nift/tree/c80c2cd6f4a2e782e861431637af014bb8a0668c",
+    "endpoint": "repos/nift-dev/nift/commits/c80c2cd6f4a2e782e861431637af014bb8a0668c",
+    "valid": true,
+    "sha": "c80c2cd6f4a2e782e861431637af014bb8a0668c"
+  },
+  {
+    "url": "https://github.com/nift-dev/scripting-benchmark/tree/05f572601152f34842498afb46b18df67dcc0ad1/evidence/campaign-20261009-v490",
+    "endpoint": "repos/nift-dev/scripting-benchmark/contents/evidence/campaign-20261009-v490?ref=05f572601152f34842498afb46b18df67dcc0ad1",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-dev/scripting-benchmark/tree/4c648ef761423a20173f6095691955dc4040ce53",
+    "endpoint": "repos/nift-dev/scripting-benchmark/commits/4c648ef761423a20173f6095691955dc4040ce53",
+    "valid": true,
+    "sha": "4c648ef761423a20173f6095691955dc4040ce53"
+  },
+  {
+    "url": "https://github.com/nift-dev/scripting-benchmark/tree/94772ff14db177b05a7b84dc3360ca92853af154",
+    "endpoint": "repos/nift-dev/scripting-benchmark/commits/94772ff14db177b05a7b84dc3360ca92853af154",
+    "valid": true,
+    "sha": "94772ff14db177b05a7b84dc3360ca92853af154"
+  },
+  {
+    "url": "https://github.com/nift-dev/scripting-benchmark/tree/stage",
+    "endpoint": "repos/nift-dev/scripting-benchmark/commits/stage",
+    "valid": true,
+    "sha": "6f5b0e3d7c977fca25758c6e2dd2189b67d209ea"
+  },
+  {
+    "url": "https://github.com/nift-dev/shell-benchmark/tree/7f0742ab965db3c6d76a2dcbd9c7bfaf84457494",
+    "endpoint": "repos/nift-dev/shell-benchmark/commits/7f0742ab965db3c6d76a2dcbd9c7bfaf84457494",
+    "valid": true,
+    "sha": "7f0742ab965db3c6d76a2dcbd9c7bfaf84457494"
+  },
+  {
+    "url": "https://github.com/nift-dev/shell-benchmark/tree/c70a61cdf7a491ef794e0c9d40c1a151509a93d3/evidence/campaign-20261009-v490",
+    "endpoint": "repos/nift-dev/shell-benchmark/contents/evidence/campaign-20261009-v490?ref=c70a61cdf7a491ef794e0c9d40c1a151509a93d3",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-dev/shell-benchmark/tree/e79253d24fd9c74ccc8616186a0a1cd2bbf7e726",
+    "endpoint": "repos/nift-dev/shell-benchmark/commits/e79253d24fd9c74ccc8616186a0a1cd2bbf7e726",
+    "valid": true,
+    "sha": "e79253d24fd9c74ccc8616186a0a1cd2bbf7e726"
+  },
+  {
+    "url": "https://github.com/nift-dev/shell-benchmark/tree/main",
+    "endpoint": "repos/nift-dev/shell-benchmark/commits/main",
+    "valid": true,
+    "sha": "fc7c4d93dcd525545f97e302501eb08e1b0f9f7e"
+  },
+  {
+    "url": "https://github.com/nift-dev/website-generator-benchmark/tree/4947b42c863782ba6be0fdbbd2003d60d6d0d3d4",
+    "endpoint": "repos/nift-dev/website-generator-benchmark/commits/4947b42c863782ba6be0fdbbd2003d60d6d0d3d4",
+    "valid": true,
+    "sha": "4947b42c863782ba6be0fdbbd2003d60d6d0d3d4"
+  },
+  {
+    "url": "https://github.com/nift-dev/website-generator-benchmark/tree/stage",
+    "endpoint": "repos/nift-dev/website-generator-benchmark/commits/stage",
+    "valid": true,
+    "sha": "be3bd5f8eb059d8a54197e4706dd1c11d442b97c"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk",
+    "endpoint": "repos/nift-experiments/ai-sdk",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk-agent",
+    "endpoint": "repos/nift-experiments/ai-sdk-agent",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk-agent/blob/524b1840a0a36d0dafdfbc368f52fb526951bad8/investigation/A10-REPORT.md",
+    "endpoint": "repos/nift-experiments/ai-sdk-agent/contents/investigation/A10-REPORT.md?ref=524b1840a0a36d0dafdfbc368f52fb526951bad8",
+    "valid": true,
+    "sha": "cdf920415fa2893ac8b788b0517fabee5c2a16ea"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk-agent/blob/524b1840a0a36d0dafdfbc368f52fb526951bad8/investigation/A9-BROWSER-MATRIX.json",
+    "endpoint": "repos/nift-experiments/ai-sdk-agent/contents/investigation/A9-BROWSER-MATRIX.json?ref=524b1840a0a36d0dafdfbc368f52fb526951bad8",
+    "valid": true,
+    "sha": "6128469b15da1f37bf2f892fe0a6c62dfbdaa6ef"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk-agent/blob/524b1840a0a36d0dafdfbc368f52fb526951bad8/investigation/A9-FRESH-CLONE-PROOF.json",
+    "endpoint": "repos/nift-experiments/ai-sdk-agent/contents/investigation/A9-FRESH-CLONE-PROOF.json?ref=524b1840a0a36d0dafdfbc368f52fb526951bad8",
+    "valid": true,
+    "sha": "44c8df70e51db1512ea820de36c4bd0a0b2c120c"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk-agent/blob/524b1840a0a36d0dafdfbc368f52fb526951bad8/scripts/verify-lifecycle-coordinated.py",
+    "endpoint": "repos/nift-experiments/ai-sdk-agent/contents/scripts/verify-lifecycle-coordinated.py?ref=524b1840a0a36d0dafdfbc368f52fb526951bad8",
+    "valid": true,
+    "sha": "7774e5ed54f510f60c2f60ffdb465d780ad7700b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A10-REPORT.md",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/A10-REPORT.md?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "cdf920415fa2893ac8b788b0517fabee5c2a16ea"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A8-INITIAL-PROFILING.md",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/A8-INITIAL-PROFILING.md?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "4e38c7e402068fbd9b469b1575571c558cfceab6"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A9-BROWSER-MATRIX.json",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/A9-BROWSER-MATRIX.json?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "6128469b15da1f37bf2f892fe0a6c62dfbdaa6ef"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A9-FRESH-CLONE-PROOF.json",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/A9-FRESH-CLONE-PROOF.json?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "5d791f536ea2fa4000b531051853f8e816c19930"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A9-INTERACTIONS.json",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/A9-INTERACTIONS.json?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "347cd955097b5bc70f9dd383cd29cbadeb6e5b7d"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A9-PROFILING.md",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/A9-PROFILING.md?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "b5f63cd597fd7e861ba0ce18f908e2dc949629e2"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/MIGRATION-INIT-REVIEW.md",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/MIGRATION-INIT-REVIEW.md?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "104168ad5f51f26a4d52b408a92ee5eb25611451"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/benchmark-evidence/SHA256SUMS.json",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/benchmark-evidence/SHA256SUMS.json?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "c7ae44b87b004aad7d79cf892629788713b2fee7"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/benchmark-evidence/changed-input-upstream/samples.json",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/benchmark-evidence/changed-input-upstream/samples.json?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "ae5001c8383d1b8da194a4318e8c5291be255d9b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/benchmark-evidence/final-benchmark/samples.json",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/benchmark-evidence/final-benchmark/samples.json?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "7b0be2ebaac02dfe3a105a1d5b4f7cd390bc5cfe"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/benchmark-tools/README.md",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/investigation/benchmark-tools/README.md?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "dda65d3975b71973677722646e8b404926bc4413"
+  },
+  {
+    "url": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/scripts/verify-lifecycle-body.py",
+    "endpoint": "repos/nift-experiments/ai-sdk/contents/scripts/verify-lifecycle-body.py?ref=6d07d2f06a96d33deac0384514574d069cce98b7",
+    "valid": true,
+    "sha": "99e7c38d6682148a20ab2bc64de56677869aa4ea"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/blob/b555abe/docs/THREE-WAY-COMPARISON.md",
+    "endpoint": "repos/nift-experiments/capgo-agent/contents/docs/THREE-WAY-COMPARISON.md?ref=b555abe",
+    "valid": true,
+    "sha": "d102fe2af0ec1f6ec5a0489f6a7b087daa7b2572"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/blob/b555abe/docs/THREE-WAY-COMPARISON.md#maintenance-investigation-evidence-before-preference",
+    "endpoint": "repos/nift-experiments/capgo-agent/contents/docs/THREE-WAY-COMPARISON.md?ref=b555abe",
+    "valid": true,
+    "sha": "d102fe2af0ec1f6ec5a0489f6a7b087daa7b2572"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/blob/dd95a37/docs/CLEAN-CHECKOUT.md",
+    "endpoint": "repos/nift-experiments/capgo-agent/contents/docs/CLEAN-CHECKOUT.md?ref=dd95a37",
+    "valid": true,
+    "sha": "adccefa63632a277dacf7b97a3ad7fd072ca0bc7"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/blob/dd95a37/docs/INTERACTION-MATRIX.md",
+    "endpoint": "repos/nift-experiments/capgo-agent/contents/docs/INTERACTION-MATRIX.md?ref=dd95a37",
+    "valid": true,
+    "sha": "a48d656a191cc02cfe3a2292309785c9ef07a00a"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/blob/dd95a37/docs/NATIVE-ARCHITECTURE.md",
+    "endpoint": "repos/nift-experiments/capgo-agent/contents/docs/NATIVE-ARCHITECTURE.md?ref=dd95a37",
+    "valid": true,
+    "sha": "4bd065ac59c4f84f751506d65f11cb41140fc8ef"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/tree/b555abe/evidence/targeted-builds",
+    "endpoint": "repos/nift-experiments/capgo-agent/contents/evidence/targeted-builds?ref=b555abe",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/tree/dd95a37",
+    "endpoint": "repos/nift-experiments/capgo-agent/commits/dd95a37",
+    "valid": true,
+    "sha": "dd95a371f765e566d55b579aaf93df5750be8877"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo-agent/tree/dd95a37/evidence/final-benchmarks",
+    "endpoint": "repos/nift-experiments/capgo-agent/contents/evidence/final-benchmarks?ref=dd95a37",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo/blob/590c1eec/docs/FAITHFUL-FINAL-REPORT.md",
+    "endpoint": "repos/nift-experiments/capgo/contents/docs/FAITHFUL-FINAL-REPORT.md?ref=590c1eec",
+    "valid": true,
+    "sha": "7a4c6745e2dbacee0d3539c649c9679135db3fec"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo/tree/590c1eec",
+    "endpoint": "repos/nift-experiments/capgo/commits/590c1eec",
+    "valid": true,
+    "sha": "590c1eecb23eeb7ac091f8affca5c0e45b852a64"
+  },
+  {
+    "url": "https://github.com/nift-experiments/capgo/tree/590c1eec/evidence/final-benchmarks",
+    "endpoint": "repos/nift-experiments/capgo/contents/evidence/final-benchmarks?ref=590c1eec",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/cloudflare-docs/tree/stage",
+    "endpoint": "repos/nift-experiments/cloudflare-docs/commits/stage",
+    "valid": true,
+    "sha": "0f4b75b1befcd42540bd7ebaf737c411e6d9686d"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno",
+    "endpoint": "repos/nift-experiments/deno",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno-agent",
+    "endpoint": "repos/nift-experiments/deno-agent",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno-agent/blob/0b42efec8239f49214c821e32fe5f0cc8e389f15/README.md",
+    "endpoint": "repos/nift-experiments/deno-agent/contents/README.md?ref=0b42efec8239f49214c821e32fe5f0cc8e389f15",
+    "valid": true,
+    "sha": "c61f9129da29cc045eb5e83f0b3fe370f3db6c9c"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno-agent/blob/0b42efec8239f49214c821e32fe5f0cc8e389f15/investigation/D9-COMPARISON.md",
+    "endpoint": "repos/nift-experiments/deno-agent/contents/investigation/D9-COMPARISON.md?ref=0b42efec8239f49214c821e32fe5f0cc8e389f15",
+    "valid": true,
+    "sha": "37f21c769cacfa57659c23a0e184dedea9903c52"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/D9-COMPARISON.md",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/D9-COMPARISON.md?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "37f21c769cacfa57659c23a0e184dedea9903c52"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/MIGRATION-INIT-FINAL-REVIEW.md",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/MIGRATION-INIT-FINAL-REVIEW.md?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "3100e8772dfe3cdba6d50d15d424f023c0d1b35f"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/benchmark-runners/README.md",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/benchmark-runners/README.md?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "4a4894544dcdac251e84ee74135e9231eeec643b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d7-initial-benchmark.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d7-initial-benchmark.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "6eda4d6c1620f50f6bd626be9f2274cf566f39e0"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d8-browser-parity.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d8-browser-parity.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "f282478e903fa2fdb3ca50c5077b1d690f7f9f5f"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d8-production-lifecycle.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d8-production-lifecycle.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "2805d1ea125ccfa5baec487ea25ec5ac94fdb478"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d8-profile-benchmark.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d8-profile-benchmark.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "967bbc6317f6805f2fab7b706e8e85873ff44706"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d9-final-fresh-checkouts.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d9-final-fresh-checkouts.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "9fcd1ce51e51048fbb0e99e542b0f0e140e97548"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d9-final-profile-benchmark.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d9-final-profile-benchmark.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "34b30c92a3d4d0e24c71ec0a14c000cd2dca4f0b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d9-final-upstream-benchmark.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d9-final-upstream-benchmark.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "883af37df4b7a54f1484d02febb95f584dbc2dd1"
+  },
+  {
+    "url": "https://github.com/nift-experiments/deno/blob/7d663e4212d8f976b8ba0b29d819b9331db24522/investigation/d9-native-dependency-delivery.json",
+    "endpoint": "repos/nift-experiments/deno/contents/investigation/d9-native-dependency-delivery.json?ref=7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "valid": true,
+    "sha": "1521ee1c622a5d86ae6a0df7e319cb803a04caee"
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker",
+    "endpoint": "repos/nift-experiments/docker",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker-agent",
+    "endpoint": "repos/nift-experiments/docker-agent",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker-agent/blob/78e7817c780913601db8af54b396aa4392d0624a/README.md",
+    "endpoint": "repos/nift-experiments/docker-agent/contents/README.md?ref=78e7817c780913601db8af54b396aa4392d0624a",
+    "valid": true,
+    "sha": "3b04c8c5a346096b6d716f4c9102a54b86e8b974"
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker-agent/blob/78e7817c780913601db8af54b396aa4392d0624a/investigation/C7-COMPARISON.md",
+    "endpoint": "repos/nift-experiments/docker-agent/contents/investigation/C7-COMPARISON.md?ref=78e7817c780913601db8af54b396aa4392d0624a",
+    "valid": true,
+    "sha": "aebcd4ff6e4c213cb2b3c1bca37956f18e836fa6"
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker/blob/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/C5-PARITY.md",
+    "endpoint": "repos/nift-experiments/docker/contents/investigation/C5-PARITY.md?ref=77f79f065e3076d02bf591ee41f487bbbaa038e9",
+    "valid": true,
+    "sha": "c5d269ce8b0f5b21bcec8294afeaaa480c095aa2"
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker/blob/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/C6-OPTIMIZATION.md",
+    "endpoint": "repos/nift-experiments/docker/contents/investigation/C6-OPTIMIZATION.md?ref=77f79f065e3076d02bf591ee41f487bbbaa038e9",
+    "valid": true,
+    "sha": "d8a5475a682175eadf0ce17e1f448dd119c28f86"
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker/blob/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/C7-COMPARISON.md",
+    "endpoint": "repos/nift-experiments/docker/contents/investigation/C7-COMPARISON.md?ref=77f79f065e3076d02bf591ee41f487bbbaa038e9",
+    "valid": true,
+    "sha": "aebcd4ff6e4c213cb2b3c1bca37956f18e836fa6"
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker/tree/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/c6",
+    "endpoint": "repos/nift-experiments/docker/contents/investigation/c6?ref=77f79f065e3076d02bf591ee41f487bbbaa038e9",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker/tree/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/c6-optimized",
+    "endpoint": "repos/nift-experiments/docker/contents/investigation/c6-optimized?ref=77f79f065e3076d02bf591ee41f487bbbaa038e9",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/docker/tree/77f79f065e3076d02bf591ee41f487bbbaa038e9/investigation/c7",
+    "endpoint": "repos/nift-experiments/docker/contents/investigation/c7?ref=77f79f065e3076d02bf591ee41f487bbbaa038e9",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/omarchy",
+    "endpoint": "repos/nift-experiments/omarchy",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal",
+    "endpoint": "repos/nift-experiments/temporal",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal-agent",
+    "endpoint": "repos/nift-experiments/temporal-agent",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal-agent/blob/bdc0c2637636822466f4e033c14acbfbf1f2e0a0/investigation/FINAL-REPORT.md",
+    "endpoint": "repos/nift-experiments/temporal-agent/contents/investigation/FINAL-REPORT.md?ref=bdc0c2637636822466f4e033c14acbfbf1f2e0a0",
+    "valid": true,
+    "sha": "46293a40c9a7e83ce5fb58544e249329e0bbd0c0"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/FINAL-REPORT.md",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/FINAL-REPORT.md?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "46293a40c9a7e83ce5fb58544e249329e0bbd0c0"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/MIGRATION-INIT-REVIEW.md",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/MIGRATION-INIT-REVIEW.md?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "d3eabccc663f8aa893e11da0a4cec2c9c0302bdd"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/T7-INITIAL-PROFILING.md",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/T7-INITIAL-PROFILING.md?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "57085074e454977ab69057f039f125a077761f6c"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/T8-OPTIMIZATION.md",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/T8-OPTIMIZATION.md?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "d2d4c48957f9f96fae64d09ae309f49089f050ff"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/t8/t8-visual-comparison.json",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/t8/t8-visual-comparison.json?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "8ae0eec88567294d61a8b47479364b0a277bef29"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/t9/t9-campaign-index.json",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/t9/t9-campaign-index.json?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "f3672dd8ebfc2b2cd87d98b8649eaa1e35a735e1"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/t9/t9-clean-clones/result.json",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/t9/t9-clean-clones/result.json?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "d8dc9755933c6c60553f4e1f26147813ac1a633b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/t9/t9-final-summary.json",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/t9/t9-final-summary.json?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "c8b901e70d5a8a4410dd03439e1e4381666c6428"
+  },
+  {
+    "url": "https://github.com/nift-experiments/temporal/blob/8d82e1a1f746a8c690abb700fb493855ae822bcc/investigation/t9/t9-upstream-unchanged-4/production.log",
+    "endpoint": "repos/nift-experiments/temporal/contents/investigation/t9/t9-upstream-unchanged-4/production.log?ref=8d82e1a1f746a8c690abb700fb493855ae822bcc",
+    "valid": true,
+    "sha": "955b2a5f6889a61f4ba69dd326e08b734370d7dd"
+  },
+  {
+    "url": "https://github.com/nift-packages/mdx/tree/22bb53653f47c22defff863e3465e8df9a11da99",
+    "endpoint": "repos/nift-packages/mdx/commits/22bb53653f47c22defff863e3465e8df9a11da99",
+    "valid": true,
+    "sha": "22bb53653f47c22defff863e3465e8df9a11da99"
+  },
+  {
+    "url": "https://github.com/omacom/omarchy-site",
+    "endpoint": "repos/omacom/omarchy-site",
+    "valid": true,
+    "sha": null
+  },
+  {
+    "url": "https://github.com/temporalio/documentation/tree/5d9703a237a9efc9a7da48ac09f79526823b8182",
+    "endpoint": "repos/temporalio/documentation/commits/5d9703a237a9efc9a7da48ac09f79526823b8182",
+    "valid": true,
+    "sha": "5d9703a237a9efc9a7da48ac09f79526823b8182"
+  },
+  {
+    "url": "https://github.com/vercel/ai/tree/3ebefff610f96892c50be48cf1838c453e2349f7",
+    "endpoint": "repos/vercel/ai/commits/3ebefff610f96892c50be48cf1838c453e2349f7",
+    "valid": true,
+    "sha": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  }
+]

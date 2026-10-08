@@ -52,7 +52,7 @@
     </div>
     <div class="callout"><span class="callout-number">10.2×</span><p><strong>faster complete production build</strong><br>Astro’s 5.007s median versus 0.490s for the Nift render plus React-island bundle.</p><span class="callout-number">20.1×</span><p><strong>lower peak memory</strong><br>About 1,019 MiB for Astro versus 50.6 MiB for the complete Nift production build.</p></div>
     <div class="callout"><span class="callout-number">32.5×</span><p><strong>faster typical development build</strong><br>A one-page Nift iteration took 0.154s versus 5.007s for Astro’s measured build command.</p><span class="callout-number">≈123×</span><p><strong>lower peak memory during that iteration</strong><br>The Nift edit used about 8.3 MiB versus approximately 1,019 MiB for the measured Astro build.</p></div>
-    <p class="fine-print">The development comparison reflects the commands each workflow normally needs after a content/template edit: Nift incrementally rebuilt the affected page, whereas the measured Astro build regenerated the project. It is intentionally labelled separately from the forced full-render comparison.</p>
+    <p class="fine-print">Iteration memory matters alongside elapsed time: lower measured peaks can leave headroom for concurrent builds, CI jobs and agent workflows on constrained machines. Concurrent execution and total productivity were not measured.</p><p class="fine-print">The development comparison reflects the commands each workflow normally needs after a content/template edit: Nift incrementally rebuilt the affected page, whereas the measured Astro build regenerated the project. It is intentionally labelled separately from the forced full-render comparison.</p>
     <p class="fine-print">The output validator is reported separately because the original Astro timing did not include an equivalent post-build crawler. Adding Nift’s independent 9,531-reference audit brought its full checkpoint to 1.402s. Absolute timings are hardware-specific.</p>
   </section>
 
@@ -67,6 +67,7 @@ $ nift build --all
 📦 2647 files built successfully
 time taken: 0.149989 seconds</code></pre>
     </div>
+<p class="wrap fine-print">Memory provenance: the container results above include iteration RSS. Peak memory was not recorded for this separate informal NUC observation, and its exact Nift binary/benchmark context was not retained; a current-version rerun would not reproduce that historical cohort. <a href="@path('public/benchmarks/evidence/incremental-memory/incremental-memory-audit.md')">Audit and reproduction limitation</a>.</p>
   </section>
 
   <section id="dx" class="wrap section" aria-labelledby="dx-title">

@@ -192,3 +192,7 @@ Independent amber event-history report at `/sites/temporal/`. Run `python3 scrip
 ## Major report publication identity
 
 The Labs homepage establishes the family identity; individual major experiments establish their own publication identity. Share navigation, footer conventions, evidence access, typography families and dark responsive quality. Give each report its own hero composition, section layout, visualization language, accent palette and motif rather than the catalogue card system. Temporal uses asymmetric event-history rails and replay/edit traces; website-generator uses an instrumentation timing rig. Presentation additions regenerate from accepted evidence; they do not replace methodology or change measured values.
+
+## Incremental timing and memory
+
+When changed-input or incremental timing is published, capture and report peak memory for the same workload whenever technically meaningful. Preserve the experiment’s exact memory metric and qualification. Full-build memory alone is not a substitute for iteration memory. Match the timing sample policy, keep original and supplemental cohorts distinct, verify forced-output equality/restoration where required, retain raw observations and do not substitute dev/HMR or aggregate-tree metrics for production individual-process peaks. See investigation/incremental-memory-audit.md. Regenerate additions with `python3 scripts/iteration_memory.py` and the audit ledger with `python3 scripts/audit_iteration_memory.py`; the migration report generators preserve the panels.

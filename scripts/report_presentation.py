@@ -21,6 +21,7 @@ def website(text):
   # IDs in the original evidence are the authoritative source.
   j=next(x for x in d['jobs'] if x['id']=='Nift/incremental/'+mode);v=j['summary']['median_ms']/1000;out+=f'<span>{title}<strong>{v:.3f}s</strong></span>'
  out+='</div><p class="rig-note">Nift-only production iteration; no competitor incremental/HMR comparison. Byte equality with full recomputation is checked.</p></div><!-- timing-rig:end -->'
- return text.replace('<div class="pipeline">',out+'<div class="pipeline">',1)
+ from iteration_memory import inject
+ return inject(text.replace('<div class="pipeline">',out+'<div class="pipeline">',1),'website-generator')
 if __name__=='__main__':
  p=R/'content/benchmarks/website-generator/index.html';p.write_text(website(p.read_text()))

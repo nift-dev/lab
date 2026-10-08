@@ -1,0 +1,3355 @@
+{
+  "report": "deno",
+  "metric": "Maximum measured individual process/phase RSS; not aggregate simultaneous memory",
+  "sample_policy": "Changed-input cases: single original observations. Unchanged: five-sample median [min\u2013max]. Upstream: largest measured production phase, not dev/HMR.",
+  "provenance": {
+    "authored_evidence_pin": "7d663e4212d8f976b8ba0b29d819b9331db24522",
+    "rendered_evidence_pin": "0b42efec8239f49214c821e32fe5f0cc8e389f15",
+    "upstream": "9e5dd8d930c8734defe1c3172986e6312353ac1c"
+  },
+  "rows": [
+    {
+      "case": "unchanged",
+      "Nift deno": {
+        "samples": 5,
+        "statistic": "median",
+        "value_mib": 104.328125,
+        "range_mib": [
+          104.0234375,
+          105.03515625
+        ],
+        "raw_mib": [
+          104.671875,
+          105.03515625,
+          104.25,
+          104.328125,
+          104.0234375
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 5,
+        "statistic": "median",
+        "value_mib": 30.76171875,
+        "range_mib": [
+          30.33203125,
+          31.02734375
+        ],
+        "raw_mib": [
+          30.76171875,
+          31.02734375,
+          30.82421875,
+          30.65625,
+          30.33203125
+        ]
+      }
+    },
+    {
+      "case": "1-bodies",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 560.51171875,
+        "range_mib": [
+          560.51171875,
+          560.51171875
+        ],
+        "raw_mib": [
+          560.51171875
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 139.42578125,
+        "range_mib": [
+          139.42578125,
+          139.42578125
+        ],
+        "raw_mib": [
+          139.42578125
+        ]
+      }
+    },
+    {
+      "case": "10-bodies",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 561.3046875,
+        "range_mib": [
+          561.3046875,
+          561.3046875
+        ],
+        "raw_mib": [
+          561.3046875
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 129.578125,
+        "range_mib": [
+          129.578125,
+          129.578125
+        ],
+        "raw_mib": [
+          129.578125
+        ]
+      }
+    },
+    {
+      "case": "100-bodies",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 564.24609375,
+        "range_mib": [
+          564.24609375,
+          564.24609375
+        ],
+        "raw_mib": [
+          564.24609375
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 135.1796875,
+        "range_mib": [
+          135.1796875,
+          135.1796875
+        ],
+        "raw_mib": [
+          135.1796875
+        ]
+      }
+    },
+    {
+      "case": "shared-layout",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 144.859375,
+        "range_mib": [
+          144.859375,
+          144.859375
+        ],
+        "raw_mib": [
+          144.859375
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 135.52734375,
+        "range_mib": [
+          135.52734375,
+          135.52734375
+        ],
+        "raw_mib": [
+          135.52734375
+        ]
+      }
+    },
+    {
+      "case": "navigation",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1525.3359375,
+        "range_mib": [
+          1525.3359375,
+          1525.3359375
+        ],
+        "raw_mib": [
+          1525.3359375
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 135.765625,
+        "range_mib": [
+          135.765625,
+          135.765625
+        ],
+        "raw_mib": [
+          135.765625
+        ]
+      }
+    },
+    {
+      "case": "title-metadata",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1555.47265625,
+        "range_mib": [
+          1555.47265625,
+          1555.47265625
+        ],
+        "raw_mib": [
+          1555.47265625
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 137.171875,
+        "range_mib": [
+          137.171875,
+          137.171875
+        ],
+        "raw_mib": [
+          137.171875
+        ]
+      }
+    },
+    {
+      "case": "generated-reference-data",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 2231.3671875,
+        "range_mib": [
+          2231.3671875,
+          2231.3671875
+        ],
+        "raw_mib": [
+          2231.3671875
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 135.93359375,
+        "range_mib": [
+          135.93359375,
+          135.93359375
+        ],
+        "raw_mib": [
+          135.93359375
+        ]
+      }
+    },
+    {
+      "case": "route-add",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1495.11328125,
+        "range_mib": [
+          1495.11328125,
+          1495.11328125
+        ],
+        "raw_mib": [
+          1495.11328125
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 130.609375,
+        "range_mib": [
+          130.609375,
+          130.609375
+        ],
+        "raw_mib": [
+          130.609375
+        ]
+      }
+    },
+    {
+      "case": "route-rename",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1500.9765625,
+        "range_mib": [
+          1500.9765625,
+          1500.9765625
+        ],
+        "raw_mib": [
+          1500.9765625
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 132.0234375,
+        "range_mib": [
+          132.0234375,
+          132.0234375
+        ],
+        "raw_mib": [
+          132.0234375
+        ]
+      }
+    },
+    {
+      "case": "route-delete",
+      "Nift deno": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 1456.38671875,
+        "range_mib": [
+          1456.38671875,
+          1456.38671875
+        ],
+        "raw_mib": [
+          1456.38671875
+        ]
+      },
+      "Nift deno-agent": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 138.90234375,
+        "range_mib": [
+          138.90234375,
+          138.90234375
+        ],
+        "raw_mib": [
+          138.90234375
+        ]
+      }
+    },
+    {
+      "case": "Upstream one-body production",
+      "Upstream Deno/Lume": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 3117.73828125,
+        "range_mib": [
+          3117.73828125,
+          3117.73828125
+        ],
+        "raw_mib": [
+          3117.73828125
+        ]
+      }
+    }
+  ],
+  "raw": {
+    "lifecycle": [
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "1-bodies",
+        "whole_pipeline_s": 4.4779509080108255,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 0.88145881309174,
+          "cache": {
+            "source_discovery_s": 0.026553347008302808,
+            "input_hashing_and_validation_s": 0.325056980131194,
+            "cache_preparation_s": 0.35764830908738077
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 0.268965246,
+            "pages": 834,
+            "reused_pages": 833,
+            "normalization_workers": 0,
+            "normalization_backpressure_s": 0.054027962,
+            "normalization_drain_s": 0.00014920899999998482,
+            "output_io_work_s": 0.001769676000000004,
+            "frontmatter_s": 0.01485303400000016,
+            "metadata_s": 0.10392629399999999,
+            "page_metadata_s": 0.0002843320000000062,
+            "redirect_generation_subset_s": 0.007006293999999997,
+            "generators": {},
+            "generator_s": 0.0002219259999999963,
+            "component_binding_s": 0.049360371000000014,
+            "body_s": 0.019282006000000025,
+            "mdx_s": 0,
+            "layout_s": 0.02471363299999996,
+            "dom_s": 0.04471362399999998,
+            "markdown_inclusive_s": 0.019373567999999976,
+            "prism_subset_s": 0.00829065399999996,
+            "markdown_parse_subset_s": 0.010634721000000014,
+            "render_calls": 2,
+            "jsx_expansion_inclusive_s": 0.010466387999999995,
+            "jsx_render_calls": 31,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0.4271983760409057,
+              "maximum_measured_process_rss_mib": 132.78125
+            },
+            "search_generation": {
+              "wall_s": 1.9253199519589543,
+              "maximum_measured_process_rss_mib": 560.51171875
+            },
+            "search_clock": {
+              "wall_s": 0.2951313469093293,
+              "maximum_measured_process_rss_mib": 159.625
+            },
+            "llms": {
+              "wall_s": 0.31297810398973525,
+              "maximum_measured_process_rss_mib": 132.625
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.05648524803109467,
+            "maximum_measured_process_rss_mib": 8.07421875
+          },
+          "nift_preparation_and_composition_s": 0.6364512490108609,
+          "search_s": 2.2213394888676703,
+          "llms_s": 0.3134031780064106,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.32393297203816473,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.19007192295975983,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05825185077264905,
+            "og_assets": 0.0667321824003011,
+            "markdown_downloads": 0.050169690046459436,
+            "redirects": 0.001055656699463725,
+            "search": 0.008157270029187202,
+            "llms": 0.005705273011699319
+          },
+          "copied_bytes": 100524137,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 4.416323262965307
+        },
+        "maximum_measured_process_rss_mib": 560.51171875,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "10-bodies",
+        "whole_pipeline_s": 4.914366607787088,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 1.2912558082025498,
+          "cache": {
+            "source_discovery_s": 0.016508583910763264,
+            "input_hashing_and_validation_s": 0.3379126228392124,
+            "cache_preparation_s": 0.35736805107444525
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 0.6554979639999999,
+            "pages": 834,
+            "reused_pages": 824,
+            "normalization_workers": 0,
+            "normalization_backpressure_s": 0.09352420700000022,
+            "normalization_drain_s": 0.00014937000000008992,
+            "output_io_work_s": 0.03276538699999986,
+            "frontmatter_s": 0.027749912999999723,
+            "metadata_s": 0.127155248,
+            "page_metadata_s": 0.0058878659999998875,
+            "redirect_generation_subset_s": 0.005536977000000007,
+            "generators": {},
+            "generator_s": 0.0002314580000000035,
+            "component_binding_s": 0.04810877999999991,
+            "body_s": 0.14906729799999982,
+            "mdx_s": 0,
+            "layout_s": 0.0691121169999999,
+            "dom_s": 0.20268528499999985,
+            "markdown_inclusive_s": 0.14972581499999996,
+            "prism_subset_s": 0.05326551400000007,
+            "markdown_parse_subset_s": 0.08906042600000035,
+            "render_calls": 17,
+            "jsx_expansion_inclusive_s": 0.057576708000000115,
+            "jsx_render_calls": 256,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0.8265505938325077,
+              "maximum_measured_process_rss_mib": 185.1875
+            },
+            "search_generation": {
+              "wall_s": 1.9610705780796707,
+              "maximum_measured_process_rss_mib": 561.3046875
+            },
+            "search_clock": {
+              "wall_s": 0.26392796402797103,
+              "maximum_measured_process_rss_mib": 156.84375
+            },
+            "llms": {
+              "wall_s": 0.2875396201852709,
+              "maximum_measured_process_rss_mib": 131.3359375
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.06643162597902119,
+            "maximum_measured_process_rss_mib": 13.35546875
+          },
+          "nift_preparation_and_composition_s": 0.6517889571841806,
+          "search_s": 2.225949440151453,
+          "llms_s": 0.2879184829071164,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.36247691698372364,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.21458770101889968,
+          "copy_categories_subset_s": {
+            "static_assets": 0.061489376006647944,
+            "og_assets": 0.08616780862212181,
+            "markdown_downloads": 0.050341215217486024,
+            "redirects": 0.0013543120585381985,
+            "search": 0.008142007980495691,
+            "llms": 0.00709298113361001
+          },
+          "copied_bytes": 100524813,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 4.862088390160352
+        },
+        "maximum_measured_process_rss_mib": 561.3046875,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "100-bodies",
+        "whole_pipeline_s": 5.606282738037407,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 1.8857496799901128,
+          "cache": {
+            "source_discovery_s": 0.026438468135893345,
+            "input_hashing_and_validation_s": 0.3208893840201199,
+            "cache_preparation_s": 0.3529214409645647
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 1.1795477019999998,
+            "pages": 834,
+            "reused_pages": 734,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 0.04895045199999994,
+            "normalization_drain_s": 0.005567665999999917,
+            "output_io_work_s": 0.4539369840000001,
+            "frontmatter_s": 0.030691510999999512,
+            "metadata_s": 0.11500428799999997,
+            "page_metadata_s": 0.06938498599999982,
+            "redirect_generation_subset_s": 0.005983513999999985,
+            "generators": {},
+            "generator_s": 0.00045201199999996786,
+            "component_binding_s": 0.08223051400000012,
+            "body_s": 0.395311665000001,
+            "mdx_s": 0,
+            "layout_s": 0.36968932300000007,
+            "dom_s": 1.249615389000001,
+            "markdown_inclusive_s": 0.396243763999999,
+            "prism_subset_s": 0.11254285600000119,
+            "markdown_parse_subset_s": 0.26570229299999965,
+            "render_calls": 197,
+            "jsx_expansion_inclusive_s": 0.32899116600000017,
+            "jsx_render_calls": 2439,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 1.424698020098731,
+              "maximum_measured_process_rss_mib": 471.38671875
+            },
+            "search_generation": {
+              "wall_s": 1.8282574501354247,
+              "maximum_measured_process_rss_mib": 564.24609375
+            },
+            "search_clock": {
+              "wall_s": 0.3197090730536729,
+              "maximum_measured_process_rss_mib": 158.73046875
+            },
+            "llms": {
+              "wall_s": 0.3207660270854831,
+              "maximum_measured_process_rss_mib": 130.28515625
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.10787422303110361,
+            "maximum_measured_process_rss_mib": 24.52734375
+          },
+          "nift_preparation_and_composition_s": 0.7964825169183314,
+          "search_s": 2.1491035509388894,
+          "llms_s": 0.3212327801156789,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.34795539593324065,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.20674500474706292,
+          "copy_categories_subset_s": {
+            "static_assets": 0.0714905031491071,
+            "og_assets": 0.08294870075769722,
+            "markdown_downloads": 0.03224492003209889,
+            "redirects": 0.0012477338314056396,
+            "search": 0.010834451066330075,
+            "llms": 0.007978695910423994
+          },
+          "copied_bytes": 100540023,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 5.542870793025941
+        },
+        "maximum_measured_process_rss_mib": 564.24609375,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "shared-layout",
+        "whole_pipeline_s": 2.032484464114532,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 0.3529426020104438,
+          "cache": {
+            "source_discovery_s": 0.014837848953902721,
+            "input_hashing_and_validation_s": 0.33320812694728374,
+            "cache_preparation_s": 0.35101107112132013
+          },
+          "exports_reused": true,
+          "render_components": {
+            "pages": 834,
+            "reused_pages": 834,
+            "render_s": 0
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0,
+              "maximum_measured_process_rss_mib": null
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.6460001098457724,
+            "maximum_measured_process_rss_mib": 144.859375
+          },
+          "nift_preparation_and_composition_s": 1.2999995481222868,
+          "search_s": 0,
+          "llms_s": 0,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.3075707331299782,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.17686520074494183,
+          "copy_categories_subset_s": {
+            "static_assets": 0.06167024467140436,
+            "og_assets": 0.06504658819176257,
+            "markdown_downloads": 0.03585256403312087,
+            "redirects": 0.0008147829212248325,
+            "search": 0.00784973194822669,
+            "llms": 0.005631288979202509
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.9852983448654413
+        },
+        "maximum_measured_process_rss_mib": 144.859375,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "navigation",
+        "whole_pipeline_s": 15.545178218046203,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 11.442661177134141,
+          "cache": {
+            "source_discovery_s": 0.017961713951081038,
+            "input_hashing_and_validation_s": 0.22273944900371134,
+            "cache_preparation_s": 0.24590257881209254
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 10.739094281,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.549425842000005,
+            "normalization_drain_s": 0.18100284499999908,
+            "output_io_work_s": 3.7142497720000094,
+            "frontmatter_s": 0.07890155100000759,
+            "metadata_s": 0.15496995099999997,
+            "page_metadata_s": 0.3556250280000235,
+            "redirect_generation_subset_s": 0.010477269999999976,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.05601527100000004,
+              "examples/index.page.tsx": 0.01587870399999997,
+              "lint/lint_rule.page.tsx": 0.101582811,
+              "reference/reference.page.ts": 1.350497866
+            },
+            "generator_s": 1.524460693,
+            "component_binding_s": 0.09666805599999671,
+            "body_s": 1.4263616929999847,
+            "mdx_s": 0.12935262499999953,
+            "layout_s": 5.073550679999993,
+            "dom_s": 15.71143950399999,
+            "markdown_inclusive_s": 1.2690028309999861,
+            "prism_subset_s": 0.35001638399996354,
+            "markdown_parse_subset_s": 0.8358208220000122,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 4.98529478,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 11.088624373078346,
+              "maximum_measured_process_rss_mib": 1525.3359375
+            },
+            "search_generation": {
+              "wall_s": 1.7423167410306633,
+              "maximum_measured_process_rss_mib": 559.53515625
+            },
+            "search_clock": {
+              "wall_s": 0.30290825897827744,
+              "maximum_measured_process_rss_mib": 157.55859375
+            },
+            "llms": {
+              "wall_s": 0.3169327510986477,
+              "maximum_measured_process_rss_mib": 130.20703125
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.5410204951185733,
+            "maximum_measured_process_rss_mib": 130.1640625
+          },
+          "nift_preparation_and_composition_s": 1.3282960979267955,
+          "search_s": 2.046101267915219,
+          "llms_s": 0.31737120007164776,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.31373140192590654,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1876537122298032,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05810835491865873,
+            "og_assets": 0.06439706706441939,
+            "markdown_downloads": 0.049634180730208755,
+            "redirects": 0.0007965520489960909,
+            "search": 0.008840242167934775,
+            "llms": 0.005877315299585462
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 15.487586920149624
+        },
+        "maximum_measured_process_rss_mib": 1525.3359375,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "title-metadata",
+        "whole_pipeline_s": 17.754413970047608,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 14.107238056138158,
+          "cache": {
+            "source_discovery_s": 0.02517032902687788,
+            "input_hashing_and_validation_s": 0.33757777605205774,
+            "cache_preparation_s": 0.3692197320051491
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 13.124663895,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.7882722999999985,
+            "normalization_drain_s": 0.1742041649999992,
+            "output_io_work_s": 4.390682088000004,
+            "frontmatter_s": 0.095244346999996,
+            "metadata_s": 0.199354475,
+            "page_metadata_s": 0.3707738749999908,
+            "redirect_generation_subset_s": 0.013375117999999986,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.12387512800000001,
+              "examples/index.page.tsx": 0.03433382299999994,
+              "lint/lint_rule.page.tsx": 0.216633511,
+              "reference/reference.page.ts": 2.053734331
+            },
+            "generator_s": 2.429441626,
+            "component_binding_s": 0.1121621410000071,
+            "body_s": 1.6173976210000072,
+            "mdx_s": 0.0760911500000002,
+            "layout_s": 5.95982876899999,
+            "dom_s": 18.588411450000002,
+            "markdown_inclusive_s": 1.5993324390000074,
+            "prism_subset_s": 0.42423238099999594,
+            "markdown_parse_subset_s": 1.0668840040000243,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 5.833609342000051,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 13.61322277598083,
+              "maximum_measured_process_rss_mib": 1555.47265625
+            },
+            "search_generation": {
+              "wall_s": 1.9005195810459554,
+              "maximum_measured_process_rss_mib": 560.03515625
+            },
+            "search_clock": {
+              "wall_s": 0.2540970640257001,
+              "maximum_measured_process_rss_mib": 159.3671875
+            },
+            "llms": {
+              "wall_s": 0.31247319909743965,
+              "maximum_measured_process_rss_mib": 132.19921875
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.07015002192929387,
+            "maximum_measured_process_rss_mib": 8.16015625
+          },
+          "nift_preparation_and_composition_s": 0.7327397018671036,
+          "search_s": 2.1554380760062486,
+          "llms_s": 0.3128357969690114,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.31196361500769854,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.18913440476171672,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05556271621026099,
+            "og_assets": 0.06706165266223252,
+            "markdown_downloads": 0.0515821969602257,
+            "redirects": 0.0009219460189342499,
+            "search": 0.008279189001768827,
+            "llms": 0.005726703908294439
+          },
+          "copied_bytes": 100524031,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 17.662790606031194
+        },
+        "maximum_measured_process_rss_mib": 1555.47265625,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "generated-reference-data",
+        "whole_pipeline_s": 14.875294275116175,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 10.744762987829745,
+          "cache": {
+            "source_discovery_s": 0.01687431801110506,
+            "input_hashing_and_validation_s": 0.253322612028569,
+            "cache_preparation_s": 0.2733162520453334
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 9.791562099,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.475759209999983,
+            "normalization_drain_s": 0.15194189100000038,
+            "output_io_work_s": 2.940310277999989,
+            "frontmatter_s": 0.0698410709999968,
+            "metadata_s": 0.126363823,
+            "page_metadata_s": 0.23772216699999651,
+            "redirect_generation_subset_s": 0.011982173999999986,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.05041447499999998,
+              "examples/index.page.tsx": 0.015248661999999967,
+              "lint/lint_rule.page.tsx": 0.10072216500000007,
+              "reference/reference.page.ts": 1.319668567
+            },
+            "generator_s": 1.4865807039999999,
+            "component_binding_s": 0.08298236999998813,
+            "body_s": 1.2060175679999927,
+            "mdx_s": 0.060358080000000425,
+            "layout_s": 4.681469080999988,
+            "dom_s": 14.937722894999995,
+            "markdown_inclusive_s": 1.133083154000016,
+            "prism_subset_s": 0.30149558499998824,
+            "markdown_parse_subset_s": 0.7635501600000046,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 4.61318789200001,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 10.33317073690705,
+              "maximum_measured_process_rss_mib": 2231.3671875
+            },
+            "search_generation": {
+              "wall_s": 1.9205446760170162,
+              "maximum_measured_process_rss_mib": 557.62109375
+            },
+            "search_clock": {
+              "wall_s": 0.3078331081196666,
+              "maximum_measured_process_rss_mib": 157.3046875
+            },
+            "llms": {
+              "wall_s": 0.3085312219336629,
+              "maximum_measured_process_rss_mib": 129.7421875
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.5341976832132787,
+            "maximum_measured_process_rss_mib": 136.0390625
+          },
+          "nift_preparation_and_composition_s": 1.1474892541300505,
+          "search_s": 2.229283930035308,
+          "llms_s": 0.30896766390651464,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.33719004318118095,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1918113750871271,
+          "copy_categories_subset_s": {
+            "static_assets": 0.08004893455654383,
+            "og_assets": 0.06746946787461638,
+            "markdown_downloads": 0.02940626721829176,
+            "redirects": 0.0008144001476466656,
+            "search": 0.008247965946793556,
+            "llms": 0.005824339343234897
+          },
+          "copied_bytes": 100524023,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 14.811232815030962
+        },
+        "maximum_measured_process_rss_mib": 2231.3671875,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "route-add",
+        "whole_pipeline_s": 16.7968939288985,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 12.40423560817726,
+          "cache": {
+            "source_discovery_s": 0.01694797002710402,
+            "input_hashing_and_validation_s": 0.24827591190114617,
+            "cache_preparation_s": 0.27099037915468216
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 11.518947827,
+            "pages": 835,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.5178127209999996,
+            "normalization_drain_s": 0.16470928599999934,
+            "output_io_work_s": 3.908663626999986,
+            "frontmatter_s": 0.09020587699999591,
+            "metadata_s": 0.187744415,
+            "page_metadata_s": 0.32974039399999083,
+            "redirect_generation_subset_s": 0.008679629000000091,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.07677961200000004,
+              "examples/index.page.tsx": 0.02721822599999996,
+              "lint/lint_rule.page.tsx": 0.11573275999999999,
+              "reference/reference.page.ts": 1.572127281
+            },
+            "generator_s": 1.7924578489999998,
+            "component_binding_s": 0.10044846700001098,
+            "body_s": 1.4255819140000248,
+            "mdx_s": 0.08992631200000051,
+            "layout_s": 5.594224074999987,
+            "dom_s": 16.347433726000002,
+            "markdown_inclusive_s": 1.332059688000007,
+            "prism_subset_s": 0.3339151350000317,
+            "markdown_parse_subset_s": 0.9158459270000107,
+            "render_calls": 2207,
+            "jsx_expansion_inclusive_s": 5.492955961999962,
+            "jsx_render_calls": 89445,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 11.992273573065177,
+              "maximum_measured_process_rss_mib": 1495.11328125
+            },
+            "search_generation": {
+              "wall_s": 1.9920074378605932,
+              "maximum_measured_process_rss_mib": 558.53515625
+            },
+            "search_clock": {
+              "wall_s": 0.31818519392982125,
+              "maximum_measured_process_rss_mib": 158.01953125
+            },
+            "llms": {
+              "wall_s": 0.32125885994173586,
+              "maximum_measured_process_rss_mib": 129.484375
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.5874401028268039,
+            "maximum_measured_process_rss_mib": 126.234375
+          },
+          "nift_preparation_and_composition_s": 1.320198314031586,
+          "search_s": 2.31120631005615,
+          "llms_s": 0.3217418098356575,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.3269054058473557,
+          "non_html_outputs": 1741,
+          "copy_subset_s": 0.19221557630226016,
+          "copy_categories_subset_s": {
+            "static_assets": 0.068534049205482,
+            "og_assets": 0.07296613068319857,
+            "markdown_downloads": 0.03487473260611296,
+            "redirects": 0.0010528741404414177,
+            "search": 0.008484601741656661,
+            "llms": 0.0063031879253685474
+          },
+          "copied_bytes": 100557690,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 16.728371809003875
+        },
+        "maximum_measured_process_rss_mib": 1495.11328125,
+        "files": 2576,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "route-rename",
+        "whole_pipeline_s": 19.048465658910573,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 13.12899060593918,
+          "cache": {
+            "source_discovery_s": 0.029807770857587457,
+            "input_hashing_and_validation_s": 0.2825014619156718,
+            "cache_preparation_s": 0.3182620550505817
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 12.144175301999999,
+            "pages": 835,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.7567362799999922,
+            "normalization_drain_s": 0.2979567029999998,
+            "output_io_work_s": 3.6592627519999965,
+            "frontmatter_s": 0.07708573999999582,
+            "metadata_s": 0.15249639299999998,
+            "page_metadata_s": 0.30811510399999725,
+            "redirect_generation_subset_s": 0.009508475999999575,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.07452616500000005,
+              "examples/index.page.tsx": 0.015998454999999977,
+              "lint/lint_rule.page.tsx": 0.11044676800000001,
+              "reference/reference.page.ts": 1.605782133
+            },
+            "generator_s": 1.807382497,
+            "component_binding_s": 0.10359398599998698,
+            "body_s": 1.3951657540000053,
+            "mdx_s": 0.07784918900000048,
+            "layout_s": 5.923060896999974,
+            "dom_s": 18.290939459000022,
+            "markdown_inclusive_s": 1.2869797480000083,
+            "prism_subset_s": 0.3409097439999952,
+            "markdown_parse_subset_s": 0.867427868999998,
+            "render_calls": 2207,
+            "jsx_expansion_inclusive_s": 5.821201967000001,
+            "jsx_render_calls": 89445,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 12.676317343022674,
+              "maximum_measured_process_rss_mib": 1500.9765625
+            },
+            "search_generation": {
+              "wall_s": 2.616165821906179,
+              "maximum_measured_process_rss_mib": 560.7890625
+            },
+            "search_clock": {
+              "wall_s": 0.3335191919468343,
+              "maximum_measured_process_rss_mib": 158.1015625
+            },
+            "llms": {
+              "wall_s": 0.4543533897958696,
+              "maximum_measured_process_rss_mib": 129.9375
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.7870327970013022,
+            "maximum_measured_process_rss_mib": 133.07421875
+          },
+          "nift_preparation_and_composition_s": 2.0185379670001566,
+          "search_s": 2.9507528240792453,
+          "llms_s": 0.4549602752085775,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.3645867679733783,
+          "non_html_outputs": 1741,
+          "copy_subset_s": 0.21117909345775843,
+          "copy_categories_subset_s": {
+            "static_assets": 0.07274899468757212,
+            "og_assets": 0.08287199051119387,
+            "markdown_downloads": 0.03800125070847571,
+            "redirects": 0.0010578669607639313,
+            "search": 0.009263182990252972,
+            "llms": 0.007235807599499822
+          },
+          "copied_bytes": 100557722,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 18.96934575191699
+        },
+        "maximum_measured_process_rss_mib": 1500.9765625,
+        "files": 2576,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno",
+        "case": "route-delete",
+        "whole_pipeline_s": 19.690436370903626,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 14.547815538942814,
+          "cache": {
+            "source_discovery_s": 0.03121570684015751,
+            "input_hashing_and_validation_s": 0.337961140088737,
+            "cache_preparation_s": 0.3758511038031429
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 13.578652927,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.9616528660000048,
+            "normalization_drain_s": 0.370902505,
+            "output_io_work_s": 4.511043563999992,
+            "frontmatter_s": 0.09242511799999924,
+            "metadata_s": 0.18335968500000002,
+            "page_metadata_s": 0.3379801340000079,
+            "redirect_generation_subset_s": 0.010555250999999885,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.07528022699999996,
+              "examples/index.page.tsx": 0.01832079200000004,
+              "lint/lint_rule.page.tsx": 0.12925830499999996,
+              "reference/reference.page.ts": 1.7365213520000002
+            },
+            "generator_s": 1.96017652,
+            "component_binding_s": 0.12333033499999606,
+            "body_s": 1.582487217999999,
+            "mdx_s": 0.07516496300000108,
+            "layout_s": 6.599153448999992,
+            "dom_s": 20.083471222000007,
+            "markdown_inclusive_s": 1.4663408560000115,
+            "prism_subset_s": 0.38021542200000735,
+            "markdown_parse_subset_s": 0.9973262649999939,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 6.489846134000012,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 14.020725903799757,
+              "maximum_measured_process_rss_mib": 1456.38671875
+            },
+            "search_generation": {
+              "wall_s": 2.575359262060374,
+              "maximum_measured_process_rss_mib": 559.12109375
+            },
+            "search_clock": {
+              "wall_s": 0.2793004009872675,
+              "maximum_measured_process_rss_mib": 159.27734375
+            },
+            "llms": {
+              "wall_s": 0.32889398094266653,
+              "maximum_measured_process_rss_mib": 127.453125
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.7143653619568795,
+            "maximum_measured_process_rss_mib": 133.3203125
+          },
+          "nift_preparation_and_composition_s": 1.5088224890641868,
+          "search_s": 2.8556083599105477,
+          "llms_s": 0.32942078798078,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.32500961888581514,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.19107158109545708,
+          "copy_categories_subset_s": {
+            "static_assets": 0.06376588065177202,
+            "og_assets": 0.0784411421045661,
+            "markdown_downloads": 0.031715669203549623,
+            "redirects": 0.0010537018533796072,
+            "search": 0.00931697292253375,
+            "llms": 0.006778214359655976
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 19.615229351911694
+        },
+        "maximum_measured_process_rss_mib": 1456.38671875,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "1-bodies",
+        "whole_pipeline_s": 1.7226400100626051,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.3010999099351466,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.8582787399645895,
+            "maximum_measured_process_rss_mib": 139.42578125
+          },
+          "publication_s": 0.3536985700484365,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.20798748219385743,
+          "copy_categories_subset_s": {
+            "static_assets": 0.07188019761815667,
+            "og_assets": 0.08386597502976656,
+            "markdown_downloads": 0.03331698919646442,
+            "redirects": 0.0012213699519634247,
+            "search": 0.011205591028556228,
+            "llms": 0.0064973593689501286
+          },
+          "copied_bytes": 103599255,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.6563126167748123
+        },
+        "maximum_measured_process_rss_mib": 139.42578125,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "10-bodies",
+        "whole_pipeline_s": 2.294826292898506,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.5129867219366133,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.8019220840651542,
+            "maximum_measured_process_rss_mib": 129.578125
+          },
+          "publication_s": 0.6987510570324957,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.42355127772316337,
+          "copy_categories_subset_s": {
+            "static_assets": 0.1367552785668522,
+            "og_assets": 0.15409071859903634,
+            "markdown_downloads": 0.10196821368299425,
+            "redirects": 0.0022936540190130472,
+            "search": 0.018398779910057783,
+            "llms": 0.010044632945209742
+          },
+          "copied_bytes": 103599927,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 2.2128551099449396
+        },
+        "maximum_measured_process_rss_mib": 129.578125,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "100-bodies",
+        "whole_pipeline_s": 1.7053984878584743,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.3199425879865885,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.6814040439203382,
+            "maximum_measured_process_rss_mib": 135.1796875
+          },
+          "publication_s": 0.32056982605718076,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.19000294525176287,
+          "copy_categories_subset_s": {
+            "static_assets": 0.06307510030455887,
+            "og_assets": 0.0777876244392246,
+            "markdown_downloads": 0.03192883753217757,
+            "redirects": 0.0010522098746150732,
+            "search": 0.010130575159564614,
+            "llms": 0.006028597941622138
+          },
+          "copied_bytes": 103615047,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.641553431050852
+        },
+        "maximum_measured_process_rss_mib": 135.1796875,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "shared-layout",
+        "whole_pipeline_s": 1.7547438640613109,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.2578053791075945,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.7998114300426096,
+            "maximum_measured_process_rss_mib": 135.52734375
+          },
+          "publication_s": 0.4299644320271909,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.2421926250681281,
+          "copy_categories_subset_s": {
+            "static_assets": 0.11247560195624828,
+            "og_assets": 0.07669485243968666,
+            "markdown_downloads": 0.03500275034457445,
+            "redirects": 0.0011342137586325407,
+            "search": 0.009683012729510665,
+            "llms": 0.0072021938394755125
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.6887017169501632
+        },
+        "maximum_measured_process_rss_mib": 135.52734375,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "navigation",
+        "whole_pipeline_s": 1.8038956769742072,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.368116264929995,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.775925608118996,
+            "maximum_measured_process_rss_mib": 135.765625
+          },
+          "publication_s": 0.37130406592041254,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.2192513404879719,
+          "copy_categories_subset_s": {
+            "static_assets": 0.08040216821245849,
+            "og_assets": 0.08131100912578404,
+            "markdown_downloads": 0.03995439736172557,
+            "redirects": 0.0014001389499753714,
+            "search": 0.009679669979959726,
+            "llms": 0.006503956858068705
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.7409508670680225
+        },
+        "maximum_measured_process_rss_mib": 135.765625,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "title-metadata",
+        "whole_pipeline_s": 1.6566696390509605,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.134895252995193,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.7131818181369454,
+            "maximum_measured_process_rss_mib": 137.171875
+          },
+          "publication_s": 0.46017926395870745,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.2786475596949458,
+          "copy_categories_subset_s": {
+            "static_assets": 0.07738325139507651,
+            "og_assets": 0.12821380095556378,
+            "markdown_downloads": 0.05049314606003463,
+            "redirects": 0.0019353448878973722,
+            "search": 0.012586079305037856,
+            "llms": 0.008035937091335654
+          },
+          "copied_bytes": 103599150,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.5963230000343174
+        },
+        "maximum_measured_process_rss_mib": 137.171875,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "generated-reference-data",
+        "whole_pipeline_s": 1.5560357130598277,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.1493793849367648,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.6856788340955973,
+            "maximum_measured_process_rss_mib": 135.93359375
+          },
+          "publication_s": 0.33567288401536644,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.19571196101605892,
+          "copy_categories_subset_s": {
+            "static_assets": 0.06144428998231888,
+            "og_assets": 0.08447842160239816,
+            "markdown_downloads": 0.0293407435528934,
+            "redirects": 0.0014038498047739267,
+            "search": 0.01326089003123343,
+            "llms": 0.00578376604244113
+          },
+          "copied_bytes": 103599429,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.4869869598187506
+        },
+        "maximum_measured_process_rss_mib": 135.93359375,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "route-add",
+        "whole_pipeline_s": 1.6872329369653016,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.2840266968123615,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.7127003851346672,
+            "maximum_measured_process_rss_mib": 130.609375
+          },
+          "publication_s": 0.334909152938053,
+          "non_html_outputs": 1741,
+          "copy_subset_s": 0.19858323619700968,
+          "copy_categories_subset_s": {
+            "static_assets": 0.06600753357633948,
+            "og_assets": 0.0807739901356399,
+            "markdown_downloads": 0.03213661350309849,
+            "redirects": 0.0011978151742368937,
+            "search": 0.011216545011848211,
+            "llms": 0.007250738795846701
+          },
+          "copied_bytes": 103633220,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.6199256849940866
+        },
+        "maximum_measured_process_rss_mib": 130.609375,
+        "files": 2576,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "route-rename",
+        "whole_pipeline_s": 1.6141260240692645,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.223272206960246,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.671463716076687,
+            "maximum_measured_process_rss_mib": 132.0234375
+          },
+          "publication_s": 0.32781717204488814,
+          "non_html_outputs": 1741,
+          "copy_subset_s": 0.1953260030131787,
+          "copy_categories_subset_s": {
+            "static_assets": 0.06922491709701717,
+            "og_assets": 0.07483191648498178,
+            "markdown_downloads": 0.03331614634953439,
+            "redirects": 0.0011009159497916698,
+            "search": 0.01070177205838263,
+            "llms": 0.006150335073471069
+          },
+          "copied_bytes": 103633236,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.5524262369144708
+        },
+        "maximum_measured_process_rss_mib": 132.0234375,
+        "files": 2576,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      },
+      {
+        "phase": "d8-production",
+        "model": "deno-agent",
+        "case": "route-delete",
+        "whole_pipeline_s": 1.9334563789889216,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 1.5174299478530884,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.6850733289029449,
+            "maximum_measured_process_rss_mib": 138.90234375
+          },
+          "publication_s": 0.3402285291813314,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.20041859988123178,
+          "copy_categories_subset_s": {
+            "static_assets": 0.07008024444803596,
+            "og_assets": 0.07892738585360348,
+            "markdown_downloads": 0.03103068540804088,
+            "redirects": 0.0011951730120927095,
+            "search": 0.012335560051724315,
+            "llms": 0.006849551107734442
+          },
+          "copied_bytes": 103599088,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.8586150668561459
+        },
+        "maximum_measured_process_rss_mib": 138.90234375,
+        "files": 2573,
+        "incremental_equals_forced_full": true,
+        "expected_change_assertions": true,
+        "source_transaction": "coordinated maintained inputs; authoring outside timed build"
+      }
+    ],
+    "unchanged": [
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-normal-publication",
+        "sample": 1,
+        "whole_pipeline_s": 1.3449877470266074,
+        "maximum_measured_process_rss_mib": 104.671875,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 0.29718347918242216,
+          "cache": {
+            "source_discovery_s": 0.01130527793429792,
+            "input_hashing_and_validation_s": 0.28180244308896363,
+            "cache_preparation_s": 0.2955919939558953
+          },
+          "exports_reused": true,
+          "render_components": {
+            "pages": 834,
+            "reused_pages": 834,
+            "render_s": 0
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0,
+              "maximum_measured_process_rss_mib": null
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.05428317794576287,
+            "maximum_measured_process_rss_mib": 6.38671875
+          },
+          "nift_preparation_and_composition_s": 0.7628517809789628,
+          "search_s": 0,
+          "llms_s": 0,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.22142277006059885,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1346932672895491,
+          "copy_categories_subset_s": {
+            "static_assets": 0.04713813029229641,
+            "og_assets": 0.05356283229775727,
+            "markdown_downloads": 0.020804760744795203,
+            "redirects": 0.0008585529867559671,
+            "search": 0.007226127199828625,
+            "llms": 0.00510286376811564
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.2985167291481048
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-normal-publication",
+        "sample": 1,
+        "whole_pipeline_s": 0.9213372159283608,
+        "maximum_measured_process_rss_mib": 30.76171875,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.6539098001085222,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.07028579502366483,
+            "maximum_measured_process_rss_mib": 6.203125
+          },
+          "publication_s": 0.21657290402799845,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1306200863327831,
+          "copy_categories_subset_s": {
+            "static_assets": 0.04321390460245311,
+            "og_assets": 0.05390712199732661,
+            "markdown_downloads": 0.02195714763365686,
+            "redirects": 0.0008521319832652807,
+            "search": 0.005776226054877043,
+            "llms": 0.004913554061204195
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.8711821171455085
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-normal-publication",
+        "sample": 2,
+        "whole_pipeline_s": 0.6450648510362953,
+        "maximum_measured_process_rss_mib": 31.02734375,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.3602734461892396,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.06172657012939453,
+            "maximum_measured_process_rss_mib": 6.23828125
+          },
+          "publication_s": 0.24558336101472378,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.14814927894622087,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05139725864864886,
+            "og_assets": 0.05572809628210962,
+            "markdown_downloads": 0.029212503228336573,
+            "redirects": 0.000806337920948863,
+            "search": 0.005824770778417587,
+            "llms": 0.005180312087759376
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.6066090860404074
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-normal-publication",
+        "sample": 2,
+        "whole_pipeline_s": 1.275066026020795,
+        "maximum_measured_process_rss_mib": 105.03515625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 0.31153083499521017,
+          "cache": {
+            "source_discovery_s": 0.012020335998386145,
+            "input_hashing_and_validation_s": 0.2958601110149175,
+            "cache_preparation_s": 0.31028452585451305
+          },
+          "exports_reused": true,
+          "render_components": {
+            "pages": 834,
+            "reused_pages": 834,
+            "render_s": 0
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0,
+              "maximum_measured_process_rss_mib": null
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.055444909958168864,
+            "maximum_measured_process_rss_mib": 6.21484375
+          },
+          "nift_preparation_and_composition_s": 0.6678927529137582,
+          "search_s": 0,
+          "llms_s": 0,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.23674055584706366,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1460650605149567,
+          "copy_categories_subset_s": {
+            "static_assets": 0.0517105411272496,
+            "og_assets": 0.05549950082786381,
+            "markdown_downloads": 0.026319661643356085,
+            "redirects": 0.000722791999578476,
+            "search": 0.0067170599941164255,
+            "llms": 0.0050955049227923155
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.23356096399948
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-normal-publication",
+        "sample": 3,
+        "whole_pipeline_s": 1.3129792942199856,
+        "maximum_measured_process_rss_mib": 104.25,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 0.37210569088347256,
+          "cache": {
+            "source_discovery_s": 0.03204357693903148,
+            "input_hashing_and_validation_s": 0.33469177107326686,
+            "cache_preparation_s": 0.37094090110622346
+          },
+          "exports_reused": true,
+          "render_components": {
+            "pages": 834,
+            "reused_pages": 834,
+            "render_s": 0
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0,
+              "maximum_measured_process_rss_mib": null
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.054055041866376996,
+            "maximum_measured_process_rss_mib": 5.90625
+          },
+          "nift_preparation_and_composition_s": 0.5785965810064226,
+          "search_s": 0,
+          "llms_s": 0,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.29056674102321267,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.17308234772644937,
+          "copy_categories_subset_s": {
+            "static_assets": 0.07080832216888666,
+            "og_assets": 0.06089421035721898,
+            "markdown_downloads": 0.024522201158106327,
+            "redirects": 0.001012902008369565,
+            "search": 0.007541425991803408,
+            "llms": 0.008303286042064428
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.2646863299887627
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-normal-publication",
+        "sample": 3,
+        "whole_pipeline_s": 0.677940544905141,
+        "maximum_measured_process_rss_mib": 30.82421875,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.39289722708053887,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.06406067009083927,
+            "maximum_measured_process_rss_mib": 6.43359375
+          },
+          "publication_s": 0.2427470360416919,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.14901445666328073,
+          "copy_categories_subset_s": {
+            "static_assets": 0.04830368352122605,
+            "og_assets": 0.06072328216396272,
+            "markdown_downloads": 0.02611768734641373,
+            "redirects": 0.000872697914019227,
+            "search": 0.007671251194551587,
+            "llms": 0.0053258545231074095
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.6363343249540776
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-normal-publication",
+        "sample": 4,
+        "whole_pipeline_s": 0.7325002651195973,
+        "maximum_measured_process_rss_mib": 30.65625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.45407597394660115,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.06357219303026795,
+            "maximum_measured_process_rss_mib": 6.36328125
+          },
+          "publication_s": 0.23237340687774122,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.14035828178748488,
+          "copy_categories_subset_s": {
+            "static_assets": 0.049553257413208485,
+            "og_assets": 0.05584014393389225,
+            "markdown_downloads": 0.022280059522017837,
+            "redirects": 0.0009238871280103922,
+            "search": 0.00720055284909904,
+            "llms": 0.004560380941256881
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.6881630069110543
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-normal-publication",
+        "sample": 4,
+        "whole_pipeline_s": 1.2158611931372434,
+        "maximum_measured_process_rss_mib": 104.328125,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 0.32623083400540054,
+          "cache": {
+            "source_discovery_s": 0.01284845289774239,
+            "input_hashing_and_validation_s": 0.3095335280522704,
+            "cache_preparation_s": 0.32502452097833157
+          },
+          "exports_reused": true,
+          "render_components": {
+            "pages": 834,
+            "reused_pages": 834,
+            "render_s": 0
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0,
+              "maximum_measured_process_rss_mib": null
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.06189480796456337,
+            "maximum_measured_process_rss_mib": 6.34375
+          },
+          "nift_preparation_and_composition_s": 0.5817880060058087,
+          "search_s": 0,
+          "llms_s": 0,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.24498455598950386,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15041963732801378,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05247322074137628,
+            "og_assets": 0.05645917891524732,
+            "markdown_downloads": 0.026627191342413425,
+            "redirects": 0.000679302029311657,
+            "search": 0.008194616064429283,
+            "llms": 0.00598612823523581
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.1702958100941032
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-normal-publication",
+        "sample": 5,
+        "whole_pipeline_s": 1.374271399807185,
+        "maximum_measured_process_rss_mib": 104.0234375,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 0.354669997934252,
+          "cache": {
+            "source_discovery_s": 0.012333841994404793,
+            "input_hashing_and_validation_s": 0.33701232611201704,
+            "cache_preparation_s": 0.3531935990322381
+          },
+          "exports_reused": true,
+          "render_components": {
+            "pages": 834,
+            "reused_pages": 834,
+            "render_s": 0
+          },
+          "phases": {
+            "render": {
+              "wall_s": 0,
+              "maximum_measured_process_rss_mib": null
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.05138001102022827,
+            "maximum_measured_process_rss_mib": 6.19140625
+          },
+          "nift_preparation_and_composition_s": 0.6999976939987391,
+          "search_s": 0,
+          "llms_s": 0,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.25164512312039733,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15425490983761847,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05300398007966578,
+            "og_assets": 0.06197953247465193,
+            "markdown_downloads": 0.02536121034063399,
+            "redirects": 0.0008733298163861036,
+            "search": 0.007759411120787263,
+            "llms": 0.0052774460054934025
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.3251504329964519
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-normal-publication",
+        "sample": 5,
+        "whole_pipeline_s": 0.704449038952589,
+        "maximum_measured_process_rss_mib": 30.33203125,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.3839935010764748,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.0678752230014652,
+            "maximum_measured_process_rss_mib": 6.45703125
+          },
+          "publication_s": 0.257631016895175,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15720770368352532,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05636870744638145,
+            "og_assets": 0.05687283235602081,
+            "markdown_downloads": 0.0313426551874727,
+            "redirects": 0.000817249296233058,
+            "search": 0.006822793046012521,
+            "llms": 0.004983466351404786
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.6441579950042069
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-forced-full",
+        "sample": 1,
+        "whole_pipeline_s": 11.841896768892184,
+        "maximum_measured_process_rss_mib": 1581.9765625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 8.544684812193736,
+          "cache": {
+            "source_discovery_s": 0.012676814803853631,
+            "input_hashing_and_validation_s": 0.33638469292782247,
+            "cache_preparation_s": 0.351725485175848
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 7.752964853,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.1393468199999988,
+            "normalization_drain_s": 0.12872530499999993,
+            "output_io_work_s": 2.6332696719999933,
+            "frontmatter_s": 0.05159818600000363,
+            "metadata_s": 0.097780686,
+            "page_metadata_s": 0.2004877410000027,
+            "redirect_generation_subset_s": 0.007351676000000054,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.04752424099999996,
+              "examples/index.page.tsx": 0.01629909900000001,
+              "lint/lint_rule.page.tsx": 0.085645826,
+              "reference/reference.page.ts": 1.278382629
+            },
+            "generator_s": 1.4285708129999999,
+            "component_binding_s": 0.0599544750000089,
+            "body_s": 0.9053894749999899,
+            "mdx_s": 0.05884971899999982,
+            "layout_s": 3.5185440850000003,
+            "dom_s": 10.963589219000015,
+            "markdown_inclusive_s": 0.8457380089999937,
+            "prism_subset_s": 0.22701114400000807,
+            "markdown_parse_subset_s": 0.5682776179999971,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 3.4622647159999884,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 8.096450224984437,
+              "maximum_measured_process_rss_mib": 1581.9765625
+            },
+            "search_generation": {
+              "wall_s": 1.5122244388330728,
+              "maximum_measured_process_rss_mib": 557.46484375
+            },
+            "search_clock": {
+              "wall_s": 0.22277395008131862,
+              "maximum_measured_process_rss_mib": 159.05078125
+            },
+            "llms": {
+              "wall_s": 0.2706608350854367,
+              "maximum_measured_process_rss_mib": 131.5390625
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.4430620369967073,
+            "maximum_measured_process_rss_mib": 124.1640625
+          },
+          "nift_preparation_and_composition_s": 0.9784642620943487,
+          "search_s": 1.7358952229842544,
+          "llms_s": 0.2710056051146239,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.23478596983477473,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.14312617084942758,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05075343232601881,
+            "og_assets": 0.05613997019827366,
+            "markdown_downloads": 0.023223835742101073,
+            "redirects": 0.0008186721242964268,
+            "search": 0.007434551604092121,
+            "llms": 0.004755708854645491
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 11.79926590109244
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-forced-full",
+        "sample": 1,
+        "whole_pipeline_s": 1.035271645989269,
+        "maximum_measured_process_rss_mib": 141.1875,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.7093414401169866,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.3828595820814371,
+            "maximum_measured_process_rss_mib": 141.1875
+          },
+          "publication_s": 0.26709504798054695,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.16561230760999024,
+          "copy_categories_subset_s": {
+            "static_assets": 0.047746751457452774,
+            "og_assets": 0.0808483213186264,
+            "markdown_downloads": 0.022981706308200955,
+            "redirects": 0.0009037484414875507,
+            "search": 0.008170887129381299,
+            "llms": 0.004960892954841256
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.9781640369910747
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-forced-full",
+        "sample": 2,
+        "whole_pipeline_s": 1.036829232936725,
+        "maximum_measured_process_rss_mib": 135.328125,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.748329307185486,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.4248958760872483,
+            "maximum_measured_process_rss_mib": 135.328125
+          },
+          "publication_s": 0.2475680240895599,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1455762900877744,
+          "copy_categories_subset_s": {
+            "static_assets": 0.04978173435665667,
+            "og_assets": 0.057858027750626206,
+            "markdown_downloads": 0.02389789535664022,
+            "redirects": 0.0009013640228658915,
+            "search": 0.007306822808459401,
+            "llms": 0.005830445792526007
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.9967444580979645
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-forced-full",
+        "sample": 2,
+        "whole_pipeline_s": 12.64407483395189,
+        "maximum_measured_process_rss_mib": 1486.4765625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 9.362111574970186,
+          "cache": {
+            "source_discovery_s": 0.012325930874794722,
+            "input_hashing_and_validation_s": 0.327020371099934,
+            "cache_preparation_s": 0.3420021568890661
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 8.527852105,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.182613867000003,
+            "normalization_drain_s": 0.1250989329999993,
+            "output_io_work_s": 3.311383462000012,
+            "frontmatter_s": 0.06120976599999863,
+            "metadata_s": 0.10647282000000001,
+            "page_metadata_s": 0.2244084840000053,
+            "redirect_generation_subset_s": 0.006258799000000095,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.041461137999999946,
+              "examples/index.page.tsx": 0.012754284999999982,
+              "lint/lint_rule.page.tsx": 0.085424395,
+              "reference/reference.page.ts": 1.2261970059999998
+            },
+            "generator_s": 1.366382828,
+            "component_binding_s": 0.06720149899999031,
+            "body_s": 1.0187711229999903,
+            "mdx_s": 0.05251498200000014,
+            "layout_s": 4.138050332,
+            "dom_s": 12.211605693999996,
+            "markdown_inclusive_s": 0.9278469229999978,
+            "prism_subset_s": 0.25060737800000527,
+            "markdown_parse_subset_s": 0.6202296039999958,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 4.084499252000029,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 8.923061869107187,
+              "maximum_measured_process_rss_mib": 1486.4765625
+            },
+            "search_generation": {
+              "wall_s": 1.5413709050044417,
+              "maximum_measured_process_rss_mib": 560.2890625
+            },
+            "search_clock": {
+              "wall_s": 0.22544083721004426,
+              "maximum_measured_process_rss_mib": 154.734375
+            },
+            "llms": {
+              "wall_s": 0.2571220479439944,
+              "maximum_measured_process_rss_mib": 130.9375
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.41229159105569124,
+            "maximum_measured_process_rss_mib": 134.875
+          },
+          "nift_preparation_and_composition_s": 0.9331187619827688,
+          "search_s": 1.7676515041384846,
+          "llms_s": 0.25740819005295634,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.23984298296272755,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.14711722801439464,
+          "copy_categories_subset_s": {
+            "static_assets": 0.050578732741996646,
+            "og_assets": 0.06086123222485185,
+            "markdown_downloads": 0.023262186208739877,
+            "redirects": 0.0007907042745500803,
+            "search": 0.007002428872510791,
+            "llms": 0.0046219436917454
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 12.599512890912592
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-forced-full",
+        "sample": 3,
+        "whole_pipeline_s": 13.159156849840656,
+        "maximum_measured_process_rss_mib": 1441.66015625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 9.657905942993239,
+          "cache": {
+            "source_discovery_s": 0.015204052906483412,
+            "input_hashing_and_validation_s": 0.3092209859751165,
+            "cache_preparation_s": 0.32741810008883476
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 8.869962530999999,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.4187940230000087,
+            "normalization_drain_s": 0.13542295100000046,
+            "output_io_work_s": 2.764786201000005,
+            "frontmatter_s": 0.05627440000000417,
+            "metadata_s": 0.101437914,
+            "page_metadata_s": 0.20960554100000034,
+            "redirect_generation_subset_s": 0.006930660999999901,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.056857440999999995,
+              "examples/index.page.tsx": 0.016654917000000012,
+              "lint/lint_rule.page.tsx": 0.13998970700000002,
+              "reference/reference.page.ts": 1.256105023
+            },
+            "generator_s": 1.47022462,
+            "component_binding_s": 0.06663915800000013,
+            "body_s": 1.0069152179999896,
+            "mdx_s": 0.05687237000000005,
+            "layout_s": 4.157029432000013,
+            "dom_s": 13.274695221000004,
+            "markdown_inclusive_s": 0.9694511620000202,
+            "prism_subset_s": 0.2616359679999912,
+            "markdown_parse_subset_s": 0.6480399729999999,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 4.087048019999995,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 9.223640579963103,
+              "maximum_measured_process_rss_mib": 1441.66015625
+            },
+            "search_generation": {
+              "wall_s": 1.6271751099266112,
+              "maximum_measured_process_rss_mib": 560.546875
+            },
+            "search_clock": {
+              "wall_s": 0.2329726000316441,
+              "maximum_measured_process_rss_mib": 158.8828125
+            },
+            "llms": {
+              "wall_s": 0.29844009689986706,
+              "maximum_measured_process_rss_mib": 131.51171875
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.45673373993486166,
+            "maximum_measured_process_rss_mib": 135.2421875
+          },
+          "nift_preparation_and_composition_s": 1.017681322991848,
+          "search_s": 1.8609942530747503,
+          "llms_s": 0.29886751412414014,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.24215088901109993,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.14733697869814932,
+          "copy_categories_subset_s": {
+            "static_assets": 0.052824125392362475,
+            "og_assets": 0.05785449664108455,
+            "markdown_downloads": 0.023497889516875148,
+            "redirects": 0.0007610449101775885,
+            "search": 0.006724154110997915,
+            "llms": 0.005675268126651645
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 13.114177556941286
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-forced-full",
+        "sample": 3,
+        "whole_pipeline_s": 1.1682942181359977,
+        "maximum_measured_process_rss_mib": 131.8046875,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.8257137730251998,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.49544879817403853,
+            "maximum_measured_process_rss_mib": 131.8046875
+          },
+          "publication_s": 0.2899257820099592,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.16725169494748116,
+          "copy_categories_subset_s": {
+            "static_assets": 0.06313953595235944,
+            "og_assets": 0.06381060788407922,
+            "markdown_downloads": 0.025872195605188608,
+            "redirects": 0.0010278618428856134,
+            "search": 0.007639888906851411,
+            "llms": 0.005761604756116867
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.1177909350953996
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-forced-full",
+        "sample": 4,
+        "whole_pipeline_s": 1.0708991398569196,
+        "maximum_measured_process_rss_mib": 132.3203125,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.7674879829864949,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.4163517158012837,
+            "maximum_measured_process_rss_mib": 132.3203125
+          },
+          "publication_s": 0.25968493102118373,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15253096725791693,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05838075210340321,
+            "og_assets": 0.05799517035484314,
+            "markdown_downloads": 0.0234851052518934,
+            "redirects": 0.0007399788592010736,
+            "search": 0.006906951777637005,
+            "llms": 0.005023008910939097
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.0280252650845796
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-forced-full",
+        "sample": 4,
+        "whole_pipeline_s": 13.932147226994857,
+        "maximum_measured_process_rss_mib": 1444.75,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 10.023594587808475,
+          "cache": {
+            "source_discovery_s": 0.014291829895228148,
+            "input_hashing_and_validation_s": 0.38205986795946956,
+            "cache_preparation_s": 0.3992273211479187
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 9.098864959999998,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.378403524999998,
+            "normalization_drain_s": 0.16753999600000133,
+            "output_io_work_s": 2.8264509980000025,
+            "frontmatter_s": 0.0626784709999989,
+            "metadata_s": 0.12001801000000001,
+            "page_metadata_s": 0.23059793600000025,
+            "redirect_generation_subset_s": 0.0066159550000000995,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.06208999700000004,
+              "examples/index.page.tsx": 0.027229917,
+              "lint/lint_rule.page.tsx": 0.10729531099999998,
+              "reference/reference.page.ts": 1.2583276860000001
+            },
+            "generator_s": 1.455665397,
+            "component_binding_s": 0.07534196699998685,
+            "body_s": 1.0733711590000075,
+            "mdx_s": 0.0750392710000001,
+            "layout_s": 4.266244546999991,
+            "dom_s": 13.500142085999999,
+            "markdown_inclusive_s": 0.974004017999987,
+            "prism_subset_s": 0.2657981969999991,
+            "markdown_parse_subset_s": 0.6469272589999799,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 4.210356412999973,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 9.49417288415134,
+              "maximum_measured_process_rss_mib": 1444.75
+            },
+            "search_generation": {
+              "wall_s": 1.7759050708264112,
+              "maximum_measured_process_rss_mib": 555.5078125
+            },
+            "search_clock": {
+              "wall_s": 0.26686805905774236,
+              "maximum_measured_process_rss_mib": 157.90625
+            },
+            "llms": {
+              "wall_s": 0.31281480309553444,
+              "maximum_measured_process_rss_mib": 132.171875
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.47539791790768504,
+            "maximum_measured_process_rss_mib": 131.08203125
+          },
+          "nift_preparation_and_composition_s": 1.1733215081039816,
+          "search_s": 2.043668515048921,
+          "llms_s": 0.3132127148564905,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.2853911560960114,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.17383271222934127,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05438691005110741,
+            "og_assets": 0.07773350831121206,
+            "markdown_downloads": 0.028360747965052724,
+            "redirects": 0.0008274707943201065,
+            "search": 0.006784997181966901,
+            "llms": 0.005739077925682068
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 13.879401220940053
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "warm-forced-full",
+        "sample": 5,
+        "whole_pipeline_s": 13.89878981304355,
+        "maximum_measured_process_rss_mib": 2107.51171875,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 10.233674816088751,
+          "cache": {
+            "source_discovery_s": 0.014828014187514782,
+            "input_hashing_and_validation_s": 0.3540872249286622,
+            "cache_preparation_s": 0.37212531082332134
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 9.289046433,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.286421916999985,
+            "normalization_drain_s": 0.16822334700000102,
+            "output_io_work_s": 2.832984944000012,
+            "frontmatter_s": 0.07253042499999882,
+            "metadata_s": 0.14355072,
+            "page_metadata_s": 0.24127749600000006,
+            "redirect_generation_subset_s": 0.008083034999999968,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.04125922400000002,
+              "examples/index.page.tsx": 0.03165696099999997,
+              "lint/lint_rule.page.tsx": 0.15721811300000002,
+              "reference/reference.page.ts": 1.404424374
+            },
+            "generator_s": 1.6351030890000002,
+            "component_binding_s": 0.07324610299999693,
+            "body_s": 1.1613335630000088,
+            "mdx_s": 0.06962908200000084,
+            "layout_s": 4.254967784999987,
+            "dom_s": 13.557734668999986,
+            "markdown_inclusive_s": 1.1215252159999933,
+            "prism_subset_s": 0.3061846099999996,
+            "markdown_parse_subset_s": 0.7448263320000217,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 4.195190609000013,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 9.739467513980344,
+              "maximum_measured_process_rss_mib": 2107.51171875
+            },
+            "search_generation": {
+              "wall_s": 1.6251265599858016,
+              "maximum_measured_process_rss_mib": 560.4921875
+            },
+            "search_clock": {
+              "wall_s": 0.29710393003188074,
+              "maximum_measured_process_rss_mib": 158.19921875
+            },
+            "llms": {
+              "wall_s": 0.2977809589356184,
+              "maximum_measured_process_rss_mib": 131.5234375
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.4427838248666376,
+            "maximum_measured_process_rss_mib": 134.25390625
+          },
+          "nift_preparation_and_composition_s": 1.0938182729296386,
+          "search_s": 1.9230364421382546,
+          "llms_s": 0.29822086403146386,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.25962382392026484,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15282842982560396,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05450614751316607,
+            "og_assets": 0.060001094825565815,
+            "markdown_downloads": 0.02451028791256249,
+            "redirects": 0.0007428897079080343,
+            "search": 0.008045851020142436,
+            "llms": 0.005022158846259117
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 13.8490805181209
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "warm-forced-full",
+        "sample": 5,
+        "whole_pipeline_s": 1.1192741240374744,
+        "maximum_measured_process_rss_mib": 132.16015625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.7924875831231475,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.43989273393526673,
+            "maximum_measured_process_rss_mib": 132.16015625
+          },
+          "publication_s": 0.2640271431300789,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15849869116209447,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05299688479863107,
+            "og_assets": 0.0645506726577878,
+            "markdown_downloads": 0.026505581568926573,
+            "redirects": 0.0010522441007196903,
+            "search": 0.007966560777276754,
+            "llms": 0.0054267472587525845
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.0578360941726714
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "application-cold",
+        "sample": 1,
+        "whole_pipeline_s": 13.667441928992048,
+        "maximum_measured_process_rss_mib": 1409.2265625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 10.013763563008979,
+          "cache": {
+            "source_discovery_s": 0.019058102974668145,
+            "input_hashing_and_validation_s": 0.25277236802503467,
+            "cache_preparation_s": 0.2770649939775467
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 9.262855703,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.422052770999987,
+            "normalization_drain_s": 0.13172748499999942,
+            "output_io_work_s": 3.03102491499998,
+            "frontmatter_s": 0.06579482000000579,
+            "metadata_s": 0.12069572400000002,
+            "page_metadata_s": 0.23850297099999399,
+            "redirect_generation_subset_s": 0.009546543999999955,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.048798546999999984,
+              "examples/index.page.tsx": 0.013968402000000026,
+              "lint/lint_rule.page.tsx": 0.09370655400000004,
+              "reference/reference.page.ts": 1.4162256640000002
+            },
+            "generator_s": 1.5733121780000001,
+            "component_binding_s": 0.07151993900002007,
+            "body_s": 1.1306621490000022,
+            "mdx_s": 0.07285424599999987,
+            "layout_s": 4.242703215999994,
+            "dom_s": 13.655068633000004,
+            "markdown_inclusive_s": 1.0189650099999905,
+            "prism_subset_s": 0.2892871630000314,
+            "markdown_parse_subset_s": 0.6686592280000027,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 4.190777904999974,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 9.621015537995845,
+              "maximum_measured_process_rss_mib": 1409.2265625
+            },
+            "search_generation": {
+              "wall_s": 1.6596189748961478,
+              "maximum_measured_process_rss_mib": 557.83984375
+            },
+            "search_clock": {
+              "wall_s": 0.23871339904144406,
+              "maximum_measured_process_rss_mib": 159.15625
+            },
+            "llms": {
+              "wall_s": 0.2993668841663748,
+              "maximum_measured_process_rss_mib": 132.1328125
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.47020361106842756,
+            "maximum_measured_process_rss_mib": 137.06640625
+          },
+          "nift_preparation_and_composition_s": 1.146854363149032,
+          "search_s": 1.8989544750656933,
+          "llms_s": 0.2997363479807973,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.23078705905936658,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1323424584697932,
+          "copy_categories_subset_s": {
+            "static_assets": 0.047099298564717174,
+            "og_assets": 0.05240234499797225,
+            "markdown_downloads": 0.023235066793859005,
+            "redirects": 0.0005984478630125523,
+            "search": 0.005052994936704636,
+            "llms": 0.003954305313527584
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 13.609807234024629
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "application-cold",
+        "sample": 1,
+        "whole_pipeline_s": 1.2144805190619081,
+        "maximum_measured_process_rss_mib": 140.05859375,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.9052817330230027,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.48111593816429377,
+            "maximum_measured_process_rss_mib": 140.05859375
+          },
+          "publication_s": 0.25596310500986874,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15289276116527617,
+          "copy_categories_subset_s": {
+            "static_assets": 0.04538883990608156,
+            "og_assets": 0.07381701329723,
+            "markdown_downloads": 0.023126104148104787,
+            "redirects": 0.0006021249573677778,
+            "search": 0.00589713198132813,
+            "llms": 0.004061546875163913
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.1627763491123915
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "application-cold",
+        "sample": 2,
+        "whole_pipeline_s": 1.212296977872029,
+        "maximum_measured_process_rss_mib": 131.953125,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.8730497830547392,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.44803188811056316,
+            "maximum_measured_process_rss_mib": 131.953125
+          },
+          "publication_s": 0.2904027849435806,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.15357722411863506,
+          "copy_categories_subset_s": {
+            "static_assets": 0.05734002194367349,
+            "og_assets": 0.052929051453247666,
+            "markdown_downloads": 0.03194700367748737,
+            "redirects": 0.0006082809995859861,
+            "search": 0.00604613684117794,
+            "llms": 0.004706729203462601
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 1.1645310940220952
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "application-cold",
+        "sample": 2,
+        "whole_pipeline_s": 12.583546147216111,
+        "maximum_measured_process_rss_mib": 1512.05859375,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 9.354323309846222,
+          "cache": {
+            "source_discovery_s": 0.015871106879785657,
+            "input_hashing_and_validation_s": 0.23798466101288795,
+            "cache_preparation_s": 0.25710512697696686
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 8.607473481000001,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.3091378730000007,
+            "normalization_drain_s": 0.1498129509999999,
+            "output_io_work_s": 2.504153137999994,
+            "frontmatter_s": 0.05840393299999975,
+            "metadata_s": 0.115001168,
+            "page_metadata_s": 0.22946604400001094,
+            "redirect_generation_subset_s": 0.007154863999999889,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.045771005000000003,
+              "examples/index.page.tsx": 0.013513981999999999,
+              "lint/lint_rule.page.tsx": 0.091665979,
+              "reference/reference.page.ts": 1.30767627
+            },
+            "generator_s": 1.459110162,
+            "component_binding_s": 0.06488347299999297,
+            "body_s": 1.0674321180000048,
+            "mdx_s": 0.05452844499999947,
+            "layout_s": 3.9056496599999995,
+            "dom_s": 12.990221375000022,
+            "markdown_inclusive_s": 1.0082042929999853,
+            "prism_subset_s": 0.2823329700000048,
+            "markdown_parse_subset_s": 0.6665983100000062,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 3.8395527979999935,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 8.990397509885952,
+              "maximum_measured_process_rss_mib": 1512.05859375
+            },
+            "search_generation": {
+              "wall_s": 1.433180321007967,
+              "maximum_measured_process_rss_mib": 560.51953125
+            },
+            "search_clock": {
+              "wall_s": 0.20719880098477006,
+              "maximum_measured_process_rss_mib": 158.64453125
+            },
+            "llms": {
+              "wall_s": 0.24044658592902124,
+              "maximum_measured_process_rss_mib": 127.15625
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.4289865999016911,
+            "maximum_measured_process_rss_mib": 134.5234375
+          },
+          "nift_preparation_and_composition_s": 1.0544532069470733,
+          "search_s": 1.6409829100593925,
+          "llms_s": 0.24083371204324067,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.21646114788018167,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1284390662331134,
+          "copy_categories_subset_s": {
+            "static_assets": 0.038567787036299706,
+            "og_assets": 0.05301603442057967,
+            "markdown_downloads": 0.027221686439588666,
+            "redirects": 0.0006038418505340815,
+            "search": 0.005121627124026418,
+            "llms": 0.003908089362084866
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 12.526593802962452
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "application-cold",
+        "sample": 3,
+        "whole_pipeline_s": 10.854172304039821,
+        "maximum_measured_process_rss_mib": 1513.484375,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 7.815141821978614,
+          "cache": {
+            "source_discovery_s": 0.01402513007633388,
+            "input_hashing_and_validation_s": 0.22751767002046108,
+            "cache_preparation_s": 0.24456619983538985
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 7.131594647,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.0210044790000037,
+            "normalization_drain_s": 0.11229680299999928,
+            "output_io_work_s": 2.027632729999996,
+            "frontmatter_s": 0.04273837500000541,
+            "metadata_s": 0.09527204599999999,
+            "page_metadata_s": 0.17328439199999593,
+            "redirect_generation_subset_s": 0.005697819999999921,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.056005469,
+              "examples/index.page.tsx": 0.014792136999999969,
+              "lint/lint_rule.page.tsx": 0.09179835099999997,
+              "reference/reference.page.ts": 1.2555078199999998
+            },
+            "generator_s": 1.418539115,
+            "component_binding_s": 0.048751864999998375,
+            "body_s": 0.8202133839999979,
+            "mdx_s": 0.043613594999999804,
+            "layout_s": 3.2033943110000016,
+            "dom_s": 9.919231925999995,
+            "markdown_inclusive_s": 0.7708167170000058,
+            "prism_subset_s": 0.21936675500000208,
+            "markdown_parse_subset_s": 0.5052178839999881,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 3.179646591000013,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 7.479016504017636,
+              "maximum_measured_process_rss_mib": 1513.484375
+            },
+            "search_generation": {
+              "wall_s": 1.3786516191903502,
+              "maximum_measured_process_rss_mib": 560.8671875
+            },
+            "search_clock": {
+              "wall_s": 0.20994522096589208,
+              "maximum_measured_process_rss_mib": 154.296875
+            },
+            "llms": {
+              "wall_s": 0.22698603989556432,
+              "maximum_measured_process_rss_mib": 132.1953125
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.418881222140044,
+            "maximum_measured_process_rss_mib": 135.46875
+          },
+          "nift_preparation_and_composition_s": 0.9625892119947821,
+          "search_s": 1.5890969540923834,
+          "llms_s": 0.2272405291441828,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.1971383539494127,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.11443849164061248,
+          "copy_categories_subset_s": {
+            "static_assets": 0.038328431779518723,
+            "og_assets": 0.04750847024843097,
+            "markdown_downloads": 0.019624177366495132,
+            "redirects": 0.0005659367889165878,
+            "search": 0.004790016915649176,
+            "llms": 0.0036214585416018963
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 10.807224397780374
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "application-cold",
+        "sample": 3,
+        "whole_pipeline_s": 0.9204437611624599,
+        "maximum_measured_process_rss_mib": 136.390625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.6895554920192808,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.36529950494877994,
+            "maximum_measured_process_rss_mib": 136.390625
+          },
+          "publication_s": 0.19218249199911952,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.1120057632215321,
+          "copy_categories_subset_s": {
+            "static_assets": 0.03685684851370752,
+            "og_assets": 0.046830087434500456,
+            "markdown_downloads": 0.01956644607707858,
+            "redirects": 0.0005807499401271343,
+            "search": 0.004920365288853645,
+            "llms": 0.0032512659672647715
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.8824911729898304
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "application-cold",
+        "sample": 4,
+        "whole_pipeline_s": 0.938332435907796,
+        "maximum_measured_process_rss_mib": 139.06640625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.6885590029414743,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.36617263802327216,
+            "maximum_measured_process_rss_mib": 139.06640625
+          },
+          "publication_s": 0.2125710321124643,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.11855536489747465,
+          "copy_categories_subset_s": {
+            "static_assets": 0.03922141785733402,
+            "og_assets": 0.04980300762690604,
+            "markdown_downloads": 0.020777901401743293,
+            "redirects": 0.0005182200111448765,
+            "search": 0.004666846012696624,
+            "llms": 0.0035679719876497984
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.9018262170720845
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "application-cold",
+        "sample": 4,
+        "whole_pipeline_s": 10.953526919009164,
+        "maximum_measured_process_rss_mib": 1456.1171875,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 7.886608259985223,
+          "cache": {
+            "source_discovery_s": 0.012399237137287855,
+            "input_hashing_and_validation_s": 0.18991248891688883,
+            "cache_preparation_s": 0.20480499789118767
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 7.259495755,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.0864713000000044,
+            "normalization_drain_s": 0.12466818500000044,
+            "output_io_work_s": 2.2765008179999935,
+            "frontmatter_s": 0.04189361099999779,
+            "metadata_s": 0.090570244,
+            "page_metadata_s": 0.17673428299999824,
+            "redirect_generation_subset_s": 0.0053068440000000406,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.04704451699999999,
+              "examples/index.page.tsx": 0.019054704000000016,
+              "lint/lint_rule.page.tsx": 0.08579538500000002,
+              "reference/reference.page.ts": 1.11001556
+            },
+            "generator_s": 1.262384207,
+            "component_binding_s": 0.05280301100000086,
+            "body_s": 0.8175641000000061,
+            "mdx_s": 0.04419896999999992,
+            "layout_s": 3.396225509999998,
+            "dom_s": 10.725954676000004,
+            "markdown_inclusive_s": 0.7540505939999901,
+            "prism_subset_s": 0.2179734080000013,
+            "markdown_parse_subset_s": 0.49183115900000723,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 3.3774506949999923,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 7.591583959991112,
+              "maximum_measured_process_rss_mib": 1456.1171875
+            },
+            "search_generation": {
+              "wall_s": 1.3995402751024812,
+              "maximum_measured_process_rss_mib": 558.28125
+            },
+            "search_clock": {
+              "wall_s": 0.21120904106646776,
+              "maximum_measured_process_rss_mib": 154.8828125
+            },
+            "llms": {
+              "wall_s": 0.2351683268789202,
+              "maximum_measured_process_rss_mib": 130.7734375
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.38499044510535896,
+            "maximum_measured_process_rss_mib": 132.55078125
+          },
+          "nift_preparation_and_composition_s": 0.9593317778781056,
+          "search_s": 1.6113623741548508,
+          "llms_s": 0.23546122410334647,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.2038737959228456,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.11809365171939135,
+          "copy_categories_subset_s": {
+            "static_assets": 0.03990229731425643,
+            "og_assets": 0.049063302809372544,
+            "markdown_downloads": 0.02009808737784624,
+            "redirects": 0.0005153459496796131,
+            "search": 0.005009843036532402,
+            "llms": 0.003504775231704116
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 10.91476710094139
+        }
+      },
+      {
+        "revision": "380baeb4667b8f45a1bbba5e66e3cb0bc0944352",
+        "model": "deno",
+        "case": "application-cold",
+        "sample": 5,
+        "whole_pipeline_s": 11.163827531039715,
+        "maximum_measured_process_rss_mib": 1457.12109375,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+          "render_s": 8.050875264918432,
+          "cache": {
+            "source_discovery_s": 0.012524879071861506,
+            "input_hashing_and_validation_s": 0.20109618199057877,
+            "cache_preparation_s": 0.2163184299133718
+          },
+          "exports_reused": false,
+          "render_components": {
+            "render_s": 7.4234560709999995,
+            "pages": 834,
+            "reused_pages": 0,
+            "normalization_workers": 4,
+            "normalization_backpressure_s": 1.1006296659999952,
+            "normalization_drain_s": 0.12348248400000011,
+            "output_io_work_s": 2.046360370999999,
+            "frontmatter_s": 0.04695290599999764,
+            "metadata_s": 0.091525469,
+            "page_metadata_s": 0.18073252500000753,
+            "redirect_generation_subset_s": 0.005501972999999936,
+            "generators": {
+              "examples/index.examples.page.tsx": 0.03625599399999996,
+              "examples/index.page.tsx": 0.012853268000000015,
+              "lint/lint_rule.page.tsx": 0.07705751900000002,
+              "reference/reference.page.ts": 1.124237189
+            },
+            "generator_s": 1.250869885,
+            "component_binding_s": 0.056039850999983924,
+            "body_s": 0.8775496680000093,
+            "mdx_s": 0.04750659399999949,
+            "layout_s": 3.4850466819999912,
+            "dom_s": 11.10022452499999,
+            "markdown_inclusive_s": 0.8087641819999997,
+            "prism_subset_s": 0.22656110800000354,
+            "markdown_parse_subset_s": 0.5342027369999888,
+            "render_calls": 2205,
+            "jsx_expansion_inclusive_s": 3.446068403999997,
+            "jsx_render_calls": 89430,
+            "counter_boundaries": "Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters."
+          },
+          "phases": {
+            "render": {
+              "wall_s": 7.737156223040074,
+              "maximum_measured_process_rss_mib": 1457.12109375
+            },
+            "search_generation": {
+              "wall_s": 1.4192069750279188,
+              "maximum_measured_process_rss_mib": 558.80859375
+            },
+            "search_clock": {
+              "wall_s": 0.2364529490005225,
+              "maximum_measured_process_rss_mib": 154.6484375
+            },
+            "llms": {
+              "wall_s": 0.2255227209534496,
+              "maximum_measured_process_rss_mib": 132.359375
+            }
+          },
+          "nift_process": {
+            "wall_s": 0.3744393039960414,
+            "maximum_measured_process_rss_mib": 139.55859375
+          },
+          "nift_preparation_and_composition_s": 0.9704008810222149,
+          "search_s": 1.6562575409188867,
+          "llms_s": 0.225882156053558,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "publication_s": 0.20378430001437664,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.11902749305590987,
+          "copy_categories_subset_s": {
+            "static_assets": 0.04072491033002734,
+            "og_assets": 0.04884592699818313,
+            "markdown_downloads": 0.020458885468542576,
+            "redirects": 0.0005240619648247957,
+            "search": 0.005086377030238509,
+            "llms": 0.0033873312640935183
+          },
+          "copied_bytes": 100523968,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 11.125178968068212
+        }
+      },
+      {
+        "revision": "4a81df53caa1f181227e7b790699c37373db6c3a",
+        "model": "deno-agent",
+        "case": "application-cold",
+        "sample": 5,
+        "whole_pipeline_s": 1.0125237049069256,
+        "maximum_measured_process_rss_mib": 135.94140625,
+        "files": 2573,
+        "baseline_bytes_equal": true,
+        "components": {
+          "model": "maintained HTML -> Nift -> publication/search",
+          "nift_preparation_and_composition_s": 0.7470490448176861,
+          "og_generation_s": 0,
+          "og_model": "maintained static publication assets; explicit updates outside routine builds",
+          "nift_process": {
+            "wall_s": 0.3987505859695375,
+            "maximum_measured_process_rss_mib": 135.94140625
+          },
+          "publication_s": 0.22429962502792478,
+          "non_html_outputs": 1739,
+          "copy_subset_s": 0.13106750696897507,
+          "copy_categories_subset_s": {
+            "static_assets": 0.045965028228238225,
+            "og_assets": 0.05343205132521689,
+            "markdown_downloads": 0.022011022549122572,
+            "redirects": 0.0006582338828593493,
+            "search": 0.005095234839245677,
+            "llms": 0.0039059361442923546
+          },
+          "copied_bytes": 100529817,
+          "content_negotiation_generation_s": 0,
+          "content_negotiation_model": "maintained runtime middleware; copied Markdown download artifacts",
+          "complete_s": 0.972546026809141
+        }
+      }
+    ],
+    "upstream_body": {
+      "model": "upstream",
+      "case": "one-body-production-publication",
+      "whole_pipeline_s": 135.08334716199897,
+      "components": {
+        "reference_types_and_doc": {
+          "wall_s": 111.72601906815544,
+          "maximum_measured_process_rss_mib": 853.84765625
+        },
+        "search": {
+          "wall_s": 1.3609221370425075,
+          "maximum_measured_process_rss_mib": 559.05078125
+        },
+        "lume_publication": {
+          "wall_s": 21.995862456038594,
+          "maximum_measured_process_rss_mib": 3117.73828125
+        }
+      },
+      "html_routes": 834,
+      "behavior": "Same production phase chain, including reference type/doc generation, local search and full Lume publication; not development-server hot reload."
+    }
+  }
+}
