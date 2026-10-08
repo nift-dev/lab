@@ -4,7 +4,7 @@ from pathlib import Path
 import json, statistics, html
 
 R = Path(__file__).resolve().parents[1]
-D = R / 'content/sites/deno/data'
+D = __import__('evidence_sources').data_root('content/sites/deno/data')
 def load(name): return json.loads((D/name).read_text())
 def esc(value): return html.escape(str(value), quote=True)
 def fmt(value, places=2): return f'{value:.{places}f}'

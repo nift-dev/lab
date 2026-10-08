@@ -1,7 +1,7 @@
 """Reproduce the Temporal Labs report from SHA-verified accepted T9 evidence."""
 from pathlib import Path
 import json,hashlib,html
-R=Path(__file__).resolve().parents[1];D=R/'content/sites/temporal/data'
+R=Path(__file__).resolve().parents[1];D=__import__('evidence_sources').data_root('content/sites/temporal/data')
 for n,h in json.loads((D/'provenance.json').read_text()).items():assert hashlib.sha256((D/n).read_bytes()).hexdigest()==h
 v=json.loads((D/'visual.json').read_text());assert len(v)==32 and sum(x['pixelIdentical'] for x in v)==21 and all(x['geometryIdentical'] and (x['pixelIdentical'] or (x['changedPixels']==21 and x['maxChannelDifference']==1)) for x in v)
 s=json.loads((D/'summary.json').read_text());models=['upstream','temporal','temporal-agent'];labels=['Upstream Temporal Docusaurus','Nift temporal (authored-source)','Nift temporal-agent (rendered-source)']

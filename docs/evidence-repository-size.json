@@ -1,0 +1,49 @@
+{
+  "repo": "nift-experiments/lab-evidence",
+  "commit": "6250bc46604ad82713644cfb2a8bb46850573340",
+  "working_tree_bytes": 23527680,
+  "families": {
+    "README.md": 1634,
+    "indexes": 1397949,
+    "audits": 654021,
+    "supplemental": 2578701,
+    "benchmarks": 18895375
+  },
+  "largest_files": [
+    {
+      "path": "benchmarks/diagnostics/diagnostic-python-pty/shell-repeated.json",
+      "bytes": 1993447
+    },
+    {
+      "path": "benchmarks/shell/20261007-v472/shell-repeated.json",
+      "bytes": 1914781
+    },
+    {
+      "path": "benchmarks/shell/20261009-v490/shell-repeated.json",
+      "bytes": 1914644
+    },
+    {
+      "path": "benchmarks/shell/20261008-v480/shell-repeated.json",
+      "bytes": 1914606
+    },
+    {
+      "path": "benchmarks/diagnostics/diagnostic-workload-audit/scripting.json",
+      "bytes": 1206840
+    },
+    {
+      "path": "benchmarks/scripting/20261007-v472/scripting.json",
+      "bytes": 1123983
+    },
+    {
+      "path": "benchmarks/scripting/20261009-v490/scripting.json",
+      "bytes": 1123186
+    },
+    {
+      "path": "benchmarks/scripting/20261008-v480/scripting.json",
+      "bytes": 1122567
+    }
+  ],
+  "identical_payload_aliases_deduplicated": true,
+  "accepted_migration_snapshot_references": 42,
+  "remote_checksum_verified_files": 1309
+}

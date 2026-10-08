@@ -2,7 +2,7 @@
 """Render the Labs article from frozen A10 observations; reject changed headlines."""
 from pathlib import Path
 import json,statistics,html,hashlib
-R=Path(__file__).resolve().parents[1];D=R/'content/sites/ai-sdk/data'
+R=Path(__file__).resolve().parents[1];D=__import__('evidence_sources').data_root('content/sites/ai-sdk/data')
 for name,sha in json.loads((D/'provenance.json').read_text())['snapshots'].items():assert hashlib.sha256((D/name).read_bytes()).hexdigest()==sha, name
 def load(n):return json.loads((D/n).read_text())
 def esc(v):return html.escape(str(v),quote=True)

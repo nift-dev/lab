@@ -1,0 +1,32 @@
+{
+  "canonical_commit": "6250bc46604ad82713644cfb2a8bb46850573340",
+  "new_repo_hashed_files_verified": 1309,
+  "existing_migration_canonical_files_verified": 42,
+  "rewritten_pages": [
+    "content/benchmarks/index.html",
+    "content/benchmarks/scripting/index.html",
+    "content/benchmarks/website-generator/index.html",
+    "content/benchmarks/shell/index.html",
+    "content/sites/docker/index.html",
+    "content/sites/deno/index.html",
+    "content/sites/ai-sdk/index.html",
+    "content/sites/temporal/index.html",
+    "content/sites/capgo/index.html",
+    "content/sites/omarchy/index.html",
+    "public/benchmarks/index.html",
+    "public/benchmarks/scripting/index.html",
+    "public/benchmarks/website-generator/index.html",
+    "public/benchmarks/shell/index.html",
+    "public/sites/docker/index.html",
+    "public/sites/deno/index.html",
+    "public/sites/ai-sdk/index.html",
+    "public/sites/temporal/index.html",
+    "public/sites/capgo/index.html",
+    "public/sites/omarchy/index.html"
+  ],
+  "removed_files": 1635,
+  "source_before": "d3898ddad1f7d925441583314a3fbf72a27de59c",
+  "publication_before": "814335517cf7cc3cfa49aa2f965190fab6d45d73",
+  "no_history_rewrite": true,
+  "accepted_implementations_untouched": true
+}

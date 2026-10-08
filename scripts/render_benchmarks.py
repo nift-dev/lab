@@ -3,7 +3,7 @@
 import html,json,shutil,statistics,re
 from pathlib import Path
 from plot_startup import draw_shell_plot, draw_comparison, draw_corpus_scaling
-ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'content/benchmarks/data'
+ROOT=Path(__file__).resolve().parents[1];DATA=__import__('evidence_sources').data_root('content/benchmarks/data')
 esc=lambda x:html.escape(str(x))
 def f(x):return f'{x:,.3f}' if x<100 else f'{x:,.1f}'
 def load(name):
@@ -53,12 +53,8 @@ def machine(d,slug=None):
  for name,v in d['tools'].items():rows.append([name,v['version'].splitlines()[0] if isinstance(v,dict) else v])
  return section('Frozen environment','One node. One logical CPU.',cards,'machine')+section('Versions','Tested systems',table(['System','Measured version'],rows,'Detected on the measurement node'))
 def evidence(slug,files,repo,cmd):
- out=ROOT/'public/benchmarks'/slug/'evidence';out.mkdir(parents=True,exist_ok=True)
+ # Canonical evidence is independently SHA-verified; do not copy it into publication.
  meta=series_meta(slug)
- if not meta:
-  for fn in files:shutil.copyfile(DATA/fn,out/fn)
- else:
-  for fn in files:assert (out/meta['series']/fn).read_bytes()==active_path(slug,fn).read_bytes()
  branch='main' if repo=='shell-benchmark' else 'stage'
  revision=raw_active(slug,files[0])['machine']['revision']
  clean={'shell':'shell','scripting':'scripting','website-generator':'website'}[slug]
@@ -75,7 +71,7 @@ def write(slug,text):
   text=website(text)
  nav='<nav class="section-nav" aria-label="Report sections"><a href="#results">Results</a><a href="#method">Method</a><a href="#machine">Machine</a><a href="#reproduce">Evidence</a></nav>'
  text=text.replace('</section>','</section>'+series_notice(slug)+nav,1)
- (ROOT/f'content/benchmarks/{slug}/index.html').write_text('<main id="main">'+text+related(slug)+'</main>')
+ (ROOT/f'content/benchmarks/{slug}/index.html').write_text(__import__('evidence_sources').canonicalize_links('<main id="main">'+text+related(slug)+'</main>'))
 def shell():
  d=load_active('shell','shell-repeated.json');c=load_active('shell','shell-application-cold.json');by={j['id']:j for j in d['jobs']};cold={j['id']:j for j in c['jobs']};names=('bash','zsh','fish','nu','nift')
  def r(s,sc='bare',metric='interactive'):return by[f'{s}/{sc}/{metric}']['summary']

@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1]
 def website(text):
  text=text.replace('From source files<br>to 10,000 pages.','From source files <br>to 10,000 pages.')
  text=re.sub(r'<!-- timing-rig:start -->.*?<!-- timing-rig:end -->','',text,flags=re.S)
- d=json.loads((R/'content/benchmarks/data/website-10000.json').read_text());jobs={x['id']:x for x in d['jobs']}
+ d=json.loads((__import__('evidence_sources').data_root('content/benchmarks/data')/'website-10000.json').read_text());jobs={x['id']:x for x in d['jobs']}
  for j in d['jobs']:
   measured=[x for x in j['samples'] if not x['warmup']]
   assert len(measured)==5 and all(x['correct'] for x in j['samples'])

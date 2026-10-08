@@ -1,0 +1,38 @@
+[
+  {
+    "path": "content/sites/cloudflare-docs/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/sites/omarchy/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/sites/capgo/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/sites/docker/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/sites/deno/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/sites/ai-sdk/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/sites/temporal/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/benchmarks/website-generator/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "content/benchmarks/scripting/index.html",
+    "all_non_url_bytes_preserved": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "benchmarks/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "benchmarks/scripting/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "benchmarks/scripting/series/20261008-v480/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "benchmarks/shell/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "benchmarks/shell/series/20261008-v480/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "benchmarks/website-generator/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/ai-sdk/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/capgo/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/cloudflare-docs/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/deno/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/docker/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/omarchy/index.html",
+    "all_non_url_bytes_preserved": true
+  },
+  {
+    "path": "sites/temporal/index.html",
+    "all_non_url_bytes_preserved": true
+  }
+]

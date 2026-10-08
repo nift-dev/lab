@@ -143,7 +143,7 @@ Other collections can add `content/<category>/`, `templates/<category>/`, and
 The October benchmark articles have independent templates and palettes in
 `templates/benchmarks/` and `public/benchmarks/*/assets/`. Their content and
 standalone startup figure are generated from retained raw JSON, not hand-entered
-medians. After acquiring the campaign evidence in `content/benchmarks/data/`:
+medians. Explicit generators acquire frozen campaign inputs from pinned canonical evidence into an external temporary cache:
 
 ```sh
 python3 -m venv .venv-benchmarks
@@ -161,7 +161,7 @@ Retain historical diagnostics separately; never merge them into official tables.
 
 ## Deno report publication
 
-The independent bone/olive report at `/sites/deno/` emphasizes source ownership and everyday iteration. Its data snapshots live in `content/sites/deno/data/`; `scripts/render_deno.py` validates headline medians, sample counts, changed-versus-forced equality and retained browser differences before rendering. Full upstream, prepared-input publication, forced migration and cached publication remain separate. `scripts/check_deno_links.py` verifies every external repository/evidence link through read-only GitHub API calls. Both completed migration repositories remain untouched. See `docs/DENO-PUBLICATION.md`.
+The independent bone/olive report at `/sites/deno/` emphasizes source ownership and everyday iteration. Its raw snapshots are pinned in the canonical evidence index and fetched outside Labs for explicit regeneration; `scripts/render_deno.py` validates headline medians, sample counts, changed-versus-forced equality and retained browser differences before rendering. Full upstream, prepared-input publication, forced migration and cached publication remain separate. `scripts/check_deno_links.py` verifies every external repository/evidence link through read-only GitHub API calls. Both completed migration repositories remain untouched. See [DENO-PUBLICATION.md](https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/publication/DENO-PUBLICATION.md).
 
 ```sh
 python3 scripts/render_deno.py
@@ -174,7 +174,7 @@ nift status
 
 ## AI SDK report publication
 
-The independent graphite/acid report at `/sites/ai-sdk/` compares three complete production workflows while retaining React islands and the distinction between authored and rendered source. `scripts/render_ai_sdk.py` validates frozen JSON provenance, five-sample medians, components/memory, all thirteen changed-input rows and parity gates. `scripts/check_ai_sdk_links.py` verifies all pinned repository/evidence links. See `docs/AI-SDK-PUBLICATION.md`.
+The independent graphite/acid report at `/sites/ai-sdk/` compares three complete production workflows while retaining React islands and the distinction between authored and rendered source. `scripts/render_ai_sdk.py` validates frozen JSON provenance, five-sample medians, components/memory, all thirteen changed-input rows and parity gates. `scripts/check_ai_sdk_links.py` verifies all pinned repository/evidence links. See [AI-SDK-PUBLICATION.md](https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/publication/AI-SDK-PUBLICATION.md).
 
 ```sh
 python3 scripts/render_ai_sdk.py
@@ -187,7 +187,7 @@ nift status
 
 ## Temporal report publication
 
-Independent amber event-history report at `/sites/temporal/`. Run `python3 scripts/render_temporal.py` to regenerate from hash-verified accepted T9 evidence, then normal full/incremental builds and validation. `python3 scripts/check_temporal_links.py` checks pinned links. See docs/TEMPORAL-PUBLICATION.md. Both accepted migrations remain untouched.
+Independent amber event-history report at `/sites/temporal/`. Run `python3 scripts/render_temporal.py` to regenerate from hash-verified accepted T9 evidence, then normal full/incremental builds and validation. `python3 scripts/check_temporal_links.py` checks pinned links. See [TEMPORAL-PUBLICATION.md](https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/publication/TEMPORAL-PUBLICATION.md). Both accepted migrations remain untouched.
 
 ## Major report publication identity
 
@@ -204,3 +204,5 @@ in Labs. Retain numeric receipts, metric/sample definitions, exact revisions, ha
 and correctness gates. Preserve published Git history unless a history rewrite is
 explicitly approved. Incremental memory graphs use zero-based linear bars with MiB
 labels; individual RSS and aggregate/sampled metrics must remain distinct.
+
+The formal [evidence storage policy](docs/EVIDENCE-STORAGE.md) governs publication. Canonical Labs evidence: [nift-experiments/lab-evidence](https://github.com/nift-experiments/lab-evidence/tree/6250bc46604ad82713644cfb2a8bb46850573340). Run `python3 scripts/check_storage_policy.py` before committing/publishing.

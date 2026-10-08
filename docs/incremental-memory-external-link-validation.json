@@ -426,6 +426,276 @@
     "sha": null
   },
   {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/ai-sdk-supplement.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/ai-sdk-supplement.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "a6445fe633f702eea495ec0a4a6141386d4064df"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/ai-sdk.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/ai-sdk.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "fc870e7770a5931f404438a51593173d7e6bcddd"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/capgo.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/capgo.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "56198663a542137c3bf68b3498f994be7b4e9358"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/deno.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/deno.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "7f9c47c92beb0356a75a3b439410862f596ec8be"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/docker.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/docker.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "a94cf748c02c621685491d4d61870a9fa9e539cc"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/incremental-memory-audit.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/incremental-memory-audit.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "6db9118c08c4192c63581aa7bdb088ae8b9b2758"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/temporal.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/temporal.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "4c9959c697640e45b656657b397e4c59975ca4ac"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/audits/incremental-memory/snapshots/website-generator.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/audits/incremental-memory/snapshots/website-generator.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "7607cb25b12ef8c3ef338d9632c846246ea81d1b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/diagnostics/README.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/diagnostics/README.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "81a04ab7f9fed3ceb94728823f098f1059c93f4b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261007-v472/README.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261007-v472/README.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "37f42e6b75448f5da45b8a5729b664e7bf75ac26"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/README.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261008-v480/README.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "8410bfb03e82e0b2e0879ce0eb3e17586b70417a"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/dpkg-versions.tsv",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261008-v480/dpkg-versions.tsv?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "36e715e7339b98fa18f46ce0c823017ecfcea219"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/filesystem.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261008-v480/filesystem.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "33fe2efcbb6caabdb8a01843cb2bc37e14bf721d"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/storage.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261008-v480/storage.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "c17e3ca2c551a8b2333782ebc20ffed20b4877d7"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/system-startup-files.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261008-v480/system-startup-files.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "f6857704a7ad041fef6e513e24354e1467b21bdf"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261009-v490/machine-extra.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261009-v490/machine-extra.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "004cbb0a2af7bf875ce03a118a2fba60013feaa2"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261009-v490/node-specifications.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261009-v490/node-specifications.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "380ad2e41802f1d1986f5feec850aeeeec8ec28d"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261009-v490/run-identity.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261009-v490/run-identity.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "49451e2b9e3c9c82e0d7f2509d208397d8da802b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261009-v490/scripting.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261009-v490/scripting.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "8e955d8c10ad802b40ad880692726d2d81e2f65f"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261009-v490/smoke-scripting.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261009-v490/smoke-scripting.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "eb9aeab328a0e04be312e1c62b473f7bc0b2a531"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261009-v490/teardown.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/scripting/20261009-v490/teardown.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "2cad0f4270bedf0181666ff42fec5ebe6f341002"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/README.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/README.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "6ea5ac5528aa3aaedbd889b19e76b28a69ea2cd0"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/campaign-20261009-v490.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/campaign-20261009-v490.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "5c54e544a46230b52c05e4d0b5f09d2ab821635f"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/clean-checkout-website.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/clean-checkout-website.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "0bdf557b02fda3c033e6cf452142e74bdd2b07ba"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/dependency-cache-inventory.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/dependency-cache-inventory.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "0caae4264ca7415d5f5d15debcdda5f7479dd50b"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/dpkg-versions.tsv",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/dpkg-versions.tsv?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "6b90a68fc67012cfd5885a12aa984c68407e3f93"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/provisioning.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/provisioning.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "9016d47b18a40b6a639003003ec29252b7cd996d"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/system-startup-files.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/system-startup-files.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "c7d359e24fb82d5603606522cffc70d0dd9a60f1"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shared/targeted-provisioning.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shared/targeted-provisioning.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "254ccd38a546a666c9d28b9fa75753f12298521a"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261007-v472/README.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261007-v472/README.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "97a799e5b9ea5f90324335bd6e27a3d15de63821"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/README.md",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261008-v480/README.md?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "13dbed0c622d2b20ad9632c00c5420bba9471a3c"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/calibration.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/calibration.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "13d1ae452b32dc16516f5388beceba3cd3b2ca54"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/machine-extra.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/machine-extra.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "7cd4a44e1c9fc59db111600b352442735973b1ac"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/node-specifications.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/node-specifications.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "59aeff94923095e10c17ff30edc5894741ba3860"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/rc-body.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/rc-body.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "365a841114a95235add02cf51ecb708f6e9c8ec9"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/rc-certification.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/rc-certification.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "575d9d8ef5e322b2ca25b6fc8960ae02240f382d"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/run-identity.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/run-identity.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "f7426e047d74558a6ad6a7aba4bfc7d406307733"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/shell-application-cold.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/shell-application-cold.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "9ff37b0d564ddd48ab107b669bc109c729b782ad"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/shell-repeated.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/shell-repeated.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "2553451786cebf489dc3ae32be817e12669be4fc"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/smoke-shell-repeated.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/smoke-shell-repeated.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "9c43655d0c445d82daf3fa82acbe81fd163a8ef4"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261009-v490/teardown.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/shell/20261009-v490/teardown.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "948c0fe1c8eda77e8edd0682a58720ef34327fd7"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/website-generator/targeted-builds.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/website-generator/targeted-builds.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "b4df52820df75e8dbf330b24f734224d78920d50"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/website-generator/website-100.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/website-generator/website-100.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "257d9b8c8ee70329ab5318788d300fbfb5dca923"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/website-generator/website-1000.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/website-generator/website-1000.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "68fc4fd96bc8aa9021e7e7a2733fe4d8db7fb0be"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/website-generator/website-10000.json",
+    "endpoint": "repos/nift-experiments/lab-evidence/contents/benchmarks/website-generator/website-10000.json?ref=6250bc46604ad82713644cfb2a8bb46850573340",
+    "valid": true,
+    "sha": "e700a5053b5cecee071844f52c31f87d6db8a170"
+  },
+  {
     "url": "https://github.com/nift-experiments/omarchy",
     "endpoint": "repos/nift-experiments/omarchy",
     "valid": true,

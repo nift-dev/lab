@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,quote
 from concurrent.futures import ThreadPoolExecutor
 import subprocess,json
-R=Path(__file__).resolve().parents[1];ledger=json.loads((R/'investigation/incremental-memory-audit.json').read_text());links=set()
+R=Path(__file__).resolve().parents[1];ledger=json.loads((__import__('evidence_sources').data_root('investigation')/'incremental-memory-audit.json').read_text());links=set()
 class P(HTMLParser):
  def handle_starttag(self,t,a):
   h=dict(a).get('href','')
