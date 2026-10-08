@@ -72,12 +72,6 @@
     "sha": "7f0742ab965db3c6d76a2dcbd9c7bfaf84457494"
   },
   {
-    "url": "https://github.com/nift-dev/shell-benchmark/tree/c70a61cdf7a491ef794e0c9d40c1a151509a93d3/evidence/campaign-20261009-v490",
-    "endpoint": "repos/nift-dev/shell-benchmark/contents/evidence/campaign-20261009-v490?ref=c70a61cdf7a491ef794e0c9d40c1a151509a93d3",
-    "valid": true,
-    "sha": null
-  },
-  {
     "url": "https://github.com/nift-dev/shell-benchmark/tree/e79253d24fd9c74ccc8616186a0a1cd2bbf7e726",
     "endpoint": "repos/nift-dev/shell-benchmark/commits/e79253d24fd9c74ccc8616186a0a1cd2bbf7e726",
     "valid": true,

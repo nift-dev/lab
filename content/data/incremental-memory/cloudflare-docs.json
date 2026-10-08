@@ -1,0 +1,88 @@
+{
+  "report": "cloudflare-docs",
+  "metric": "Aggregate cgroup peak; not individual process RSS",
+  "sample_policy": "Original medians: three normal runs, thirty one-page targeted runs, twenty five-page targeted runs. Targeted and normal are distinct workflows; validation remains qualified below.",
+  "provenance": {
+    "canonical_report_source": "https://github.com/nift-dev/lab/blob/1ec67a4/content/sites/cloudflare-docs/index.html",
+    "source_revision": "1ec67a4",
+    "scope": "existing original report evidence; no new measurements"
+  },
+  "rows": [
+    {
+      "case": "One-page normal",
+      "Nift": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 9.66015625,
+        "range_mib": [
+          9.66015625,
+          9.66015625
+        ],
+        "raw_mib": [
+          9.66015625
+        ]
+      }
+    },
+    {
+      "case": "One-page targeted",
+      "Nift": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 6.943359375,
+        "range_mib": [
+          6.943359375,
+          6.943359375
+        ],
+        "raw_mib": [
+          6.943359375
+        ]
+      }
+    },
+    {
+      "case": "Five-page normal",
+      "Nift": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 10.07421875,
+        "range_mib": [
+          10.07421875,
+          10.07421875
+        ],
+        "raw_mib": [
+          10.07421875
+        ]
+      }
+    },
+    {
+      "case": "Five-page targeted",
+      "Nift": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 8.279296875,
+        "range_mib": [
+          8.279296875,
+          8.279296875
+        ],
+        "raw_mib": [
+          8.279296875
+        ]
+      }
+    },
+    {
+      "case": "Shared-template normal",
+      "Nift": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 424.1484375,
+        "range_mib": [
+          424.1484375,
+          424.1484375
+        ],
+        "raw_mib": [
+          424.1484375
+        ]
+      }
+    }
+  ],
+  "raw": {}
+}

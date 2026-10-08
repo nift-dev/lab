@@ -2,3 +2,8 @@
 public/
 .venv-benchmarks/
 scripts/__pycache__/
+# Disposable benchmark products; compact summaries/receipts remain tracked.
+investigation/**/immutable-inputs/
+investigation/**/node_modules/
+investigation/**/build-work/
+investigation/**/incremental-memory-work/

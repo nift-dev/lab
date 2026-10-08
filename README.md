@@ -196,3 +196,11 @@ The Labs homepage establishes the family identity; individual major experiments 
 ## Incremental timing and memory
 
 When changed-input or incremental timing is published, capture and report peak memory for the same workload whenever technically meaningful. Preserve the experiment’s exact memory metric and qualification. Full-build memory alone is not a substitute for iteration memory. Match the timing sample policy, keep original and supplemental cohorts distinct, verify forced-output equality/restoration where required, retain raw observations and do not substitute dev/HMR or aggregate-tree metrics for production individual-process peaks. See investigation/incremental-memory-audit.md. Regenerate additions with `python3 scripts/iteration_memory.py` and the audit ledger with `python3 scripts/audit_iteration_memory.py`; the migration report generators preserve the panels.
+
+Labs stores compact published evidence and pinned references. Large input backups,
+verbose benchmark logs, binary bundles and disposable exports belong in a preserved
+measurement workspace or canonical experiment evidence, rather than repeated copies
+in Labs. Retain numeric receipts, metric/sample definitions, exact revisions, hashes
+and correctness gates. Preserve published Git history unless a history rewrite is
+explicitly approved. Incremental memory graphs use zero-based linear bars with MiB
+labels; individual RSS and aggregate/sampled metrics must remain distinct.

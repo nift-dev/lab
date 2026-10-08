@@ -81,6 +81,39 @@ def prepare_ai():
  if (R/'investigation/incremental-memory/ai-sdk/completion.json').exists():assert len(proofs)==26
  snapshot('ai-sdk',{'original_unchanged':normal,'original_upstream_changes':upstream,'supplemental_migration_memory':measurements,'supplemental_forced_proofs':proofs},rows,'Individual = GNU maximum individual process/phase RSS, not aggregate simultaneous memory. Sampled sum = ~50ms live descendant resident-page sum, shared pages can be double-counted, short peaks missed; not PSS','Original unchanged: five-sample median [min–max]. Upstream changed inputs: original single observations. Migration changed inputs: supplemental single observations on the same active NUC, pinned accepted implementation/protocol; accepted timing values are retained separately, not paired as one original cohort.',{'implementation_revisions':{'ai-sdk':'7bb3b9f1713aed61291e73136ab100c2a6f5457c','ai-sdk-agent':'dd568e4ec671dd6ddde38f06f7e24836840f3cb4'},'upstream':'3ebefff610f96892c50be48cf1838c453e2349f7','nift':'4.8.0','supplemental_environment':read(R/'investigation/incremental-memory/ai-sdk/environment.json') if (R/'investigation/incremental-memory/ai-sdk/environment.json').exists() else None})
 
+def memory_graph(slug):
+ """Render linear, zero-based memory bars; never combine different metric scopes."""
+ d=read(D/(slug+'.json')); selected=[]
+ preferred=['body-1','body-100','1-bodies','100-bodies','shared-layout','layout','navigation','island-source','route-rename','rename','No-op','Docs edit','Rich docs edit','Product / marketing edit','Blog edit','1-page','100-pages','metadata']
+ if slug=='ai-sdk':
+  cases=['body-1','body-100','shared-layout','navigation-order','island-source','route-rename']
+  for case in cases:
+   matches=[r for r in d['rows'] if r['case'].startswith('Nift ') and r['case'].split(' / ')[-1]==case]
+   if matches:selected.append({'case':case,**{r['case'].split(' / ')[0]:r['Individual'] for r in matches}})
+ else:
+  rows=[r for r in d['rows'] if not r['case'].startswith('Upstream') and r['case']!='unchanged']
+  selected=[r for r in rows if any(k==r['case'] for k in preferred)]
+  if slug=='website-generator' or not selected:selected=rows
+  if slug=='docker':selected=rows
+ groups={}
+ for row in selected:
+  keys=[k for k in row if k!='case' and not k.endswith(' / sampled sum')]
+  groups.setdefault(tuple(keys),[]).append(row)
+ title='Incremental peak memory' if slug in ['website-generator','cloudflare-docs'] else 'Iteration peak memory / RSS'
+ out=f'<div class="iteration-memory-graphs memory-{slug}" id="iteration-memory-graph"><h3>{title}</h3><p>Memory for changed-input production publications, separate from full-build memory and elapsed time. Linear bars start at zero; exact values are shown in MiB.</p>'
+ for keys,rows in groups.items():
+  peak=max(r[k]['value_mib'] for r in rows for k in keys)
+  axis=max(1,__import__('math').ceil(peak/10)*10)
+  out+=f'<figure class="rss-lanes"><figcaption>{html.escape("Maximum individual process/phase RSS; sampled tree sums remain separate in the tables" if slug in ["ai-sdk","temporal"] else d["metric"])}</figcaption><div class="rss-axis"><span>0</span><span>{axis:,.0f} MiB</span></div>'
+  for row in rows:
+   out+='<div class="rss-event"><h4>'+html.escape(row['case'])+'</h4>'
+   for i,k in enumerate(keys):
+    v=row[k]['value_mib'];label=k.replace(' / individual','');out+=f'<div class="rss-signal rss-series-{i}"><div class="rss-label"><span>{html.escape(label)}</span><strong>{v:,.1f} MiB</strong></div><div class="rss-track" aria-hidden="true"><i style="width:{100*v/axis:.5f}%"></i></div></div>'
+   out+='</div>'
+  out+='</figure>'
+ out+='<p class="qualification">'+html.escape(d['sample_policy'])+' Full case tables and evidence below retain the other scopes and workloads.</p></div>'
+ return out
+
 def panel(slug):
  p=D/(slug+'.json')
  if not p.exists():return ''
@@ -101,12 +134,13 @@ def panel(slug):
   out+=f'<div class="{wrapper}" role="region" tabindex="0" aria-label="{html.escape(caption)}"><table><caption>{caption} · accepted timings unchanged</caption><thead><tr><th scope="col">Case</th>'+''.join('<th scope="col">'+html.escape(k.split(' / individual')[0].split(' / sampled sum')[0])+'</th>' for k in columns)+'</tr></thead><tbody>'
   for row in rows:out+='<tr><th scope="row">'+html.escape(row['case'])+'</th>'+''.join('<td data-label="'+html.escape(k)+'">'+cell(row[k])+'</td>' for k in columns)+'</tr>'
   out+='</tbody></table></div>'
- if slug=='ai-sdk' and (R/'investigation/incremental-memory/ai-sdk/completion.json').exists():out+='<p class="qualification"><a href="@path(\'public/benchmarks/evidence/incremental-memory/ai-sdk-supplement.tar.gz\')">Supplemental raw receipts, forced/restoration gates, environment and checksums ↗</a></p>'
+ if slug=='ai-sdk' and (R/'investigation/incremental-memory/ai-sdk/completion.json').exists():out+='<p class="qualification"><a href="@path(\'public/benchmarks/evidence/incremental-memory/ai-sdk-supplement.json\')">Supplemental measurements, forced/restoration gates, environment and input hashes ↗</a></p>'
  out+='<p class="qualification">Different scopes and hosts remain separate; full-build memory is not substituted for an edit. <a href="@path(\'public/benchmarks/evidence/incremental-memory/'+slug+'.json\')">Raw measurements, provenance and memory scopes ↗</a></p></div>'
 
  return out
 
 def inject(text,slug):
+ text=re.sub(r'<!-- iteration-memory-graph:start -->.*?<!-- iteration-memory-graph:end -->','',text,flags=re.S)
  text=re.sub(r'<!-- iteration-memory:start -->.*?<!-- iteration-memory:end -->','',text,flags=re.S)
  p=panel(slug)
  if not p:return text
@@ -117,6 +151,9 @@ def inject(text,slug):
   # Docker calls its production edit section changed-input.
   start=re.search(r'<section\b[^>]*\bid="changed-input"[^>]*>',text)
  assert start,slug
+ heading=re.search(r'</h2>',text[start.end():])
+ if heading:
+  place=start.end()+heading.end();text=text[:place]+'<!-- iteration-memory-graph:start -->'+memory_graph(slug)+'<!-- iteration-memory-graph:end -->'+text[place:]
  depth=1
  for m in re.finditer(r'<(/?)section\b[^>]*>',text[start.end():]):
   depth+=-1 if m[1] else 1

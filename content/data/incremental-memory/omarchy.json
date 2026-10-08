@@ -1,0 +1,43 @@
+{
+  "report": "omarchy",
+  "metric": "Published build process-tree peak RSS; original raw mechanism not retained",
+  "sample_policy": "Five warmed container runs; published summary values. Historical NUC incremental RSS unavailable: original binary/input binding not retained. No modern replacement.",
+  "provenance": {
+    "canonical_report_source": "https://github.com/nift-dev/lab/blob/1ec67a4/content/sites/omarchy/index.html",
+    "source_revision": "1ec67a4",
+    "scope": "existing original report evidence; no new measurements"
+  },
+  "rows": [
+    {
+      "case": "Nift no-op check",
+      "Nift": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 8.3,
+        "range_mib": [
+          8.3,
+          8.3
+        ],
+        "raw_mib": [
+          8.3
+        ]
+      }
+    },
+    {
+      "case": "Nift one-page edit",
+      "Nift": {
+        "samples": 1,
+        "statistic": "median",
+        "value_mib": 8.3,
+        "range_mib": [
+          8.3,
+          8.3
+        ],
+        "raw_mib": [
+          8.3
+        ]
+      }
+    }
+  ],
+  "raw": {}
+}
