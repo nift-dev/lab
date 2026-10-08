@@ -44,7 +44,7 @@ references = 0
 for path, page in pages.items():
     for ref in page.refs:
         url = urlsplit(ref)
-        if url.scheme or url.netloc:
+        if (url.scheme or url.netloc) and url.netloc != 'lab.nift.dev':
             continue
         references += 1
         target = ((PUBLIC / unquote(url.path.lstrip('/'))) if url.path.startswith('/')

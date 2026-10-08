@@ -13,7 +13,8 @@ def canonical_url(path):
  d=sources();key=str(path).replace('\\','/');key=key.removeprefix(str(R)+'/')
  return url(d['files'][key]) if key in d['files'] else None
 def canonicalize_links(text):
- return re.sub(r"@(?:path|pathto)\((['\"])(public/[^'\"]+)\1\)",lambda m:canonical_url(m[2]) or m[0],text)
+ text=re.sub(r"@(?:path|pathto)\((['\"])(public/[^'\"]+)\1\)",lambda m:canonical_url(m[2]) or m[0],text)
+ return re.sub(r'https://lab\.nift\.dev/([^\"\'<>\s]+)',lambda m:canonical_url('public/'+m[1]) or m[0],text)
 def data_root(prefix):
  """Materialize exact frozen maintenance inputs outside Labs, with verified hashes."""
  d=sources();cache=Path(tempfile.gettempdir())/('nift-labs-evidence-'+d['evidence_commit'])/prefix
