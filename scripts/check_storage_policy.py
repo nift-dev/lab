@@ -5,7 +5,8 @@ R=Path(__file__).resolve().parents[1]
 def files(root):
  return [root/p for p in subprocess.check_output(['git','ls-files','-z'],cwd=root).decode().split('\0') if p and (root/p).is_file()]
 errors=[];payloads=collections.defaultdict(list);sizes=[]
-for p in files(R)+files(R/'public'):
+published=files(R/'public') if (R/'public/.git').exists() else []
+for p in files(R)+published:
  rel=p.relative_to(R);size=p.stat().st_size;sizes.append(size)
  if any(x in rel.parts for x in ['node_modules','.cache','.venv','build-work','immutable-inputs','incremental-memory-work']):errors.append(f'Build/cache path: {rel}')
  if p.suffix in ['.gz','.zip','.tar','.7z']:errors.append(f'Binary archive: {rel}')

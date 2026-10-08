@@ -796,5 +796,111 @@
     "endpoint": "repos/vercel/ai/commits/3ebefff610f96892c50be48cf1838c453e2349f7",
     "valid": true,
     "sha": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "url": "https://github.com/nift-dev/shell-benchmark/tree/c70a61cdf7a491ef794e0c9d40c1a151509a93d3/evidence/campaign-20261009-v490",
+    "endpoint": "repos/nift-dev/shell-benchmark/contents/evidence/campaign-20261009-v490?ref=c70a61cdf7a491ef794e0c9d40c1a151509a93d3",
+    "valid": true,
+    "scope": "accepted published shell page, preserved separately from concurrent working edits"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/storage.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/run-identity.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/same-node-version-diagnostic.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/teardown.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/machine-extra.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/scripting.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/same-node-version-diagnostic.py",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/node-specifications.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/rc-body.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/shell-application-cold.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/machine-extra.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/run-identity.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/shell-repeated.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/filesystem.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/teardown.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/rc-certification.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/node-specifications.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/scripting/20261008-v480/smoke-scripting.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/calibration.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
+  },
+  {
+    "url": "https://github.com/nift-experiments/lab-evidence/blob/6250bc46604ad82713644cfb2a8bb46850573340/benchmarks/shell/20261008-v480/smoke-shell-repeated.json",
+    "valid": true,
+    "verification": "SHA256-matched fresh pushed canonical clone at exact commit"
   }
 ]

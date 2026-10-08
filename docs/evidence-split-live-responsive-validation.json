@@ -1,0 +1,13 @@
+{
+  "viewports_checked": 32,
+  "graphs_visible": true,
+  "all_bars_have_positive_dimensions": true,
+  "no_page_overflow": true,
+  "no_page_errors": true,
+  "manual_live_inspection": [
+    "Temporal",
+    "AI SDK",
+    "website-generator"
+  ],
+  "scope": "Eight affected pages unchanged by the subsequent frozen-archive-only link repair"
+}

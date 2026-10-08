@@ -1,0 +1,388 @@
+{
+  "deployment_commit": "d31805853016412022f64748480fc72b51eedb61",
+  "live_byte_checks": [
+    {
+      "path": "benchmarks/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "4503179d0ae7fdde0cfa7de6651865d994dbf02e341ba7c0ef2d69fe10f4cd51"
+    },
+    {
+      "path": "benchmarks/scripting/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "b0fac025c7ab4156bb6da5d9f4750666c6025f9caa68b7cf520173d5cc9f9765"
+    },
+    {
+      "path": "benchmarks/scripting/series/20261008-v480/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "1263f31f9b8504cf9669a0dc5247fdedf6012613baafa2b51c94a7b580899541"
+    },
+    {
+      "path": "benchmarks/shell/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "38ff1d79bd218b243eb1cdfe2ad39154d58d240464550b9799f96f7ba064bcf4"
+    },
+    {
+      "path": "benchmarks/shell/series/20261008-v480/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "28d60a4b4509fc42221a354a1fbc568932e80cec0d65cda8e528a4ffe8bc42d9"
+    },
+    {
+      "path": "benchmarks/website-generator/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "061dfbe1042eb863adf0f86386590fb461dcdac1dbd7e51fc5b8a9f64151e871"
+    },
+    {
+      "path": "index.html",
+      "committed_bytes_equal": true,
+      "sha256": "f3a066db349ad3d83dc47498a004836a6b3f3d2e41e5b8c72ed87b7d55f6d9bd"
+    },
+    {
+      "path": "sites/ai-sdk/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "3c72f3a097e411b244eff5f0a364ef8fd0a29c80d4501f240fd45b594a5200a5"
+    },
+    {
+      "path": "sites/capgo/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "671abb56738f4cfcb67b064d52876b75ba951ce2f29b0308621767ff78e022f2"
+    },
+    {
+      "path": "sites/cloudflare-docs/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "8d3be143cfec500c4d0864e47bce5a750e691710d2f6f0bc824b5ecc676fe85e"
+    },
+    {
+      "path": "sites/deno/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "b390efb87015088473b9568a7fe5fdeed17c2cab73da11cbfe88563dc6919867"
+    },
+    {
+      "path": "sites/docker/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "dff0a8918b70296130d93cfccb69bac874b3b5f4683bd5d27337b84c021ec6a1"
+    },
+    {
+      "path": "sites/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "59018dff4a8c3519007fe0fa1045723d4669b27a5a67d42159b7f9fc2f91c381"
+    },
+    {
+      "path": "sites/omarchy/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "2e7086afeff0ef67fd8adfbd74af17ec528764a4a2ac9bef7214bd06a3c12006"
+    },
+    {
+      "path": "sites/temporal/index.html",
+      "committed_bytes_equal": true,
+      "sha256": "427700aa4f9a3b1d888ba006740e11b862decba141de2da23f95fcda0c456bdb"
+    }
+  ],
+  "publication_links": [
+    {
+      "url": "https://lab.nift.dev/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/assets/loops.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/assets/loops.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/assets/noop.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/assets/noop.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/assets/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/assets/traverse.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/assets/traverse.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/assets/loops.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/assets/loops.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/assets/noop.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/assets/noop.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/assets/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/assets/traverse.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/assets/traverse.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/scripting/series/20261008-v480/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/assets/external-work.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/assets/external-work.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/assets/rc-prepared.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/assets/rc-prepared.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/assets/startup-distributions.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/assets/startup-distributions.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/assets/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/assets/external-work.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/assets/external-work.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/assets/rc-prepared.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/assets/rc-prepared.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/assets/startup-distributions.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/assets/startup-distributions.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/assets/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/shell/series/20261008-v480/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/assets/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/assets/memory.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/assets/memory.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/assets/scaling.png",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/assets/scaling.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/assets/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/benchmarks/website-generator/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/labs/catalogue.js",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/labs/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/labs/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/ai-sdk/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/ai-sdk/assets/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/ai-sdk/assets/report.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/ai-sdk/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/capgo/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/capgo/assets/report.css?v=20261006-typography",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/capgo/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/cloudflare-docs/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/cloudflare-docs/assets/css/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/cloudflare-docs/assets/js/script.js",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/cloudflare-docs/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/deno/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/deno/assets/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/deno/assets/report.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/deno/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/docker/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/docker/assets/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/docker/assets/report.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/docker/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/omarchy/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/omarchy/assets/css/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/temporal/",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/temporal/assets/favicon.svg",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/temporal/assets/report.css",
+      "status": 200
+    },
+    {
+      "url": "https://lab.nift.dev/sites/temporal/index.html",
+      "status": 200
+    }
+  ],
+  "external_evidence_urls_preverified": 154,
+  "no_unknown_external_links": true
+}
