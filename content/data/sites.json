@@ -86,5 +86,19 @@
     "agent_repo": "https://github.com/nift-experiments/ai-sdk-agent",
     "date": "2026-10-08",
     "report": "https://github.com/nift-experiments/ai-sdk/blob/6d07d2f06a96d33deac0384514574d069cce98b7/investigation/A10-REPORT.md"
+  },
+  {
+    "name": "Temporal Docs",
+    "slug": "temporal",
+    "page": "sites/temporal/",
+    "description": "962 routes and retained React islands. Authored and rendered source, production iteration, fresh-state costs and qualified memory evidence.",
+    "category": "Migration / maintenance study",
+    "status": "Results published",
+    "upstream_framework": "Docusaurus",
+    "page_count": "962",
+    "upstream_repo": "https://github.com/temporalio/documentation",
+    "upstream_commit": "5d9703a237a9efc9a7da48ac09f79526823b8182",
+    "experiment_repo": "https://github.com/nift-experiments/temporal",
+    "agent_repo": "https://github.com/nift-experiments/temporal-agent"
   }
 ]

@@ -184,3 +184,7 @@ python3 scripts/validate.py
 python3 scripts/check_ai_sdk_links.py
 nift status
 ```
+
+## Temporal report publication
+
+Independent amber event-history report at `/sites/temporal/`. Run `python3 scripts/render_temporal.py` to regenerate from hash-verified accepted T9 evidence, then normal full/incremental builds and validation. `python3 scripts/check_temporal_links.py` checks pinned links. See docs/TEMPORAL-PUBLICATION.md. Both accepted migrations remain untouched.
