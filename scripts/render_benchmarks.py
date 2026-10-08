@@ -14,6 +14,13 @@ def load(name):
   assert len(rows)==j['summary']['samples']
   assert statistics.median(r['wall_ms'] for r in rows)==j['summary']['median_ms']
  return d
+def active_path(slug,name):
+ meta=series_meta(slug)
+ return DATA/'history'/meta['series']/slug/name if meta else DATA/name
+def load_active(slug,name):
+ return load(str(active_path(slug,name).relative_to(DATA)))
+def raw_active(slug,name):
+ return json.loads(active_path(slug,name).read_text())
 def table(headers,rows,caption):
  numeric=[i>0 and any(re.fullmatch(r'[0-9.,–−]+',str(row[i])) for row in rows) and all(re.fullmatch(r'[0-9.,–−]+',str(row[i])) or row[i] in ('Outside scope','—') for row in rows) for i in range(len(headers))]
  return '<div class="table-scroll" role="region" tabindex="0" aria-label="'+esc(caption)+'"><table><caption>'+esc(caption)+'</caption><thead><tr>'+''.join(('<th scope="col" class="num">' if numeric[i] else '<th scope="col">')+esc(h)+'</th>' for i,h in enumerate(headers))+'</tr></thead><tbody>'+''.join('<tr>'+''.join(('<th scope="row">' if i==0 else ('<td class="num">' if numeric[i] else '<td>'))+('<span class="scope-marker" aria-label="Outside scope" title="Outside scope">—</span>' if c=='Outside scope' else esc(c))+('</th>' if i==0 else '</td>') for i,c in enumerate(row))+'</tr>' for row in rows)+'</tbody></table></div>'
@@ -32,7 +39,7 @@ def series_notice(slug):
  meta=series_meta(slug)
  if not meta:return ''
  base=f'public/benchmarks/{slug}/evidence/{meta["series"]}'
- return p(f'Series <strong>{esc(meta["series"])}</strong> · measured {esc(meta["date_local"])}. Nift <strong>{esc(meta["nift_version"])}</strong> is a development snapshot, built from <a href="https://github.com/nift-dev/nift/tree/{meta["nift_revision"]}">this frozen source revision</a>. These observations replace the displayed prior series; <a href="@path(\'public/benchmarks/{slug}/evidence/20261007-v472/README.md\')">the previous Nift 4.7.2 raw series</a> remains available. Different virtual CPUs prevent attributing cross-node changes solely to Nift. <a href="@path(\'{base}/run-identity.json\')">Run identity and build provenance</a>.')
+ return p(f'Series <strong>{esc(meta["series"])}</strong> · measured {esc(meta["date_local"])}. Nift <strong>{esc(meta["nift_version"])}</strong> is a release-preparation build, built from <a href="https://github.com/nift-dev/nift/tree/{meta["nift_revision"]}">this frozen source revision</a>. <a href="@path(\'public/benchmarks/{slug}/series/20261008-v480/index.html\')">The frozen v4.8 report and original figures</a>, <a href="@path(\'public/benchmarks/{slug}/evidence/20261008-v480/README.md\')">its complete raw evidence</a> and the <a href="@path(\'public/benchmarks/{slug}/evidence/20261007-v472/README.md\')">earlier v4.7.2 series</a> remain available. Separate nodes may have different virtual CPUs; cross-node deltas cannot be attributed entirely to Nift. <a href="@path(\'{base}/run-identity.json\')">Run identity and build provenance</a>. <a href="@path(\'public/benchmarks/evidence/campaign-20261009-v490.md\')">Campaign report and lifecycle</a>.')
 def machine(d,slug=None):
  m=d['machine'];cpu=next((x.split(':',1)[1].strip() for x in m['cpuinfo'].splitlines() if x.startswith('model name')),'Unknown')
  osname=next((x.split('=',1)[1].strip('"') for x in m['os_release'].splitlines() if x.startswith('PRETTY_NAME=')),'Linux')
@@ -47,9 +54,13 @@ def machine(d,slug=None):
  return section('Frozen environment','One node. One logical CPU.',cards,'machine')+section('Versions','Tested systems',table(['System','Measured version'],rows,'Detected on the measurement node'))
 def evidence(slug,files,repo,cmd):
  out=ROOT/'public/benchmarks'/slug/'evidence';out.mkdir(parents=True,exist_ok=True)
- for fn in files:shutil.copyfile(DATA/fn,out/fn)
+ meta=series_meta(slug)
+ if not meta:
+  for fn in files:shutil.copyfile(DATA/fn,out/fn)
+ else:
+  for fn in files:assert (out/meta['series']/fn).read_bytes()==active_path(slug,fn).read_bytes()
  branch='main' if repo=='shell-benchmark' else 'stage'
- revision=json.loads((DATA/files[0]).read_text())['machine']['revision']
+ revision=raw_active(slug,files[0])['machine']['revision']
  clean={'shell':'shell','scripting':'scripting','website-generator':'website'}[slug]
  meta=series_meta(slug)
  base=f'public/benchmarks/{slug}/evidence'+('/'+meta['series'] if meta else '')
@@ -63,7 +74,7 @@ def write(slug,text):
  text=text.replace('</section>','</section>'+series_notice(slug)+nav,1)
  (ROOT/f'content/benchmarks/{slug}/index.html').write_text('<main id="main">'+text+related(slug)+'</main>')
 def shell():
- d=load('shell-repeated.json');c=load('shell-application-cold.json');by={j['id']:j for j in d['jobs']};cold={j['id']:j for j in c['jobs']};names=('bash','zsh','fish','nu','nift')
+ d=load_active('shell','shell-repeated.json');c=load_active('shell','shell-application-cold.json');by={j['id']:j for j in d['jobs']};cold={j['id']:j for j in c['jobs']};names=('bash','zsh','fish','nu','nift')
  def r(s,sc='bare',metric='interactive'):return by[f'{s}/{sc}/{metric}']['summary']
  hero='<section class="hero"><p class="eyebrow">Experiment 03 / startup &amp; shells</p><h1>How long until<br><span>the prompt is ready?</span> <i class="cursor" aria-hidden="true"></i></h1>'+p('Every invocation pays a startup cost. We measured Bash, Zsh, Fish, Nushell and Nift, made RC work explicit, and kept the stalls visible.')+'<div class="boot" aria-label="Conceptual startup sequence"><div><small>01 / timed boundary</small><b>Process starts</b></div><div><small>02 / conceptual phase</small><b>Runtime initialises</b></div><div><small>03 / explicit variable</small><b>RC loads</b></div><div><small>04 / PTY boundary</small><b>Prompt ready</b></div></div>'+p('Stages explain the model; individual stage durations were not measured. Only the total startup boundary is timed.')+'</section>'
  draw_shell_plot(d,ROOT/'public/benchmarks/shell/assets/startup-distributions.svg')
@@ -88,16 +99,16 @@ def shell():
  work+=p('Bash’s trivial invocation was '+f(r('bash',metric='trivial-command')['median_ms'])+' ms versus Nift’s '+f(r('nift',metric='trivial-command')['median_ms'])+' ms. Fish’s external-100 median was '+f(r('fish',metric='external-100')['median_ms'])+' ms versus Nift’s '+f(r('nift',metric='external-100')['median_ms'])+' ms. These rows show why prompt latency alone cannot rank shell performance.')
  work+=figure('shell','external-work',names,{'External-100':[r(n,metric='external-100')['median_ms'] for n in names]},'Launching 100 external commands','Whole invocation median (ms)')
  work+=table(['Shell','Trivial RSS MiB'],[[s,f(r(s,metric='trivial-command')['median_peak_rss_kib']/1024)] for s in names],'Median Linux waited-child high-water RSS; not simultaneous aggregate tree RSS')+p('PTY RSS is omitted because prompt timing stops before oracle/teardown accounting. Concurrent-job, long-pipeline and separate default-dotfile distributions remain coverage gaps; traversal/data work appears in scripting.')
- cal=json.loads((DATA/'calibration.json').read_text())
+ cal=raw_active('shell','calibration.json')
  assert all(r['correct'] for j in cal['jobs'] for r in j['samples'])
- cert=json.loads((DATA/'rc-certification.json').read_text());assert cert['all_state_valid'] and all(j['correct'] for j in cert['cases'])
- body=json.loads((DATA/'rc-body.json').read_text());assert all(r['correct'] for j in body['jobs'] for r in j['samples'])
+ cert=raw_active('shell','rc-certification.json');assert cert['all_state_valid'] and all(j['correct'] for j in cert['cases'])
+ body=raw_active('shell','rc-body.json');assert all(r['correct'] for j in body['jobs'] for r in j['samples'])
  rc_body_table=table(['Diagnostic','User RC body median ms','Min–max ms'],[[j['id'],f(j['median_rc_body_ms']),f(j['min_rc_body_ms'])+'–'+f(j['max_rc_body_ms'])] for j in body['jobs']],'50 native-clock RC-body observations per Bash/Zsh level; not startup-subtracted')
  cal_rows=[[j['id'],f(j['summary']['median_ms']),f(j['summary']['p95_ms'])] for j in cal['jobs']]
  method=table(['Calibration','Median ms','p95 ms'],cal_rows,'50 process/PTY baseline probes per cell; never subtracted')+p('The compiled PTY bridge avoids Python heap fork latency. Minimal probe measurements disclose remaining launch/forwarding/scheduling overhead; differences near that floor need care. Initial Python-PTY series are retained as diagnostics and excluded by a documented method revision, not by selective sample removal.')+rc_body_table+p('Independent Bash/Zsh EPOCHREALTIME clocks instrument synthetic user RC source/parse/execute only, excluding system RC. Clock/read overhead remains; other shells do not have an equivalent timer/parser boundary in this diagnostic. No cross-shell RC-body ranking or subtraction is used. Separate complete-state certification checks every variable and function plus the conditional and PATH prefix in all 18 light/moderate login/non-login cases.')+p('Non-interactive invocations must exit successfully and yield expected output. PTY timing ends at prompt arrival, followed by its command/state oracle; the bridge then terminates the child process group, so a natural-exit status and teardown RSS are outside that boundary. Failures retain non-publishable evidence. Prepared startup cells contain 100 samples; fresh-state startup cells contain 30; both have 3 retained warmups. Configured fresh Zsh rebuilds system completion state, so its expensive series uses 30 samples, frozen before collection. No sample was excluded. Work cells contain 10 plus 3. Order rotates each round.')+p('An allowlisted environment and job-specific HOME/XDG/ZDOTDIR prevent BASH_ENV, ENV, inherited functions, personal dotfiles or tokens from entering measured processes. Terminal queries receive documented xterm responses. OSC 133 prompt completion is used where available, otherwise prompt suffix detection; the oracle proves the shell is usable afterwards. This terminal model affects interactive startup and limits generalisation.')+p('Configuration discovery, parsing, history and lazy initialization can interact. No additive RC decomposition is justified. Rich runtime features and low bare startup answer different engineering questions.')
  write('shell',hero+section('Startup / distributions','A median does not show every stall.',result,'results')+section('Configuration is a variable','Bare → Empty → Light → Moderate',rc,'rc')+section('Orchestration &amp; native work','The shell has work to do.',work)+section('Correctness / limits','Fast and wrong does not qualify.',method,'method')+machine(d,'shell')+evidence('shell',['shell-repeated.json','shell-application-cold.json','calibration.json','rc-certification.json','rc-body.json'],'shell-benchmark','python3 scripts/benchmark.py --nift /opt/campaign/tools/bin/nift --samples 100 --work-samples 10 --warmups 3 --output results/run.json\n# Fresh-state run: --state application-cold --samples 30 --work-samples 10 --warmups 3.')+section('Conclusion','Direct startup evidence, with its boundaries.',p('This matrix is defensible for the exact invocation/configuration paths and small workloads reported. It does not establish a universally fastest shell, feature parity, or machine-cold performance.')))
 def scripting():
- d=load('scripting.json');groups={};names=tuple(d['tools'])
+ d=load_active('scripting','scripting.json');groups={};names=tuple(d['tools'])
  for j in d['jobs']:
   family,size,lang=j['id'].rsplit('/',2);groups.setdefault((family,size),{})[lang]=j
  hero='<section class="hero"><div><p class="eyebrow">Experiment 01 / runtime &amp; scripting</p><h1>One runtime.<br>Different kinds<br>of work.</h1>'+p('What does Nift cost as a scripting language? Separate startup-sensitive snippets from sustained computation and practical file/data work, then compare idiomatic implementations.')+'</div><aside class="trace" aria-label="Measurement flow"><span><b>01</b> source + fixture</span><span><b>02</b> fresh runtime</span><span><b>03</b> output oracle</span><span><b>04</b> retained sample</span><span><b>05</b> run-specific median</span></aside></section>'
@@ -122,7 +133,7 @@ def scripting():
  interpretation=p('Native/JIT collection mechanisms can earn an advantage in sustained computation; invocation cost matters more for tiny automation. Nift’s integrated file/data functionality may be useful without winning every row. No benchmark here prices maintainability or feature convenience.')+p('Bash is excluded from structured-data, Fibonacci and BFS where unnatural. Its recursive file test uses find/wc; other implementations use native APIs. BFS compares idiomatic queue/distance structures rather than identical internals. JSON parse/traverse include the same fixture read. Helpers remain inside timing.')+p('Frequency-count v2 streams counters consistently; sort-index describes sorting and indexed reads. The misleading two-pointer endpoint test is omitted. Three redundant sanity microbenchmarks and duplicate shell startup are omitted. JSON-mutate duplicated record transformation without proving persistent array mutation. Partial JSON-query and unimplemented SQLite/mixed/breadth families are explicit coverage gaps. More end-to-end practical workflows would strengthen relevance.')
  diagnostic=''
  meta=series_meta('scripting')
- if meta:
+ if meta and meta['series']=='20261008-v480':
   check=load(f'history/{meta["series"]}/scripting/same-node-version-diagnostic.json')
   jobs={j['id']:j['summary'] for j in check['jobs']}
   cases=('sanity/noop/small','sanity/loops/large','arrays-strings-hash/frequency-count/large','arrays-strings-hash/sort-index/large','structured-data/json-transform/large')
@@ -161,4 +172,8 @@ def website():
  method+=table(['Generator','Removed before warm full','Retained state'],[['Nift','public/','.nift/ tracking metadata'],['Hugo','public/, resources/','other project state'],['Astro','dist/, .astro/','shared node_modules dependency cache'],['VitePress','docs/.vitepress/dist/, docs/.vitepress/cache/','shared node_modules dependency cache']],'Exact warm-full cleanup; internal state is tool-specific')
  interpretation=p('Different preparation, rendering, bundling and hydration paths appear in these costs, while their features are mostly unused by minimal pages. Nift also has a broader scripting/build role than a conventional SSG. The fixture does not exercise complex Markdown/MDX, assets, component graphs or maintained production websites.')+p('Warm full names the retained-state workflow, not an expected speedup. Different totals do not identify individual planning/rendering/cache phases; those were not profiled. Scaling describes this fixture. Competitor incremental server/HMR behaviour was not measured; comparing it to Nift’s one-shot dependency build requires a new equivalent experiment.')
  write('website-generator',hero+section('10,000-page corpus','Time and memory, with boundaries attached.',result,'results')+section('Equivalence before speed','The output has to contain the page.',method,'method')+section('Observation → interpretation','A small build surface is useful evidence.',interpretation)+machine(d)+evidence('website-generator',[f'website-{n}.json' for n in (100,1000,10000)]+['targeted-builds.json'],'website-generator-benchmark','python3 scripts/campaign.py --nift /opt/campaign/tools/bin/nift --hugo /opt/campaign/tools/bin/hugo --node-project . --pages 10000 --samples 5 --warmups 1 --timeout 1200 --output evidence/run.json')+section('Conclusion','Defensible as minimal-page throughput.',p('The corrected fixture and output gates support this bounded experiment. Its measurement boundaries should travel with every quoted number; read real-site migration reports for architecture and maintenance tradeoffs.')))
-if __name__=='__main__':shell();scripting();website();print('Rendered three independent articles from validated evidence.')
+if __name__=='__main__':
+ import argparse
+ ap=argparse.ArgumentParser();ap.add_argument('--suites',nargs='+',choices=['shell','scripting','website-generator'],default=['shell','scripting','website-generator']);args=ap.parse_args()
+ for slug in args.suites:{'shell':shell,'scripting':scripting,'website-generator':website}[slug]()
+ print('Rendered selected independent articles from dated validated evidence.')

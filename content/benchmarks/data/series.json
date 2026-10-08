@@ -1,14 +1,14 @@
 {
   "shell": {
-    "series": "20261008-v480",
-    "date_local": "2026-10-08",
-    "nift_version": "4.8.0",
-    "nift_revision": "c80c2cd6f4a2e782e861431637af014bb8a0668c"
+    "series": "20261009-v490",
+    "date_local": "2026-10-09",
+    "nift_version": "4.9.0",
+    "nift_revision": "aaadeb31219251b7cc02a62fbf75360ac3e11aaf"
   },
   "scripting": {
-    "series": "20261008-v480",
-    "date_local": "2026-10-08",
-    "nift_version": "4.8.0",
-    "nift_revision": "c80c2cd6f4a2e782e861431637af014bb8a0668c"
+    "series": "20261009-v490",
+    "date_local": "2026-10-09",
+    "nift_version": "4.9.0",
+    "nift_revision": "aaadeb31219251b7cc02a62fbf75360ac3e11aaf"
   }
 }
