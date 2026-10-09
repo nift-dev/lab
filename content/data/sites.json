@@ -100,5 +100,21 @@
     "upstream_commit": "5d9703a237a9efc9a7da48ac09f79526823b8182",
     "experiment_repo": "https://github.com/nift-experiments/temporal",
     "agent_repo": "https://github.com/nift-experiments/temporal-agent"
+  },
+  {
+    "name": "TanStack.com",
+    "slug": "tanstack",
+    "page": "sites/tanstack/",
+    "description": "No compelling migration found. Strong parity, retained runtime costs, rejected splits and a planned rewrite from first principles.",
+    "category": "Migration / architecture investigation",
+    "status": "Migration unsuccessful \u00b7 rewrite planned",
+    "upstream_framework": "TanStack Start / Vite",
+    "page_count": "7,527 source",
+    "upstream_repo": "https://github.com/TanStack/tanstack.com",
+    "upstream_commit": "862ccc3d191818320c3e6d217542883f80cb907a",
+    "experiment_repo": "https://github.com/nift-experiments/tanstack",
+    "agent_repo": "https://github.com/nift-experiments/tanstack-agent",
+    "date": "2026-10-10",
+    "report": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/investigation/T12-ARCHITECTURE.md"
   }
 ]

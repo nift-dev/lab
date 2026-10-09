@@ -217,3 +217,8 @@ python3 scripts/validate.py
 ```
 
 The v4.9 report and its original chart/style bytes are archived under `/benchmarks/shell/series/20261009-v490/`; original dated raw evidence stays unchanged. The added workload schema, sources, manifests and every correctness record live with the new dated raw series. See `docs/SHELL-EXPANDED-20261009.md` for measurement and lifecycle identity.
+
+
+## TanStack.com architecture phase publication
+
+`/sites/tanstack/` publishes the bounded negative migration result and planned rewrite. Its independent boundary/branch design separates retained Start build cost from Nift publication, T10 from T12, and individual-process from sampled-tree RSS. Regenerate with `python3 scripts/render_tanstack.py`, then full/incremental builds, `scripts/validate.py`, `scripts/check_tanstack_links.py` and `scripts/check_storage_policy.py`. Canonical evidence stays pinned in the experiment repositories. See docs/TANSTACK-PUBLICATION.md. Rewrite work and the pending replacement campaign are not part of this publication.

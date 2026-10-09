@@ -1,0 +1,103 @@
+{
+  "scope": "Every external GitHub href in the generated report; read-only API existence verification",
+  "links": [
+    {
+      "url": "https://github.com/TanStack/tanstack.com/tree/862ccc3d191818320c3e6d217542883f80cb907a",
+      "verified_api": "repos/TanStack/tanstack.com/git/commits/862ccc3d191818320c3e6d217542883f80cb907a",
+      "status": 200,
+      "sha": "862ccc3d191818320c3e6d217542883f80cb907a",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/INTERMEDIATE-REPORT.md",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/INTERMEDIATE-REPORT.md?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "fc1e9d0e91d37cf51a36217cbc5ba833913673ae",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/evidence/t10/summary.json",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/evidence/t10/summary.json?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "088cbaef8b8e6d83f37f601f91ffd9f16fc3db86",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/evidence/t12/architecture-benchmark/samples.json",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/evidence/t12/architecture-benchmark/samples.json?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "224098ca9bb0e7440c3c7ab3d420a80ad27ece11",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/evidence/t12/architecture-benchmark/summary.json",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/evidence/t12/architecture-benchmark/summary.json?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "efcfb38e1e56e0c2128e6fca355fcbba9c26dc07",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/evidence/t12/article-boundary-probe/authority.json",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/evidence/t12/article-boundary-probe/authority.json?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "d6438785eb1150d1c518c50fefc9adf320ac0300",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/evidence/t12/component-summary.json",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/evidence/t12/component-summary.json?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "8233d2b292f2f2602a976be57dc8a1448af7e588",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/evidence/t12/reproduction.json",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/evidence/t12/reproduction.json?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "fe3d5851dafc1d703fb8a0981a30278d17ee6eb4",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/evidence/t12/static-backend-probe/result.json",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/evidence/t12/static-backend-probe/result.json?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "366ef22a7b74f3eb84208622f285f54e18640355",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/investigation/T11-OPTIMIZATION.md",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/investigation/T11-OPTIMIZATION.md?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "85a7fd2b5a727bde5eb41bf87649278bcc39ec12",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/investigation/T12-ARCHITECTURE.md",
+      "verified_api": "repos/nift-experiments/tanstack-agent/contents/investigation/T12-ARCHITECTURE.md?ref=8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "e8f4d82593d7c010d3066670e5b518cccb095e4e",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/tree/8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "verified_api": "repos/nift-experiments/tanstack-agent/git/commits/8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-agent/tree/8bd68069410f984a5949e7fa0e629b6084c1caee/investigation/t12-prototypes",
+      "verified_api": "repos/nift-experiments/tanstack-agent/git/commits/8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "status": 200,
+      "sha": "8bd68069410f984a5949e7fa0e629b6084c1caee",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack/tree/7af3af0141e09248dacfc11f722c495abadd96a4",
+      "verified_api": "repos/nift-experiments/tanstack/git/commits/7af3af0141e09248dacfc11f722c495abadd96a4",
+      "status": 200,
+      "sha": "7af3af0141e09248dacfc11f722c495abadd96a4",
+      "repository": null
+    }
+  ]
+}

@@ -64,6 +64,11 @@
       "name": "sites/temporal/",
       "title": "Temporal Docs: replay the work, change the pipeline",
       "template": "templates/sites/temporal/template.html"
+    },
+    {
+      "name": "sites/tanstack/",
+      "title": "TanStack.com: the migration boundary",
+      "template": "templates/sites/tanstack/template.html"
     }
   ]
 }

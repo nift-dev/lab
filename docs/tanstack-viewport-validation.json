@@ -1,0 +1,73 @@
+{
+  "scope": "Local browser layout/text/navigation; screenshots manually inspected separately",
+  "records": [
+    {
+      "width": 1440,
+      "http": 200,
+      "document_width": 1440,
+      "body_width": 1440,
+      "no_overflow": true,
+      "no_page_errors": true,
+      "color_scheme": "dark",
+      "benchmark_values_visible_as_text": true,
+      "status_visible_as_text": true,
+      "evidence_links": 14,
+      "section_navigation": true
+    },
+    {
+      "width": 768,
+      "http": 200,
+      "document_width": 768,
+      "body_width": 768,
+      "no_overflow": true,
+      "no_page_errors": true,
+      "color_scheme": "dark",
+      "benchmark_values_visible_as_text": true,
+      "status_visible_as_text": true,
+      "evidence_links": 14,
+      "section_navigation": true
+    },
+    {
+      "width": 390,
+      "http": 200,
+      "document_width": 390,
+      "body_width": 390,
+      "no_overflow": true,
+      "no_page_errors": true,
+      "color_scheme": "dark",
+      "benchmark_values_visible_as_text": true,
+      "status_visible_as_text": true,
+      "evidence_links": 14,
+      "section_navigation": true
+    },
+    {
+      "width": 320,
+      "http": 200,
+      "document_width": 320,
+      "body_width": 320,
+      "no_overflow": true,
+      "no_page_errors": true,
+      "color_scheme": "dark",
+      "benchmark_values_visible_as_text": true,
+      "status_visible_as_text": true,
+      "evidence_links": 14,
+      "section_navigation": true
+    }
+  ],
+  "manual_inspection": {
+    "viewports": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "areas": [
+      "hero/status",
+      "architecture boundary",
+      "accepted/rejected branch trace",
+      "benchmark rails/tables"
+    ],
+    "passed": true,
+    "screenshots": "External /tmp/tanstack-labs-visual; not tracked or deployed"
+  }
+}

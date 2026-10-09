@@ -342,3 +342,8 @@ Added `/sites/temporal/` with independent amber event-history assets, parity bef
 ## Dedicated report presentation
 
 Temporal now uses an asymmetric event-history/replay system; website-generator uses a graphite/lime measurement rig. Accepted engineering content, values, caveats and evidence are retained. README.md records the family-versus-publication design convention. See docs/REPORT-REDESIGN.md for preservation and responsive gates. No migration repositories changed.
+
+
+## TanStack.com bounded migration phase publication
+
+Added `/sites/tanstack/` with its own boundary-map / branch-trace / tradeoff-rail design. Classifies the tested migration as unsuccessful/poor architectural fit, not Nift or TanStack generally. Preserves T10 historical results, T12 80 samples, full and incremental individual/tree RSS scopes, real parity/reproduction, rejected session/HTML-authority branches and the pending T11 replacement campaign. The `nift init --rewrite` experiment is planned and not started. No experiment implementation or core changes. See docs/TANSTACK-PUBLICATION.md and compact validation receipts.
