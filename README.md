@@ -206,3 +206,14 @@ explicitly approved. Incremental memory graphs use zero-based linear bars with M
 labels; individual RSS and aggregate/sampled metrics must remain distinct.
 
 The formal [evidence storage policy](docs/EVIDENCE-STORAGE.md) governs publication. Canonical Labs evidence: [nift-experiments/lab-evidence](https://github.com/nift-experiments/lab-evidence/tree/6250bc46604ad82713644cfb2a8bb46850573340). Run `python3 scripts/check_storage_policy.py` before committing/publishing.
+## Expanded shell workloads
+
+The shell report reads its active immutable series from `content/benchmarks/data/series.json`. Its graphical rows and numeric rows share table columns through `scripts/shell_visuals.py`, preventing legend/header alignment drift. File-count, process-count and pipeline-count plots use logarithmic task-count spacing and share a linear ordinate across participant columns; ordinary task charts show medians with accompanying p95 rows, and startup retains min/max/median/p95/p99. All numeric vectors come from hash-verified raw summaries in nift-experiments/lab-evidence, cached outside Labs for explicit regeneration. Normal site builds use maintained HTML and local compact datasets without network access. `content/benchmarks/styles/shell-workloads.css` is copied into public assets by the renderer. Render only the shell article with:
+
+```sh
+.venv-benchmarks/bin/python scripts/render_benchmarks.py --suites shell
+nift build --all
+python3 scripts/validate.py
+```
+
+The v4.9 report and its original chart/style bytes are archived under `/benchmarks/shell/series/20261009-v490/`; original dated raw evidence stays unchanged. The added workload schema, sources, manifests and every correctness record live with the new dated raw series. See `docs/SHELL-EXPANDED-20261009.md` for measurement and lifecycle identity.

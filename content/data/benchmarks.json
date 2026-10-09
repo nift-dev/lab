@@ -21,9 +21,9 @@
     "name": "Shell Benchmark",
     "slug": "shell",
     "page": "benchmarks/shell/",
-    "category": "Shells / startup distributions",
-    "description": "Time to a usable prompt, explicit RC/configuration costs, and process orchestration. Bash and Zsh join Fish, Nushell, and Nift in validated comparisons.",
+    "category": "Shells / substantial work",
+    "description": "Startup and RC costs, native scripting, process scaling and mixed 100k-file tasks. Bash, Zsh, Fish, Nushell and Nift, with checked outputs and explicit native/Unix-tool boundaries.",
     "systems": "5 shells",
-    "workload": "Startup + orchestration"
+    "workload": "Startup + 27 added cases"
   }
 ]
