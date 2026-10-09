@@ -7,3 +7,8 @@ investigation/**/immutable-inputs/
 investigation/**/node_modules/
 investigation/**/build-work/
 investigation/**/incremental-memory-work/
+# Benchmark previews belong in the external campaign workspace.
+public/benchmarks/**/preview/
+public/benchmarks/**/raw-output/
+public/benchmarks/**/benchmark-output/
+/*.zip

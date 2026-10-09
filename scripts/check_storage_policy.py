@@ -5,10 +5,15 @@ R=Path(__file__).resolve().parents[1]
 def files(root):
  return [root/p for p in subprocess.check_output(['git','ls-files','-z'],cwd=root).decode().split('\0') if p and (root/p).is_file()]
 errors=[];payloads=collections.defaultdict(list);sizes=[]
+for archive in R.glob('*.zip'):
+ errors.append(f'Workspace archive must live outside Labs: {archive.name}')
+for directory in (R/'public/benchmarks').rglob('*'):
+ if directory.is_dir() and directory.name in ['preview','raw-output','benchmark-output'] and any(directory.iterdir()):
+  errors.append(f'Benchmark working output must live outside Labs: {directory.relative_to(R)}')
 published=files(R/'public') if (R/'public/.git').exists() else []
 for p in files(R)+published:
  rel=p.relative_to(R);size=p.stat().st_size;sizes.append(size)
- if any(x in rel.parts for x in ['node_modules','.cache','.venv','build-work','immutable-inputs','incremental-memory-work']):errors.append(f'Build/cache path: {rel}')
+ if any(x in rel.parts for x in ['node_modules','.cache','.venv','build-work','immutable-inputs','incremental-memory-work','preview','raw-output','benchmark-output']):errors.append(f'Build/cache path: {rel}')
  if p.suffix in ['.gz','.zip','.tar','.7z']:errors.append(f'Binary archive: {rel}')
  if p.suffix=='.log' and size>16384:errors.append(f'Verbose log: {rel}')
  if p.suffix=='.json' and size>262144:errors.append(f'Large JSON ({size} bytes): {rel}')
