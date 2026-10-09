@@ -1,6 +1,6 @@
 {
   "evidence_repo": "nift-experiments/lab-evidence",
-  "evidence_commit": "e6a3fea908ce003bf25c3217bb5394e56512c138",
+  "evidence_commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
   "files": {
     "public/benchmarks/evidence/README.md": {
       "repo": "nift-experiments/lab-evidence",
@@ -3859,6 +3859,951 @@
       "path": "evidence/t10/summary.json",
       "sha256": "88a7dcf60e523de51b9116094654892e1bcf14c3e90a647e1d99514e2c23a558",
       "origin_sha256": "88a7dcf60e523de51b9116094654892e1bcf14c3e90a647e1d99514e2c23a558"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/SHA256SUMS": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/SHA256SUMS",
+      "sha256": "0de9fa6ca2c84c652275edefee877552c7608df85d2cdad9563ae2719543d6a9",
+      "origin_sha256": "0de9fa6ca2c84c652275edefee877552c7608df85d2cdad9563ae2719543d6a9"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/SHA256SUMS": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/SHA256SUMS",
+      "sha256": "0de9fa6ca2c84c652275edefee877552c7608df85d2cdad9563ae2719543d6a9",
+      "origin_sha256": "0de9fa6ca2c84c652275edefee877552c7608df85d2cdad9563ae2719543d6a9"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/rc-certification.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-certification.json",
+      "sha256": "1900aea844eea8cad381cbdebdfe15695fc6c5ef63ca122630005d6e157de502",
+      "origin_sha256": "1900aea844eea8cad381cbdebdfe15695fc6c5ef63ca122630005d6e157de502"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/rc-certification.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-certification.json",
+      "sha256": "1900aea844eea8cad381cbdebdfe15695fc6c5ef63ca122630005d6e157de502",
+      "origin_sha256": "1900aea844eea8cad381cbdebdfe15695fc6c5ef63ca122630005d6e157de502"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/shell-fresh-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-fresh-summary.json",
+      "sha256": "9f5e2f70d8e3a5e987d32f9ff939c5a596c0233669aadea2bca8f5b7b9b84e98",
+      "origin_sha256": "9f5e2f70d8e3a5e987d32f9ff939c5a596c0233669aadea2bca8f5b7b9b84e98"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/shell-fresh-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-fresh-summary.json",
+      "sha256": "9f5e2f70d8e3a5e987d32f9ff939c5a596c0233669aadea2bca8f5b7b9b84e98",
+      "origin_sha256": "9f5e2f70d8e3a5e987d32f9ff939c5a596c0233669aadea2bca8f5b7b9b84e98"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/smoke-fresh-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-fresh-summary.json",
+      "sha256": "c7661d375b730e1f17600aa55332d054489c1965982544a36a19cc156f7e633b",
+      "origin_sha256": "c7661d375b730e1f17600aa55332d054489c1965982544a36a19cc156f7e633b"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/smoke-fresh-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-fresh-summary.json",
+      "sha256": "c7661d375b730e1f17600aa55332d054489c1965982544a36a19cc156f7e633b",
+      "origin_sha256": "c7661d375b730e1f17600aa55332d054489c1965982544a36a19cc156f7e633b"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/smoke.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke.sh",
+      "sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207",
+      "origin_sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/smoke.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke.sh",
+      "sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207",
+      "origin_sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/README.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/README.md",
+      "sha256": "06dc8846a925221e7a0be80ec770c0d69be00a8620ca6f9e0083adbee74f6e52",
+      "origin_sha256": "06dc8846a925221e7a0be80ec770c0d69be00a8620ca6f9e0083adbee74f6e52"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/README.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/README.md",
+      "sha256": "06dc8846a925221e7a0be80ec770c0d69be00a8620ca6f9e0083adbee74f6e52",
+      "origin_sha256": "06dc8846a925221e7a0be80ec770c0d69be00a8620ca6f9e0083adbee74f6e52"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/teardown.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/teardown.json",
+      "sha256": "ced5f461f6a670b6e71add8fdfa37b3032e9d845702fa0b61404177428035685",
+      "origin_sha256": "ced5f461f6a670b6e71add8fdfa37b3032e9d845702fa0b61404177428035685"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/teardown.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/teardown.json",
+      "sha256": "ced5f461f6a670b6e71add8fdfa37b3032e9d845702fa0b61404177428035685",
+      "origin_sha256": "ced5f461f6a670b6e71add8fdfa37b3032e9d845702fa0b61404177428035685"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/fairness-review.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/fairness-review.json",
+      "sha256": "8595e693597bfdcb5b08172c03b5a4c446097dd9e66af21e033ddc6c523bc0f3",
+      "origin_sha256": "8595e693597bfdcb5b08172c03b5a4c446097dd9e66af21e033ddc6c523bc0f3"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/fairness-review.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/fairness-review.json",
+      "sha256": "8595e693597bfdcb5b08172c03b5a4c446097dd9e66af21e033ddc6c523bc0f3",
+      "origin_sha256": "8595e693597bfdcb5b08172c03b5a4c446097dd9e66af21e033ddc6c523bc0f3"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/validation.json",
+      "sha256": "19827657fa43ea8297e648467bbd450965e6ec542f784f2694367e9199e75b76",
+      "origin_sha256": "19827657fa43ea8297e648467bbd450965e6ec542f784f2694367e9199e75b76"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/validation.json",
+      "sha256": "19827657fa43ea8297e648467bbd450965e6ec542f784f2694367e9199e75b76",
+      "origin_sha256": "19827657fa43ea8297e648467bbd450965e6ec542f784f2694367e9199e75b76"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/nift-revision.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/nift-revision.txt",
+      "sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e",
+      "origin_sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/nift-revision.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/nift-revision.txt",
+      "sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e",
+      "origin_sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/system-startup-files.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/system-startup-files.json",
+      "sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806",
+      "origin_sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/system-startup-files.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/system-startup-files.json",
+      "sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806",
+      "origin_sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/official.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/official.sh",
+      "sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9",
+      "origin_sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/official.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/official.sh",
+      "sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9",
+      "origin_sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/smoke-shell-fresh.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-fresh.json",
+      "sha256": "06f983686bd19bfcb15a989d8d34b315668479f72f477b376ab372c68e9c6f78",
+      "origin_sha256": "06f983686bd19bfcb15a989d8d34b315668479f72f477b376ab372c68e9c6f78"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/smoke-shell-fresh.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-fresh.json",
+      "sha256": "06f983686bd19bfcb15a989d8d34b315668479f72f477b376ab372c68e9c6f78",
+      "origin_sha256": "06f983686bd19bfcb15a989d8d34b315668479f72f477b376ab372c68e9c6f78"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/rc-body.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-body.json",
+      "sha256": "77309509c4678b1210047b1f391d99ac30d1d2a68a1e4022caa71942bf926d15",
+      "origin_sha256": "77309509c4678b1210047b1f391d99ac30d1d2a68a1e4022caa71942bf926d15"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/rc-body.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-body.json",
+      "sha256": "77309509c4678b1210047b1f391d99ac30d1d2a68a1e4022caa71942bf926d15",
+      "origin_sha256": "77309509c4678b1210047b1f391d99ac30d1d2a68a1e4022caa71942bf926d15"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/official-end.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/official-end.txt",
+      "sha256": "f348d57bcf163d5f6c6675b90d2f729b6cf2c040553ac0cd126b589a9c2614c4",
+      "origin_sha256": "f348d57bcf163d5f6c6675b90d2f729b6cf2c040553ac0cd126b589a9c2614c4"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/official-end.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/official-end.txt",
+      "sha256": "f348d57bcf163d5f6c6675b90d2f729b6cf2c040553ac0cd126b589a9c2614c4",
+      "origin_sha256": "f348d57bcf163d5f6c6675b90d2f729b6cf2c040553ac0cd126b589a9c2614c4"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/comparison.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/comparison.json",
+      "sha256": "8daaf29cfd20d0fc1779172057899bda03519cbb2e66df8dafdd89388f04508b",
+      "origin_sha256": "8daaf29cfd20d0fc1779172057899bda03519cbb2e66df8dafdd89388f04508b"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/comparison.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/comparison.json",
+      "sha256": "8daaf29cfd20d0fc1779172057899bda03519cbb2e66df8dafdd89388f04508b",
+      "origin_sha256": "8daaf29cfd20d0fc1779172057899bda03519cbb2e66df8dafdd89388f04508b"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/shell-application-cold.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-application-cold.json",
+      "sha256": "9166b90b63038d675135dd80b7cc7b0660d3ac68e9c996c8818556c6c0923c39",
+      "origin_sha256": "9166b90b63038d675135dd80b7cc7b0660d3ac68e9c996c8818556c6c0923c39"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/shell-application-cold.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-application-cold.json",
+      "sha256": "9166b90b63038d675135dd80b7cc7b0660d3ac68e9c996c8818556c6c0923c39",
+      "origin_sha256": "9166b90b63038d675135dd80b7cc7b0660d3ac68e9c996c8818556c6c0923c39"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/setup.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/setup.sh",
+      "sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c",
+      "origin_sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/setup.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/setup.sh",
+      "sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c",
+      "origin_sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/storage.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/storage.json",
+      "sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812",
+      "origin_sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/storage.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/storage.json",
+      "sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812",
+      "origin_sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/dpkg-versions.tsv",
+      "sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738",
+      "origin_sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/dpkg-versions.tsv",
+      "sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738",
+      "origin_sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/rc-certification-after.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-certification-after.json",
+      "sha256": "8eab669660e13c9b5ac938f2c14c1338342309dfdce5cd602daebe656f762150",
+      "origin_sha256": "8eab669660e13c9b5ac938f2c14c1338342309dfdce5cd602daebe656f762150"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/rc-certification-after.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-certification-after.json",
+      "sha256": "8eab669660e13c9b5ac938f2c14c1338342309dfdce5cd602daebe656f762150",
+      "origin_sha256": "8eab669660e13c9b5ac938f2c14c1338342309dfdce5cd602daebe656f762150"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/smoke-shell-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-summary.json",
+      "sha256": "578bfe6f5c93cc4f08eb487e8cce2b1412439acdeea518472fce609dfb51a6a3",
+      "origin_sha256": "578bfe6f5c93cc4f08eb487e8cce2b1412439acdeea518472fce609dfb51a6a3"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/smoke-shell-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-summary.json",
+      "sha256": "578bfe6f5c93cc4f08eb487e8cce2b1412439acdeea518472fce609dfb51a6a3",
+      "origin_sha256": "578bfe6f5c93cc4f08eb487e8cce2b1412439acdeea518472fce609dfb51a6a3"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/freeze.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/freeze.json",
+      "sha256": "85b8089a6fa50ce57c2a69a86b1925c6ff19733469143da556962ed92266cf62",
+      "origin_sha256": "85b8089a6fa50ce57c2a69a86b1925c6ff19733469143da556962ed92266cf62"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/freeze.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/freeze.json",
+      "sha256": "85b8089a6fa50ce57c2a69a86b1925c6ff19733469143da556962ed92266cf62",
+      "origin_sha256": "85b8089a6fa50ce57c2a69a86b1925c6ff19733469143da556962ed92266cf62"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/filesystem.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/filesystem.json",
+      "sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e",
+      "origin_sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/filesystem.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/filesystem.json",
+      "sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e",
+      "origin_sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1",
+      "origin_sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1",
+      "origin_sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/campaign-report.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/campaign-report.md",
+      "sha256": "7bc9b497867be850423f2479ed77e434c6c01a927fefc30d57302f376cace5ad",
+      "origin_sha256": "7bc9b497867be850423f2479ed77e434c6c01a927fefc30d57302f376cace5ad"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/campaign-report.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/campaign-report.md",
+      "sha256": "7bc9b497867be850423f2479ed77e434c6c01a927fefc30d57302f376cace5ad",
+      "origin_sha256": "7bc9b497867be850423f2479ed77e434c6c01a927fefc30d57302f376cace5ad"
+    },
+    "public/benchmarks/evidence/campaign-20261010-v4100-shell-expanded.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/campaign-report.md",
+      "sha256": "7bc9b497867be850423f2479ed77e434c6c01a927fefc30d57302f376cace5ad",
+      "origin_sha256": "7bc9b497867be850423f2479ed77e434c6c01a927fefc30d57302f376cace5ad"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/shell-repeated-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-repeated-summary.json",
+      "sha256": "f9f41e3272169e69426d061f98a9663c533b556cccc2e0952cbf3942fb1c4ba8",
+      "origin_sha256": "f9f41e3272169e69426d061f98a9663c533b556cccc2e0952cbf3942fb1c4ba8"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/shell-repeated-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-repeated-summary.json",
+      "sha256": "f9f41e3272169e69426d061f98a9663c533b556cccc2e0952cbf3942fb1c4ba8",
+      "origin_sha256": "f9f41e3272169e69426d061f98a9663c533b556cccc2e0952cbf3942fb1c4ba8"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/shell-repeated.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-repeated.json",
+      "sha256": "378b62cf8eb0194c12fe9c7a9e2d77bc787d8d7d1cae4a40a388b10ae578c759",
+      "origin_sha256": "378b62cf8eb0194c12fe9c7a9e2d77bc787d8d7d1cae4a40a388b10ae578c759"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/shell-repeated.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-repeated.json",
+      "sha256": "378b62cf8eb0194c12fe9c7a9e2d77bc787d8d7d1cae4a40a388b10ae578c759",
+      "origin_sha256": "378b62cf8eb0194c12fe9c7a9e2d77bc787d8d7d1cae4a40a388b10ae578c759"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/smoke-shell-repeated.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-repeated.json",
+      "sha256": "9ab0afd1268b05d0d55ad4391a178362cb7644b034668cc781411f29e8e15a9b",
+      "origin_sha256": "9ab0afd1268b05d0d55ad4391a178362cb7644b034668cc781411f29e8e15a9b"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/smoke-shell-repeated.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-repeated.json",
+      "sha256": "9ab0afd1268b05d0d55ad4391a178362cb7644b034668cc781411f29e8e15a9b",
+      "origin_sha256": "9ab0afd1268b05d0d55ad4391a178362cb7644b034668cc781411f29e8e15a9b"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/cxx-compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/cxx-compiler.txt",
+      "sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805",
+      "origin_sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/cxx-compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/cxx-compiler.txt",
+      "sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805",
+      "origin_sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/machine-extra.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/machine-extra.json",
+      "sha256": "1c117054cd12e0e2c3fcbee9b00e1ff9b486f0449e5e7c362b642e203cd2466e",
+      "origin_sha256": "1c117054cd12e0e2c3fcbee9b00e1ff9b486f0449e5e7c362b642e203cd2466e"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/machine-extra.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/machine-extra.json",
+      "sha256": "1c117054cd12e0e2c3fcbee9b00e1ff9b486f0449e5e7c362b642e203cd2466e",
+      "origin_sha256": "1c117054cd12e0e2c3fcbee9b00e1ff9b486f0449e5e7c362b642e203cd2466e"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/calibration.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/calibration.json",
+      "sha256": "f49d14c3bf9cc3f5efd00896a99bc339b048c74c83f7dba387fba24b28dc8c17",
+      "origin_sha256": "f49d14c3bf9cc3f5efd00896a99bc339b048c74c83f7dba387fba24b28dc8c17"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/calibration.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/calibration.json",
+      "sha256": "f49d14c3bf9cc3f5efd00896a99bc339b048c74c83f7dba387fba24b28dc8c17",
+      "origin_sha256": "f49d14c3bf9cc3f5efd00896a99bc339b048c74c83f7dba387fba24b28dc8c17"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/workload-validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/workload-validation.json",
+      "sha256": "16ed9dfe70210d994b4999d9a5461f8b46ce93cf6f5a8079658aa22c8fbc5589",
+      "origin_sha256": "16ed9dfe70210d994b4999d9a5461f8b46ce93cf6f5a8079658aa22c8fbc5589"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/workload-validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/workload-validation.json",
+      "sha256": "16ed9dfe70210d994b4999d9a5461f8b46ce93cf6f5a8079658aa22c8fbc5589",
+      "origin_sha256": "16ed9dfe70210d994b4999d9a5461f8b46ce93cf6f5a8079658aa22c8fbc5589"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/official-start.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/official-start.txt",
+      "sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5",
+      "origin_sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/official-start.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/official-start.txt",
+      "sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5",
+      "origin_sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/shell-workloads.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-workloads.json",
+      "sha256": "15ca2790b1ef16c99f0f8a1844af04db09d008ef69beca1393e8087f8fc56cf6",
+      "origin_sha256": "15ca2790b1ef16c99f0f8a1844af04db09d008ef69beca1393e8087f8fc56cf6"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/shell-workloads.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-workloads.json",
+      "sha256": "15ca2790b1ef16c99f0f8a1844af04db09d008ef69beca1393e8087f8fc56cf6",
+      "origin_sha256": "15ca2790b1ef16c99f0f8a1844af04db09d008ef69beca1393e8087f8fc56cf6"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/nift-binary.sha256": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/nift-binary.sha256",
+      "sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79",
+      "origin_sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/nift-binary.sha256": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/nift-binary.sha256",
+      "sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79",
+      "origin_sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/run-identity.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/run-identity.json",
+      "sha256": "382ea5e0f7fca0fe89a7f1557e8ad4703a7cda95383f2aa01d0e16f4228ff396",
+      "origin_sha256": "382ea5e0f7fca0fe89a7f1557e8ad4703a7cda95383f2aa01d0e16f4228ff396"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/run-identity.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/run-identity.json",
+      "sha256": "382ea5e0f7fca0fe89a7f1557e8ad4703a7cda95383f2aa01d0e16f4228ff396",
+      "origin_sha256": "382ea5e0f7fca0fe89a7f1557e8ad4703a7cda95383f2aa01d0e16f4228ff396"
+    },
+    "content/benchmarks/data/history/20261010-v4100-shell-expanded/shell/node-specifications.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/node-specifications.json",
+      "sha256": "2d6829287464b40c87718da5a63afcbdd1af07a5dd282865c14cf9d7b42c399a",
+      "origin_sha256": "2d6829287464b40c87718da5a63afcbdd1af07a5dd282865c14cf9d7b42c399a"
+    },
+    "public/benchmarks/shell/evidence/20261010-v4100-shell-expanded/node-specifications.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shell/20261010-v4100-shell-expanded/node-specifications.json",
+      "sha256": "2d6829287464b40c87718da5a63afcbdd1af07a5dd282865c14cf9d7b42c399a",
+      "origin_sha256": "2d6829287464b40c87718da5a63afcbdd1af07a5dd282865c14cf9d7b42c399a"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/SHA256SUMS": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/SHA256SUMS",
+      "sha256": "acee8a81e78a451112c566a8dc9444aa62408f78be141330bd8d826de7e197f6",
+      "origin_sha256": "acee8a81e78a451112c566a8dc9444aa62408f78be141330bd8d826de7e197f6"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/SHA256SUMS": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/SHA256SUMS",
+      "sha256": "acee8a81e78a451112c566a8dc9444aa62408f78be141330bd8d826de7e197f6",
+      "origin_sha256": "acee8a81e78a451112c566a8dc9444aa62408f78be141330bd8d826de7e197f6"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/official-validation.log": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official-validation.log",
+      "sha256": "faa9d4e8d22b4de7735f23512e794203c04298dd6233aee2a5e63e2e101b9e9f",
+      "origin_sha256": "faa9d4e8d22b4de7735f23512e794203c04298dd6233aee2a5e63e2e101b9e9f"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/official-validation.log": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official-validation.log",
+      "sha256": "faa9d4e8d22b4de7735f23512e794203c04298dd6233aee2a5e63e2e101b9e9f",
+      "origin_sha256": "faa9d4e8d22b4de7735f23512e794203c04298dd6233aee2a5e63e2e101b9e9f"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/smoke.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke.sh",
+      "sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207",
+      "origin_sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/smoke.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke.sh",
+      "sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207",
+      "origin_sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/README.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/README.md",
+      "sha256": "6bbb2b3098f4372b9f15574587e95ba6c99c9ec49fbced7134c02bc9e64bcef7",
+      "origin_sha256": "6bbb2b3098f4372b9f15574587e95ba6c99c9ec49fbced7134c02bc9e64bcef7"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/README.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/README.md",
+      "sha256": "6bbb2b3098f4372b9f15574587e95ba6c99c9ec49fbced7134c02bc9e64bcef7",
+      "origin_sha256": "6bbb2b3098f4372b9f15574587e95ba6c99c9ec49fbced7134c02bc9e64bcef7"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/teardown.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/teardown.json",
+      "sha256": "b462d6bd52ca91e0e35c6c3d8d5555b1cc74f0d1456856456852405567babee8",
+      "origin_sha256": "b462d6bd52ca91e0e35c6c3d8d5555b1cc74f0d1456856456852405567babee8"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/teardown.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/teardown.json",
+      "sha256": "b462d6bd52ca91e0e35c6c3d8d5555b1cc74f0d1456856456852405567babee8",
+      "origin_sha256": "b462d6bd52ca91e0e35c6c3d8d5555b1cc74f0d1456856456852405567babee8"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/validation.json",
+      "sha256": "06c915f79534c39250219b30f57ac0e0bd2cb2c880a11e677936f73182e1e9ba",
+      "origin_sha256": "06c915f79534c39250219b30f57ac0e0bd2cb2c880a11e677936f73182e1e9ba"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/validation.json",
+      "sha256": "06c915f79534c39250219b30f57ac0e0bd2cb2c880a11e677936f73182e1e9ba",
+      "origin_sha256": "06c915f79534c39250219b30f57ac0e0bd2cb2c880a11e677936f73182e1e9ba"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/nift-revision.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/nift-revision.txt",
+      "sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e",
+      "origin_sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/nift-revision.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/nift-revision.txt",
+      "sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e",
+      "origin_sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/smoke-validation.log": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke-validation.log",
+      "sha256": "869bdb80def0e976661210b47735392af2a3cb5a79953f543ea553c89335e421",
+      "origin_sha256": "869bdb80def0e976661210b47735392af2a3cb5a79953f543ea553c89335e421"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/smoke-validation.log": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke-validation.log",
+      "sha256": "869bdb80def0e976661210b47735392af2a3cb5a79953f543ea553c89335e421",
+      "origin_sha256": "869bdb80def0e976661210b47735392af2a3cb5a79953f543ea553c89335e421"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/smoke-scripting.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke-scripting.json",
+      "sha256": "8472f68ac0265f5c1aef9c3760bb97ffa3aa04aa6676862101a61fc3214d8d6e",
+      "origin_sha256": "8472f68ac0265f5c1aef9c3760bb97ffa3aa04aa6676862101a61fc3214d8d6e"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/smoke-scripting.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke-scripting.json",
+      "sha256": "8472f68ac0265f5c1aef9c3760bb97ffa3aa04aa6676862101a61fc3214d8d6e",
+      "origin_sha256": "8472f68ac0265f5c1aef9c3760bb97ffa3aa04aa6676862101a61fc3214d8d6e"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/system-startup-files.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/system-startup-files.json",
+      "sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806",
+      "origin_sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/system-startup-files.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/system-startup-files.json",
+      "sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806",
+      "origin_sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/official.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official.sh",
+      "sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9",
+      "origin_sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/official.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official.sh",
+      "sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9",
+      "origin_sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/official-end.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official-end.txt",
+      "sha256": "2d467f292ab52318f7244eadd5396f3cb429abe9d675e307e3a537aad2a921aa",
+      "origin_sha256": "2d467f292ab52318f7244eadd5396f3cb429abe9d675e307e3a537aad2a921aa"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/official-end.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official-end.txt",
+      "sha256": "2d467f292ab52318f7244eadd5396f3cb429abe9d675e307e3a537aad2a921aa",
+      "origin_sha256": "2d467f292ab52318f7244eadd5396f3cb429abe9d675e307e3a537aad2a921aa"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/comparison.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/comparison.json",
+      "sha256": "355e765e53b38208a4440d9e579021ae8444bde4daa93ffd693b964ec137d640",
+      "origin_sha256": "355e765e53b38208a4440d9e579021ae8444bde4daa93ffd693b964ec137d640"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/comparison.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/comparison.json",
+      "sha256": "355e765e53b38208a4440d9e579021ae8444bde4daa93ffd693b964ec137d640",
+      "origin_sha256": "355e765e53b38208a4440d9e579021ae8444bde4daa93ffd693b964ec137d640"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/scripting.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/scripting.json",
+      "sha256": "3f78c86fbe34857311b65230ce480794be092bdb8eff622972a2a174260e2857",
+      "origin_sha256": "3f78c86fbe34857311b65230ce480794be092bdb8eff622972a2a174260e2857"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/scripting.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/scripting.json",
+      "sha256": "3f78c86fbe34857311b65230ce480794be092bdb8eff622972a2a174260e2857",
+      "origin_sha256": "3f78c86fbe34857311b65230ce480794be092bdb8eff622972a2a174260e2857"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/setup.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/setup.sh",
+      "sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c",
+      "origin_sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/setup.sh": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/setup.sh",
+      "sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c",
+      "origin_sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/storage.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/storage.json",
+      "sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812",
+      "origin_sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/storage.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/storage.json",
+      "sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812",
+      "origin_sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/dpkg-versions.tsv",
+      "sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738",
+      "origin_sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/dpkg-versions.tsv",
+      "sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738",
+      "origin_sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/freeze.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/freeze.json",
+      "sha256": "dd8778f93369f6d524bcfe008d6b289646cbfa765c68b16cbc1f2038f4d643bb",
+      "origin_sha256": "dd8778f93369f6d524bcfe008d6b289646cbfa765c68b16cbc1f2038f4d643bb"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/freeze.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/freeze.json",
+      "sha256": "dd8778f93369f6d524bcfe008d6b289646cbfa765c68b16cbc1f2038f4d643bb",
+      "origin_sha256": "dd8778f93369f6d524bcfe008d6b289646cbfa765c68b16cbc1f2038f4d643bb"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/filesystem.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/filesystem.json",
+      "sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e",
+      "origin_sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/filesystem.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/filesystem.json",
+      "sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e",
+      "origin_sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1",
+      "origin_sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1",
+      "origin_sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/scripting-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/scripting-summary.json",
+      "sha256": "48c3a53d6a575b680a92fc5026fecde0c3c2232064c0961baedb0557b2bc205f",
+      "origin_sha256": "48c3a53d6a575b680a92fc5026fecde0c3c2232064c0961baedb0557b2bc205f"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/scripting-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/scripting-summary.json",
+      "sha256": "48c3a53d6a575b680a92fc5026fecde0c3c2232064c0961baedb0557b2bc205f",
+      "origin_sha256": "48c3a53d6a575b680a92fc5026fecde0c3c2232064c0961baedb0557b2bc205f"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/cxx-compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/cxx-compiler.txt",
+      "sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805",
+      "origin_sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/cxx-compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/cxx-compiler.txt",
+      "sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805",
+      "origin_sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/machine-extra.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/machine-extra.json",
+      "sha256": "edf01f57230a3bacc4e969686d49af0d13343469bcaedf2172c3b30f1364c873",
+      "origin_sha256": "edf01f57230a3bacc4e969686d49af0d13343469bcaedf2172c3b30f1364c873"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/machine-extra.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/machine-extra.json",
+      "sha256": "edf01f57230a3bacc4e969686d49af0d13343469bcaedf2172c3b30f1364c873",
+      "origin_sha256": "edf01f57230a3bacc4e969686d49af0d13343469bcaedf2172c3b30f1364c873"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/official-start.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official-start.txt",
+      "sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5",
+      "origin_sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/official-start.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/official-start.txt",
+      "sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5",
+      "origin_sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/smoke-scripting-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke-scripting-summary.json",
+      "sha256": "660d9cce351b76ea5faa94fd1ccf4c5727e6f7bdc1e160da14ae55bc6ae422b5",
+      "origin_sha256": "660d9cce351b76ea5faa94fd1ccf4c5727e6f7bdc1e160da14ae55bc6ae422b5"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/smoke-scripting-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/smoke-scripting-summary.json",
+      "sha256": "660d9cce351b76ea5faa94fd1ccf4c5727e6f7bdc1e160da14ae55bc6ae422b5",
+      "origin_sha256": "660d9cce351b76ea5faa94fd1ccf4c5727e6f7bdc1e160da14ae55bc6ae422b5"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/nift-binary.sha256": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/nift-binary.sha256",
+      "sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79",
+      "origin_sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/nift-binary.sha256": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/nift-binary.sha256",
+      "sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79",
+      "origin_sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/run-identity.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/run-identity.json",
+      "sha256": "e08206ab47bdf9c89cc1145492cbc57dffc74b678fd92819e02db808a82e2b33",
+      "origin_sha256": "e08206ab47bdf9c89cc1145492cbc57dffc74b678fd92819e02db808a82e2b33"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/run-identity.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/run-identity.json",
+      "sha256": "e08206ab47bdf9c89cc1145492cbc57dffc74b678fd92819e02db808a82e2b33",
+      "origin_sha256": "e08206ab47bdf9c89cc1145492cbc57dffc74b678fd92819e02db808a82e2b33"
+    },
+    "content/benchmarks/data/history/20261010-v4100/scripting/node-specifications.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/node-specifications.json",
+      "sha256": "4ea5e11cd00ee9f200549e206dd346d0f506e22c2de5449c7811af2f4b266aef",
+      "origin_sha256": "4ea5e11cd00ee9f200549e206dd346d0f506e22c2de5449c7811af2f4b266aef"
+    },
+    "public/benchmarks/scripting/evidence/20261010-v4100/node-specifications.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/scripting/20261010-v4100/node-specifications.json",
+      "sha256": "4ea5e11cd00ee9f200549e206dd346d0f506e22c2de5449c7811af2f4b266aef",
+      "origin_sha256": "4ea5e11cd00ee9f200549e206dd346d0f506e22c2de5449c7811af2f4b266aef"
+    },
+    "public/benchmarks/evidence/campaign-20261010-v4100.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shared/campaign-20261010-v4100.md",
+      "sha256": "f7f5ca8ecb5483be2141d3e772f3a724b710a5ad9ac1954a03ca099a98e30b6a",
+      "origin_sha256": "f7f5ca8ecb5483be2141d3e772f3a724b710a5ad9ac1954a03ca099a98e30b6a"
+    },
+    "content/benchmarks/data/history/20261010-v4100/shared/campaign-20261010-v4100.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+      "path": "benchmarks/shared/campaign-20261010-v4100.md",
+      "sha256": "f7f5ca8ecb5483be2141d3e772f3a724b710a5ad9ac1954a03ca099a98e30b6a",
+      "origin_sha256": "f7f5ca8ecb5483be2141d3e772f3a724b710a5ad9ac1954a03ca099a98e30b6a"
     }
   }
 }
