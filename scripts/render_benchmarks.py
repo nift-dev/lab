@@ -96,8 +96,7 @@ def shell():
  rc='<div class="scope"><div><b>Bare</b>No user config.</div><div><b>Empty</b>Normal path; empty files.</div><div><b>Light</b>8 environment values + functions.</div><div><b>Moderate</b>32 values + functions.</div></div>'+p('Light/moderate also prepend one PATH entry and perform a HOME-existence conditional. A post-prompt oracle validates representative environment, function and conditional state. No aliases or plugin managers are forced onto shells without equivalent facilities.')
  for source,label in ((by,'Prepared state, non-login'),(cold,'Fresh HOME/XDG per invocation, non-login')):
   rows=[[s]+[f(source[f'{s}/{sc}/interactive']['summary']['median_ms']) for sc in ('bare','empty','light','moderate')] for s in names]
-  for sc in ('bare','empty','light','moderate'):
-   rc+=table(['Shell','Bare ms','Empty ms','Light ms','Moderate ms'],rows,label+f'; medians, {d["samples"] if source is by else c["samples"]} measured samples per cell')
+  rc+=table(['Shell','Bare ms','Empty ms','Light ms','Moderate ms'],rows,label+f'; medians, {d["samples"] if source is by else c["samples"]} measured samples per cell')
  rows=[[s]+[f(r(s,sc,'interactive-login')['median_ms']) for sc in ('bare','empty','light','moderate')] for s in names[:-1]]
  rc+=figure('shell','rc-prepared',names,{sc:[r(n,sc)['median_ms'] for n in names] for sc in ('bare','empty','light','moderate')},'Prepared first-prompt startup','Median latency (ms)')
  rc+='<details><summary>Login matrix</summary>'+table(['Shell','Bare ms','Empty ms','Light ms','Moderate ms'],rows,'Login prompt startup; Nift has no separate login mode')+'</details>'
