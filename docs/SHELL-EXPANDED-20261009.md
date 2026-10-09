@@ -62,3 +62,9 @@ The most informative additions are exact 100k selected deletion with keeper pres
 ## Publication and lifecycle
 
 Result evidence is pushed before Labs. The original 4.9 raw series remains immutable and its original report/figures are archived. The three pre-existing graphs retain their exact original Git implementations, axes, legend styles and surrounding graph/table blocks; unchanged-data PNGs were verified byte-identical before substituting fresh official values. Only genuinely new workload graphs use shared graphical/numeric table columns and numeric vectors. Local desktop/390/320, keyboard scrolling, route/fragment/assets, private-material and historical hash checks precede publication. Changed live bytes and historical evidence are checked before deleting only the campaign node. CLI absence and independent authenticated API HTTP 404 are required; temporary SSH/config/connection state is then removed. The final lifecycle records provide timestamps and publication commits.
+
+## Verified publication and teardown
+
+Results evidence commit: `92c241f74a6208155ba5158707fd7a4317773090`. Labs source: `c15584f5b1ccb2ca86ee1b9a9a607f075025c05b`. Deployment: `e31233ab40910fec6dd6a96d725de29434c228c6`. All 18 changed public files matched live bytes before teardown; historical raw evidence and graph assets remained byte-identical; separately committed archived-page href relocations were documented and verified. Desktop, 390px, 320px, keyboard scrolling and chart/header/value alignment passed.
+
+Only `nift-shell-20261009-expanded` was deleted. CLI absence and independent authenticated API HTTP 404 were verified at 2026-10-09T00:47:49.127571+00:00. Temporary SSH private/public keys, known-host state, node connection metadata, CLI config and private error logs were removed. Post-cleanup private-material scan passed. Final lifecycle commits append these records without changing any raw measured observations or prior series.

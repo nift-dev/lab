@@ -7,7 +7,7 @@
     "nift_revision": "629b1f23afbb5b3be97dac66b6cea1a9d5b3d1fc",
     "campaign_report": "campaign-20261009-v4100-shell-expanded.md",
     "results_repo": "nift-experiments/lab-evidence",
-    "results_commit": "92c241f74a6208155ba5158707fd7a4317773090"
+    "results_commit": "e6a3fea908ce003bf25c3217bb5394e56512c138"
   },
   "scripting": {
     "series": "20261009-v490",
