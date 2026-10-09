@@ -1,0 +1,556 @@
+{
+  "shell_results": "86388ac7d43da8409b4f1525c97a427d476a1c05",
+  "scripting_results": "1a43c3d24822b8c1c69352c2cee44b71845321ba",
+  "canonical_evidence": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+  "canonical_repository": "nift-experiments/lab-evidence",
+  "canonical_results_verification": {
+    "repository": "nift-experiments/lab-evidence",
+    "commit": "3dce3d984ba4ea9034add57dd664bb5033434baf",
+    "files": [
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/SHA256SUMS",
+        "http_status": 200,
+        "sha256": "0de9fa6ca2c84c652275edefee877552c7608df85d2cdad9563ae2719543d6a9",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-certification.json",
+        "http_status": 200,
+        "sha256": "1900aea844eea8cad381cbdebdfe15695fc6c5ef63ca122630005d6e157de502",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-fresh-summary.json",
+        "http_status": 200,
+        "sha256": "9f5e2f70d8e3a5e987d32f9ff939c5a596c0233669aadea2bca8f5b7b9b84e98",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-fresh-summary.json",
+        "http_status": 200,
+        "sha256": "c7661d375b730e1f17600aa55332d054489c1965982544a36a19cc156f7e633b",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke.sh",
+        "http_status": 200,
+        "sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/README.md",
+        "http_status": 200,
+        "sha256": "06dc8846a925221e7a0be80ec770c0d69be00a8620ca6f9e0083adbee74f6e52",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/teardown.json",
+        "http_status": 200,
+        "sha256": "ced5f461f6a670b6e71add8fdfa37b3032e9d845702fa0b61404177428035685",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/fairness-review.json",
+        "http_status": 200,
+        "sha256": "8595e693597bfdcb5b08172c03b5a4c446097dd9e66af21e033ddc6c523bc0f3",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/validation.json",
+        "http_status": 200,
+        "sha256": "19827657fa43ea8297e648467bbd450965e6ec542f784f2694367e9199e75b76",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/nift-revision.txt",
+        "http_status": 200,
+        "sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/system-startup-files.json",
+        "http_status": 200,
+        "sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/official.sh",
+        "http_status": 200,
+        "sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-fresh.json",
+        "http_status": 200,
+        "sha256": "06f983686bd19bfcb15a989d8d34b315668479f72f477b376ab372c68e9c6f78",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-body.json",
+        "http_status": 200,
+        "sha256": "77309509c4678b1210047b1f391d99ac30d1d2a68a1e4022caa71942bf926d15",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/official-end.txt",
+        "http_status": 200,
+        "sha256": "f348d57bcf163d5f6c6675b90d2f729b6cf2c040553ac0cd126b589a9c2614c4",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/comparison.json",
+        "http_status": 200,
+        "sha256": "8daaf29cfd20d0fc1779172057899bda03519cbb2e66df8dafdd89388f04508b",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-application-cold.json",
+        "http_status": 200,
+        "sha256": "9166b90b63038d675135dd80b7cc7b0660d3ac68e9c996c8818556c6c0923c39",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/setup.sh",
+        "http_status": 200,
+        "sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/storage.json",
+        "http_status": 200,
+        "sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/dpkg-versions.tsv",
+        "http_status": 200,
+        "sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/rc-certification-after.json",
+        "http_status": 200,
+        "sha256": "8eab669660e13c9b5ac938f2c14c1338342309dfdce5cd602daebe656f762150",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-summary.json",
+        "http_status": 200,
+        "sha256": "578bfe6f5c93cc4f08eb487e8cce2b1412439acdeea518472fce609dfb51a6a3",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/freeze.json",
+        "http_status": 200,
+        "sha256": "85b8089a6fa50ce57c2a69a86b1925c6ff19733469143da556962ed92266cf62",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/filesystem.json",
+        "http_status": 200,
+        "sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/compiler.txt",
+        "http_status": 200,
+        "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/campaign-report.md",
+        "http_status": 200,
+        "sha256": "7bc9b497867be850423f2479ed77e434c6c01a927fefc30d57302f376cace5ad",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-repeated-summary.json",
+        "http_status": 200,
+        "sha256": "f9f41e3272169e69426d061f98a9663c533b556cccc2e0952cbf3942fb1c4ba8",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-repeated.json",
+        "http_status": 200,
+        "sha256": "378b62cf8eb0194c12fe9c7a9e2d77bc787d8d7d1cae4a40a388b10ae578c759",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/smoke-shell-repeated.json",
+        "http_status": 200,
+        "sha256": "9ab0afd1268b05d0d55ad4391a178362cb7644b034668cc781411f29e8e15a9b",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/cxx-compiler.txt",
+        "http_status": 200,
+        "sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/machine-extra.json",
+        "http_status": 200,
+        "sha256": "1c117054cd12e0e2c3fcbee9b00e1ff9b486f0449e5e7c362b642e203cd2466e",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/calibration.json",
+        "http_status": 200,
+        "sha256": "f49d14c3bf9cc3f5efd00896a99bc339b048c74c83f7dba387fba24b28dc8c17",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/workload-validation.json",
+        "http_status": 200,
+        "sha256": "16ed9dfe70210d994b4999d9a5461f8b46ce93cf6f5a8079658aa22c8fbc5589",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/official-start.txt",
+        "http_status": 200,
+        "sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/shell-workloads.json",
+        "http_status": 200,
+        "sha256": "15ca2790b1ef16c99f0f8a1844af04db09d008ef69beca1393e8087f8fc56cf6",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/nift-binary.sha256",
+        "http_status": 200,
+        "sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/run-identity.json",
+        "http_status": 200,
+        "sha256": "382ea5e0f7fca0fe89a7f1557e8ad4703a7cda95383f2aa01d0e16f4228ff396",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/20261010-v4100-shell-expanded/node-specifications.json",
+        "http_status": 200,
+        "sha256": "2d6829287464b40c87718da5a63afcbdd1af07a5dd282865c14cf9d7b42c399a",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/SHA256SUMS",
+        "http_status": 200,
+        "sha256": "acee8a81e78a451112c566a8dc9444aa62408f78be141330bd8d826de7e197f6",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/official-validation.log",
+        "http_status": 200,
+        "sha256": "faa9d4e8d22b4de7735f23512e794203c04298dd6233aee2a5e63e2e101b9e9f",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/smoke.sh",
+        "http_status": 200,
+        "sha256": "9ede4f28ae85f469856df90a9cbaa6f773d6dd0dfc5ad1b2b5c90bb4fc5e6207",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/README.md",
+        "http_status": 200,
+        "sha256": "6bbb2b3098f4372b9f15574587e95ba6c99c9ec49fbced7134c02bc9e64bcef7",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/teardown.json",
+        "http_status": 200,
+        "sha256": "b462d6bd52ca91e0e35c6c3d8d5555b1cc74f0d1456856456852405567babee8",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/validation.json",
+        "http_status": 200,
+        "sha256": "06c915f79534c39250219b30f57ac0e0bd2cb2c880a11e677936f73182e1e9ba",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/nift-revision.txt",
+        "http_status": 200,
+        "sha256": "4ac0a427f7376ca24db94edbb9f9c1a22c2184a01f277ac4608d0a776b0f959e",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/smoke-validation.log",
+        "http_status": 200,
+        "sha256": "869bdb80def0e976661210b47735392af2a3cb5a79953f543ea553c89335e421",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/smoke-scripting.json",
+        "http_status": 200,
+        "sha256": "8472f68ac0265f5c1aef9c3760bb97ffa3aa04aa6676862101a61fc3214d8d6e",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/system-startup-files.json",
+        "http_status": 200,
+        "sha256": "29e26b1378f2a76472ffec67121ffc0eb1fe05e673e06f71c6121dc5cffe2806",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/official.sh",
+        "http_status": 200,
+        "sha256": "b94e985e5f39e6bdcc2e1f66cfb4fd96cd1bc744d3947b6d76c376a776945ec9",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/official-end.txt",
+        "http_status": 200,
+        "sha256": "2d467f292ab52318f7244eadd5396f3cb429abe9d675e307e3a537aad2a921aa",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/comparison.json",
+        "http_status": 200,
+        "sha256": "355e765e53b38208a4440d9e579021ae8444bde4daa93ffd693b964ec137d640",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/scripting.json",
+        "http_status": 200,
+        "sha256": "3f78c86fbe34857311b65230ce480794be092bdb8eff622972a2a174260e2857",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/setup.sh",
+        "http_status": 200,
+        "sha256": "30389f6adf6525ef4c872756420d3c3d63e493b303198d9e674263bf8f7beb2c",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/storage.json",
+        "http_status": 200,
+        "sha256": "0b4476c45de1d63d4962e2606fe30775032cc76fdbd88013197cf9ed05c0d812",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/dpkg-versions.tsv",
+        "http_status": 200,
+        "sha256": "2dfb4f4c3137c45657a2a05a1a9a6a88c04d3f98c828cdaef1bc5105fcf71738",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/freeze.json",
+        "http_status": 200,
+        "sha256": "dd8778f93369f6d524bcfe008d6b289646cbfa765c68b16cbc1f2038f4d643bb",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/filesystem.json",
+        "http_status": 200,
+        "sha256": "a51758fb4830ed0bfec8eb1a11455bd2c5588903a46f2e2a2318c68e81b0708e",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/compiler.txt",
+        "http_status": 200,
+        "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/scripting-summary.json",
+        "http_status": 200,
+        "sha256": "48c3a53d6a575b680a92fc5026fecde0c3c2232064c0961baedb0557b2bc205f",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/cxx-compiler.txt",
+        "http_status": 200,
+        "sha256": "88b7c4b67564a146863224148116065fee418539f0a408f3636a68f3bde51805",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/machine-extra.json",
+        "http_status": 200,
+        "sha256": "edf01f57230a3bacc4e969686d49af0d13343469bcaedf2172c3b30f1364c873",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/official-start.txt",
+        "http_status": 200,
+        "sha256": "507892608c68ea557c3dea5194c85a69e3dc63ae77f5f282078cf7d2591888c5",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/smoke-scripting-summary.json",
+        "http_status": 200,
+        "sha256": "660d9cce351b76ea5faa94fd1ccf4c5727e6f7bdc1e160da14ae55bc6ae422b5",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/nift-binary.sha256",
+        "http_status": 200,
+        "sha256": "42e8e77082a56e3d933b170005e3c8d68faacb994a717a66040d1c0514bbaa79",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/run-identity.json",
+        "http_status": 200,
+        "sha256": "e08206ab47bdf9c89cc1145492cbc57dffc74b678fd92819e02db808a82e2b33",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/20261010-v4100/node-specifications.json",
+        "http_status": 200,
+        "sha256": "4ea5e11cd00ee9f200549e206dd346d0f506e22c2de5449c7811af2f4b266aef",
+        "matches": true
+      }
+    ],
+    "all_match": true
+  },
+  "labs_source": "0bf636ffd77ec7c0231ec5958f3b00baba2de610",
+  "labs_deployment": "3eab4013d8ede1f40bbd0d398104335b25aa0829",
+  "live_verification": {
+    "publication_sha": "3eab4013d8ede1f40bbd0d398104335b25aa0829",
+    "base_url": "https://lab.nift.dev/",
+    "files": [
+      {
+        "path": "benchmarks/index.html",
+        "http_status": 200,
+        "sha256": "433146aa1478417b1d071db2a49218e92d187f17004321ca6ee0fd4ce13b553e",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/assets/loops.png",
+        "http_status": 200,
+        "sha256": "657706c7e266601a8e52ac7db4def65631f8ac3c4eb1391379ef2678c5c8cf38",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/assets/loops.svg",
+        "http_status": 200,
+        "sha256": "25474c6838734d969ed552ca44727d44482120f2288c5dbcdc68030ccf603ecc",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/assets/noop.png",
+        "http_status": 200,
+        "sha256": "9a1834e0c60519481aa17fcf52c5b951fb3e4f8d28fb3241807feb2f62cfe7ad",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/assets/noop.svg",
+        "http_status": 200,
+        "sha256": "b375f7ef3ce8409070e093278e4759b7ec6fd070d1f61a75b73b8fa5bf8c890d",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/assets/traverse.png",
+        "http_status": 200,
+        "sha256": "761134085529e40eb75f607dba67302f64979fdd38b7666f49ec09cd6b49b945",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/assets/traverse.svg",
+        "http_status": 200,
+        "sha256": "34e17c52c393f78973276fb6c5f1de9cb01eee1a30c6fee8032bae3f64378bc0",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/scripting/index.html",
+        "http_status": 200,
+        "sha256": "a68ab4660e2c0d916907df81a7fdfeee0bf62bf0cc3f24f6d56634cd027084d1",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/assets/external-work.png",
+        "http_status": 200,
+        "sha256": "844b8927579d667e6a4073cf68a3e0d1c879bd0d65cfd840bdec22fd39fce32c",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/assets/external-work.svg",
+        "http_status": 200,
+        "sha256": "685e508ea9c008abcdc4dd5a97401bf26bb10b2bb7d88f7743b09a7971226ac7",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/assets/rc-prepared.png",
+        "http_status": 200,
+        "sha256": "e48a1df6698783ba7c2331ebbdeb0f3c0dff368b00b67cb7ba547b3389db26ae",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/assets/rc-prepared.svg",
+        "http_status": 200,
+        "sha256": "3b0c3d278005ebc858aab774750a8b0449acd126332da87e6399ddfe2a033dc7",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/assets/startup-distributions.png",
+        "http_status": 200,
+        "sha256": "dcda095a441e783889d02e0f00449bdb7ac29f03e9a8390acdd41aa11c87edd3",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/assets/startup-distributions.svg",
+        "http_status": 200,
+        "sha256": "67472a6cf16061f3f8046e28aa400f2e031a012c61d0a7f0eabdfe7081e4b04c",
+        "matches": true
+      },
+      {
+        "path": "benchmarks/shell/index.html",
+        "http_status": 200,
+        "sha256": "d7f231499eb48f24e818678d06fe2c943310f54e243925f5fe04d6d352a4dc84",
+        "matches": true
+      }
+    ],
+    "all_match": true
+  },
+  "teardown": {
+    "shell": {
+      "label": "nift-shell-20261010-v4100",
+      "type": "g6-standard-4",
+      "region": "us-east",
+      "image": "linode/ubuntu24.04",
+      "created": "2026-10-09T18:09:09",
+      "instance_identity_sha256": "67f2133c7b726d2ad3e70612aacaf9723b9ee8f78d75993cd7137cc7462a084e",
+      "verification_http_status": 404,
+      "deleted_verified_utc": "2026-10-09T22:22:47.409434+00:00",
+      "provisioned_with": "linode-cli",
+      "backups_enabled": false
+    },
+    "scripting": {
+      "label": "nift-scripting-20261010-v4100",
+      "type": "g6-standard-4",
+      "region": "us-east",
+      "image": "linode/ubuntu24.04",
+      "created": "2026-10-09T18:09:51",
+      "instance_identity_sha256": "be76c6be329eecf136132b1eb9d856193e95a9776277de1b1903e2f47fc7c61b",
+      "verification_http_status": 404,
+      "deleted_verified_utc": "2026-10-09T22:22:49.969444+00:00",
+      "provisioned_with": "linode-cli",
+      "backups_enabled": false
+    }
+  },
+  "cleanup": {
+    "all_removed": true,
+    "removed_access_state": [
+      "key",
+      "key.pub",
+      "known-hosts",
+      "nodes.json",
+      "cli-error.log"
+    ],
+    "checked_absent": [
+      "key",
+      "key.pub",
+      "known-hosts",
+      "nodes.json",
+      "cli-error.log",
+      "shell-ssh-error.log",
+      "scripting-ssh-error.log",
+      "nift-campaign-20261010-cli.conf"
+    ],
+    "completed_utc": "2026-10-09T22:22:57.730839+00:00",
+    "existing_user_API_token": "not modified; only campaign-specific temporary access/state removed"
+  }
+}

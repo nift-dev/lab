@@ -7,7 +7,7 @@
     "nift_revision": "2eaec7d70e9ce2e698d0ba23a605fb9cf85317ff",
     "campaign_report": "campaign-20261010-v4100-shell-expanded.md",
     "results_repo": "nift-experiments/lab-evidence",
-    "results_commit": "3dce3d984ba4ea9034add57dd664bb5033434baf"
+    "results_commit": "5270c099787bbdc56b66336db7a5b93481e2fa84"
   },
   "scripting": {
     "series": "20261010-v4100",
@@ -16,6 +16,6 @@
     "nift_status": "development build",
     "nift_revision": "2eaec7d70e9ce2e698d0ba23a605fb9cf85317ff",
     "results_repo": "nift-experiments/lab-evidence",
-    "results_commit": "3dce3d984ba4ea9034add57dd664bb5033434baf"
+    "results_commit": "5270c099787bbdc56b66336db7a5b93481e2fa84"
   }
 }

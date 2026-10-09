@@ -52,3 +52,14 @@ Cross-node differences combine Nift version, virtual hardware, runtime/package s
 
 Result commits, canonical `lab-evidence` commit, Labs source/deployment, live verification, teardown and credential cleanup are recorded in publication and lifecycle evidence. Nodes remain until raw evidence is copied, canonical repos are pushed, Labs is pushed and live byte verification passes. Only the two campaign nodes are deleted; independent authenticated API 404 and CLI absence are required.
 
+
+## Verified publication and teardown
+
+- shell_results: `86388ac7d43da8409b4f1525c97a427d476a1c05`
+- scripting_results: `1a43c3d24822b8c1c69352c2cee44b71845321ba`
+- canonical_evidence: `3dce3d984ba4ea9034add57dd664bb5033434baf`
+- labs_source: `0bf636ffd77ec7c0231ec5958f3b00baba2de610`
+- labs_deployment: `3eab4013d8ede1f40bbd0d398104335b25aa0829`
+
+- nift-shell-20261010-v4100: CLI absence and independent authenticated HTTP 404, verified 2026-10-09T22:22:47.409434+00:00.
+- nift-scripting-20261010-v4100: CLI absence and independent authenticated HTTP 404, verified 2026-10-09T22:22:49.969444+00:00.
