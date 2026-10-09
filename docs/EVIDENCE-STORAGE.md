@@ -29,3 +29,15 @@ Run `python3 scripts/check_storage_policy.py` before publication. It checks trac
 source/publication files for large evidence payloads, archives, logs, cache/build
 paths and duplicate large JSON; genuine displayed assets have a separate allowance.
 Untracked concurrent work is reported but never silently removed or published.
+
+### Evidence index allowance
+
+`content/data/evidence-sources.json` is a canonical pointer/hash index (repository,
+commit, path, SHA-256/origin SHA-256, aliases and documented migration annotations),
+not raw benchmark evidence. It is therefore allowed up to a bounded 1 MiB (1,048,576
+bytes) instead of the ordinary 256 KiB JSON limit. Ordinary JSON still cannot exceed
+256 KiB, and the index itself still fails if it grows beyond 1 MiB, is malformed,
+contains unexpected top-level keys or entries/fields, embeds oversized or payload-like
+string values, or leaks duplicate raw benchmark JSON. The checker's `--self-test`
+mode asserts that ordinary large JSON stays rejected while the index within/over its
+cap is accepted/rejected.
