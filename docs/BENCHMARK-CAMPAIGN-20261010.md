@@ -63,3 +63,17 @@ Result commits, canonical `lab-evidence` commit, Labs source/deployment, live ve
 
 - nift-shell-20261010-v4100: CLI absence and independent authenticated HTTP 404, verified 2026-10-09T22:22:47.409434+00:00.
 - nift-scripting-20261010-v4100: CLI absence and independent authenticated HTTP 404, verified 2026-10-09T22:22:49.969444+00:00.
+
+## Real-browser viewport certification
+
+Final live pages (`/benchmarks/shell/`, `/benchmarks/scripting/`, `/benchmarks/`) were validated in a real rendered-browser session (Playwright headless Chromium) at 1440, 390 and 320 px. All nine page/width combinations passed: no page-level horizontal overflow; tables scroll within their own keyboard-focusable `.table-scroll`/`.chart-scroll` regions; shell aligned-chart columns share exact column alignment; all three original shell graph assets load and render (startup distributions, prepared RC, external work); new workload charts and tables do not clip; scripting tables retain the compact accessible dash treatment; no broken image assets; no clipped/overlapping text; in-page anchor navigation works. The shell RC section remains one prepared table, one fresh-HOME table and one collapsed login matrix. Receipt: `docs/browser-viewport-validation-20261010.json`; full per-width records and screenshots remain in the campaign workspace (temporary, per storage policy).
+
+Only change found and fixed during this pass: the benchmarks landing paragraph (this campaign's content edit) did not wrap the frozen 40-character commit SHA at 320px because backticks in the raw HTML were literal; the token is now a wrappable `<code>` and the landing has no overflow at any width.
+
+## Shell graph design parity
+
+`scripts/plot_startup.py` and `scripts/report_presentation.py` (the generators of the three pre-existing graphs) are byte-identical to the expanded-campaign base; only measurement inputs changed. The three SVG assets retain the exact `viewBox`, `defs`/clip-path structure, graph type, axes, legend arrangement and surrounding figure/table presentation. SVG/PNG bytes differ because the measured values changed; design/component parity is retained.
+
+## Evidence-storage note (scripting duplication)
+
+`nift-experiments/lab-evidence` is the canonical data store and the Labs site links only to pinned canonical evidence. `docs/EVIDENCE-STORAGE.md` permits raw campaign evidence in "experiment repositories or the dedicated lab-evidence repository". The scripting-benchmark repository retains its own per-campaign evidence directories by its long-standing convention (20261007, 20261008-v480, 20261009-v490 were all stored there), so `campaign-20261010-v4100` keeps a full copy there, with the identical bytes pinned in lab-evidence. The shell-benchmark repository moved to canonical-only linking for the expanded series per its immediate prior convention, so its v4.10 entry is a README link to canonical evidence. This intentional difference follows each suite's own established convention; no measured evidence is duplicated into Labs and no storage policy is violated. No git history was rewritten.

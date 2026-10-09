@@ -1,0 +1,123 @@
+{
+  "tool": "Playwright headless Chromium 153.0.8010.12",
+  "method": "real rendered-browser layout checks against https://lab.nift.dev/",
+  "widths": [
+    1440,
+    390,
+    320
+  ],
+  "pages": [
+    {
+      "site": "shell",
+      "url": "https://lab.nift.dev/benchmarks/shell/",
+      "1440": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "aligned_columns": true,
+          "graphs": true,
+          "rc_sections": true,
+          "anchors": true
+        }
+      },
+      "390": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "aligned_columns": true,
+          "graphs": true,
+          "rc_sections": true,
+          "anchors": true
+        }
+      },
+      "320": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "aligned_columns": true,
+          "graphs": true,
+          "rc_sections": true,
+          "anchors": true
+        }
+      }
+    },
+    {
+      "site": "scripting",
+      "url": "https://lab.nift.dev/benchmarks/scripting/",
+      "1440": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "anchors": true
+        }
+      },
+      "390": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "anchors": true
+        }
+      },
+      "320": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "anchors": true
+        }
+      }
+    },
+    {
+      "site": "landing",
+      "url": "https://lab.nift.dev/benchmarks/",
+      "1440": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "anchors": true
+        }
+      },
+      "390": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "anchors": true
+        }
+      },
+      "320": {
+        "verdict": "PASS",
+        "checks": {
+          "horizontal_overflow": true,
+          "images": true,
+          "tables": true,
+          "text": true,
+          "anchors": true
+        }
+      }
+    }
+  ],
+  "all_pass": true
+}
