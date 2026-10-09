@@ -347,3 +347,5 @@ Temporal now uses an asymmetric event-history/replay system; website-generator u
 ## TanStack.com bounded migration phase publication
 
 Added `/sites/tanstack/` with its own boundary-map / branch-trace / tradeoff-rail design. Classifies the tested migration as unsuccessful/poor architectural fit, not Nift or TanStack generally. Preserves T10 historical results, T12 80 samples, full and incremental individual/tree RSS scopes, real parity/reproduction, rejected session/HTML-authority branches and the pending T11 replacement campaign. The `nift init --rewrite` experiment is planned and not started. No experiment implementation or core changes. See docs/TANSTACK-PUBLICATION.md and compact validation receipts.
+
+User-directed presentation revision: distinct violet/coral technical console replaces the Labs-like serif/amber treatment. Evidence, measurements and migration/rewrite status unchanged; all four viewports rechecked.

@@ -55,19 +55,14 @@
     }
   ],
   "manual_inspection": {
+    "passed": true,
+    "design": "Technical console; near-black/chalk/violet/coral; no serif or amber/copper palette",
     "viewports": [
       1440,
       768,
       390,
       320
-    ],
-    "areas": [
-      "hero/status",
-      "architecture boundary",
-      "accepted/rejected branch trace",
-      "benchmark rails/tables"
-    ],
-    "passed": true,
-    "screenshots": "External /tmp/tanstack-labs-visual; not tracked or deployed"
-  }
+    ]
+  },
+  "numeric_tables_unchanged": true
 }
