@@ -25,5 +25,14 @@
     "description": "Startup and RC costs, native scripting, process scaling and mixed 100k-file tasks. Bash, Zsh, Fish, Nushell and Nift, with checked outputs and explicit native/Unix-tool boundaries.",
     "systems": "5 shells",
     "workload": "Startup + 27 added cases"
+  },
+  {
+    "name": "Build Systems Benchmark",
+    "slug": "build-systems",
+    "page": "benchmarks/build-systems/",
+    "category": "Native builds / orchestration",
+    "description": "GNU Make, Ninja and Nift execute the same native graph. No-op and incremental scaling, generated inputs, compiler-heavy builds and tiny actions\u2014with exact rebuilt sets and output hashes.",
+    "systems": "GNU Make, Ninja, Nift",
+    "workload": "4 native sizes + tiny graphs"
   }
 ]

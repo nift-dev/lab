@@ -1,6 +1,6 @@
 {
   "evidence_repo": "nift-experiments/lab-evidence",
-  "evidence_commit": "5270c099787bbdc56b66336db7a5b93481e2fa84",
+  "evidence_commit": "75c1588149a295702ec4006e25efc7ba4f05394f",
   "files": {
     "public/benchmarks/evidence/README.md": {
       "repo": "nift-experiments/lab-evidence",
@@ -4902,6 +4902,14 @@
       "path": "benchmarks/scripting/20261010-v4100/publication-verification-before-teardown.json",
       "sha256": "d566291a2d135dcd1aaa499e237cbd227783341a067aad60dc28388e2959d680",
       "origin_sha256": "d566291a2d135dcd1aaa499e237cbd227783341a067aad60dc28388e2959d680"
+    },
+    "content/benchmarks/build-systems/published.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "75c1588149a295702ec4006e25efc7ba4f05394f",
+      "path": "benchmarks/build-systems/20261010-v4110-dev/summary.json",
+      "sha256": "bdf38531005c29a2b22aa6aefa1dfaaadbc88925e34c2c77da4f87c56b60a344",
+      "origin_sha256": "71d9a31dc600ac36853c245bcd22b5044b47971e28a110075aad13b6ada29f97",
+      "transformation": "compact independently checked publication cohorts; raw observations and protocol remain canonical"
     }
   }
 }

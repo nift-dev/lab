@@ -69,6 +69,11 @@
       "name": "sites/tanstack/",
       "title": "TanStack.com: the migration boundary",
       "template": "templates/sites/tanstack/template.html"
+    },
+    {
+      "name": "benchmarks/build-systems/",
+      "title": "Build Systems Benchmark \u2014 Nift Labs",
+      "template": "templates/benchmarks/build-systems/template.html"
     }
   ]
 }

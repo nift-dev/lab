@@ -25,6 +25,7 @@
     "templates/labs/template.html"
   ],
   "reqs": [
+    "public/benchmarks/build-systems/index.html",
     "public/benchmarks/index.html",
     "public/benchmarks/scripting/index.html",
     "public/benchmarks/shell/index.html",

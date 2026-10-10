@@ -222,3 +222,17 @@ The v4.9 report and its original chart/style bytes are archived under `/benchmar
 ## TanStack.com architecture phase publication
 
 `/sites/tanstack/` publishes the bounded negative migration result and planned rewrite. Its independent boundary/branch design separates retained Start build cost from Nift publication, T10 from T12, and individual-process from sampled-tree RSS. Regenerate with `python3 scripts/render_tanstack.py`, then full/incremental builds, `scripts/validate.py`, `scripts/check_tanstack_links.py` and `scripts/check_storage_policy.py`. Canonical evidence stays pinned in the experiment repositories. See docs/TANSTACK-PUBLICATION.md. Rewrite work and the pending replacement campaign are not part of this publication.
+
+## Build systems benchmark
+
+Additive `/benchmarks/build-systems/` graph-console report. Accepted evidence is pinned to `75c1588149a295702ec4006e25efc7ba4f05394f`; no historical report or graph is regenerated. Reproduce with:
+
+```sh
+.venv-benchmarks/bin/python scripts/render_build_systems.py --evidence /path/to/lab-evidence/benchmarks/build-systems/20261010-v4110-dev --commit 75c1588149a295702ec4006e25efc7ba4f05394f --series 20261010-v4110-dev
+nift build --all
+python3 scripts/validate.py
+python3 scripts/check_storage_policy.py
+nift status
+```
+
+See docs/BUILD-SYSTEMS-PUBLICATION.md for boundaries and certification.
