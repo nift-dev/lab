@@ -3,20 +3,29 @@
 <head><meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="color-scheme" content="dark">
-      <meta name="theme-color" content="#151310">
+      <meta name="theme-color" content="#111312">
       <title>Website experiments — Nift Labs</title>
       <meta name="description" content="Experiments, benchmarks and real-world builds exploring Nift. Public evidence, independent designs, reproducible workloads.">
-      <link rel="icon" href="../labs/favicon.svg" type="image/svg+xml">
-      <link rel="stylesheet" href="../labs/style.css"></head>
+      <link rel="icon" type="image/png" sizes="32x32" href="../labs/identity/favicon-32.png?v=tube2d">
+      <link rel="icon" type="image/png" sizes="16x16" href="../labs/identity/favicon-16.png?v=tube2d">
+      <link rel="icon" type="image/png" sizes="48x48" href="../labs/identity/favicon-48.png?v=tube2d">
+      <link rel="apple-touch-icon" sizes="180x180" href="../labs/identity/favicon-180.png?v=tube2d">
+      <link rel="stylesheet" href="../labs/style.css?v=tube2d"></head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead wrap">
-  <a class="brand" href="../"><span class="brand-mark">N/</span> Nift <span class="brand-suffix">Labs</span></a>
-  <nav aria-label="Main"><a href="../benchmarks/">Benchmarks</a><a href="./">Website experiments</a><a href="https://nift.dev">Nift ↗</a></nav>
+  <a class="brand" href="../"><img src="../labs/identity/favicon-48.png" alt="" width="36" height="36"> Nift <span class="brand-suffix">Labs</span></a>
+  <nav aria-label="Main">
+    <a href="../" >Lab</a>
+    <a href="./" aria-current="page">Migrations</a>
+    <a href="../benchmarks/" >Benchmarks</a>
+    <a href="https://github.com/nift-experiments/lab-evidence">Evidence ↗</a>
+    <a href="https://nift.dev">Nift ↗</a>
+  </nav>
 </header>
 <main id="main" class="wrap"><section class="hero catalogue-hero">
                                <p class="eyebrow"><a href="../">Nift Labs</a> / Collection 01</p>
-                               <h1>Real websites.<br><em>New ways to build.</em></h1>
+                               <h1>Real websites.<br><em>Under the microscope.</em></h1>
                                <p class="lede">Experiments using substantial public content corpora to explore build performance, implementation choices, and the experience of working with Nift.</p>
                              </section>
                              <section class="section" aria-label="Website experiments">
@@ -79,6 +88,6 @@
                                <p class="eyebrow">A note on method</p>
                                <div><h2 id="method-title">The workload is real.<br>The design is an experiment.</h2><p>We use real public content corpora to investigate build-system performance and implementation characteristics. Unless a report explicitly says otherwise, these are independent interpretations rather than pixel-perfect migrations.</p><p>Exact upstream commits are recorded where available so each result can be tied to a specific corpus. Each report describes its measurement boundaries, evidence, and limitations.</p></div>
                              </section></main>
-<footer class="wrap"><span>Nift Labs / an open notebook</span><a href="./">Explore the experiments ↗</a></footer>
+<footer class="wrap"><span>Nift Labs <span class="footer-divider">/</span> experiments in the open</span><a href="https://github.com/nift-experiments/lab-evidence">Inspect the evidence ↗</a></footer>
 </body>
 </html>

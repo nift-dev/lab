@@ -3,23 +3,37 @@
 <head><meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="color-scheme" content="dark">
-      <meta name="theme-color" content="#151310">
+      <meta name="theme-color" content="#111312">
       <title>Nift Labs — ideas put to the test</title>
       <meta name="description" content="Experiments, benchmarks and real-world builds exploring Nift. Public evidence, independent designs, reproducible workloads.">
-      <link rel="icon" href="labs/favicon.svg" type="image/svg+xml">
-      <link rel="stylesheet" href="labs/style.css"></head>
+      <link rel="icon" type="image/png" sizes="32x32" href="labs/identity/favicon-32.png?v=tube2d">
+      <link rel="icon" type="image/png" sizes="16x16" href="labs/identity/favicon-16.png?v=tube2d">
+      <link rel="icon" type="image/png" sizes="48x48" href="labs/identity/favicon-48.png?v=tube2d">
+      <link rel="apple-touch-icon" sizes="180x180" href="labs/identity/favicon-180.png?v=tube2d">
+      <link rel="stylesheet" href="labs/style.css?v=tube2d"></head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead wrap">
-  <a class="brand" href="./"><span class="brand-mark">N/</span> Nift <span class="brand-suffix">Labs</span></a>
-  <nav aria-label="Main"><a href="benchmarks/">Benchmarks</a><a href="sites/">Website experiments</a><a href="https://nift.dev">Nift ↗</a></nav>
+  <a class="brand" href="./"><img src="labs/identity/favicon-48.png" alt="" width="36" height="36"> Nift <span class="brand-suffix">Labs</span></a>
+  <nav aria-label="Main">
+    <a href="./" aria-current="page">Lab</a>
+    <a href="sites/" >Migrations</a>
+    <a href="benchmarks/" >Benchmarks</a>
+    <a href="https://github.com/nift-experiments/lab-evidence">Evidence ↗</a>
+    <a href="https://nift.dev">Nift ↗</a>
+  </nav>
 </header>
-<main id="main" class="wrap"><section class="hero">
-                               <p class="eyebrow"><span class="dot"></span> The Nift experiment notebook</p>
-                               <h1>Ideas are useful.<br><em>Put them to the test.</em></h1>
-                               <div class="hero-bottom"><p class="lede">Real-world builds. Measured tradeoffs. Unexpected findings.<br>A collection of experiments exploring what Nift can do—and what we can learn along the way.</p><a class="button" href="sites/">Open the notebook <span>↗</span></a></div>
-                               <div class="ruler" aria-hidden="true"><span>OBSERVE</span><span>BUILD</span><span>MEASURE</span><span>QUESTION</span></div>
+<main id="main" class="wrap"><section class="hero lab-hero">
+                               <div class="hero-copy">
+                                 <p class="eyebrow"><span class="dot"></span> Nift Labs / experimental engineering</p>
+                                 <h1>Ideas in.<br><em>Evidence out.</em></h1>
+                                 <p class="lede">Production-scale migrations. Runtime benchmarks. Build-system experiments. We put software to the test and leave the evidence in the open.</p>
+                                 <div class="hero-actions"><a class="button" href="sites/">Explore the experiments <span>↗</span></a><a class="text-link" href="benchmarks/">View benchmarks →</a></div>
+                                 <div class="hero-notes"><span>Real workloads</span><span>Explicit boundaries</span><span>Public evidence</span></div>
+                               </div>
+                               <figure class="hero-art"><img src="labs/identity/tube-hero.png" width="1024" height="1536" alt="Illustrated glass test tube with fluorescent green liquid"><figcaption><span>LAB / 01</span><span>Observe. Build. Measure.</span></figcaption></figure>
                              </section>
+                             
                              <section class="section" aria-labelledby="fields-title">
                                <div class="section-label"><p class="eyebrow">01 / Fields of inquiry</p><h2 id="fields-title">A lab with room to grow.</h2></div>
                                <a class="category" href="sites/"><span class="index">01</span><div><h3>Website experiments</h3><p>Public content corpora, rebuilt with Nift. Independent designs, real workloads, and evidence you can inspect.</p></div><span class="category-tag">Open collection ↗</span></a>
@@ -27,7 +41,7 @@
                                <div class="research-fields"><p class="eyebrow">On the horizon</p><p>Build-system benchmarks <span>/</span> Scaling investigations <span>/</span> Framework comparisons <span>/</span> Runtime &amp; scripting <span>/</span> Languages &amp; FFI <span>/</span> Packages &amp; tooling</p></div>
                              </section>
                              <section class="section" aria-labelledby="reports-title">
-                               <div class="section-label"><p class="eyebrow">02 / First entries</p><h2 id="reports-title">Start with real websites.</h2></div>
+                               <div class="section-label"><p class="eyebrow">02 / Migration experiments</p><h2 id="reports-title">Production scale. Independent designs.</h2></div>
                                
                                <div class="experiment-grid"><article class="experiment cloudflare-docs">
                                                               <div class="entry-top"><span class="eyebrow">Documentation / benchmark</span><span class="status">Results published</span></div>
@@ -106,6 +120,6 @@
                                <p class="eyebrow">A note on method</p>
                                <div><h2 id="method-title">The workload is real.<br>The design is an experiment.</h2><p>We use real public content corpora to investigate build-system performance and implementation characteristics. Unless a report explicitly says otherwise, these are independent interpretations rather than pixel-perfect migrations.</p><p>Exact upstream commits are recorded where available so each result can be tied to a specific corpus. Each report describes its measurement boundaries, evidence, and limitations.</p></div>
                              </section></main>
-<footer class="wrap"><span>Nift Labs / an open notebook</span><a href="sites/">Explore the experiments ↗</a></footer>
+<footer class="wrap"><span>Nift Labs <span class="footer-divider">/</span> experiments in the open</span><a href="https://github.com/nift-experiments/lab-evidence">Inspect the evidence ↗</a></footer>
 </body>
 </html>
