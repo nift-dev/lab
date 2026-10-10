@@ -5,8 +5,10 @@
 <title>$[title]</title><meta name="description" content="GNU Make, Ninja and Nift execute the same checked build graph. Native builds, no-op scaling, incremental invalidation and tiny-action orchestration, with retained same-node evidence.">
 @input('templates/labs/icons.html')
 <link rel="stylesheet" href="@path('public/benchmarks/build-systems/assets/style.css')">
+<style>#practitioner table{min-width:0;table-layout:fixed}#practitioner th,#practitioner td{white-space:normal;overflow-wrap:anywhere;text-align:left}#practitioner .block-title .eyebrow{font-size:10px}</style>
 </head><body><a class="skip" href="#main">Skip to results</a><div class="shell">
 <header class="masthead"><a href="@path('/')">N/ NIFT LABS</a><nav aria-label="Labs"><a href="@path('benchmarks/')">Benchmarks ↗</a><a href="@path('sites/')">Experiments ↗</a></nav></header>
 @content
+@input('templates/benchmarks/build-systems/practitioner.html')
 <footer><span>Nift Labs / Build systems / measured work, checked outputs</span><a href="@path('benchmarks/')">All benchmarks ↗</a></footer>
 </div></body></html>
