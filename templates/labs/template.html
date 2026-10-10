@@ -4,10 +4,16 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead wrap">
-  <a class="brand" href="@path('/')"><span class="brand-mark">N/</span> Nift <span class="brand-suffix">Labs</span></a>
-  <nav aria-label="Main"><a href="@path('benchmarks/')">Benchmarks</a><a href="@path('sites/')">Website experiments</a><a href="https://nift.dev">Nift ↗</a></nav>
+  <a class="brand" href="@path('/')"><img src="@path('public/labs/identity/favicon-48.png')" alt="" width="36" height="36"> Nift <span class="brand-suffix">Labs</span></a>
+  <nav aria-label="Main">
+    <a href="@path('/')" @if(name == '/'){aria-current="page"}>Lab</a>
+    <a href="@path('sites/')" @if(name == 'sites/'){aria-current="page"}>Migrations</a>
+    <a href="@path('benchmarks/')" @if(name == 'benchmarks/'){aria-current="page"}>Benchmarks</a>
+    <a href="https://github.com/nift-experiments/lab-evidence">Evidence ↗</a>
+    <a href="https://nift.dev">Nift ↗</a>
+  </nav>
 </header>
 <main id="main" class="wrap">@content</main>
-<footer class="wrap"><span>Nift Labs / an open notebook</span><a href="@path('sites/')">Explore the experiments ↗</a></footer>
+<footer class="wrap"><span>Nift Labs <span class="footer-divider">/</span> experiments in the open</span><a href="https://github.com/nift-experiments/lab-evidence">Inspect the evidence ↗</a></footer>
 </body>
 </html>

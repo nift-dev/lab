@@ -1,9 +1,14 @@
-<section class="hero">
-  <p class="eyebrow"><span class="dot"></span> The Nift experiment notebook</p>
-  <h1>Ideas are useful.<br><em>Put them to the test.</em></h1>
-  <div class="hero-bottom"><p class="lede">Real-world builds. Measured tradeoffs. Unexpected findings.<br>A collection of experiments exploring what Nift can do—and what we can learn along the way.</p><a class="button" href="@path('sites/')">Open the notebook <span>↗</span></a></div>
-  <div class="ruler" aria-hidden="true"><span>OBSERVE</span><span>BUILD</span><span>MEASURE</span><span>QUESTION</span></div>
+<section class="hero lab-hero">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="dot"></span> Nift Labs / experimental engineering</p>
+    <h1>Ideas in.<br><em>Evidence out.</em></h1>
+    <p class="lede">Production-scale migrations. Runtime benchmarks. Build-system experiments. We put software to the test and leave the evidence in the open.</p>
+    <div class="hero-actions"><a class="button" href="@path('sites/')">Explore the experiments <span>↗</span></a><a class="text-link" href="@path('benchmarks/')">View benchmarks →</a></div>
+    <div class="hero-notes"><span>Real workloads</span><span>Explicit boundaries</span><span>Public evidence</span></div>
+  </div>
+  <figure class="hero-art"><img src="@path('public/labs/identity/tube-hero.png')" width="1024" height="1536" alt="Illustrated glass test tube with fluorescent green liquid"><figcaption><span>LAB / 01</span><span>Observe. Build. Measure.</span></figcaption></figure>
 </section>
+
 <section class="section" aria-labelledby="fields-title">
   <div class="section-label"><p class="eyebrow">01 / Fields of inquiry</p><h2 id="fields-title">A lab with room to grow.</h2></div>
   <a class="category" href="@path('sites/')"><span class="index">01</span><div><h3>Website experiments</h3><p>Public content corpora, rebuilt with Nift. Independent designs, real workloads, and evidence you can inspect.</p></div><span class="category-tag">Open collection ↗</span></a>
@@ -11,7 +16,7 @@
   <div class="research-fields"><p class="eyebrow">On the horizon</p><p>Build-system benchmarks <span>/</span> Scaling investigations <span>/</span> Framework comparisons <span>/</span> Runtime &amp; scripting <span>/</span> Languages &amp; FFI <span>/</span> Packages &amp; tooling</p></div>
 </section>
 <section class="section" aria-labelledby="reports-title">
-  <div class="section-label"><p class="eyebrow">02 / First entries</p><h2 id="reports-title">Start with real websites.</h2></div>
+  <div class="section-label"><p class="eyebrow">02 / Migration experiments</p><h2 id="reports-title">Production scale. Independent designs.</h2></div>
   @json(experiments, 'content/data/sites.json')
   <div class="experiment-grid">@for(experiment : experiments){@input('templates/labs/entry.html')}</div>
 </section>
