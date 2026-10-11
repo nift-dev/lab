@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" role="img" aria-labelledby="title desc">
+<title id="title">Post-exec walk high-water mark</title><desc id="desc">Separate /proc VmHWM diagnostic; one independently verified request per runtime/size, not official distributions. Exact values in the adjacent table. Linear zero-origin vertical axis.</desc>
+<rect width="840" height="440" fill="#202622" rx="12"/>
+<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">MiB · LINEAR SCALE</text>
+<path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">0</text>
+<path d="M70 285.0H805" stroke="#3b463d"/><text x="58" y="289.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">50</text>
+<path d="M70 220.0H805" stroke="#3b463d"/><text x="58" y="224.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
+<path d="M70 155.0H805" stroke="#3b463d"/><text x="58" y="159.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">150</text>
+<path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">200</text>
+<circle cx="100.0" cy="338.498046875" r="4.5" fill="#b1ff68"/>
+<circle cx="430.0" cy="315.961328125" r="4.5" fill="#b1ff68"/>
+<circle cx="760.0" cy="97.96757812499999" r="4.5" fill="#b1ff68"/>
+<polyline points="100.0,338.498046875 430.0,315.961328125 760.0,97.96757812499999" fill="none" stroke="#b1ff68" stroke-width="2.5"/>
+<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift</text>
+<circle cx="100.0" cy="329.144140625" r="4.5" fill="#ffbd9a"/>
+<circle cx="430.0" cy="325.3609375" r="4.5" fill="#ffbd9a"/>
+<circle cx="760.0" cy="290.25078125" r="4.5" fill="#ffbd9a"/>
+<polyline points="100.0,329.144140625 430.0,325.3609375 760.0,290.25078125" fill="none" stroke="#ffbd9a" stroke-width="2.5"/>
+<circle cx="230" cy="410" r="4" fill="#ffbd9a"/><text x="242" y="414" fill="#ffbd9a" font-family="sans-serif" font-size="14">Python</text>
+<circle cx="100.0" cy="280.775" r="4.5" fill="#d2b4ef"/>
+<circle cx="430.0" cy="262.194140625" r="4.5" fill="#d2b4ef"/>
+<circle cx="760.0" cy="182.640234375" r="4.5" fill="#d2b4ef"/>
+<polyline points="100.0,280.775 430.0,262.194140625 760.0,182.640234375" fill="none" stroke="#d2b4ef" stroke-width="2.5"/>
+<circle cx="380" cy="410" r="4" fill="#d2b4ef"/><text x="392" y="414" fill="#d2b4ef" font-family="sans-serif" font-size="14">Node</text>
+<circle cx="100.0" cy="313.858984375" r="4.5" fill="#e9dc91"/>
+<circle cx="430.0" cy="306.983203125" r="4.5" fill="#e9dc91"/>
+<circle cx="760.0" cy="246.64999999999998" r="4.5" fill="#e9dc91"/>
+<polyline points="100.0,313.858984375 430.0,306.983203125 760.0,246.64999999999998" fill="none" stroke="#e9dc91" stroke-width="2.5"/>
+<circle cx="530" cy="410" r="4" fill="#e9dc91"/><text x="542" y="414" fill="#e9dc91" font-family="sans-serif" font-size="14">Bun</text>
+<circle cx="100.0" cy="344.18046875" r="4.5" fill="#88cdb5"/>
+<circle cx="430.0" cy="337.959765625" r="4.5" fill="#88cdb5"/>
+<circle cx="760.0" cy="266.612109375" r="4.5" fill="#88cdb5"/>
+<polyline points="100.0,344.18046875 430.0,337.959765625 760.0,266.612109375" fill="none" stroke="#88cdb5" stroke-width="2.5"/>
+<circle cx="680" cy="410" r="4" fill="#88cdb5"/><text x="692" y="414" fill="#88cdb5" font-family="sans-serif" font-size="14">Go</text>
+<text x="100.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">1k files</text>
+<text x="430.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">10k files</text>
+<text x="760.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">100k files</text>
+</svg>

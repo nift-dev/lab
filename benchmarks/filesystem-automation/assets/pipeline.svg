@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" role="img" aria-labelledby="title desc">
+<title id="title">Project workflows / 10k files</title><desc id="desc">Manifest =path/size/portable fingerprint; generate prefixes inputs; mixed ignores group19, generates .md and copies .dat. Traversal still visits ignored paths. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
+<rect width="840" height="440" fill="#202622" rx="12"/>
+<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">ms · LOGARITHMIC SCALE</text>
+<path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
+<path d="M70 263.33333333333337H805" stroke="#3b463d"/><text x="58" y="267.33333333333337" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1000</text>
+<path d="M70 176.66666666666669H805" stroke="#3b463d"/><text x="58" y="180.66666666666669" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10000</text>
+<path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100000</text>
+<path d="M110.0 350V162.42632742902478" stroke="#b1ff68" stroke-width="14"/><circle cx="110.0" cy="162.42632742902478" r="3" fill="#b1ff68"/>
+<path d="M336.66666666666663 350V155.11159708876937" stroke="#b1ff68" stroke-width="14"/><circle cx="336.66666666666663" cy="155.11159708876937" r="3" fill="#b1ff68"/>
+<path d="M563.3333333333333 350V182.55047316832466" stroke="#b1ff68" stroke-width="14"/><circle cx="563.3333333333333" cy="182.55047316832466" r="3" fill="#b1ff68"/>
+<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift</text>
+<path d="M132.0 350V262.2114369632814" stroke="#ffbd9a" stroke-width="14"/><circle cx="132.0" cy="262.2114369632814" r="3" fill="#ffbd9a"/>
+<path d="M358.66666666666663 350V241.41474525268256" stroke="#ffbd9a" stroke-width="14"/><circle cx="358.66666666666663" cy="241.41474525268256" r="3" fill="#ffbd9a"/>
+<path d="M585.3333333333333 350V271.5147662905637" stroke="#ffbd9a" stroke-width="14"/><circle cx="585.3333333333333" cy="271.5147662905637" r="3" fill="#ffbd9a"/>
+<circle cx="230" cy="410" r="4" fill="#ffbd9a"/><text x="242" y="414" fill="#ffbd9a" font-family="sans-serif" font-size="14">Python</text>
+<path d="M154.0 350V301.84758418565093" stroke="#d2b4ef" stroke-width="14"/><circle cx="154.0" cy="301.84758418565093" r="3" fill="#d2b4ef"/>
+<path d="M380.66666666666663 350V260.0730720904995" stroke="#d2b4ef" stroke-width="14"/><circle cx="380.66666666666663" cy="260.0730720904995" r="3" fill="#d2b4ef"/>
+<path d="M607.3333333333333 350V291.5436754642916" stroke="#d2b4ef" stroke-width="14"/><circle cx="607.3333333333333" cy="291.5436754642916" r="3" fill="#d2b4ef"/>
+<circle cx="380" cy="410" r="4" fill="#d2b4ef"/><text x="392" y="414" fill="#d2b4ef" font-family="sans-serif" font-size="14">Node</text>
+<path d="M176.0 350V298.4819509635495" stroke="#e9dc91" stroke-width="14"/><circle cx="176.0" cy="298.4819509635495" r="3" fill="#e9dc91"/>
+<path d="M402.66666666666663 350V264.80286291650214" stroke="#e9dc91" stroke-width="14"/><circle cx="402.66666666666663" cy="264.80286291650214" r="3" fill="#e9dc91"/>
+<path d="M629.3333333333333 350V296.7420734298021" stroke="#e9dc91" stroke-width="14"/><circle cx="629.3333333333333" cy="296.7420734298021" r="3" fill="#e9dc91"/>
+<circle cx="530" cy="410" r="4" fill="#e9dc91"/><text x="542" y="414" fill="#e9dc91" font-family="sans-serif" font-size="14">Bun</text>
+<path d="M198.0 350V320.1481028161836" stroke="#88cdb5" stroke-width="14"/><circle cx="198.0" cy="320.1481028161836" r="3" fill="#88cdb5"/>
+<path d="M424.66666666666663 350V278.0454403409829" stroke="#88cdb5" stroke-width="14"/><circle cx="424.66666666666663" cy="278.0454403409829" r="3" fill="#88cdb5"/>
+<path d="M651.3333333333333 350V308.5582135054353" stroke="#88cdb5" stroke-width="14"/><circle cx="651.3333333333333" cy="308.5582135054353" r="3" fill="#88cdb5"/>
+<circle cx="680" cy="410" r="4" fill="#88cdb5"/><text x="692" y="414" fill="#88cdb5" font-family="sans-serif" font-size="14">Go</text>
+<text x="150.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">Manifest</text>
+<text x="376.66666666666663" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">Generate</text>
+<text x="603.3333333333333" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">Mixed</text>
+</svg>
