@@ -61,5 +61,14 @@
     "description": "Five runtimes solve equivalent concurrency problems: scheduling, waits, CPU scaling, bounded pools, queues, shared state, subprocesses and memory. Exact correctness and explicit model boundaries.",
     "systems": "Nift, Python, Node, Bun, Go",
     "workload": "64 scenarios / 608 supported cells"
+  },
+  {
+    "name": "Filesystem / Project Automation",
+    "slug": "filesystem-automation",
+    "page": "benchmarks/filesystem-automation/",
+    "category": "Project trees / file workflows",
+    "description": "Five runtimes traverse, inspect, fingerprint and transform identical project trees. Exact outputs, controlled mutations, warm-state boundaries and separate syscall/allocation diagnostics.",
+    "systems": "Nift, Python, Node, Bun, Go",
+    "workload": "77 scenarios / 752 supported cells"
   }
 ]

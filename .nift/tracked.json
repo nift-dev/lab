@@ -94,6 +94,11 @@
       "name": "sites/spacex/",
       "title": "SpaceX public-output reconstruction",
       "template": "templates/sites/spacex/template.html"
+    },
+    {
+      "name": "benchmarks/filesystem-automation/",
+      "title": "Filesystem / Project Automation \u2014 Nift Labs",
+      "template": "templates/benchmarks/filesystem-automation/template.html"
     }
   ]
 }

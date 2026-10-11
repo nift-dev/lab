@@ -253,3 +253,5 @@ python3 scripts/check_storage_policy.py
 ## SpaceX reconstruction report
 
 `/sites/spacex/` publishes the scoped public-output reconstruction and two-way Nift source-model evaluation. There is no private upstream build benchmark. Run `python3 scripts/render_spacex.py`, full/incremental Nift builds, `scripts/validate.py`, `scripts/check_spacex_links.py` and `scripts/check_storage_policy.py`. See docs/SPACEX-PUBLICATION.md. Accepted experiment repositories remain untouched after closeout; large reference/campaign evidence stays in canonical experiment/lab-evidence locations.
+
+`/benchmarks/filesystem-automation/` compares native project-tree APIs with exact output/reset audits. Its filesystem-inspector layout integrates bars and numbers; memory is a separately labelled post-exec diagnostic. See docs/FILESYSTEM-PUBLICATION.md. Raw evidence remains outside Labs.

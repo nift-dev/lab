@@ -27,6 +27,7 @@
   "reqs": [
     "public/benchmarks/build-systems/index.html",
     "public/benchmarks/concurrency/index.html",
+    "public/benchmarks/filesystem-automation/index.html",
     "public/benchmarks/index.html",
     "public/benchmarks/scripting/index.html",
     "public/benchmarks/shell/index.html",
