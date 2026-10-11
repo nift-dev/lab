@@ -79,6 +79,11 @@
       "name": "benchmarks/task-runners/",
       "title": "Task Runners Benchmark \u2014 Nift Labs",
       "template": "templates/benchmarks/task-runners/template.html"
+    },
+    {
+      "name": "benchmarks/template-engines/",
+      "title": "Template Engines Benchmark \u2014 Nift Labs",
+      "template": "templates/benchmarks/template-engines/template.html"
     }
   ]
 }

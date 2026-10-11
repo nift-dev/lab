@@ -43,5 +43,14 @@
     "description": "Nift, Turbo and Nx execute controlled project workflows and tiny tasks. Exact execution sets, file invalidation, concurrency, targeting, failure recovery and local-state boundaries.",
     "systems": "Nift, Turbo, Nx",
     "workload": "20\u20131,000 mixed tasks + tiny graphs"
+  },
+  {
+    "name": "Template Engines Benchmark",
+    "slug": "template-engines",
+    "page": "benchmarks/template-engines/",
+    "category": "Templates / document assembly",
+    "description": "Five engines assemble identical documents. Fresh invocation, preparation, reuse, loops, partials and memory, with exact byte checks and a candid practitioner assessment.",
+    "systems": "Nift, Jinja2, Nunjucks, Handlebars, LiquidJS",
+    "workload": "20 scenarios / 375 cells"
   }
 ]
