@@ -52,5 +52,14 @@
     "description": "Five engines assemble identical documents. Fresh invocation, preparation, reuse, loops, partials and memory, with exact byte checks and a candid practitioner assessment.",
     "systems": "Nift, Jinja2, Nunjucks, Handlebars, LiquidJS",
     "workload": "20 scenarios / 375 cells"
+  },
+  {
+    "name": "Concurrency Benchmark",
+    "slug": "concurrency",
+    "page": "benchmarks/concurrency/",
+    "category": "Concurrent work / execution models",
+    "description": "Five runtimes solve equivalent concurrency problems: scheduling, waits, CPU scaling, bounded pools, queues, shared state, subprocesses and memory. Exact correctness and explicit model boundaries.",
+    "systems": "Nift, Python, Node, Bun, Go",
+    "workload": "64 scenarios / 608 supported cells"
   }
 ]

@@ -236,3 +236,16 @@ nift status
 ```
 
 See docs/BUILD-SYSTEMS-PUBLICATION.md for boundaries and certification.
+
+## Concurrency benchmark
+
+`/benchmarks/concurrency/` has a distinct execution-lanes identity. Compact `published.json` holds audited cell summaries only; raw observations, traces, profiles and lifecycle receipts live in the pinned `lab-evidence` series. Generate using the external plotting environment (Matplotlib 3.11.2):
+
+```sh
+../.lab-tools/.venv-benchmarks/bin/python scripts/render_concurrency.py
+nift build
+python3 scripts/validate.py
+python3 scripts/check_storage_policy.py
+```
+
+`--preview` permits local feasibility data and must never be used for publication. Each plot is paired with its exact displayed table; booted isolated requests are explicitly separate from long-lived reuse diagnostics. Preserve all prior report bytes.

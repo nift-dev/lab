@@ -84,6 +84,11 @@
       "name": "benchmarks/template-engines/",
       "title": "Template Engines Benchmark \u2014 Nift Labs",
       "template": "templates/benchmarks/template-engines/template.html"
+    },
+    {
+      "name": "benchmarks/concurrency/",
+      "title": "Concurrency Benchmark \u2014 Nift Labs",
+      "template": "templates/benchmarks/concurrency/template.html"
     }
   ]
 }
