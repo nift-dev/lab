@@ -19,4 +19,4 @@ def audit():
  return {'working_tree_bytes':sum(sizes.values()),'zip_bytes_excluding_git':zipped,'largest_files':[{'path':str(p.relative_to(R)),'bytes':n} for p,n in sorted(sizes.items(),key=lambda x:x[1],reverse=True)[:30]],'families':dict(families.most_common(30)),'duplicate_large_payloads':[{'sha256':h,'paths':ps} for h,ps in duplicates.items() if len(ps)>1],'git':gitdirs}
 if __name__=='__main__':
  import sys
- d=audit();(R/'docs'/('storage-'+sys.argv[1]+'.json')).write_text(json.dumps(d,indent=2)+'\n');print({k:d[k] for k in ['working_tree_bytes','zip_bytes_excluding_git','git']})
+ d=audit();(Path(tempfile.gettempdir())/('labs-storage-'+sys.argv[1]+'.json')).write_text(json.dumps(d,indent=2)+'\n');print({k:d[k] for k in ['working_tree_bytes','zip_bytes_excluding_git','git']})

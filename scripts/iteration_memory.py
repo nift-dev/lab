@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1];BASE=R.parent/'nift-experiments';D=R/'cont
 def read(p):return json.loads(p.read_text())
 def median(v):return statistics.median(v)
 def distribution(v,method='median'):
- return {'samples':len(v),'statistic':method,'value_mib':max(v) if method=='maximum' else median(v),'range_mib':[min(v),max(v)],'raw_mib':v}
+ return {'samples':len(v),'statistic':method,'value_mib':max(v) if method=='maximum' else median(v),'range_mib':[min(v),max(v)]}
 def cell(d):
  return f'<strong>{d["value_mib"]:,.1f}</strong><small>{d["range_mib"][0]:,.1f}–{d["range_mib"][1]:,.1f}</small>' if d['samples']>1 else f'<strong>{d["value_mib"]:,.1f}</strong>'
 def snapshot(slug,raw,rows,metric,policy,provenance):

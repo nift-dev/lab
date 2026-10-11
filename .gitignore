@@ -2,7 +2,7 @@
 public/
 .venv-benchmarks/
 scripts/__pycache__/
-# Disposable benchmark products; compact summaries/receipts remain tracked.
+# Disposable benchmark products; compact publication summaries remain tracked.
 investigation/**/immutable-inputs/
 investigation/**/node_modules/
 investigation/**/build-work/
@@ -12,3 +12,8 @@ public/benchmarks/**/preview/
 public/benchmarks/**/raw-output/
 public/benchmarks/**/benchmark-output/
 /*.zip
+
+/results/
+/raw/
+/receipts/
+/audit-dumps/

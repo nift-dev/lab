@@ -27,5 +27,5 @@ def check(url):
     return {'url':url,'verified_api':endpoint,'status':200,'sha':data.get('sha'),'repository':data.get('full_name')}
 with ThreadPoolExecutor(max_workers=4) as pool: records=list(pool.map(check,sorted(parser.links)))
 assert len(records)>=19
-(root/'docs/ai-sdk-link-validation.json').write_text(json.dumps({'scope':'Every external GitHub href in the generated report; read-only API existence verification','links':records},indent=2)+'\n')
+(Path('/tmp')/'ai-sdk-link-validation.json').write_text(json.dumps({'scope':'Every external GitHub href in the generated report; read-only API existence verification','links':records},indent=2)+'\n')
 print(f'PASS: {len(records)} repository/pinned evidence links verified through GitHub API.')

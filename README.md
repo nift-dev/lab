@@ -146,9 +146,9 @@ standalone startup figure are generated from retained raw JSON, not hand-entered
 medians. Explicit generators acquire frozen campaign inputs from pinned canonical evidence into an external temporary cache:
 
 ```sh
-python3 -m venv .venv-benchmarks
-.venv-benchmarks/bin/pip install -r scripts/requirements-benchmarks.txt
-.venv-benchmarks/bin/python scripts/render_benchmarks.py
+python3 -m venv ../.lab-tools/.venv-benchmarks
+../.lab-tools/.venv-benchmarks/bin/pip install -r scripts/requirements-benchmarks.txt
+../.lab-tools/.venv-benchmarks/bin/python scripts/render_benchmarks.py
 nift build --all
 python3 scripts/validate.py
 ```
@@ -211,7 +211,7 @@ The formal [evidence storage policy](docs/EVIDENCE-STORAGE.md) governs publicati
 The shell report reads its active immutable series from `content/benchmarks/data/series.json`. Its graphical rows and numeric rows share table columns through `scripts/shell_visuals.py`, preventing legend/header alignment drift. File-count, process-count and pipeline-count plots use logarithmic task-count spacing and share a linear ordinate across participant columns; ordinary task charts show medians with accompanying p95 rows, and startup retains min/max/median/p95/p99. All numeric vectors come from hash-verified raw summaries in nift-experiments/lab-evidence, cached outside Labs for explicit regeneration. Normal site builds use maintained HTML and local compact datasets without network access. `content/benchmarks/styles/shell-workloads.css` is copied into public assets by the renderer. Render only the shell article with:
 
 ```sh
-.venv-benchmarks/bin/python scripts/render_benchmarks.py --suites shell
+../.lab-tools/.venv-benchmarks/bin/python scripts/render_benchmarks.py --suites shell
 nift build --all
 python3 scripts/validate.py
 ```
@@ -228,7 +228,7 @@ The v4.9 report and its original chart/style bytes are archived under `/benchmar
 Additive `/benchmarks/build-systems/` graph-console report. Accepted evidence is pinned to `75c1588149a295702ec4006e25efc7ba4f05394f`; no historical report or graph is regenerated. Reproduce with:
 
 ```sh
-.venv-benchmarks/bin/python scripts/render_build_systems.py --evidence /path/to/lab-evidence/benchmarks/build-systems/20261010-v4110-dev --commit 75c1588149a295702ec4006e25efc7ba4f05394f --series 20261010-v4110-dev
+../.lab-tools/.venv-benchmarks/bin/python scripts/render_build_systems.py --evidence /path/to/lab-evidence/benchmarks/build-systems/20261010-v4110-dev --commit 75c1588149a295702ec4006e25efc7ba4f05394f --series 20261010-v4110-dev
 nift build --all
 python3 scripts/validate.py
 python3 scripts/check_storage_policy.py

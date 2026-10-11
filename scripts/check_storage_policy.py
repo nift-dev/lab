@@ -17,6 +17,9 @@ def files(root):
 
 def file_errors(rel,size):
  out=[]
+ if any(part in {'evidence','results','raw','traces','diagnostics','receipts','audit-dumps'} for part in rel.parts):out.append(f'Canonical evidence directory: {rel}')
+ if rel.suffix in {'.jsonl','.ndjson','.csv','.trace','.stdout','.stderr'}:out.append(f'Raw evidence format: {rel}')
+ if rel.parts[0]=='docs' and rel.suffix=='.json':out.append(f'Audit receipt belongs outside Labs: {rel}')
  if any(x in rel.parts for x in ['node_modules','.cache','.venv','build-work','immutable-inputs','incremental-memory-work','preview','raw-output','benchmark-output']):out.append(f'Build/cache path: {rel}')
  if rel.suffix in ['.gz','.zip','.tar','.7z']:out.append(f'Binary archive: {rel}')
  if rel.suffix=='.log' and size>16384:out.append(f'Verbose log: {rel}')
@@ -37,7 +40,7 @@ def evidence_index_errors(root):
   if not isinstance(d.get(field),str) or not d.get(field):out.append(f'Evidence index {field} missing/invalid')
  f=d.get('files')
  if not isinstance(f,dict):out.append('Evidence index files is not an object');return out
- for key,item in list(f.items())[:400]:
+ for key,item in f.items():
   if not isinstance(item,dict):out.append('Evidence index entry is not an object: '+str(key));continue
   extra=set(item)-EXPECTED_FIELDS
   if extra:out.append('Evidence index entry has unexpected fields: '+str(key)+' '+','.join(sorted(extra)));continue
@@ -49,7 +52,7 @@ def evidence_index_errors(root):
  return out
 
 def self_test():
- errs=file_errors(Path('x/large.json'),JSON_LIMIT+1);assert not errs or any('Large JSON' in e for e in errs)
+ errs=file_errors(Path('x/large.json'),JSON_LIMIT+1);assert errs and any('Large JSON' in e for e in errs)
  errs=file_errors(EVIDENCE_INDEX,JSON_LIMIT+1);assert not any('Large JSON' in e for e in errs),'evidence index within cap must be accepted'
  errs=file_errors(EVIDENCE_INDEX,EVIDENCE_LIMIT+1);assert any('Large JSON' in e for e in errs),'evidence index over cap must be rejected'
  from unittest.mock import patch
@@ -64,6 +67,10 @@ def self_test():
   bad={'repo':'r','commit':'c'*40,'path':'a/b','sha256':'h'*64,'origin_sha256':'h'*64,'note': '[{' + 'x'*5000}
   idx.write_text(json.dumps({'evidence_repo':'r','evidence_commit':'c'*40,'files':{'pub/f':bad}}))
   assert evidence_index_errors(root)
+ assert file_errors(Path('results/tiny.json'),1)
+ assert file_errors(Path('content/timings.jsonl'),1)
+ assert file_errors(Path('docs/receipt.json'),1)
+ assert not file_errors(Path('content/charts/render.png'),100000)
  print('SELF-TEST PASS')
 
 def main():
@@ -81,6 +88,19 @@ def main():
   if p.suffix=='.json' and size>65536:payloads[hashlib.sha256(p.read_bytes()).hexdigest()].append(str(rel))
   if '/evidence/' in str(rel) or str(rel).startswith('investigation/'):errors.append(f'Canonical evidence in website: {rel}')
  errors+=evidence_index_errors(R)
+ for p in files(R)+published:
+  if p.suffix=='.json' and p.relative_to(R)!=EVIDENCE_INDEX:
+   try: data=json.loads(p.read_text())
+   except Exception: continue
+   def raw_fields(v):
+    if isinstance(v,dict):
+     for k,x in v.items():
+      if k in {'raw_mib','raw_samples','warmups','observations','action_traces'} and isinstance(x,(list,dict)):yield k
+      yield from raw_fields(x)
+    elif isinstance(v,list):
+     for x in v:yield from raw_fields(x)
+   bad=set(raw_fields(data))
+   if bad:errors.append(f'Raw evidence fields {sorted(bad)}: {p.relative_to(R)}')
  for ps in payloads.values():
   if len(ps)>1:errors.append('Duplicate large JSON: '+', '.join(ps))
  if sum(sizes)>10485760:errors.append(f'Tracked website over 10 MiB: {sum(sizes)} bytes')

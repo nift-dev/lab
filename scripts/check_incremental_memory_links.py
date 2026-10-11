@@ -20,5 +20,5 @@ def check(u):
  if p.returncode:return {'url':u,'endpoint':ep,'valid':False,'error':p.stderr[:250]}
  d=json.loads(p.stdout);return {'url':u,'endpoint':ep,'valid':True,'sha':d.get('sha') if isinstance(d,dict) else None}
 with ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(check,sorted(links)))
-(R/'docs/incremental-memory-external-link-validation.json').write_text(json.dumps(results,indent=2)+'\n')
+(Path('/tmp')/'incremental-memory-external-link-validation.json').write_text(json.dumps(results,indent=2)+'\n')
 bad=[r for r in results if not r['valid']];print('Verified',len(results),'external repository/evidence references; failures',len(bad));assert not bad,bad

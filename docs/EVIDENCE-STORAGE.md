@@ -21,9 +21,8 @@ outside Labs. The evidence repository indexes original relative paths and dedupl
 identical bytes, preserving environment, revisions, scope and sample policy.
 
 Never mutate accepted migration implementations to update Labs evidence. Append a
-new identified evidence cohort instead of replacing old measurements. Store only
-compact validation receipts in Labs; verification screenshots are temporary unless
-actually displayed. Keep generated publication assets only when used by a route.
+new identified evidence cohort instead of replacing old measurements. Store validation receipts, raw samples and audit dumps in lab-evidence;
+verification screenshots are temporary unless actually displayed. Keep generated publication assets only when used by a route.
 
 Run `python3 scripts/check_storage_policy.py` before publication. It checks tracked
 source/publication files for large evidence payloads, archives, logs, cache/build
