@@ -17,7 +17,7 @@ def files(root):
 
 def file_errors(rel,size):
  out=[]
- if any(part in {'evidence','results','raw','traces','diagnostics','receipts','audit-dumps'} for part in rel.parts):out.append(f'Canonical evidence directory: {rel}')
+ if any(part in {'evidence','results','raw','traces','diagnostics','receipts','audit-dumps','metrics','provenance','lifecycle','output-hashes','action-traces','action-logs','work'} for part in rel.parts):out.append(f'Canonical evidence directory: {rel}')
  if rel.suffix in {'.jsonl','.ndjson','.csv','.trace','.stdout','.stderr'}:out.append(f'Raw evidence format: {rel}')
  if rel.parts[0]=='docs' and rel.suffix=='.json':out.append(f'Audit receipt belongs outside Labs: {rel}')
  if any(x in rel.parts for x in ['node_modules','.cache','.venv','build-work','immutable-inputs','incremental-memory-work','preview','raw-output','benchmark-output']):out.append(f'Build/cache path: {rel}')
@@ -71,7 +71,18 @@ def self_test():
  assert file_errors(Path('content/timings.jsonl'),1)
  assert file_errors(Path('docs/receipt.json'),1)
  assert not file_errors(Path('content/charts/render.png'),100000)
+ assert set(raw_fields({'rows':[{'raw_samples':[1,2]}]}))=={'raw_samples'}
+ assert not set(raw_fields({'observations':100,'warmups':2,'median_ms':1.2,'range_ms':[1,2]}))
+ assert file_errors(Path('benchmarks/metrics/tiny.json'),1)
  print('SELF-TEST PASS')
+
+def raw_fields(v):
+ if isinstance(v,dict):
+  for k,x in v.items():
+   if k in {'raw_mib','raw_samples','warmups','observations','action_traces'} and isinstance(x,(list,dict)):yield k
+   yield from raw_fields(x)
+ elif isinstance(v,list):
+  for x in v:yield from raw_fields(x)
 
 def main():
  if '--self-test' in sys.argv:
@@ -92,13 +103,6 @@ def main():
   if p.suffix=='.json' and p.relative_to(R)!=EVIDENCE_INDEX:
    try: data=json.loads(p.read_text())
    except Exception: continue
-   def raw_fields(v):
-    if isinstance(v,dict):
-     for k,x in v.items():
-      if k in {'raw_mib','raw_samples','warmups','observations','action_traces'} and isinstance(x,(list,dict)):yield k
-      yield from raw_fields(x)
-    elif isinstance(v,list):
-     for x in v:yield from raw_fields(x)
    bad=set(raw_fields(data))
    if bad:errors.append(f'Raw evidence fields {sorted(bad)}: {p.relative_to(R)}')
  for ps in payloads.values():
