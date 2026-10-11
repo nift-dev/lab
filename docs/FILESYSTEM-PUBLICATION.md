@@ -1,9 +1,13 @@
-# Filesystem / Project Automation
+# Filesystem / Project Automation — publication revision
 
-The report uses a bespoke project-tree/filesystem-inspector composition. Bars and exact values share cells; each operation family uses a linear scale across displayed sizes/runtimes. The memory table is a separate one-request post-exec diagnostic, explicitly distinguished from official launch-inclusive wait4 distributions.
+The report owns a filesystem-inspector composition: nested directory hero, numbered path rail, scan pipeline, metadata-count strip, before/after mirror panes and prioritized core findings. It retains the shared Labs favicon and uses its own charcoal/green/sorbet palette.
 
-Canonical accepted evidence: https://github.com/nift-experiments/lab-evidence/tree/45f8160/benchmarks/filesystem-automation/20261011-v4110
+Eleven standalone deterministic SVG charts each have an adjacent server-rendered exact-value table from the same audited medians. Timing axes are explicitly logarithmic; memory is linear and uses only the separate post-exec diagnostic. Tables and charts share container width and remain independently keyboard-scrollable on narrow screens. Quantitative content no longer depends on JavaScript.
 
-Rebuild the compact dataset with the experiment's scripts/publication.py against both independently audited cohorts and publication metadata. It produces public/benchmarks/filesystem-automation/assets/published.json; Nift uses that same file for narrative metadata, and the small client renderer produces exact chart tables. No raw samples, manifests, archives or profiles belong in Labs.
+Frozen evidence: https://github.com/nift-experiments/lab-evidence/tree/45f81607b2985c58c555e37d2ceda0e2e5fbd911/benchmarks/filesystem-automation/20261011-v4110
 
-Validate with nift build/status, scripts/validate.py and scripts/check_storage_policy.py. Publication, preservation, browser, live-byte and teardown receipts live in canonical evidence, not this repository.
+Regenerate with `python3 scripts/render_report.py` from the filesystem-automation experiment workspace beside Labs. This verifies both frozen cohort summary hashes and independent/distribution audits, verifies the memory oracle hashes, and produces compact published.json, eleven SVGs and the Nift content source. `scripts/publication.py` is the superseded initial table-only publication; use render_report.py for this revision. No raw observations, manifests or profiles belong in Labs.
+
+Sections: walk, inspect, select, read, fingerprint, write/copy, mirror/diff, change semantics, project pipeline, memory, diagnostics, practitioner and method/evidence. The qualitative matrix distinguishes present-day and mature-Nift choices. Supported correctness is preserved; severe large-tree gaps and the separate P0 exactly-once defect are prominent.
+
+Validation: normal Nift build/status, scripts/validate.py, unchanged scripts/check_storage_policy.py; independent chart/table audit; 1440/390/320 report/home/collection browser checks; prior-report byte preservation; live exact-byte checks. Receipts and screenshots stay in lab-evidence. The benchmark Linode remains running pending the user's explicit publication review before teardown.
