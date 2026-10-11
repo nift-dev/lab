@@ -28,7 +28,7 @@ def render(evidence,commit):
  assets=ROOT/'public/benchmarks/task-runners/assets';assets.mkdir(parents=True,exist_ok=True)
  import matplotlib;matplotlib.use('Agg')
  import matplotlib.pyplot as plt
- plt.rcParams.update({'figure.facecolor':'#191e19','axes.facecolor':'#191e19','axes.edgecolor':'#697660','axes.labelcolor':'#e8ece3','text.color':'#e8ece3','xtick.color':'#adb6a6','ytick.color':'#adb6a6','grid.color':'#354132','font.family':'DejaVu Sans','font.size':11,'svg.fonttype':'none'})
+ plt.rcParams.update({'figure.facecolor':'#191e19','axes.facecolor':'#191e19','axes.edgecolor':'#697660','axes.labelcolor':'#e8ece3','text.color':'#e8ece3','xtick.color':'#adb6a6','ytick.color':'#adb6a6','grid.color':'#354132','font.family':'DejaVu Sans','font.size':11,'svg.fonttype':'none','svg.hashsalt':'nift-task-runners'})
  def chart(slug,title,tiny,sizes,case,metric='wall_ms',unit='ms',jobs=4,workers=False,log=False):
   fig,ax=plt.subplots(figsize=(11,3.7));fig.subplots_adjust(left=.12,right=.97,top=.82,bottom=.20)
   divisor=1024 if unit=='MiB' else 1000 if unit=='s' else 1
@@ -40,6 +40,7 @@ def render(evidence,commit):
   else:ax.set_ylim(bottom=0)
   ax.grid(True,alpha=.7);ax.legend(loc='lower left',bbox_to_anchor=(0,1.02),ncols=3,frameon=False);ax.spines[['top','right']].set_visible(False)
   for ext in ['svg','png']:fig.savefig(assets/(slug+'.'+ext),dpi=180,metadata={'Date':None} if ext=='svg' else {'Software':'Nift Labs task-runners'})
+  svg=assets/(slug+'.svg');svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
   plt.close(fig)
   tabrows=[]
   for i,n in enumerate(sizes):
