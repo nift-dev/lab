@@ -93,6 +93,41 @@
       "repository": null
     },
     {
+      "url": "https://github.com/nift-experiments/tanstack-rewrite/blob/4df533907b5b82ff842f7a58d2cdf13dea7f7735/evidence/r3/focused-performance-gate.json",
+      "verified_api": "repos/nift-experiments/tanstack-rewrite/contents/evidence/r3/focused-performance-gate.json?ref=4df533907b5b82ff842f7a58d2cdf13dea7f7735",
+      "status": 200,
+      "sha": "68ad48f269317e86503c43cd4889ce86a52a9cc1",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-rewrite/blob/4df533907b5b82ff842f7a58d2cdf13dea7f7735/evidence/r3/paired-browser-pixels.json",
+      "verified_api": "repos/nift-experiments/tanstack-rewrite/contents/evidence/r3/paired-browser-pixels.json?ref=4df533907b5b82ff842f7a58d2cdf13dea7f7735",
+      "status": 200,
+      "sha": "118a3361ecfddde71689a7c1f23a4a0c44594064",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-rewrite/blob/4df533907b5b82ff842f7a58d2cdf13dea7f7735/evidence/r3/shared-markup-verification.json",
+      "verified_api": "repos/nift-experiments/tanstack-rewrite/contents/evidence/r3/shared-markup-verification.json?ref=4df533907b5b82ff842f7a58d2cdf13dea7f7735",
+      "status": 200,
+      "sha": "33e55e92d853a528c6135311e8012f9354ed8ba8",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-rewrite/blob/4df533907b5b82ff842f7a58d2cdf13dea7f7735/investigation/STATUS.md",
+      "verified_api": "repos/nift-experiments/tanstack-rewrite/contents/investigation/STATUS.md?ref=4df533907b5b82ff842f7a58d2cdf13dea7f7735",
+      "status": 200,
+      "sha": "c921178c28eca537d8255d96781a77f5564308fb",
+      "repository": null
+    },
+    {
+      "url": "https://github.com/nift-experiments/tanstack-rewrite/tree/4df533907b5b82ff842f7a58d2cdf13dea7f7735/",
+      "verified_api": "repos/nift-experiments/tanstack-rewrite/git/commits/4df533907b5b82ff842f7a58d2cdf13dea7f7735",
+      "status": 200,
+      "sha": "4df533907b5b82ff842f7a58d2cdf13dea7f7735",
+      "repository": null
+    },
+    {
       "url": "https://github.com/nift-experiments/tanstack/tree/7af3af0141e09248dacfc11f722c495abadd96a4",
       "verified_api": "repos/nift-experiments/tanstack/git/commits/7af3af0141e09248dacfc11f722c495abadd96a4",
       "status": 200,

@@ -4910,6 +4910,12 @@
       "sha256": "bdf38531005c29a2b22aa6aefa1dfaaadbc88925e34c2c77da4f87c56b60a344",
       "origin_sha256": "71d9a31dc600ac36853c245bcd22b5044b47971e28a110075aad13b6ada29f97",
       "transformation": "compact independently checked publication cohorts; raw observations and protocol remain canonical"
+    },
+    "content/sites/tanstack/rewrite-data/focused-performance-gate.json": {
+      "repo": "nift-experiments/tanstack-rewrite",
+      "commit": "4df533907b5b82ff842f7a58d2cdf13dea7f7735",
+      "path": "evidence/r3/focused-performance-gate.json",
+      "sha256": "6576b3e90c9772b0b31088439b1ebfefbc95883d7331690ec28b32986bb62d02"
     }
   }
 }
