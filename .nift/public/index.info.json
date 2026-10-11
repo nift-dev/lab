@@ -29,6 +29,7 @@
     "public/benchmarks/index.html",
     "public/benchmarks/scripting/index.html",
     "public/benchmarks/shell/index.html",
+    "public/benchmarks/task-runners/index.html",
     "public/benchmarks/website-generator/index.html",
     "public/index.html",
     "public/labs/identity/favicon-16.png",

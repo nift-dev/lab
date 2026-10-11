@@ -74,6 +74,11 @@
       "name": "benchmarks/build-systems/",
       "title": "Build Systems Benchmark \u2014 Nift Labs",
       "template": "templates/benchmarks/build-systems/template.html"
+    },
+    {
+      "name": "benchmarks/task-runners/",
+      "title": "Task Runners Benchmark \u2014 Nift Labs",
+      "template": "templates/benchmarks/task-runners/template.html"
     }
   ]
 }

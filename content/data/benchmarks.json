@@ -34,5 +34,14 @@
     "description": "GNU Make, Ninja and Nift execute the same native graph. No-op and incremental scaling, generated inputs, compiler-heavy builds and tiny actions\u2014with exact rebuilt sets and output hashes.",
     "systems": "GNU Make, Ninja, Nift",
     "workload": "4 native sizes + tiny graphs"
+  },
+  {
+    "name": "Task Runners Benchmark",
+    "slug": "task-runners",
+    "page": "benchmarks/task-runners/",
+    "category": "Task orchestration / input state",
+    "description": "Nift, Turbo and Nx execute controlled project workflows and tiny tasks. Exact execution sets, file invalidation, concurrency, targeting, failure recovery and local-state boundaries.",
+    "systems": "Nift, Turbo, Nx",
+    "workload": "20\u20131,000 mixed tasks + tiny graphs"
   }
 ]
