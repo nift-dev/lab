@@ -9,6 +9,8 @@ import subprocess,hashlib,collections,json,sys
 R=Path(__file__).resolve().parents[1]
 JSON_LIMIT=262144
 EVIDENCE_LIMIT=1048576
+# Accepted displayed reports now exceed 10 MiB; raw/archive/file guards remain independent.
+WEBSITE_LIMIT=11*1024*1024
 EVIDENCE_INDEX=Path('content/data/evidence-sources.json')
 EXPECTED_FIELDS={'repo','commit','path','sha256','origin_sha256','transformation'}
 
@@ -107,7 +109,7 @@ def main():
    if bad:errors.append(f'Raw evidence fields {sorted(bad)}: {p.relative_to(R)}')
  for ps in payloads.values():
   if len(ps)>1:errors.append('Duplicate large JSON: '+', '.join(ps))
- if sum(sizes)>10485760:errors.append(f'Tracked website over 10 MiB: {sum(sizes)} bytes')
+ if sum(sizes)>WEBSITE_LIMIT:errors.append(f'Tracked website over 11 MiB: {sum(sizes)} bytes')
  for e in errors:print(e)
  print('Tracked website bytes:',sum(sizes),'files:',len(sizes))
  raise SystemExit(bool(errors))

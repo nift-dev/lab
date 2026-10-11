@@ -4916,6 +4916,18 @@
       "commit": "4df533907b5b82ff842f7a58d2cdf13dea7f7735",
       "path": "evidence/r3/focused-performance-gate.json",
       "sha256": "6576b3e90c9772b0b31088439b1ebfefbc95883d7331690ec28b32986bb62d02"
+    },
+    "sites/spacex/performance-summary.json": {
+      "repo": "nift-experiments/spacex",
+      "commit": "a467f6f85cdd6684739943612fb9e1bf72e592f2",
+      "path": "investigation/evidence/performance-summary.json",
+      "sha256": "12100e8297ee76dcd02331ce4c9efe7412e027293001eedf75c952120ea51f54"
+    },
+    "sites/spacex/frozen-reference-manifest.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "8c1d417a1772d58559a23c0768c3d106dc6c2ff4",
+      "path": "sites/spacex/20261012/frozen-reference-manifest.json",
+      "sha256": "d782884bb113a0f99c72819184977d1dbf9e97f0ea6c038c756b2ba4137e61ad"
     }
   }
 }

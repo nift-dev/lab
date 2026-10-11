@@ -353,3 +353,7 @@ User-directed presentation revision: distinct violet/coral technical console rep
 ## TanStack two-attempt closeout publication
 
 The TanStack report now closes both faithful migration and rewrite as unsuccessful. The migration retained dominant runtime costs; the rewrite’s particular generated corpus/preparation/dependency architecture failed its bounded gate. No general Nift limitation or ordinary-template cost is inferred. Pinned rewrite closeout/evidence, separate memory scopes, workload qualifications, open visual differences and future init guidance are published. Neither experiment nor core was changed or reopened. See docs/TANSTACK-PUBLICATION.md.
+
+### SpaceX report publication — 2026-10-12
+
+Independent flight-test report added at sites/spacex/. It preserves public-output/private-source distinctions, scoped parity qualifications, authored/rendered maintenance tradeoff, complete publication and paired incremental time/RSS graphs. Regenerate from pinned hash-verified evidence with scripts/render_spacex.py; raw campaign and acquired-reference manifest belong in lab-evidence. See docs/SPACEX-PUBLICATION.md for revisions, reproduction, validation and storage scope. Both accepted SpaceX migration closeouts are clean/pushed; no Nift core or experiment rendering input was changed to create this page.

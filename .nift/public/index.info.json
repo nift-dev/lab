@@ -47,6 +47,7 @@
     "public/sites/docker/index.html",
     "public/sites/index.html",
     "public/sites/omarchy/index.html",
+    "public/sites/spacex/index.html",
     "public/sites/tanstack/index.html",
     "public/sites/temporal/index.html"
   ]

@@ -89,6 +89,11 @@
       "name": "benchmarks/concurrency/",
       "title": "Concurrency Benchmark \u2014 Nift Labs",
       "template": "templates/benchmarks/concurrency/template.html"
+    },
+    {
+      "name": "sites/spacex/",
+      "title": "SpaceX public-output reconstruction",
+      "template": "templates/sites/spacex/template.html"
     }
   ]
 }

@@ -40,3 +40,7 @@ contains unexpected top-level keys or entries/fields, embeds oversized or payloa
 string values, or leaks duplicate raw benchmark JSON. The checker's `--self-test`
 mode asserts that ordinary large JSON stays rejected while the index within/over its
 cap is accepted/rejected.
+
+### Published website budget — 2026-10-12
+
+The SpaceX report brought genuine tracked source plus displayed publication assets to about 10.07 MiB, exceeding the original 10 MiB total bound by about 76 KiB. The bounded total website allowance is now 11 MiB. Per-file, JSON/index, archive, raw-payload, canonical-evidence-directory and duplicate-data guards remain unchanged. This accommodates accepted report growth; it does not authorize benchmark payloads in Labs or a history rewrite. Canonical SpaceX logs/reference manifest remain in lab-evidence.

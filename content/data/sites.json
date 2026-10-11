@@ -107,7 +107,7 @@
     "page": "sites/tanstack/",
     "description": "Migration and rewrite closed as unsuccessful: retained runtime costs versus an expensive generated corpus pipeline. Two distinct findings, preserved parity and qualified measurements.",
     "category": "Migration / rewrite / architecture investigation",
-    "status": "Migration unsuccessful · rewrite unsuccessful",
+    "status": "Migration unsuccessful \u00b7 rewrite unsuccessful",
     "upstream_framework": "TanStack Start / Vite",
     "page_count": "14,247 rewrite pages",
     "upstream_repo": "https://github.com/TanStack/tanstack.com",
@@ -117,5 +117,19 @@
     "date": "2026-10-10",
     "report": "https://github.com/nift-experiments/tanstack-agent/blob/8bd68069410f984a5949e7fa0e629b6084c1caee/investigation/T12-ARCHITECTURE.md",
     "rewrite_repo": "https://github.com/nift-experiments/tanstack-rewrite"
+  },
+  {
+    "name": "SpaceX.com",
+    "slug": "spacex",
+    "page": "sites/spacex/",
+    "description": "Public-output reconstruction, scoped visual/playback parity, and two Nift source models. No private SpaceX build benchmark.",
+    "category": "Reconstruction / maintenance study",
+    "status": "Results published",
+    "upstream_framework": "Public Angular delivery; private build unavailable",
+    "page_count": "829 + 89 HLS",
+    "upstream_repo": null,
+    "upstream_commit": null,
+    "experiment_repo": "https://github.com/nift-experiments/spacex",
+    "agent_repo": "https://github.com/nift-experiments/spacex-agent"
   }
 ]
