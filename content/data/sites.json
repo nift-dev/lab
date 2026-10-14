@@ -107,7 +107,7 @@
     "page": "sites/tanstack/",
     "description": "Migration and rewrite closed as unsuccessful: retained runtime costs versus an expensive generated corpus pipeline. Two distinct findings, preserved parity and qualified measurements.",
     "category": "Migration / rewrite / architecture investigation",
-    "status": "Migration unsuccessful \u00b7 rewrite unsuccessful",
+    "status": "Migration unsuccessful · rewrite unsuccessful",
     "upstream_framework": "TanStack Start / Vite",
     "page_count": "14,247 rewrite pages",
     "upstream_repo": "https://github.com/TanStack/tanstack.com",
@@ -131,5 +131,20 @@
     "upstream_commit": null,
     "experiment_repo": "https://github.com/nift-experiments/spacex",
     "agent_repo": "https://github.com/nift-experiments/spacex-agent"
+  },
+  {
+    "name": "Agora Docs — Nift + TanStack Start",
+    "slug": "agora",
+    "page": "sites/agora/",
+    "description": "Retained TanStack Start, React and authored MDX. Two source models, qualified pipeline observations and an explicitly bounded production-certification story.",
+    "category": "Hybrid integration / source models",
+    "status": "Publication review draft",
+    "upstream_framework": "TanStack Start / Fumadocs",
+    "page_count": "2,003 documentation HTML",
+    "upstream_repo": "https://github.com/AgoraIO/docs-portal",
+    "upstream_commit": "3c6552914e6cec74ab5d9c38b3bd4eeb51871d13",
+    "experiment_repo": "https://github.com/nift-experiments/agora",
+    "agent_repo": "https://github.com/nift-experiments/agora-agent",
+    "date": "2026-10-15"
   }
 ]

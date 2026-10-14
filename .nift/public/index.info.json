@@ -41,6 +41,7 @@
     "public/labs/identity/favicon-48.png",
     "public/labs/identity/tube-hero.png",
     "public/labs/style.css",
+    "public/sites/agora/index.html",
     "public/sites/ai-sdk/index.html",
     "public/sites/capgo/index.html",
     "public/sites/cloudflare-docs/index.html",
@@ -51,5 +52,8 @@
     "public/sites/spacex/index.html",
     "public/sites/tanstack/index.html",
     "public/sites/temporal/index.html"
-  ]
+  ],
+  "dependency-hashes": {
+  },
+  "sidecar-state": {"version":1,"platform":"posix-lexical-v1","present":false,"bytes-hex":"","declaration-indices":[]}
 }

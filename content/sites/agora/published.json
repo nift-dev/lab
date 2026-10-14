@@ -1,0 +1,386 @@
+{
+  "schema": 1,
+  "sample_policy": "Two upstream observations; one observation per Nift scenario/model. Not medians. Different cache/source conditions.",
+  "measured_commits": {
+    "upstream": "3c6552914e6cec74ab5d9c38b3bd4eeb51871d13",
+    "agora": "1dcbbeb634d701821a598600f24357c856cf5163",
+    "agora-agent": "cd1dc9e602add307b81b36258ca0481dd00348b8"
+  },
+  "reviewed_commits": {
+    "agora": "c6bbe6ed3be77358d327dfcf03920ed193179708",
+    "agora-agent": "a30d209836b4df3b34a711c841c7de5b5029f18b"
+  },
+  "baseline": [
+    {
+      "seconds": 592.0938057580497,
+      "tree_mib": 4966.56640625,
+      "individual_mib": 4941.5078125
+    },
+    {
+      "seconds": 607.1425950359553,
+      "tree_mib": 5078.75390625,
+      "individual_mib": 5053.8671875
+    }
+  ],
+  "pipelines": {
+    "agora": {
+      "fresh": {
+        "seconds": 199.81699553201906,
+        "tree_mib": 1937.05859375,
+        "individual_mib": 1864.484375,
+        "phases": [
+          {
+            "phase": "content",
+            "seconds": 132.846545206
+          },
+          {
+            "phase": "openapi",
+            "seconds": 0.1299410870000138
+          },
+          {
+            "phase": "payloads",
+            "seconds": 18.323288237
+          },
+          {
+            "phase": "application",
+            "seconds": 5.253272518999991
+          },
+          {
+            "phase": "render",
+            "seconds": 40.982289614999985
+          },
+          {
+            "phase": "assets",
+            "seconds": 1.1940447870000208
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.36504681100000747
+          },
+          {
+            "phase": "composition",
+            "seconds": 0.564,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "content"
+      },
+      "warm-forced": {
+        "seconds": 43.77266019699164,
+        "tree_mib": 750.43359375,
+        "individual_mib": 382.26953125,
+        "phases": [
+          {
+            "phase": "render",
+            "seconds": 42.649001415
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.21700748899999597
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.14273477700000511
+          },
+          {
+            "phase": "composition",
+            "seconds": 0.593,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "render"
+      },
+      "unchanged": {
+        "seconds": 2.3747115079313517,
+        "tree_mib": 180.59375,
+        "individual_mib": 95.21484375,
+        "phases": [
+          {
+            "phase": "render",
+            "seconds": 0.833001258
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.23285082099999987
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.1470441310000001
+          },
+          {
+            "phase": "composition",
+            "seconds": 1.003,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "render"
+      },
+      "docs-edit": {
+        "seconds": 7.510547755053267,
+        "tree_mib": 1213.8515625,
+        "individual_mib": 1131.2734375,
+        "phases": [
+          {
+            "phase": "content",
+            "seconds": 2.7688054309999997
+          },
+          {
+            "phase": "openapi",
+            "seconds": 0.11675898800000005
+          },
+          {
+            "phase": "payloads",
+            "seconds": 0.7508854890000002
+          },
+          {
+            "phase": "render",
+            "seconds": 2.2971461890000002
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.2824385080000002
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.12472298000000046
+          },
+          {
+            "phase": "composition",
+            "seconds": 1.011,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "content"
+      },
+      "shared-layout": {
+        "seconds": 49.630948883946985,
+        "tree_mib": 979.55078125,
+        "individual_mib": 919.41796875,
+        "phases": [
+          {
+            "phase": "openapi",
+            "seconds": 0.120135673
+          },
+          {
+            "phase": "payloads",
+            "seconds": 0.057822676999999996
+          },
+          {
+            "phase": "application",
+            "seconds": 5.169760542
+          },
+          {
+            "phase": "render",
+            "seconds": 42.452217713
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.27987509500000307
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.15141424600000028
+          },
+          {
+            "phase": "composition",
+            "seconds": 1.247,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "application-build-and-prerender"
+      }
+    },
+    "agora-agent": {
+      "fresh": {
+        "seconds": 71.79336021491326,
+        "tree_mib": 1343.03125,
+        "individual_mib": 1295.04296875,
+        "phases": [
+          {
+            "phase": "maintained-content",
+            "seconds": 2.448624455
+          },
+          {
+            "phase": "openapi",
+            "seconds": 0.1484753090000004
+          },
+          {
+            "phase": "payloads",
+            "seconds": 18.463480988
+          },
+          {
+            "phase": "application",
+            "seconds": 5.402792334999998
+          },
+          {
+            "phase": "render",
+            "seconds": 42.003471281
+          },
+          {
+            "phase": "assets",
+            "seconds": 1.3245197200000112
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.4774266820000048
+          },
+          {
+            "phase": "composition",
+            "seconds": 0.559,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "payloads"
+      },
+      "warm-forced": {
+        "seconds": 45.08682300103828,
+        "tree_mib": 748.375,
+        "individual_mib": 402.75,
+        "phases": [
+          {
+            "phase": "render",
+            "seconds": 43.25947777
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.22772556999999505
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.18384066000000165
+          },
+          {
+            "phase": "composition",
+            "seconds": 0.68,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "render"
+      },
+      "unchanged": {
+        "seconds": 2.7547055820468813,
+        "tree_mib": 304.8359375,
+        "individual_mib": 200.00390625,
+        "phases": [
+          {
+            "phase": "render",
+            "seconds": 0.833316432
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.2278496150000001
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.13963294900000006
+          },
+          {
+            "phase": "composition",
+            "seconds": 1.031,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "render"
+      },
+      "docs-edit": {
+        "seconds": 7.242207180010155,
+        "tree_mib": 1125.4140625,
+        "individual_mib": 1080.15234375,
+        "phases": [
+          {
+            "phase": "maintained-content",
+            "seconds": 2.275800104
+          },
+          {
+            "phase": "openapi",
+            "seconds": 0.1433432459999999
+          },
+          {
+            "phase": "payloads",
+            "seconds": 0.7980640920000001
+          },
+          {
+            "phase": "render",
+            "seconds": 2.1784612720000003
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.2822296270000006
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.1499145410000001
+          },
+          {
+            "phase": "composition",
+            "seconds": 0.897,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "maintained-content"
+      },
+      "shared-layout": {
+        "seconds": 52.222180193988606,
+        "tree_mib": 916.68359375,
+        "individual_mib": 858.6875,
+        "phases": [
+          {
+            "phase": "openapi",
+            "seconds": 0.13666492799999996
+          },
+          {
+            "phase": "payloads",
+            "seconds": 0.05126567
+          },
+          {
+            "phase": "application",
+            "seconds": 4.910287214
+          },
+          {
+            "phase": "render",
+            "seconds": 44.454188205
+          },
+          {
+            "phase": "assets",
+            "seconds": 0.25799015400000647
+          },
+          {
+            "phase": "registration",
+            "seconds": 0.12256239700000152
+          },
+          {
+            "phase": "composition",
+            "seconds": 1.785,
+            "source": "logged phase precision"
+          }
+        ],
+        "peak_phase": "application-build-and-prerender"
+      }
+    }
+  },
+  "publication_scope": {
+    "reference_html": 2017,
+    "upstream_generator_html": 2003,
+    "articles": 1657,
+    "nonhtml_nonbundle": 3100,
+    "llm_blocks": 1049,
+    "author_files": 6859,
+    "agent_files": 6862
+  },
+  "initial_corrected": {
+    "agora": {
+      "fresh": 264.95,
+      "warm": 87.21
+    },
+    "agora-agent": {
+      "fresh": 125.15,
+      "warm": 92.28
+    }
+  },
+  "evidence": {
+    "repository": "nift-experiments/lab-evidence",
+    "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+    "path": "sites/agora/20261015-optimized",
+    "status": "local-only pending release approval"
+  }
+}

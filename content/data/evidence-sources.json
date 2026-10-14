@@ -4928,6 +4928,160 @@
       "commit": "8c1d417a1772d58559a23c0768c3d106dc6c2ff4",
       "path": "sites/spacex/20261012/frozen-reference-manifest.json",
       "sha256": "d782884bb113a0f99c72819184977d1dbf9e97f0ea6c038c756b2ba4137e61ad"
+    },
+    "content/sites/agora/data/published-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/published-summary.json",
+      "sha256": "880766372cd2c23184e6b1cb5793b3acdb6df1b5523d483664ba28823ac1b453",
+      "origin_sha256": "880766372cd2c23184e6b1cb5793b3acdb6df1b5523d483664ba28823ac1b453"
+    },
+    "content/sites/agora/data/README.md": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/README.md",
+      "sha256": "b48ed53569e1f2de55906b526477f1aeb35b168f168d71536dccb1c76bf0ad44",
+      "origin_sha256": "b48ed53569e1f2de55906b526477f1aeb35b168f168d71536dccb1c76bf0ad44"
+    },
+    "content/sites/agora/data/FILES.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/FILES.json",
+      "sha256": "d1dd1a41386044edcbca346cb6b7b048f0c6ce9239469870be45c0b5cc3dc159",
+      "origin_sha256": "d1dd1a41386044edcbca346cb6b7b048f0c6ce9239469870be45c0b5cc3dc159"
+    },
+    "content/sites/agora/data/source-manifest.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/source-manifest.json",
+      "sha256": "539efe8b37322282ca687990f915f0ca9f900c4ccf24cd2053463648faddf266",
+      "origin_sha256": "539efe8b37322282ca687990f915f0ca9f900c4ccf24cd2053463648faddf266"
+    },
+    "content/sites/agora/data/investigation/final-review-architecture.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/investigation/final-review-architecture.json",
+      "sha256": "8b6f7a73671373ebccc0b21902ea356b549427039907d559feaa5d426437626a",
+      "origin_sha256": "8b6f7a73671373ebccc0b21902ea356b549427039907d559feaa5d426437626a"
+    },
+    "content/sites/agora/data/investigation/final-review-correctness.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/investigation/final-review-correctness.json",
+      "sha256": "a190f062572da5689318a91d41ad292b791455a2cada698517b2319e629a6c00",
+      "origin_sha256": "a190f062572da5689318a91d41ad292b791455a2cada698517b2319e629a6c00"
+    },
+    "content/sites/agora/data/investigation/final-review-methodology.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/investigation/final-review-methodology.json",
+      "sha256": "980b06bc0c71139812598cc7f64f9782a321bb51a73fe0bea6fed8e04d6dc0ef",
+      "origin_sha256": "980b06bc0c71139812598cc7f64f9782a321bb51a73fe0bea6fed8e04d6dc0ef"
+    },
+    "content/sites/agora/data/investigation/raw-source-invalidation-proof.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/investigation/raw-source-invalidation-proof.json",
+      "sha256": "5e6d6bf0cd9e9e805387c67aa1412c669f718f8109d183237b2bcbcca3f23653",
+      "origin_sha256": "5e6d6bf0cd9e9e805387c67aa1412c669f718f8109d183237b2bcbcca3f23653"
+    },
+    "content/sites/agora/data/investigation/final-theme-hydration-proof.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/investigation/final-theme-hydration-proof.json",
+      "sha256": "00525e8943c8bbda4a61782a487da97b7a72b5b6f42be829321c9969843f2295",
+      "origin_sha256": "00525e8943c8bbda4a61782a487da97b7a72b5b6f42be829321c9969843f2295"
+    },
+    "content/sites/agora/data/investigation/final-optimized-independent-accounting.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/investigation/final-optimized-independent-accounting.json",
+      "sha256": "067d8524a99d4ebc3ebeb422fc12433153ece0de972ac083911113ee20308916",
+      "origin_sha256": "067d8524a99d4ebc3ebeb422fc12433153ece0de972ac083911113ee20308916"
+    },
+    "content/sites/agora/data/measurements/upstream-global-warm-1.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/upstream-global-warm-1.json",
+      "sha256": "f3b2ce67c9820715547dddb1cc952c6572dc52ea1d17e1e44b43485b13a60d8d",
+      "origin_sha256": "f3b2ce67c9820715547dddb1cc952c6572dc52ea1d17e1e44b43485b13a60d8d"
+    },
+    "content/sites/agora/data/measurements/upstream-global-warm-2.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/upstream-global-warm-2.json",
+      "sha256": "1f1310d2ffec3c54292fc8ab55a432fd92d039a105b678c88e9af95183388ff3",
+      "origin_sha256": "1f1310d2ffec3c54292fc8ab55a432fd92d039a105b678c88e9af95183388ff3"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-fresh.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-fresh.json",
+      "sha256": "657b7a5136be06c03322217ed7167ca49fbee842730bba5b922062c3ea8908d4",
+      "origin_sha256": "657b7a5136be06c03322217ed7167ca49fbee842730bba5b922062c3ea8908d4"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-warm-forced.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-warm-forced.json",
+      "sha256": "4f180724db5180e88734d3b16129cd585e062278f636f6aecc41a82c56f88f5f",
+      "origin_sha256": "4f180724db5180e88734d3b16129cd585e062278f636f6aecc41a82c56f88f5f"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-unchanged.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-unchanged.json",
+      "sha256": "ed3b2d96aadd924c910e88b19c4814ca82faec2af55a86ce43c45faf8610ad97",
+      "origin_sha256": "ed3b2d96aadd924c910e88b19c4814ca82faec2af55a86ce43c45faf8610ad97"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-docs-edit.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-docs-edit.json",
+      "sha256": "0c565c7322b738d7e57da427706ab4ec729b5caeb091ac09ec7625587d48f238",
+      "origin_sha256": "0c565c7322b738d7e57da427706ab4ec729b5caeb091ac09ec7625587d48f238"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-shared-layout.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-shared-layout.json",
+      "sha256": "4ca3061bde5d817bdec285e0b625c2cba9a294c4601154e84f2828d74f5e3b22",
+      "origin_sha256": "4ca3061bde5d817bdec285e0b625c2cba9a294c4601154e84f2828d74f5e3b22"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-agent-fresh.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-agent-fresh.json",
+      "sha256": "d7d73899693f351917895e8a9dbaf20cdd7eb61ae345f0e686bcf7229de65e3a",
+      "origin_sha256": "d7d73899693f351917895e8a9dbaf20cdd7eb61ae345f0e686bcf7229de65e3a"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-agent-warm-forced.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-agent-warm-forced.json",
+      "sha256": "d70551e73a0e1383c1d72ea42aa8d0dc3eff58d3c5075b18db3e4770f684e5a4",
+      "origin_sha256": "d70551e73a0e1383c1d72ea42aa8d0dc3eff58d3c5075b18db3e4770f684e5a4"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-agent-unchanged.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-agent-unchanged.json",
+      "sha256": "327bb5e498a45f4d306e57331f22b1f99e64fefae34d7de93d720973e44d5bff",
+      "origin_sha256": "327bb5e498a45f4d306e57331f22b1f99e64fefae34d7de93d720973e44d5bff"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-agent-docs-edit.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-agent-docs-edit.json",
+      "sha256": "9e8e24a87fc43be11760e6e0ee33a8d9286341d2a6b8e5f3bb96ecdad2400958",
+      "origin_sha256": "9e8e24a87fc43be11760e6e0ee33a8d9286341d2a6b8e5f3bb96ecdad2400958"
+    },
+    "content/sites/agora/data/measurements/final-optimized/agora-agent-shared-layout.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
+      "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-agent-shared-layout.json",
+      "sha256": "1611fa77f6f064cf23efff1689921170f77abe43a30d3236f3c75182234e70ee",
+      "origin_sha256": "1611fa77f6f064cf23efff1689921170f77abe43a30d3236f3c75182234e70ee"
     }
   }
 }

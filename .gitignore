@@ -17,3 +17,6 @@ public/benchmarks/**/benchmark-output/
 /raw/
 /receipts/
 /audit-dumps/
+
+# Disposable Nift file-identity cache.
+.nift/identity-stage1/

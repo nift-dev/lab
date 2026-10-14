@@ -357,3 +357,7 @@ The TanStack report now closes both faithful migration and rewrite as unsuccessf
 ### SpaceX report publication — 2026-10-12
 
 Independent flight-test report added at sites/spacex/. It preserves public-output/private-source distinctions, scoped parity qualifications, authored/rendered maintenance tradeoff, complete publication and paired incremental time/RSS graphs. Regenerate from pinned hash-verified evidence with scripts/render_spacex.py; raw campaign and acquired-reference manifest belong in lab-evidence. See docs/SPACEX-PUBLICATION.md for revisions, reproduction, validation and storage scope. Both accepted SpaceX migration closeouts are clean/pushed; no Nift core or experiment rendering input was changed to create this page.
+
+## Agora publication review draft — 2026-10-15
+
+`/sites/agora/` is prepared locally around Nift + TanStack Start cooperation. Corpus parity precedes qualified full/incremental time and sampled tree-RSS charts; authored MDX and maintained React ESM remain distinct. Exact measured/reviewed revisions, inherited saved-dark hydration defect, unit classifications, local CN and actual-provider limits are explicit. See docs/AGORA-PUBLICATION.md. Evidence is a local unpushed lab-evidence cohort, not stored in Labs. Source stage and publication main must remain unpushed until the user explicitly approves release. Local renderer/link/evidence/storage checks and 1440/390/320 viewport validation are required. `--release` only prepares release files; it is not permission to deploy.

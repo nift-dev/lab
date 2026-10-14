@@ -255,3 +255,7 @@ python3 scripts/check_storage_policy.py
 `/sites/spacex/` publishes the scoped public-output reconstruction and two-way Nift source-model evaluation. There is no private upstream build benchmark. Run `python3 scripts/render_spacex.py`, full/incremental Nift builds, `scripts/validate.py`, `scripts/check_spacex_links.py` and `scripts/check_storage_policy.py`. See docs/SPACEX-PUBLICATION.md. Accepted experiment repositories remain untouched after closeout; large reference/campaign evidence stays in canonical experiment/lab-evidence locations.
 
 `/benchmarks/filesystem-automation/` compares native project-tree APIs with exact output/reset audits. Its filesystem-inspector layout integrates bars and numbers; memory is a separately labelled post-exec diagnostic. See docs/FILESYSTEM-PUBLICATION.md. Raw evidence remains outside Labs.
+
+## Agora Docs preparation
+
+`/sites/agora/` is a **local publication review draft**, centered on the hybrid Nift + TanStack Start architecture. Its single-observation values and process-tree RSS remain explicitly qualified. Canonical evidence is prepared in an unpushed lab-evidence commit. Run `python3 scripts/check_agora_evidence.py`, `python3 scripts/render_agora.py`, normal Nift/validation/storage checks and `python3 scripts/check_agora_links.py`. See docs/AGORA-PUBLICATION.md for certification gaps and the exact approval-gated release sequence. Do not push either Labs branch or the new evidence without explicit release approval.

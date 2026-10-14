@@ -99,6 +99,11 @@
       "name": "benchmarks/filesystem-automation/",
       "title": "Filesystem / Project Automation \u2014 Nift Labs",
       "template": "templates/benchmarks/filesystem-automation/template.html"
+    },
+    {
+      "name": "sites/agora/",
+      "title": "Agora Docs \u2014 Nift + TanStack Start",
+      "template": "templates/sites/agora/template.html"
     }
   ]
 }
