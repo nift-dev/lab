@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" role="img" aria-labelledby="title desc">
-<title id="title">Nift v4.12 final · Native SHA-256 / 10k files</title><desc id="desc">— means unavailable; it is not zero or a failed observation. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
+<title id="title">Native SHA-256 / 10k files</title><desc id="desc">— means unavailable; it is not zero or a failed observation. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
 <rect width="840" height="440" fill="#202622" rx="12"/>
-<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">Nift v4.12 final · ms · LOGARITHMIC SCALE</text>
+<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">ms · LOGARITHMIC SCALE</text>
 <path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
 <path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1000</text>
-<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift v4.12 final</text>
-<path d="M132.0 350V227.4818475991125" stroke="#ffbd9a" stroke-width="14"/><circle cx="132.0" cy="227.4818475991125" r="3" fill="#ffbd9a"/>
+<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift</text>
+<path d="M132.0 350V250.68924086193547" stroke="#ffbd9a" stroke-width="14"/><circle cx="132.0" cy="250.68924086193547" r="3" fill="#ffbd9a"/>
 <circle cx="230" cy="410" r="4" fill="#ffbd9a"/><text x="242" y="414" fill="#ffbd9a" font-family="sans-serif" font-size="14">Python</text>
-<path d="M154.0 350V229.74061002860233" stroke="#d2b4ef" stroke-width="14"/><circle cx="154.0" cy="229.74061002860233" r="3" fill="#d2b4ef"/>
+<path d="M154.0 350V258.18913864700227" stroke="#d2b4ef" stroke-width="14"/><circle cx="154.0" cy="258.18913864700227" r="3" fill="#d2b4ef"/>
 <circle cx="380" cy="410" r="4" fill="#d2b4ef"/><text x="392" y="414" fill="#d2b4ef" font-family="sans-serif" font-size="14">Node</text>
-<path d="M176.0 350V276.47917455792066" stroke="#e9dc91" stroke-width="14"/><circle cx="176.0" cy="276.47917455792066" r="3" fill="#e9dc91"/>
+<path d="M176.0 350V297.05095488709077" stroke="#e9dc91" stroke-width="14"/><circle cx="176.0" cy="297.05095488709077" r="3" fill="#e9dc91"/>
 <circle cx="530" cy="410" r="4" fill="#e9dc91"/><text x="542" y="414" fill="#e9dc91" font-family="sans-serif" font-size="14">Bun</text>
-<path d="M198.0 350V252.3647706009574" stroke="#88cdb5" stroke-width="14"/><circle cx="198.0" cy="252.3647706009574" r="3" fill="#88cdb5"/>
+<path d="M198.0 350V273.0511724454631" stroke="#88cdb5" stroke-width="14"/><circle cx="198.0" cy="273.0511724454631" r="3" fill="#88cdb5"/>
 <circle cx="680" cy="410" r="4" fill="#88cdb5"/><text x="692" y="414" fill="#88cdb5" font-family="sans-serif" font-size="14">Go</text>
 <text x="150.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">SHA-256</text>
 </svg>

@@ -1,42 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" role="img" aria-labelledby="title desc">
-<title id="title">Nift v4.12 final · Change detection / 10k files</title><desc id="desc">Same 1% selected set: changed bytes/new time; same bytes/new time; changed bytes/restored time. Time-only detection misses restored-time edits; content ignores time-only edits. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
+<title id="title">Change detection / 10k files</title><desc id="desc">Same 1% selected set: changed bytes/new time; same bytes/new time; changed bytes/restored time. Time-only detection misses restored-time edits; content ignores time-only edits. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
 <rect width="840" height="440" fill="#202622" rx="12"/>
-<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">Nift v4.12 final · ms · LOGARITHMIC SCALE</text>
+<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">ms · LOGARITHMIC SCALE</text>
 <path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
 <path d="M70 263.33333333333337H805" stroke="#3b463d"/><text x="58" y="267.33333333333337" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1000</text>
 <path d="M70 176.66666666666669H805" stroke="#3b463d"/><text x="58" y="180.66666666666669" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10000</text>
 <path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100000</text>
-<path d="M450.0 350V150.26748489166465" stroke="#b1ff68" stroke-width="12.0"/><circle cx="450.0" cy="150.26748489166465" r="3" fill="#b1ff68"/>
-<path d="M563.3333333333333 350V148.68436403908242" stroke="#b1ff68" stroke-width="12.0"/><circle cx="563.3333333333333" cy="148.68436403908242" r="3" fill="#b1ff68"/>
-<path d="M676.6666666666666 350V150.45420054021378" stroke="#b1ff68" stroke-width="12.0"/><circle cx="676.6666666666666" cy="150.45420054021378" r="3" fill="#b1ff68"/>
-<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift v4.12 final</text>
-<path d="M128.33333333333334 350V321.37351526001186" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="128.33333333333334" cy="321.37351526001186" r="3" fill="#ffbd9a"/>
-<path d="M241.66666666666666 350V321.9945939132431" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="241.66666666666666" cy="321.9945939132431" r="3" fill="#ffbd9a"/>
-<path d="M354.99999999999994 350V321.4032552112836" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="354.99999999999994" cy="321.4032552112836" r="3" fill="#ffbd9a"/>
-<path d="M468.3333333333333 350V234.48953074979295" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="468.3333333333333" cy="234.48953074979295" r="3" fill="#ffbd9a"/>
-<path d="M581.6666666666666 350V233.68097501871532" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="581.6666666666666" cy="233.68097501871532" r="3" fill="#ffbd9a"/>
-<path d="M695.0 350V234.45039607057242" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="695.0" cy="234.45039607057242" r="3" fill="#ffbd9a"/>
+<path d="M450.0 350V142.18610196555582" stroke="#b1ff68" stroke-width="12.0"/><circle cx="450.0" cy="142.18610196555582" r="3" fill="#b1ff68"/>
+<path d="M563.3333333333333 350V141.41941914453915" stroke="#b1ff68" stroke-width="12.0"/><circle cx="563.3333333333333" cy="141.41941914453915" r="3" fill="#b1ff68"/>
+<path d="M676.6666666666666 350V141.7452244985256" stroke="#b1ff68" stroke-width="12.0"/><circle cx="676.6666666666666" cy="141.7452244985256" r="3" fill="#b1ff68"/>
+<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift</text>
+<path d="M128.33333333333334 350V325.35771691536223" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="128.33333333333334" cy="325.35771691536223" r="3" fill="#ffbd9a"/>
+<path d="M241.66666666666666 350V324.7495570189799" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="241.66666666666666" cy="324.7495570189799" r="3" fill="#ffbd9a"/>
+<path d="M354.99999999999994 350V323.8412471193925" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="354.99999999999994" cy="323.8412471193925" r="3" fill="#ffbd9a"/>
+<path d="M468.3333333333333 350V235.98481017700493" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="468.3333333333333" cy="235.98481017700493" r="3" fill="#ffbd9a"/>
+<path d="M581.6666666666666 350V235.99735556460018" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="581.6666666666666" cy="235.99735556460018" r="3" fill="#ffbd9a"/>
+<path d="M695.0 350V236.03302910476927" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="695.0" cy="236.03302910476927" r="3" fill="#ffbd9a"/>
 <circle cx="230" cy="410" r="4" fill="#ffbd9a"/><text x="242" y="414" fill="#ffbd9a" font-family="sans-serif" font-size="14">Python</text>
-<path d="M146.66666666666666 350V323.86129180338014" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="146.66666666666666" cy="323.86129180338014" r="3" fill="#d2b4ef"/>
-<path d="M260.0 350V323.26824511254586" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="260.0" cy="323.26824511254586" r="3" fill="#d2b4ef"/>
-<path d="M373.3333333333333 350V324.3455698675076" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="373.3333333333333" cy="324.3455698675076" r="3" fill="#d2b4ef"/>
-<path d="M486.6666666666667 350V275.7921600696164" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="486.6666666666667" cy="275.7921600696164" r="3" fill="#d2b4ef"/>
-<path d="M599.9999999999999 350V277.2339554605304" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="599.9999999999999" cy="277.2339554605304" r="3" fill="#d2b4ef"/>
-<path d="M713.3333333333333 350V276.0238035668962" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="713.3333333333333" cy="276.0238035668962" r="3" fill="#d2b4ef"/>
+<path d="M146.66666666666666 350V327.8951300360577" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="146.66666666666666" cy="327.8951300360577" r="3" fill="#d2b4ef"/>
+<path d="M260.0 350V327.51583865840894" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="260.0" cy="327.51583865840894" r="3" fill="#d2b4ef"/>
+<path d="M373.3333333333333 350V327.53539483663644" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="373.3333333333333" cy="327.53539483663644" r="3" fill="#d2b4ef"/>
+<path d="M486.6666666666667 350V281.0642904808584" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="486.6666666666667" cy="281.0642904808584" r="3" fill="#d2b4ef"/>
+<path d="M599.9999999999999 350V280.6474155081512" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="599.9999999999999" cy="280.6474155081512" r="3" fill="#d2b4ef"/>
+<path d="M713.3333333333333 350V281.04609065021054" stroke="#d2b4ef" stroke-width="12.0"/><circle cx="713.3333333333333" cy="281.04609065021054" r="3" fill="#d2b4ef"/>
 <circle cx="380" cy="410" r="4" fill="#d2b4ef"/><text x="392" y="414" fill="#d2b4ef" font-family="sans-serif" font-size="14">Node</text>
-<path d="M165.0 350V330.11686759645744" stroke="#e9dc91" stroke-width="12.0"/><circle cx="165.0" cy="330.11686759645744" r="3" fill="#e9dc91"/>
-<path d="M278.3333333333333 350V330.535670886349" stroke="#e9dc91" stroke-width="12.0"/><circle cx="278.3333333333333" cy="330.535670886349" r="3" fill="#e9dc91"/>
-<path d="M391.66666666666663 350V329.90080233484815" stroke="#e9dc91" stroke-width="12.0"/><circle cx="391.66666666666663" cy="329.90080233484815" r="3" fill="#e9dc91"/>
-<path d="M505.0 350V272.15581038034475" stroke="#e9dc91" stroke-width="12.0"/><circle cx="505.0" cy="272.15581038034475" r="3" fill="#e9dc91"/>
-<path d="M618.3333333333333 350V273.0675243854981" stroke="#e9dc91" stroke-width="12.0"/><circle cx="618.3333333333333" cy="273.0675243854981" r="3" fill="#e9dc91"/>
-<path d="M731.6666666666666 350V269.58330645773447" stroke="#e9dc91" stroke-width="12.0"/><circle cx="731.6666666666666" cy="269.58330645773447" r="3" fill="#e9dc91"/>
+<path d="M165.0 350V333.0580439988375" stroke="#e9dc91" stroke-width="12.0"/><circle cx="165.0" cy="333.0580439988375" r="3" fill="#e9dc91"/>
+<path d="M278.3333333333333 350V332.8955894304999" stroke="#e9dc91" stroke-width="12.0"/><circle cx="278.3333333333333" cy="332.8955894304999" r="3" fill="#e9dc91"/>
+<path d="M391.66666666666663 350V332.49317121590366" stroke="#e9dc91" stroke-width="12.0"/><circle cx="391.66666666666663" cy="332.49317121590366" r="3" fill="#e9dc91"/>
+<path d="M505.0 350V274.34948231946436" stroke="#e9dc91" stroke-width="12.0"/><circle cx="505.0" cy="274.34948231946436" r="3" fill="#e9dc91"/>
+<path d="M618.3333333333333 350V275.9466298045721" stroke="#e9dc91" stroke-width="12.0"/><circle cx="618.3333333333333" cy="275.9466298045721" r="3" fill="#e9dc91"/>
+<path d="M731.6666666666666 350V275.0251521616466" stroke="#e9dc91" stroke-width="12.0"/><circle cx="731.6666666666666" cy="275.0251521616466" r="3" fill="#e9dc91"/>
 <circle cx="530" cy="410" r="4" fill="#e9dc91"/><text x="542" y="414" fill="#e9dc91" font-family="sans-serif" font-size="14">Bun</text>
-<path d="M183.33333333333331 350V338.8154622809225" stroke="#88cdb5" stroke-width="12.0"/><circle cx="183.33333333333331" cy="338.8154622809225" r="3" fill="#88cdb5"/>
-<path d="M296.66666666666663 350V339.5019837912368" stroke="#88cdb5" stroke-width="12.0"/><circle cx="296.66666666666663" cy="339.5019837912368" r="3" fill="#88cdb5"/>
-<path d="M409.99999999999994 350V338.6382244686404" stroke="#88cdb5" stroke-width="12.0"/><circle cx="409.99999999999994" cy="338.6382244686404" r="3" fill="#88cdb5"/>
-<path d="M523.3333333333334 350V296.2749825522015" stroke="#88cdb5" stroke-width="12.0"/><circle cx="523.3333333333334" cy="296.2749825522015" r="3" fill="#88cdb5"/>
-<path d="M636.6666666666666 350V295.8425298944111" stroke="#88cdb5" stroke-width="12.0"/><circle cx="636.6666666666666" cy="295.8425298944111" r="3" fill="#88cdb5"/>
-<path d="M750.0 350V296.16801353875474" stroke="#88cdb5" stroke-width="12.0"/><circle cx="750.0" cy="296.16801353875474" r="3" fill="#88cdb5"/>
+<path d="M183.33333333333331 350V341.16098023975496" stroke="#88cdb5" stroke-width="12.0"/><circle cx="183.33333333333331" cy="341.16098023975496" r="3" fill="#88cdb5"/>
+<path d="M296.66666666666663 350V341.6198790664552" stroke="#88cdb5" stroke-width="12.0"/><circle cx="296.66666666666663" cy="341.6198790664552" r="3" fill="#88cdb5"/>
+<path d="M409.99999999999994 350V341.6992344843759" stroke="#88cdb5" stroke-width="12.0"/><circle cx="409.99999999999994" cy="341.6992344843759" r="3" fill="#88cdb5"/>
+<path d="M523.3333333333334 350V299.578795019425" stroke="#88cdb5" stroke-width="12.0"/><circle cx="523.3333333333334" cy="299.578795019425" r="3" fill="#88cdb5"/>
+<path d="M636.6666666666666 350V298.4931792124883" stroke="#88cdb5" stroke-width="12.0"/><circle cx="636.6666666666666" cy="298.4931792124883" r="3" fill="#88cdb5"/>
+<path d="M750.0 350V298.3867717887601" stroke="#88cdb5" stroke-width="12.0"/><circle cx="750.0" cy="298.3867717887601" r="3" fill="#88cdb5"/>
 <circle cx="680" cy="410" r="4" fill="#88cdb5"/><text x="692" y="414" fill="#88cdb5" font-family="sans-serif" font-size="14">Go</text>
 <text x="150.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">Time: bytes</text>
 <text x="263.3333333333333" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">Time: time</text>

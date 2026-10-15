@@ -1,36 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" role="img" aria-labelledby="title desc">
-<title id="title">Nift v4.12 final · Metadata scaling</title><desc id="desc">Exists/type/size inspection, with checked metadata inventories. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
+<title id="title">Metadata scaling</title><desc id="desc">Exists/type/size inspection, with checked metadata inventories. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
 <rect width="840" height="440" fill="#202622" rx="12"/>
-<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">Nift v4.12 final · ms · LOGARITHMIC SCALE</text>
+<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">ms · LOGARITHMIC SCALE</text>
 <path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1</text>
-<path d="M70 285.0H805" stroke="#3b463d"/><text x="58" y="289.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10</text>
-<path d="M70 220.0H805" stroke="#3b463d"/><text x="58" y="224.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
-<path d="M70 155.0H805" stroke="#3b463d"/><text x="58" y="159.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1000</text>
-<path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10000</text>
-<circle cx="100.0" cy="250.40743223434717" r="4.5" fill="#b1ff68"/>
-<circle cx="430.0" cy="188.09025793820123" r="4.5" fill="#b1ff68"/>
-<circle cx="760.0" cy="122.0720470789287" r="4.5" fill="#b1ff68"/>
-<polyline points="100.0,250.40743223434717 430.0,188.09025793820123 760.0,122.0720470789287" fill="none" stroke="#b1ff68" stroke-width="2.5"/>
-<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift v4.12 final</text>
-<circle cx="100.0" cy="277.4582794700057" r="4.5" fill="#ffbd9a"/>
-<circle cx="430.0" cy="216.3502553637152" r="4.5" fill="#ffbd9a"/>
-<circle cx="760.0" cy="150.3789287939172" r="4.5" fill="#ffbd9a"/>
-<polyline points="100.0,277.4582794700057 430.0,216.3502553637152 760.0,150.3789287939172" fill="none" stroke="#ffbd9a" stroke-width="2.5"/>
+<path d="M70 298.0H805" stroke="#3b463d"/><text x="58" y="302.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10</text>
+<path d="M70 246.0H805" stroke="#3b463d"/><text x="58" y="250.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
+<path d="M70 194.0H805" stroke="#3b463d"/><text x="58" y="198.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1000</text>
+<path d="M70 142.0H805" stroke="#3b463d"/><text x="58" y="146.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10000</text>
+<path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100000</text>
+<circle cx="100.0" cy="219.9590591969323" r="4.5" fill="#b1ff68"/>
+<circle cx="430.0" cy="168.78150830139128" r="4.5" fill="#b1ff68"/>
+<circle cx="760.0" cy="114.94851878514149" r="4.5" fill="#b1ff68"/>
+<polyline points="100.0,219.9590591969323 430.0,168.78150830139128 760.0,114.94851878514149" fill="none" stroke="#b1ff68" stroke-width="2.5"/>
+<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift</text>
+<circle cx="100.0" cy="295.0174614159141" r="4.5" fill="#ffbd9a"/>
+<circle cx="430.0" cy="245.6995923170134" r="4.5" fill="#ffbd9a"/>
+<circle cx="760.0" cy="191.2603922349523" r="4.5" fill="#ffbd9a"/>
+<polyline points="100.0,295.0174614159141 430.0,245.6995923170134 760.0,191.2603922349523" fill="none" stroke="#ffbd9a" stroke-width="2.5"/>
 <circle cx="230" cy="410" r="4" fill="#ffbd9a"/><text x="242" y="414" fill="#ffbd9a" font-family="sans-serif" font-size="14">Python</text>
-<circle cx="100.0" cy="265.69883426834406" r="4.5" fill="#d2b4ef"/>
-<circle cx="430.0" cy="218.65283724855664" r="4.5" fill="#d2b4ef"/>
-<circle cx="760.0" cy="158.39595377777752" r="4.5" fill="#d2b4ef"/>
-<polyline points="100.0,265.69883426834406 430.0,218.65283724855664 760.0,158.39595377777752" fill="none" stroke="#d2b4ef" stroke-width="2.5"/>
+<circle cx="100.0" cy="288.1494037931263" r="4.5" fill="#d2b4ef"/>
+<circle cx="430.0" cy="250.83381881335458" r="4.5" fill="#d2b4ef"/>
+<circle cx="760.0" cy="197.71727292490849" r="4.5" fill="#d2b4ef"/>
+<polyline points="100.0,288.1494037931263 430.0,250.83381881335458 760.0,197.71727292490849" fill="none" stroke="#d2b4ef" stroke-width="2.5"/>
 <circle cx="380" cy="410" r="4" fill="#d2b4ef"/><text x="392" y="414" fill="#d2b4ef" font-family="sans-serif" font-size="14">Node</text>
-<circle cx="100.0" cy="271.2680369620442" r="4.5" fill="#e9dc91"/>
-<circle cx="430.0" cy="227.18404313853705" r="4.5" fill="#e9dc91"/>
-<circle cx="760.0" cy="166.28241143529354" r="4.5" fill="#e9dc91"/>
-<polyline points="100.0,271.2680369620442 430.0,227.18404313853705 760.0,166.28241143529354" fill="none" stroke="#e9dc91" stroke-width="2.5"/>
+<circle cx="100.0" cy="290.21797491109913" r="4.5" fill="#e9dc91"/>
+<circle cx="430.0" cy="254.63522880749886" r="4.5" fill="#e9dc91"/>
+<circle cx="760.0" cy="204.46442041485236" r="4.5" fill="#e9dc91"/>
+<polyline points="100.0,290.21797491109913 430.0,254.63522880749886 760.0,204.46442041485236" fill="none" stroke="#e9dc91" stroke-width="2.5"/>
 <circle cx="530" cy="410" r="4" fill="#e9dc91"/><text x="542" y="414" fill="#e9dc91" font-family="sans-serif" font-size="14">Bun</text>
-<circle cx="100.0" cy="286.33412452304674" r="4.5" fill="#88cdb5"/>
-<circle cx="430.0" cy="222.80690591209503" r="4.5" fill="#88cdb5"/>
-<circle cx="760.0" cy="159.72897418950632" r="4.5" fill="#88cdb5"/>
-<polyline points="100.0,286.33412452304674 430.0,222.80690591209503 760.0,159.72897418950632" fill="none" stroke="#88cdb5" stroke-width="2.5"/>
+<circle cx="100.0" cy="302.5643300548439" r="4.5" fill="#88cdb5"/>
+<circle cx="430.0" cy="252.83762760581033" r="4.5" fill="#88cdb5"/>
+<circle cx="760.0" cy="199.92632337520578" r="4.5" fill="#88cdb5"/>
+<polyline points="100.0,302.5643300548439 430.0,252.83762760581033 760.0,199.92632337520578" fill="none" stroke="#88cdb5" stroke-width="2.5"/>
 <circle cx="680" cy="410" r="4" fill="#88cdb5"/><text x="692" y="414" fill="#88cdb5" font-family="sans-serif" font-size="14">Go</text>
 <text x="100.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">1k files</text>
 <text x="430.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">10k files</text>

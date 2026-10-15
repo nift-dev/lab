@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" role="img" aria-labelledby="title desc">
-<title id="title">Historical 20261011 post-exec walk high-water mark</title><desc id="desc">Historical 20261011 release /proc VmHWM diagnostic; preserved original graph, not final-candidate memory values. Exact values in the adjacent table. Linear zero-origin vertical axis.</desc>
+<title id="title">Post-exec walk high-water mark</title><desc id="desc">Separate /proc VmHWM diagnostic; one independently verified request per runtime/size, not official distributions. Exact values in the adjacent table. Linear zero-origin vertical axis.</desc>
 <rect width="840" height="440" fill="#202622" rx="12"/>
 <text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">MiB · LINEAR SCALE</text>
 <path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">0</text>
