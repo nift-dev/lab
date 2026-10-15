@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="237.6pt" viewBox="0 0 648 237.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style><style> .c0{fill: #1c211d} .c1{stroke: #d7dfd6; stroke-width: 0.8} .c2{fill: #d7dfd6; stroke: #d7dfd6; stroke-width: 0.8} .c3{font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #d7dfd6} .c4{fill: none; stroke: #354034; stroke-width: 0.7; stroke-linecap: square} .c5{font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d7dfd6} .c6{fill: #abff5b; stroke: #abff5b} .c7{fill: #ffbd9a; stroke: #ffbd9a} .c8{fill: #d2b4ef; stroke: #d2b4ef} .c9{fill: #e9dc91; stroke: #e9dc91} .c10{fill: #88cdb5; stroke: #88cdb5} .c11{fill: none; stroke: #354034; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square}</style></defs><g id="figure_1"><g id="patch_1"><path d="M 0 237.6 
-L 648 237.6 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="266.4pt" viewBox="0 0 648 266.4" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style><style> .c0{fill: #1c211d} .c1{stroke: #d7dfd6; stroke-width: 0.8} .c2{fill: #d7dfd6; stroke: #d7dfd6; stroke-width: 0.8} .c3{font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #d7dfd6} .c4{fill: none; stroke: #354034; stroke-width: 0.7; stroke-linecap: square} .c5{font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d7dfd6} .c6{fill: #abff5b; stroke: #abff5b} .c7{fill: #ffbd9a; stroke: #ffbd9a} .c8{fill: #d2b4ef; stroke: #d2b4ef} .c9{fill: #e9dc91; stroke: #e9dc91} .c10{fill: #88cdb5; stroke: #88cdb5} .c11{fill: none; stroke: #354034; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square}</style></defs><g id="figure_1"><g id="patch_1"><path d="M 0 266.4 
+L 648 266.4 
 L 648 0 
 L 0 0 
 z
-" class="c0"/></g><g id="axes_1"><g id="patch_2"><path d="M 58.32 185.328 
-L 622.08 185.328 
-L 622.08 54.648 
-L 58.32 54.648 
+" class="c0"/></g><g id="axes_1"><g id="patch_2"><path d="M 58.32 207.792 
+L 622.08 207.792 
+L 622.08 82.584 
+L 58.32 82.584 
 z
 " class="c0"/></g><g id="matplotlib.axis_1"><g id="xtick_1"><g id="line2d_1"><defs><path id="meb49c0b95c" d="M 0 0 
 L 0 3.5 
-" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.167" transform="rotate(-0 83.945 199.167)">1 worker</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="340.2" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="340.2" y="199.167" transform="rotate(-0 340.2 199.167)">2 workers</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">4 workers</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_4"><path d="M 58.32 185.328 
-L 622.08 185.328 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_5"><defs><path id="m131011f9a1" d="M 0 0 
+" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="207.792" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="221.631" transform="rotate(-0 83.945 221.631)">1 worker</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="340.2" y="207.792" class="c2"/></g></g><g id="text_2"><text class="c3" x="340.2" y="221.631" transform="rotate(-0 340.2 221.631)">2 workers</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="596.455" y="207.792" class="c2"/></g></g><g id="text_3"><text class="c3" x="596.455" y="221.631" transform="rotate(-0 596.455 221.631)">4 workers</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_4"><path d="M 58.32 207.792 
+L 622.08 207.792 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_5"><defs><path id="m131011f9a1" d="M 0 0 
 L -3.5 0 
-" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="189.127" transform="rotate(-0 51.32 189.127)">0</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 160.036 
-L 622.08 160.036 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="160.036" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="163.835" transform="rotate(-0 51.32 163.835)">25</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 134.744 
-L 622.08 134.744 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="134.744" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="138.542" transform="rotate(-0 51.32 138.542)">50</text></g></g><g id="ytick_4"><g id="line2d_10"><path d="M 58.32 109.451 
-L 622.08 109.451 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_11"><g><use xlink:href="#m131011f9a1" x="58.32" y="109.451" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="113.25" transform="rotate(-0 51.32 113.25)">75</text></g></g><g id="ytick_5"><g id="line2d_12"><path d="M 58.32 84.159 
-L 622.08 84.159 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_13"><g><use xlink:href="#m131011f9a1" x="58.32" y="84.159" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="87.958" transform="rotate(-0 51.32 87.958)">100</text></g></g><g id="ytick_6"><g id="line2d_14"><path d="M 58.32 58.867 
-L 622.08 58.867 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_15"><g><use xlink:href="#m131011f9a1" x="58.32" y="58.867" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="62.666" transform="rotate(-0 51.32 62.666)">125</text></g></g><g id="text_10"><text class="c3" x="27.097" y="119.988" transform="rotate(-90 27.097 119.988)">Sampled tree RSS (MiB)</text></g></g><g id="line2d_16"><path d="M 83.945 178.12 
-L 340.2 177.993 
-L 596.455 177.614 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
+" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="207.792" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="211.591" transform="rotate(-0 51.32 211.591)">0</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 183.498 
+L 622.08 183.498 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="183.498" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="187.297" transform="rotate(-0 51.32 187.297)">25</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 159.204 
+L 622.08 159.204 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="159.204" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="163.003" transform="rotate(-0 51.32 163.003)">50</text></g></g><g id="ytick_4"><g id="line2d_10"><path d="M 58.32 134.91 
+L 622.08 134.91 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_11"><g><use xlink:href="#m131011f9a1" x="58.32" y="134.91" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="138.709" transform="rotate(-0 51.32 138.709)">75</text></g></g><g id="ytick_5"><g id="line2d_12"><path d="M 58.32 110.616 
+L 622.08 110.616 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_13"><g><use xlink:href="#m131011f9a1" x="58.32" y="110.616" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="114.414" transform="rotate(-0 51.32 114.414)">100</text></g></g><g id="ytick_6"><g id="line2d_14"><path d="M 58.32 86.321 
+L 622.08 86.321 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_15"><g><use xlink:href="#m131011f9a1" x="58.32" y="86.321" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="90.12" transform="rotate(-0 51.32 90.12)">125</text></g></g><g id="text_10"><text class="c3" x="27.097" y="145.188" transform="rotate(-90 27.097 145.188)">Sampled tree RSS (MiB)</text></g></g><g id="line2d_16"><path d="M 83.945 200.868 
+L 340.2 200.747 
+L 596.455 200.261 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -38,10 +38,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="178.12" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="177.993" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="177.614" class="c6"/></g></g><g id="line2d_17"><path d="M 83.945 126.121 
-L 340.2 104.175 
-L 596.455 60.72 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
+" style="stroke: #abff5b"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m61e878b024" x="83.945" y="200.868" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="200.747" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="200.261" class="c6"/></g></g><g id="line2d_17"><path d="M 83.945 151.172 
+L 340.2 130.332 
+L 596.455 88.402 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -51,10 +51,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="126.121" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="104.175" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="60.72" class="c7"/></g></g><g id="line2d_18"><path d="M 83.945 112.992 
-L 340.2 99.666 
-L 596.455 73.789 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
+" style="stroke: #ffbd9a"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="151.172" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="130.332" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="88.402" class="c7"/></g></g><g id="line2d_18"><path d="M 83.945 138.554 
+L 340.2 125.921 
+L 596.455 100.609 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -64,10 +64,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="112.992" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="99.666" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="73.789" class="c8"/></g></g><g id="line2d_19"><path d="M 83.945 146.453 
-L 340.2 141.774 
-L 596.455 133.914 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
+" style="stroke: #d2b4ef"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m71117cc5d6" x="83.945" y="138.554" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="125.921" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="100.609" class="c8"/></g></g><g id="line2d_19"><path d="M 83.945 170.277 
+L 340.2 166.993 
+L 596.455 158.631 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -77,10 +77,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="146.453" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="141.774" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="133.914" class="c9"/></g></g><g id="line2d_20"><path d="M 83.945 182.166 
-L 340.2 182.166 
-L 596.455 182.04 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
+" style="stroke: #e9dc91"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m2263ea23d6" x="83.945" y="170.277" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="166.993" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="158.631" class="c9"/></g></g><g id="line2d_20"><path d="M 83.945 204.755 
+L 340.2 204.755 
+L 596.455 204.755 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -90,12 +90,12 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="182.166" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="182.166" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="182.04" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
-L 58.32 54.648 
-" class="c11"/></g><g id="patch_4"><path d="M 622.08 185.328 
-L 622.08 54.648 
-" class="c11"/></g><g id="patch_5"><path d="M 58.32 185.328 
-L 622.08 185.328 
-" class="c11"/></g><g id="patch_6"><path d="M 58.32 54.648 
-L 622.08 54.648 
-" class="c11"/></g></g><g id="text_11"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #abff5b" x="263.952" y="16.632" transform="rotate(-0 263.952 16.632)">Nift</text></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #ffbd9a" x="357.264" y="16.632" transform="rotate(-0 357.264 16.632)">Python</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d2b4ef" x="450.576" y="16.632" transform="rotate(-0 450.576 16.632)">Node</text></g><g id="text_14"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #e9dc91" x="543.888" y="16.632" transform="rotate(-0 543.888 16.632)">Bun</text></g><g id="text_15"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #88cdb5" x="637.2" y="16.632" transform="rotate(-0 637.2 16.632)">Go</text></g><g id="text_16"><text style="font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #a3b3a0" x="58.32" y="39.204" transform="rotate(-0 58.32 39.204)">LINEAR SCALE</text></g></g><defs><clipPath id="p8eedefa2bb"><rect x="58.32" y="54.648" width="563.76" height="130.68"/></clipPath></defs></svg>
+" style="stroke: #88cdb5"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m153a816141" x="83.945" y="204.755" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="204.755" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="204.755" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 207.792 
+L 58.32 82.584 
+" class="c11"/></g><g id="patch_4"><path d="M 622.08 207.792 
+L 622.08 82.584 
+" class="c11"/></g><g id="patch_5"><path d="M 58.32 207.792 
+L 622.08 207.792 
+" class="c11"/></g><g id="patch_6"><path d="M 58.32 82.584 
+L 622.08 82.584 
+" class="c11"/></g></g><g id="text_11"><text style="font-size: 11px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #b6c4ae" x="324" y="28.397" transform="rotate(-0 324 28.397)">CPU worker pools / sampled tree RSS</text></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #abff5b" x="110.16" y="55.944" transform="rotate(-0 110.16 55.944)">Nift</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #ffbd9a" x="213.84" y="55.944" transform="rotate(-0 213.84 55.944)">Python</text></g><g id="text_14"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #d2b4ef" x="317.52" y="55.944" transform="rotate(-0 317.52 55.944)">Node</text></g><g id="text_15"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #e9dc91" x="421.2" y="55.944" transform="rotate(-0 421.2 55.944)">Bun</text></g><g id="text_16"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #88cdb5" x="524.88" y="55.944" transform="rotate(-0 524.88 55.944)">Go</text></g><g id="text_17"><text style="font-size: 8px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #879583" x="622.08" y="246.42" transform="rotate(-0 622.08 246.42)">Linear scale</text></g></g><defs><clipPath id="paa4b8ae94c"><rect x="58.32" y="82.584" width="563.76" height="125.208"/></clipPath></defs></svg>

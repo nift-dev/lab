@@ -5,20 +5,20 @@
 <path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10</text>
 <path d="M70 220.0H805" stroke="#3b463d"/><text x="58" y="224.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
 <path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1000</text>
-<path d="M110.0 350V158.8105545405233" stroke="#b1ff68" stroke-width="14"/><circle cx="110.0" cy="158.8105545405233" r="3" fill="#b1ff68"/>
-<path d="M450.0 350V168.69039883671212" stroke="#b1ff68" stroke-width="14"/><circle cx="450.0" cy="168.69039883671212" r="3" fill="#b1ff68"/>
+<path d="M110.0 350V159.14217543551402" stroke="#b1ff68" stroke-width="14"/><circle cx="110.0" cy="159.14217543551402" r="3" fill="#b1ff68"/>
+<path d="M450.0 350V175.29472612245212" stroke="#b1ff68" stroke-width="14"/><circle cx="450.0" cy="175.29472612245212" r="3" fill="#b1ff68"/>
 <circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift</text>
-<path d="M132.0 350V255.45315780395845" stroke="#ffbd9a" stroke-width="14"/><circle cx="132.0" cy="255.45315780395845" r="3" fill="#ffbd9a"/>
-<path d="M472.0 350V306.57231336319467" stroke="#ffbd9a" stroke-width="14"/><circle cx="472.0" cy="306.57231336319467" r="3" fill="#ffbd9a"/>
+<path d="M132.0 350V254.38340156965106" stroke="#ffbd9a" stroke-width="14"/><circle cx="132.0" cy="254.38340156965106" r="3" fill="#ffbd9a"/>
+<path d="M472.0 350V301.70026826069807" stroke="#ffbd9a" stroke-width="14"/><circle cx="472.0" cy="301.70026826069807" r="3" fill="#ffbd9a"/>
 <circle cx="230" cy="410" r="4" fill="#ffbd9a"/><text x="242" y="414" fill="#ffbd9a" font-family="sans-serif" font-size="14">Python</text>
-<path d="M154.0 350V223.45122313994904" stroke="#d2b4ef" stroke-width="14"/><circle cx="154.0" cy="223.45122313994904" r="3" fill="#d2b4ef"/>
-<path d="M494.0 350V213.77992014710665" stroke="#d2b4ef" stroke-width="14"/><circle cx="494.0" cy="213.77992014710665" r="3" fill="#d2b4ef"/>
+<path d="M154.0 350V220.15556671627454" stroke="#d2b4ef" stroke-width="14"/><circle cx="154.0" cy="220.15556671627454" r="3" fill="#d2b4ef"/>
+<path d="M494.0 350V216.61972971013944" stroke="#d2b4ef" stroke-width="14"/><circle cx="494.0" cy="216.61972971013944" r="3" fill="#d2b4ef"/>
 <circle cx="380" cy="410" r="4" fill="#d2b4ef"/><text x="392" y="414" fill="#d2b4ef" font-family="sans-serif" font-size="14">Node</text>
-<path d="M176.0 350V242.64106686911208" stroke="#e9dc91" stroke-width="14"/><circle cx="176.0" cy="242.64106686911208" r="3" fill="#e9dc91"/>
-<path d="M516.0 350V261.75457752066797" stroke="#e9dc91" stroke-width="14"/><circle cx="516.0" cy="261.75457752066797" r="3" fill="#e9dc91"/>
+<path d="M176.0 350V238.90780299835504" stroke="#e9dc91" stroke-width="14"/><circle cx="176.0" cy="238.90780299835504" r="3" fill="#e9dc91"/>
+<path d="M516.0 350V254.40411484681331" stroke="#e9dc91" stroke-width="14"/><circle cx="516.0" cy="254.40411484681331" r="3" fill="#e9dc91"/>
 <circle cx="530" cy="410" r="4" fill="#e9dc91"/><text x="542" y="414" fill="#e9dc91" font-family="sans-serif" font-size="14">Bun</text>
-<path d="M198.0 350V265.11021212299994" stroke="#88cdb5" stroke-width="14"/><circle cx="198.0" cy="265.11021212299994" r="3" fill="#88cdb5"/>
-<path d="M538.0 350V292.9939055691644" stroke="#88cdb5" stroke-width="14"/><circle cx="538.0" cy="292.9939055691644" r="3" fill="#88cdb5"/>
+<path d="M198.0 350V262.63137905019863" stroke="#88cdb5" stroke-width="14"/><circle cx="198.0" cy="262.63137905019863" r="3" fill="#88cdb5"/>
+<path d="M538.0 350V279.96350451582543" stroke="#88cdb5" stroke-width="14"/><circle cx="538.0" cy="279.96350451582543" r="3" fill="#88cdb5"/>
 <circle cx="680" cy="410" r="4" fill="#88cdb5"/><text x="692" y="414" fill="#88cdb5" font-family="sans-serif" font-size="14">Go</text>
 <text x="150.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">10 × 10 MiB</text>
 <text x="490.0" y="377" text-anchor="middle" fill="#dce4dd" font-family="sans-serif" font-size="12">100 × 1 MiB</text>

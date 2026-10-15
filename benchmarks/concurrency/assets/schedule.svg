@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="237.6pt" viewBox="0 0 648 237.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style><style> .c0{fill: #1c211d} .c1{stroke: #d7dfd6; stroke-width: 0.8} .c2{fill: #d7dfd6; stroke: #d7dfd6; stroke-width: 0.8} .c3{font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #d7dfd6} .c4{fill: none; stroke: #354034; stroke-width: 0.7; stroke-linecap: square} .c5{font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d7dfd6} .c6{fill: #abff5b; stroke: #abff5b} .c7{fill: #ffbd9a; stroke: #ffbd9a} .c8{fill: #d2b4ef; stroke: #d2b4ef} .c9{fill: #e9dc91; stroke: #e9dc91} .c10{fill: #88cdb5; stroke: #88cdb5} .c11{fill: none; stroke: #354034; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square}</style></defs><g id="figure_1"><g id="patch_1"><path d="M 0 237.6 
-L 648 237.6 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="266.4pt" viewBox="0 0 648 266.4" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style><style> .c0{fill: #1c211d} .c1{stroke: #d7dfd6; stroke-width: 0.8} .c2{fill: #d7dfd6; stroke: #d7dfd6; stroke-width: 0.8} .c3{font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #d7dfd6} .c4{fill: none; stroke: #354034; stroke-width: 0.7; stroke-linecap: square} .c5{font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d7dfd6} .c6{fill: #abff5b; stroke: #abff5b} .c7{fill: #ffbd9a; stroke: #ffbd9a} .c8{fill: #d2b4ef; stroke: #d2b4ef} .c9{fill: #e9dc91; stroke: #e9dc91} .c10{fill: #88cdb5; stroke: #88cdb5} .c11{fill: none; stroke: #354034; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square}</style></defs><g id="figure_1"><g id="patch_1"><path d="M 0 266.4 
+L 648 266.4 
 L 648 0 
 L 0 0 
 z
-" class="c0"/></g><g id="axes_1"><g id="patch_2"><path d="M 58.32 185.328 
-L 622.08 185.328 
-L 622.08 54.648 
-L 58.32 54.648 
+" class="c0"/></g><g id="axes_1"><g id="patch_2"><path d="M 58.32 207.792 
+L 622.08 207.792 
+L 622.08 82.584 
+L 58.32 82.584 
 z
 " class="c0"/></g><g id="matplotlib.axis_1"><g id="xtick_1"><g id="line2d_1"><defs><path id="meb49c0b95c" d="M 0 0 
 L 0 3.5 
-" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.167" transform="rotate(-0 83.945 199.167)">10 tasks</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="254.782" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="254.782" y="199.167" transform="rotate(-0 254.782 199.167)">100 tasks</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="425.618" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="425.618" y="199.167" transform="rotate(-0 425.618 199.167)">1000 tasks</text></g></g><g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">10000 tasks</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_5"><path d="M 58.32 180.931 
-L 622.08 180.931 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_6"><defs><path id="m131011f9a1" d="M 0 0 
+" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="207.792" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="221.631" transform="rotate(-0 83.945 221.631)">10 tasks</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="254.782" y="207.792" class="c2"/></g></g><g id="text_2"><text class="c3" x="254.782" y="221.631" transform="rotate(-0 254.782 221.631)">100 tasks</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="425.618" y="207.792" class="c2"/></g></g><g id="text_3"><text class="c3" x="425.618" y="221.631" transform="rotate(-0 425.618 221.631)">1000 tasks</text></g></g><g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#meb49c0b95c" x="596.455" y="207.792" class="c2"/></g></g><g id="text_4"><text class="c3" x="596.455" y="221.631" transform="rotate(-0 596.455 221.631)">10000 tasks</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_5"><path d="M 58.32 202.054 
+L 622.08 202.054 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_6"><defs><path id="m131011f9a1" d="M 0 0 
 L -3.5 0 
-" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="180.931" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="184.729" transform="rotate(-0 51.32 184.729)">1</text></g></g><g id="ytick_2"><g id="line2d_7"><path d="M 58.32 153.823 
-L 622.08 153.823 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_8"><g><use xlink:href="#m131011f9a1" x="58.32" y="153.823" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="157.622" transform="rotate(-0 51.32 157.622)">10</text></g></g><g id="ytick_3"><g id="line2d_9"><path d="M 58.32 126.716 
-L 622.08 126.716 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_10"><g><use xlink:href="#m131011f9a1" x="58.32" y="126.716" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="130.515" transform="rotate(-0 51.32 130.515)">100</text></g></g><g id="ytick_4"><g id="line2d_11"><path d="M 58.32 99.609 
-L 622.08 99.609 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_12"><g><use xlink:href="#m131011f9a1" x="58.32" y="99.609" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="103.408" transform="rotate(-0 51.32 103.408)">1000</text></g></g><g id="ytick_5"><g id="line2d_13"><path d="M 58.32 72.502 
-L 622.08 72.502 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_14"><g><use xlink:href="#m131011f9a1" x="58.32" y="72.502" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="76.301" transform="rotate(-0 51.32 76.301)">10000</text></g></g><g id="text_10"><text class="c3" x="15.056" y="119.988" transform="rotate(-90 15.056 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_15"><path d="M 83.945 166.176 
-L 254.782 147.638 
-L 425.618 115.141 
-L 596.455 60.588 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
+" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="202.054" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="205.853" transform="rotate(-0 51.32 205.853)">1</text></g></g><g id="ytick_2"><g id="line2d_7"><path d="M 58.32 176.471 
+L 622.08 176.471 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_8"><g><use xlink:href="#m131011f9a1" x="58.32" y="176.471" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="180.27" transform="rotate(-0 51.32 180.27)">10</text></g></g><g id="ytick_3"><g id="line2d_9"><path d="M 58.32 150.888 
+L 622.08 150.888 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_10"><g><use xlink:href="#m131011f9a1" x="58.32" y="150.888" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="154.687" transform="rotate(-0 51.32 154.687)">100</text></g></g><g id="ytick_4"><g id="line2d_11"><path d="M 58.32 125.305 
+L 622.08 125.305 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_12"><g><use xlink:href="#m131011f9a1" x="58.32" y="125.305" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="129.104" transform="rotate(-0 51.32 129.104)">1000</text></g></g><g id="ytick_5"><g id="line2d_13"><path d="M 58.32 99.722 
+L 622.08 99.722 
+" clip-path="url(#paa4b8ae94c)" class="c4"/></g><g id="line2d_14"><g><use xlink:href="#m131011f9a1" x="58.32" y="99.722" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="103.521" transform="rotate(-0 51.32 103.521)">10000</text></g></g><g id="text_10"><text class="c3" x="15.056" y="145.188" transform="rotate(-90 15.056 145.188)">Booted isolated request (ms)</text></g></g><g id="line2d_15"><path d="M 83.945 188.505 
+L 254.782 170.961 
+L 425.618 138.417 
+L 596.455 88.275 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -37,11 +37,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="166.176" class="c6"/><use xlink:href="#m61e878b024" x="254.782" y="147.638" class="c6"/><use xlink:href="#m61e878b024" x="425.618" y="115.141" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="60.588" class="c6"/></g></g><g id="line2d_16"><path d="M 83.945 175.605 
-L 254.782 171.521 
-L 425.618 154.421 
-L 596.455 130.151 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
+" style="stroke: #abff5b"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m61e878b024" x="83.945" y="188.505" class="c6"/><use xlink:href="#m61e878b024" x="254.782" y="170.961" class="c6"/><use xlink:href="#m61e878b024" x="425.618" y="138.417" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="88.275" class="c6"/></g></g><g id="line2d_16"><path d="M 83.945 200.267 
+L 254.782 196.915 
+L 425.618 179.963 
+L 596.455 156.382 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -51,11 +51,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="175.605" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="254.782" y="171.521" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="425.618" y="154.421" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="130.151" class="c7"/></g></g><g id="line2d_17"><path d="M 83.945 170.733 
-L 254.782 169.378 
-L 425.618 157.13 
-L 596.455 139.498 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
+" style="stroke: #ffbd9a"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="200.267" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="254.782" y="196.915" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="425.618" y="179.963" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="156.382" class="c7"/></g></g><g id="line2d_17"><path d="M 83.945 193.463 
+L 254.782 192.046 
+L 425.618 180.295 
+L 596.455 165.283 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -65,11 +65,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="170.733" class="c8"/><use xlink:href="#m71117cc5d6" x="254.782" y="169.378" class="c8"/><use xlink:href="#m71117cc5d6" x="425.618" y="157.13" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="139.498" class="c8"/></g></g><g id="line2d_18"><path d="M 83.945 152.288 
-L 254.782 150.949 
-L 425.618 150.004 
-L 596.455 142.372 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
+" style="stroke: #d2b4ef"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m71117cc5d6" x="83.945" y="193.463" class="c8"/><use xlink:href="#m71117cc5d6" x="254.782" y="192.046" class="c8"/><use xlink:href="#m71117cc5d6" x="425.618" y="180.295" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="165.283" class="c8"/></g></g><g id="line2d_18"><path d="M 83.945 175.968 
+L 254.782 175.542 
+L 425.618 174.254 
+L 596.455 167.587 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -79,11 +79,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="152.288" class="c9"/><use xlink:href="#m2263ea23d6" x="254.782" y="150.949" class="c9"/><use xlink:href="#m2263ea23d6" x="425.618" y="150.004" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="142.372" class="c9"/></g></g><g id="line2d_19"><path d="M 83.945 179.388 
-L 254.782 176.597 
-L 425.618 166.744 
-L 596.455 147.379 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
+" style="stroke: #e9dc91"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m2263ea23d6" x="83.945" y="175.968" class="c9"/><use xlink:href="#m2263ea23d6" x="254.782" y="175.542" class="c9"/><use xlink:href="#m2263ea23d6" x="425.618" y="174.254" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="167.587" class="c9"/></g></g><g id="line2d_19"><path d="M 83.945 202.101 
+L 254.782 199.689 
+L 425.618 190.121 
+L 596.455 169.947 
+" clip-path="url(#paa4b8ae94c)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -93,12 +93,12 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="254.782" y="176.597" class="c10"/><use xlink:href="#m153a816141" x="425.618" y="166.744" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="147.379" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
-L 58.32 54.648 
-" class="c11"/></g><g id="patch_4"><path d="M 622.08 185.328 
-L 622.08 54.648 
-" class="c11"/></g><g id="patch_5"><path d="M 58.32 185.328 
-L 622.08 185.328 
-" class="c11"/></g><g id="patch_6"><path d="M 58.32 54.648 
-L 622.08 54.648 
-" class="c11"/></g></g><g id="text_11"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #abff5b" x="263.952" y="16.632" transform="rotate(-0 263.952 16.632)">Nift</text></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #ffbd9a" x="357.264" y="16.632" transform="rotate(-0 357.264 16.632)">Python</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d2b4ef" x="450.576" y="16.632" transform="rotate(-0 450.576 16.632)">Node</text></g><g id="text_14"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #e9dc91" x="543.888" y="16.632" transform="rotate(-0 543.888 16.632)">Bun</text></g><g id="text_15"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #88cdb5" x="637.2" y="16.632" transform="rotate(-0 637.2 16.632)">Go</text></g><g id="text_16"><text style="font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #a3b3a0" x="58.32" y="39.204" transform="rotate(-0 58.32 39.204)">LOGARITHMIC SCALE</text></g></g><defs><clipPath id="p8eedefa2bb"><rect x="58.32" y="54.648" width="563.76" height="130.68"/></clipPath></defs></svg>
+" style="stroke: #88cdb5"/></defs><g clip-path="url(#paa4b8ae94c)"><use xlink:href="#m153a816141" x="83.945" y="202.101" class="c10"/><use xlink:href="#m153a816141" x="254.782" y="199.689" class="c10"/><use xlink:href="#m153a816141" x="425.618" y="190.121" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="169.947" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 207.792 
+L 58.32 82.584 
+" class="c11"/></g><g id="patch_4"><path d="M 622.08 207.792 
+L 622.08 82.584 
+" class="c11"/></g><g id="patch_5"><path d="M 58.32 207.792 
+L 622.08 207.792 
+" class="c11"/></g><g id="patch_6"><path d="M 58.32 82.584 
+L 622.08 82.584 
+" class="c11"/></g></g><g id="text_11"><text style="font-size: 11px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #b6c4ae" x="324" y="28.397" transform="rotate(-0 324 28.397)">Schedule almost nothing.</text></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #abff5b" x="110.16" y="55.944" transform="rotate(-0 110.16 55.944)">Nift</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #ffbd9a" x="213.84" y="55.944" transform="rotate(-0 213.84 55.944)">Python</text></g><g id="text_14"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #d2b4ef" x="317.52" y="55.944" transform="rotate(-0 317.52 55.944)">Node</text></g><g id="text_15"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #e9dc91" x="421.2" y="55.944" transform="rotate(-0 421.2 55.944)">Bun</text></g><g id="text_16"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: middle; fill: #88cdb5" x="524.88" y="55.944" transform="rotate(-0 524.88 55.944)">Go</text></g><g id="text_17"><text style="font-size: 8px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #879583" x="622.08" y="246.42" transform="rotate(-0 622.08 246.42)">Logarithmic scale</text></g></g><defs><clipPath id="paa4b8ae94c"><rect x="58.32" y="82.584" width="563.76" height="125.208"/></clipPath></defs></svg>
