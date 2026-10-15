@@ -381,6 +381,7 @@
     "repository": "nift-experiments/lab-evidence",
     "commit": "42a602ad49c455b118f9d85dc2000cdfbfafe7f7",
     "path": "sites/agora/20261015-optimized",
-    "status": "local-only pending release approval"
-  }
+    "status": "published"
+  },
+  "publication_state": "released"
 }

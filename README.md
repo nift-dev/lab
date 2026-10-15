@@ -256,6 +256,6 @@ python3 scripts/check_storage_policy.py
 
 `/benchmarks/filesystem-automation/` compares native project-tree APIs with exact output/reset audits. Its filesystem-inspector layout integrates bars and numbers; memory is a separately labelled post-exec diagnostic. See docs/FILESYSTEM-PUBLICATION.md. Raw evidence remains outside Labs.
 
-## Agora Docs preparation
+## Agora Docs publication
 
-`/sites/agora/` is a **local publication review draft**, centered on the hybrid Nift + TanStack Start architecture. Its single-observation values and process-tree RSS remain explicitly qualified. Canonical evidence is prepared in an unpushed lab-evidence commit. Run `python3 scripts/check_agora_evidence.py`, `python3 scripts/render_agora.py`, normal Nift/validation/storage checks and `python3 scripts/check_agora_links.py`. See docs/AGORA-PUBLICATION.md for certification gaps and the exact approval-gated release sequence. Do not push either Labs branch or the new evidence without explicit release approval.
+`/sites/agora/` is the approved Agora Docs report, centered on the hybrid Nift + TanStack Start architecture. Its single-observation values and process-tree RSS remain explicitly qualified. Canonical evidence is pinned to its immutable published lab-evidence cohort. Run `python3 scripts/check_agora_evidence.py`, `python3 scripts/render_agora.py`, normal Nift/validation/storage checks and `python3 scripts/check_agora_links.py`. See docs/AGORA-PUBLICATION.md for certification gaps and the exact approval-gated release sequence. Labs/evidence release was approved on 15 October 2026; social announcements and maintainer outreach remain outside scope.

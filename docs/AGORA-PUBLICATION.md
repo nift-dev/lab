@@ -1,6 +1,6 @@
 # Agora Docs — Nift + TanStack Start: publication preparation
 
-Prepared 15 October 2026. **Local review draft only. No deployment, evidence push, announcement or outreach is authorized.**
+Prepared and approved 15 October 2026. **Labs publication and canonical evidence release are authorized. Social announcements and maintainer outreach remain unauthorized.** Earlier draft/hold statements below document the review history and are superseded by this approval.
 
 Review at http://127.0.0.1:4195/sites/agora/. The local server is bound to loopback and serves the normal Labs `public/` tree. Recreate it with `python3 -m http.server 4195 --bind 127.0.0.1 --directory public` from Labs. The intended public URL is https://lab.nift.dev/sites/agora/.
 
@@ -15,7 +15,7 @@ Review at http://127.0.0.1:4195/sites/agora/. The local server is bound to loopb
 
 ## Canonical evidence
 
-Local `../nift-experiments/lab-evidence/sites/agora/20261015-optimized/`, pinned in `content/sites/agora/published.json` and `content/data/evidence-sources.json`. This new evidence commit is intentionally unpushed. The page labels its proposed GitHub evidence link pending release. Existing five upstream/implementation pins return HTTP200; the proposed evidence pin is verified locally by Git and FILES hashes, not falsely marked remotely available.
+Local `../nift-experiments/lab-evidence/sites/agora/20261015-optimized/`, pinned in `content/sites/agora/published.json` and `content/data/evidence-sources.json`. The preparation cohort remains pinned to its original immutable commit. It is now published through the canonical evidence branch, with concurrent remote work merged without rewriting that pin. Release validation checks every indexed file remotely by SHA-256 and verifies the report links. Historical draft-state text inside the frozen evidence records its capture context.
 
 Raw numerical samples, RSS traces, GNU-time results, output inventories, source/toolchain manifest, historical corrected cohort, independent reviews and certification receipts live outside Labs. Labs stores compact displayed values, pointers, maintained report HTML and used CSS. The evidence cohort contains 97 SHA-256-indexed files plus FILES.json; no upstream rebuild was run for preparation.
 

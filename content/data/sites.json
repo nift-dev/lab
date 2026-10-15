@@ -138,7 +138,7 @@
     "page": "sites/agora/",
     "description": "A 2,003-page documentation publication retaining TanStack Start and React, with lower observed build time and memory and dependency-aware incremental work through Nift.",
     "category": "Hybrid integration / source models",
-    "status": "Publication review draft",
+    "status": "Results published",
     "upstream_framework": "TanStack Start / Fumadocs",
     "page_count": "2,003 documentation HTML",
     "upstream_repo": "https://github.com/AgoraIO/docs-portal",
