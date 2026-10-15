@@ -17,7 +17,7 @@ def draw_shell_plot(data, output):
         ax.hlines(y,v['min_ms'],v['max_ms'],color=accent,linewidth=2)
         ax.scatter(v['median_ms'],y,color=median,marker='o',s=42,zorder=3)
         ax.scatter(v['p95_ms'],y,color=accent,marker='D',s=30,zorder=3)
-    ax.set_yticks(range(len(names)),names);ax.invert_yaxis()
+    ax.set_yticks(range(len(names)),[n if n!='nift' else 'Nift v4.12 final' for n in names]);ax.invert_yaxis()
     ax.set_xlim(0,max(by[n+'/bare/interactive']['max_ms'] for n in names)*1.12)
     ax.set_xlabel('First prompt latency (ms)',color=muted)
     ax.tick_params(colors=ink);ax.grid(axis='x',color=line,linewidth=.7)

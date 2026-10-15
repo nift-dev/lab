@@ -114,46 +114,6 @@
       "name": "integrations/tanstack/",
       "title": "Nift + TanStack",
       "template": "templates/integrations/tanstack/template.html"
-    },
-    {
-      "name": "benchmarks/website-generator/series/20261010-pre-c14/",
-      "title": "website-generator historical 20261010-pre-c14 \u2014 Nift Labs",
-      "template": "templates/benchmarks/website-generator/series-20261010-pre-c14.html"
-    },
-    {
-      "name": "benchmarks/shell/series/20261010-pre-c14/",
-      "title": "shell historical 20261010-pre-c14 \u2014 Nift Labs",
-      "template": "templates/benchmarks/shell/series-20261010-pre-c14.html"
-    },
-    {
-      "name": "benchmarks/scripting/series/20261010-pre-c14/",
-      "title": "scripting historical 20261010-pre-c14 \u2014 Nift Labs",
-      "template": "templates/benchmarks/scripting/series-20261010-pre-c14.html"
-    },
-    {
-      "name": "benchmarks/concurrency/series/20261011-v4110/",
-      "title": "concurrency historical 20261011-v4110 \u2014 Nift Labs",
-      "template": "templates/benchmarks/concurrency/series-20261011-v4110.html"
-    },
-    {
-      "name": "benchmarks/filesystem-automation/series/20261011-v4110/",
-      "title": "filesystem-automation historical 20261011-v4110 \u2014 Nift Labs",
-      "template": "templates/benchmarks/filesystem-automation/series-20261011-v4110.html"
-    },
-    {
-      "name": "benchmarks/build-systems/series/20261010-v4110-dev/",
-      "title": "build-systems historical 20261010-v4110-dev \u2014 Nift Labs",
-      "template": "templates/benchmarks/build-systems/series-20261010-v4110-dev.html"
-    },
-    {
-      "name": "benchmarks/task-runners/series/20261011-v4110/",
-      "title": "task-runners historical 20261011-v4110 \u2014 Nift Labs",
-      "template": "templates/benchmarks/task-runners/series-20261011-v4110.html"
-    },
-    {
-      "name": "benchmarks/template-engines/series/20261011-v4110/",
-      "title": "Template engines historical20261011 \u2014 Nift Labs",
-      "template": "templates/benchmarks/template-engines/series-20261011-v4110.html"
     }
   ]
 }

@@ -1,19 +1,11 @@
-# Template engines final-candidate refresh / 20261015
+# template-engines / final v4.12 publication
 
-Current evidence pin `19e390183b9bcb039abe6aa553ad88a2305b49ee`, series `20261015-v4120-final-c14d068`, core `c14d06835bca515a5281e41da0e40219c2d60ef0`, measured suite `3c0dcdd1aad3cbb0a0c638c9041233b1e329dc6f`. Original source/assets/template are preserved at `series/20261011-v4110/`.
+Current report contains final candidate `c14d06835bca515a5281e41da0e40219c2d60ef0` only, pinned to audited evidence `19e390183b9bcb039abe6aa553ad88a2305b49ee`, series `20261015-v4120-final-c14d068`. No historical/recovery/version-comparison graphics or archive routes are published in Labs. Preserved older evidence lives in lab-evidence and Git history.
 
-Regenerate using external plotting Python: `scripts/render_template_engines.py --evidence ../nift-benchmarks/lab-evidence/benchmarks/template-engines/20261015-v4120-final-c14d068 --commit 19e390183b9bcb039abe6aa553ad88a2305b49ee --experiment-commit 3c0dcdd1aad3cbb0a0c638c9041233b1e329dc6f`. Offline normal build reads compact published.json; no raw observations are copied into Labs. Accepted summary hash verified before compact generation. Original graph and table functions are unchanged.
+Renderer: `scripts/render_template_engines.py`. Concurrency/filesystem compact data preparation uses `scripts/prepare_runtime_publication.py --commit 19e390183b9bcb039abe6aa553ad88a2305b49ee`; template renderer accepts `--evidence ../nift-benchmarks/lab-evidence/benchmarks/template-engines/20261015-v4120-final-c14d068 --commit 19e390183b9bcb039abe6aa553ad88a2305b49ee --experiment-commit 3c0dcdd1aad3cbb0a0c638c9041233b1e329dc6f`. Ordinary builds read compact local datasets offline. Render Matplotlib reports with the external `.lab-tools/.venv-benchmarks` Python; filesystem PNG derivatives use Inkscape. Raw samples, manifests and verbose traces never enter Labs.
 
-Fresh/source/prepared/file-backed scopes remain separate; no Nift public prepared API result is invented. Same-node source-loop gain72.19% and remaining official source-render deficit15.16× are both visible. Child and whole-worker raw memory are explicitly unranked because the inherited launch floor is independently confirmed; no subtraction. AI-DX/direct choices distinguish observed byte contracts from qualitative agent-maintenance judgment and untested recovery/escaping/security features.
+Every current graph explicitly identifies Nift v4.12 final. Adjacent tables use the same canonical vectors. Graph inventory and actual plotted-point/comparator/version/hash checks are recorded in the final campaign `publication/graph-audit-runtime-suites.json`; local PNG derivatives are handed to the publication coordinator for canonical archiving and immutable download links.
 
-Parent coordinates historical route tracking, full builds, responsive/browser checks and publication. Prior report source notes follow as historical provenance.
+Raw wait4/pre-exec accounting floors are unranked; never subtract a constant. Separate current noop controls establish the floor. Current peer deficits, unavailable native/prepared APIs and AI-DX evidence boundaries remain visible. Parent coordinates site-wide build, responsive/browser checks, source/public commits and deployment.
 
-## Original publication
-
-# Template composition publication
-
-This report compares five pinned renderers against one independent byte contract. Measured data is frozen at suite `0af69aead395d71e5b7294132d573e2049911b53`; canonical evidence is in [lab-evidence](https://github.com/nift-experiments/lab-evidence/tree/a538d1e00440aa5ff7c51d9c35cbb24adab38617/benchmarks/template-engines/20261011-v4110).
-
-Run the external plotting environment's Python on `scripts/render_template_engines.py` to regenerate the report and displayed figures from `content/benchmarks/template-engines/published.json`, then `nift build` and `python3 scripts/validate.py`. No remote/raw campaign inputs are needed for this regeneration. Compact cells drive both tables and charts; raw observations, corpus, diagnostics and receipts stay outside Labs. SVG output has stable IDs and no timestamp metadata.
-
-The new route uses its own document-compositor presentation and the existing shared green test-tube favicon. Homepage and collection gain a card; every other pre-existing public file is byte-preserved. Desktop and 390/320px browser certification covers all three routes and every paired chart/table region. Narrow data regions are keyboard-scrollable. Lifecycle and exact size receipts are maintained in the experiment/evidence repositories, not this website.
+Source-render is separate from prepared-object reuse; Nift public prepared API is unavailable. Current source-render peer deficit15.16× remains visible. Whole-worker high-water scope includes preparation, retained outputs and validation and is unranked.

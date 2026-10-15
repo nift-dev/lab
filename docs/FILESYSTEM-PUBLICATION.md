@@ -1,25 +1,11 @@
-# Filesystem final-candidate refresh / 20261015
+# filesystem-automation / final v4.12 publication
 
-Current audited evidence is pinned to `19e390183b9bcb039abe6aa553ad88a2305b49ee` in lab-evidence, series `20261015-v4120-final-c14d068`; core `c14d06835bca515a5281e41da0e40219c2d60ef0`. No raw samples are stored in Labs. Prior source/templates/assets are preserved at the `series/20261011-v4110/` route.
+Current report contains final candidate `c14d06835bca515a5281e41da0e40219c2d60ef0` only, pinned to audited evidence `19e390183b9bcb039abe6aa553ad88a2305b49ee`, series `20261015-v4120-final-c14d068`. No historical/recovery/version-comparison graphics or archive routes are published in Labs. Preserved older evidence lives in lab-evidence and Git history.
 
-Prepare both runtime compact datasets with `python3 scripts/prepare_runtime_publication.py --commit 19e390183b9bcb039abe6aa553ad88a2305b49ee`, then render this report with `python3 scripts/render_filesystem.py`. Preparation verifies frozen summary hashes and independent acceptance receipts. Ordinary Nift builds stay offline. The original graph construction functions remain unchanged; displayed medians and adjacent tables use the same audited vectors.
+Renderer: `scripts/render_filesystem.py`. Concurrency/filesystem compact data preparation uses `scripts/prepare_runtime_publication.py --commit 19e390183b9bcb039abe6aa553ad88a2305b49ee`; template renderer accepts `--evidence ../nift-benchmarks/lab-evidence/benchmarks/template-engines/20261015-v4120-final-c14d068 --commit 19e390183b9bcb039abe6aa553ad88a2305b49ee --experiment-commit 3c0dcdd1aad3cbb0a0c638c9041233b1e329dc6f`. Ordinary builds read compact local datasets offline. Render Matplotlib reports with the external `.lab-tools/.venv-benchmarks` Python; filesystem PNG derivatives use Inkscape. Raw samples, manifests and verbose traces never enter Labs.
 
-Memory: inherited wait4/pre-exec sampled floors are unranked, never corrected by subtracting a constant. Separate noop controls confirm the floor. No final post-exec walk cohort was measured; the retained original memory graph is explicitly historical20261011. Exactly-once final gates pass; the archived historical failure is not a current defect. Historical syscall/profile counts are labelled historical.
+Every current graph explicitly identifies Nift v4.12 final. Adjacent tables use the same canonical vectors. Graph inventory and actual plotted-point/comparator/version/hash checks are recorded in the final campaign `publication/graph-audit-runtime-suites.json`; local PNG derivatives are handed to the publication coordinator for canonical archiving and immutable download links.
 
-AI-DX is independent of speed: direct human+agent/agent-primary choices distinguish bounded existing-Nift workflows from standalone/bulk work. Audited fixture/output/error contracts are separate from qualitative agent-edit judgments and untested partial-state recovery. Parent coordinates shared tracking, full build, responsive/browser checks, source/public commits and deployment.
+Raw wait4/pre-exec accounting floors are unranked; never subtract a constant. Separate current noop controls establish the floor. Current peer deficits, unavailable native/prepared APIs and AI-DX evidence boundaries remain visible. Parent coordinates site-wide build, responsive/browser checks, source/public commits and deployment.
 
-## Historical original publication
-
-# Filesystem / Project Automation — publication revision
-
-The report owns a filesystem-inspector composition: nested directory hero, numbered path rail, scan pipeline, metadata-count strip, before/after mirror panes and prioritized core findings. It retains the shared Labs favicon and uses its own charcoal/green/sorbet palette.
-
-Eleven standalone deterministic SVG charts each have an adjacent server-rendered exact-value table from the same audited medians. Timing axes are explicitly logarithmic; memory is linear and uses only the separate post-exec diagnostic. Tables and charts share container width and remain independently keyboard-scrollable on narrow screens. Quantitative content no longer depends on JavaScript.
-
-Frozen evidence: https://github.com/nift-experiments/lab-evidence/tree/45f81607b2985c58c555e37d2ceda0e2e5fbd911/benchmarks/filesystem-automation/20261011-v4110
-
-Regenerate with `python3 scripts/render_report.py` from the filesystem-automation experiment workspace beside Labs. This verifies both frozen cohort summary hashes and independent/distribution audits, verifies the memory oracle hashes, and produces compact published.json, eleven SVGs and the Nift content source. `scripts/publication.py` is the superseded initial table-only publication; use render_report.py for this revision. No raw observations, manifests or profiles belong in Labs.
-
-Sections: walk, inspect, select, read, fingerprint, write/copy, mirror/diff, change semantics, project pipeline, memory, diagnostics, practitioner and method/evidence. The qualitative matrix distinguishes present-day and mature-Nift choices. Supported correctness is preserved; severe large-tree gaps and the separate P0 exactly-once defect are prominent.
-
-Validation: normal Nift build/status, scripts/validate.py, unchanged scripts/check_storage_policy.py; independent chart/table audit; 1440/390/320 report/home/collection browser checks; prior-report byte preservation; live exact-byte checks. Receipts and screenshots stay in lab-evidence. The benchmark Linode remains running pending the user's explicit publication review before teardown.
+Only current wall graphs are published; no final post-exec walk memory cohort exists. Native SHA-256/stat timestamps/recursive-directory removal gaps and exact once/mutation checks are explicit.
