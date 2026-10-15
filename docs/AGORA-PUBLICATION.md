@@ -59,3 +59,17 @@ Desktop1440 and narrow390/320 viewport checks pass: no page-width overflow/broke
 Publication remains on hold. Agora now uses connected communication nodes, a schematic coral/green waveform, channel/event rails and instrument-style chart ticks. The hero explicitly pairs the retained TanStack runtime with Nift publication. A compact decision summary immediately follows it; the detailed judgement explicitly chooses Nift-assisted authored source over the original workflow for this corpus, for human and agent maintenance. The homepage/catalogue card is simply **Agora Docs**.
 
 No measurement or canonical evidence changed. All20 bar values/widths and8 axes match the prior draft; seven technical sections remain byte-identical. Other experiment cards and report files are unchanged. Full/incremental Nift, evidence/hash, local-link/palette/storage and published-pin checks pass; desktop1440 and mobile390/320 have no page-width overflow/broken images. Visible body/muted/accent text exceeds8:1 contrast on both maintained backgrounds. The phase table retains its contained horizontal scroll; technical terms wrap on narrow screens. No new JavaScript or dependencies. Existing provider/CN/test/theme/sample/cache/source-model qualifications are retained. Local-only checkpoints await explicit approval; no source, publication or evidence push is authorized.
+
+## Published closeout — 15 October 2026
+
+**Live:** https://lab.nift.dev/sites/agora/. Homepage and migration catalogue display **Agora Docs** and link to the report. The coral/green signal design, explicit authored-source maintenance recommendation, all observations and qualifications are retained. Draft/noindex/pending markers are removed.
+
+- Release source: `30d75831f2ef69f8b59be1f4ec5334f3118e8ed2`.
+- Deployed publication: `ded6a06dd6c8f1247e23a3dd97339bd14e086364`; GitHub Pages run38660246765 completed successfully.
+- Immutable evidence cohort: `42a602ad49c455b118f9d85dc2000cdfbfafe7f7`, published after merging concurrent evidence work without rewriting the pin.
+- Remote FILES manifest and all97 indexed artifacts verified by exact bytes/SHA-256 (27,978,507 bytes); all six report repository/evidence links resolve.
+- Live report, homepage, catalogue and report CSS return200 and match the approved local publication byte-for-byte. Real homepage-card activation reaches the report. Desktop1440/mobile390/320 pass without broken images or page-width overflow; console warning/error check is empty for the Labs page.
+- Full/incremental build, 698local-reference validator, evidence, palette, storage and unchanged-chart gates pass. No unrelated experiment report files changed. No unintended local URLs were published.
+- `public.zip` review archive was preserved with its SHA-256 under the external lab-archives directory; it was not published or deleted.
+
+Release receipts live in canonical `lab-evidence/audits/publication/agora/20261015/`. Completed agora/agora-agent source models remain untouched. No benchmark campaign, Nift core change, social announcement or maintainer contact occurred. Production provider/CN/service and inherited test/theme qualifications remain in the public report. Earlier review/hold statements above are historical, not current publication status.
