@@ -1,21 +1,20 @@
 {
   "shell": {
-    "series": "20261010-v4100-shell-expanded",
-    "date_local": "2026-10-10",
-    "nift_version": "4.10.0",
-    "nift_status": "development build",
-    "nift_revision": "2eaec7d70e9ce2e698d0ba23a605fb9cf85317ff",
-    "campaign_report": "campaign-20261010-v4100-shell-expanded.md",
+    "series": "20261015-v4120-final-c14d068",
+    "date_local": "2026-10-15",
+    "nift_version": "4.12.0",
+    "nift_status": "unreleased candidate",
+    "nift_revision": "c14d06835bca515a5281e41da0e40219c2d60ef0",
     "results_repo": "nift-experiments/lab-evidence",
-    "results_commit": "5270c099787bbdc56b66336db7a5b93481e2fa84"
+    "results_commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee"
   },
   "scripting": {
-    "series": "20261010-v4100",
-    "date_local": "2026-10-10",
-    "nift_version": "4.10.0",
-    "nift_status": "development build",
-    "nift_revision": "2eaec7d70e9ce2e698d0ba23a605fb9cf85317ff",
+    "series": "20261015-v4120-final-c14d068",
+    "date_local": "2026-10-15",
+    "nift_version": "4.12.0",
+    "nift_status": "unreleased candidate",
+    "nift_revision": "c14d06835bca515a5281e41da0e40219c2d60ef0",
     "results_repo": "nift-experiments/lab-evidence",
-    "results_commit": "5270c099787bbdc56b66336db7a5b93481e2fa84"
+    "results_commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee"
   }
 }

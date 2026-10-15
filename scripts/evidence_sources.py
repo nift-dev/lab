@@ -24,6 +24,9 @@ def data_root(prefix):
   destination=cache/key[len(prefix)+1:]
   if destination.exists() and hashlib.sha256(destination.read_bytes()).hexdigest()==x['sha256']:continue
   local=R.parent/(('nift-experiments/lab-evidence' if x['repo']=='nift-experiments/lab-evidence' else x['repo']))/x['path']
+  if x['repo']=='nift-experiments/lab-evidence':
+   current=R.parent/'nift-benchmarks/lab-evidence'/x['path']
+   if current.exists():local=current
   if local.exists() and hashlib.sha256(local.read_bytes()).hexdigest()==x['sha256']:b=local.read_bytes()
   else:b=urllib.request.urlopen(f'https://raw.githubusercontent.com/{x["repo"]}/{x["commit"]}/{x["path"]}',timeout=60).read()
   assert hashlib.sha256(b).hexdigest()==x['sha256'],key

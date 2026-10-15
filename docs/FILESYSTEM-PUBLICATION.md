@@ -1,3 +1,15 @@
+# Filesystem final-candidate refresh / 20261015
+
+Current audited evidence is pinned to `19e390183b9bcb039abe6aa553ad88a2305b49ee` in lab-evidence, series `20261015-v4120-final-c14d068`; core `c14d06835bca515a5281e41da0e40219c2d60ef0`. No raw samples are stored in Labs. Prior source/templates/assets are preserved at the `series/20261011-v4110/` route.
+
+Prepare both runtime compact datasets with `python3 scripts/prepare_runtime_publication.py --commit 19e390183b9bcb039abe6aa553ad88a2305b49ee`, then render this report with `python3 scripts/render_filesystem.py`. Preparation verifies frozen summary hashes and independent acceptance receipts. Ordinary Nift builds stay offline. The original graph construction functions remain unchanged; displayed medians and adjacent tables use the same audited vectors.
+
+Memory: inherited wait4/pre-exec sampled floors are unranked, never corrected by subtracting a constant. Separate noop controls confirm the floor. No final post-exec walk cohort was measured; the retained original memory graph is explicitly historical20261011. Exactly-once final gates pass; the archived historical failure is not a current defect. Historical syscall/profile counts are labelled historical.
+
+AI-DX is independent of speed: direct human+agent/agent-primary choices distinguish bounded existing-Nift workflows from standalone/bulk work. Audited fixture/output/error contracts are separate from qualitative agent-edit judgments and untested partial-state recovery. Parent coordinates shared tracking, full build, responsive/browser checks, source/public commits and deployment.
+
+## Historical original publication
+
 # Filesystem / Project Automation — publication revision
 
 The report owns a filesystem-inspector composition: nested directory hero, numbered path rail, scan pipeline, metadata-count strip, before/after mirror panes and prioritized core findings. It retains the shared Labs favicon and uses its own charcoal/green/sorbet palette.

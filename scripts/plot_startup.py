@@ -66,7 +66,7 @@ def draw_comparison(labels, series, output, title, unit, slug, log=False):
     fig.tight_layout();output=Path(output);output.parent.mkdir(parents=True,exist_ok=True)
     fig.savefig(output,metadata={'Date':None,'Title':title});fig.savefig(output.with_suffix('.png'),dpi=160);plt.close(fig)
 
-def draw_corpus_scaling(runs, supplemental, output):
+def draw_corpus_scaling(runs, supplemental, output, titles=None):
     """Keep the targeted follow-up on its own axes rather than pooling nodes."""
     bg,ink,line='#211d17','#f1e9da','#514332'
     fig,axes=plt.subplots(1,2,figsize=(12,5.8),gridspec_kw={'width_ratios':[1.5,1]})
@@ -78,9 +78,9 @@ def draw_corpus_scaling(runs, supplemental, output):
     sb={j['id']:j['summary'] for j in supplemental['jobs']}
     for key,label,color,marker,style in [('fresh-full','Fresh full reference','#59f58a','o','-'),('targeted-one-page','Explicit target: page-1','#b5f563','X','--')]:
         axes[1].plot(xs,[sb[f'Nift/{n}/{key}']['median_ms']/1000 for n in xs],label=label,color=color,marker=marker,linestyle=style)
-    for ax,title in zip(axes,('Original campaign: full + incremental','Separate follow-up node: explicit target')):
+    for ax,title in zip(axes,titles or ('Original campaign: full + incremental','Separate follow-up node: explicit target')):
         ax.set_facecolor(bg);ax.set_xscale('log');ax.set_yscale('log');ax.set_xticks(xs,[f'{n:,}' for n in xs]);ax.tick_params(colors=ink);ax.grid(color=line);ax.set_xlabel('Corpus pages (log scale)',color=ink);ax.set_ylabel('Median seconds (log scale)',color=ink);ax.set_title(title,color=ink,fontsize=11)
         for spine in ax.spines.values():spine.set_color(line)
         ax.legend(loc='upper left',bbox_to_anchor=(0,-.2),facecolor=bg,edgecolor=line,labelcolor=ink,fontsize=8,ncol=2 if ax is axes[0] else 1)
     fig.subplots_adjust(bottom=.34,wspace=.3,top=.9);output=Path(output)
-    fig.savefig(output,metadata={'Date':None,'Title':'Corpus scaling: original full and incremental builds; separate targeted follow-up'});fig.savefig(output.with_suffix('.png'),dpi=160);plt.close(fig)
+    fig.savefig(output,metadata={'Date':None,'Title':'; '.join(titles) if titles else 'Corpus scaling: original full and incremental builds; separate targeted follow-up'});fig.savefig(output.with_suffix('.png'),dpi=160);plt.close(fig)
