@@ -11,17 +11,17 @@ L 58.32 54.648
 z
 " class="c0"/></g><g id="matplotlib.axis_1"><g id="xtick_1"><g id="line2d_1"><defs><path id="meb49c0b95c" d="M 0 0 
 L 0 3.5 
-" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.214" transform="rotate(-0 83.945 199.214)">light / 4 workers</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="340.2" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="340.2" y="199.167" transform="rotate(-0 340.2 199.167)">medium / 4 workers</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">heavy / 4 workers</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_4"><path d="M 58.32 182.653 
-L 622.08 182.653 
+" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.214" transform="rotate(-0 83.945 199.214)">light / 4 workers</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="340.2" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="340.2" y="199.167" transform="rotate(-0 340.2 199.167)">medium / 4 workers</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">heavy / 4 workers</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_4"><path d="M 58.32 184.542 
+L 622.08 184.542 
 " clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_5"><defs><path id="m131011f9a1" d="M 0 0 
 L -3.5 0 
-" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="182.653" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="186.452" transform="rotate(-0 51.32 186.452)">1</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 128.521 
-L 622.08 128.521 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="128.521" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="132.32" transform="rotate(-0 51.32 132.32)">10</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 74.39 
-L 622.08 74.39 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="74.39" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="78.189" transform="rotate(-0 51.32 78.189)">100</text></g></g><g id="text_7"><text class="c3" x="27.097" y="119.988" transform="rotate(-90 27.097 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_10"><path d="M 83.945 137.238 
-L 340.2 126.085 
-L 596.455 71.926 
+" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="184.542" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="188.341" transform="rotate(-0 51.32 188.341)">1</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 126.755 
+L 622.08 126.755 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="126.755" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="130.554" transform="rotate(-0 51.32 130.554)">10</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 68.968 
+L 622.08 68.968 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="68.968" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="72.767" transform="rotate(-0 51.32 72.767)">100</text></g></g><g id="text_7"><text class="c3" x="27.097" y="119.988" transform="rotate(-90 27.097 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_10"><path d="M 83.945 132.358 
+L 340.2 123.846 
+L 596.455 74.788 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -32,8 +32,8 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="137.238" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="126.085" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="71.926" class="c6"/></g></g><g id="line2d_11"><path d="M 83.945 61.303 
-L 340.2 61.315 
+" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="132.358" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="123.846" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="74.788" class="c6"/></g></g><g id="line2d_11"><path d="M 83.945 62.686 
+L 340.2 62.198 
 L 596.455 60.588 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
@@ -45,9 +45,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="61.303" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="61.315" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="60.588" class="c7"/></g></g><g id="line2d_12"><path d="M 83.945 78.848 
-L 340.2 79.894 
-L 596.455 78.724 
+" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="62.686" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="62.198" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="60.588" class="c7"/></g></g><g id="line2d_12"><path d="M 83.945 79.303 
+L 340.2 78.203 
+L 596.455 76.998 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -58,9 +58,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="78.848" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="79.894" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="78.724" class="c8"/></g></g><g id="line2d_13"><path d="M 83.945 87.937 
-L 340.2 89.045 
-L 596.455 87.774 
+" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="79.303" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="78.203" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="76.998" class="c8"/></g></g><g id="line2d_13"><path d="M 83.945 87.592 
+L 340.2 85.413 
+L 596.455 85.534 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -71,9 +71,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="87.937" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="89.045" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="87.774" class="c9"/></g></g><g id="line2d_14"><path d="M 83.945 179.388 
-L 340.2 177.978 
-L 596.455 169.931 
+" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="87.592" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="85.413" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="85.534" class="c9"/></g></g><g id="line2d_14"><path d="M 83.945 179.388 
+L 340.2 178.487 
+L 596.455 168.838 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -84,7 +84,7 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="177.978" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="169.931" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
+" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="178.487" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="168.838" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
 L 58.32 54.648 
 " class="c11"/></g><g id="patch_4"><path d="M 622.08 185.328 
 L 622.08 54.648 

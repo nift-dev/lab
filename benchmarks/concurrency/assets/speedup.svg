@@ -15,17 +15,15 @@ L 0 3.5
 L 622.08 185.328 
 " clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_5"><defs><path id="m131011f9a1" d="M 0 0 
 L -3.5 0 
-" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="189.127" transform="rotate(-0 51.32 189.127)">0</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 153.435 
-L 622.08 153.435 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="153.435" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="157.233" transform="rotate(-0 51.32 157.233)">1</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 121.541 
-L 622.08 121.541 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="121.541" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="125.34" transform="rotate(-0 51.32 125.34)">2</text></g></g><g id="ytick_4"><g id="line2d_10"><path d="M 58.32 89.648 
-L 622.08 89.648 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_11"><g><use xlink:href="#m131011f9a1" x="58.32" y="89.648" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="93.447" transform="rotate(-0 51.32 93.447)">3</text></g></g><g id="ytick_5"><g id="line2d_12"><path d="M 58.32 57.754 
-L 622.08 57.754 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_13"><g><use xlink:href="#m131011f9a1" x="58.32" y="57.754" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="61.553" transform="rotate(-0 51.32 61.553)">4</text></g></g><g id="text_9"><text class="c3" x="39.138" y="119.988" transform="rotate(-90 39.138 119.988)">Speedup vs one worker</text></g></g><g id="line2d_14"><path d="M 83.945 153.435 
-L 340.2 117.505 
-L 596.455 59.352 
+" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="189.127" transform="rotate(-0 51.32 189.127)">0</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 152.224 
+L 622.08 152.224 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="152.224" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="156.023" transform="rotate(-0 51.32 156.023)">1</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 119.12 
+L 622.08 119.12 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="119.12" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="122.919" transform="rotate(-0 51.32 122.919)">2</text></g></g><g id="ytick_4"><g id="line2d_10"><path d="M 58.32 86.016 
+L 622.08 86.016 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_11"><g><use xlink:href="#m131011f9a1" x="58.32" y="86.016" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="89.815" transform="rotate(-0 51.32 89.815)">3</text></g></g><g id="text_8"><text class="c3" x="39.138" y="119.988" transform="rotate(-90 39.138 119.988)">Speedup vs one worker</text></g></g><g id="line2d_12"><path d="M 83.945 152.224 
+L 340.2 118.547 
+L 596.455 59.294 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -36,9 +34,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="153.435" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="117.505" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="59.352" class="c6"/></g></g><g id="line2d_15"><path d="M 83.945 153.435 
-L 340.2 122.437 
-L 596.455 85.555 
+" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="152.224" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="118.547" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="59.294" class="c6"/></g></g><g id="line2d_13"><path d="M 83.945 152.224 
+L 340.2 123.815 
+L 596.455 82.722 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -49,9 +47,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="153.435" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="122.437" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="85.555" class="c7"/></g></g><g id="line2d_16"><path d="M 83.945 153.435 
-L 340.2 132.411 
-L 596.455 109.82 
+" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="152.224" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="123.815" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="82.722" class="c7"/></g></g><g id="line2d_14"><path d="M 83.945 152.224 
+L 340.2 131.757 
+L 596.455 113.123 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -62,9 +60,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="153.435" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="132.411" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="109.82" class="c8"/></g></g><g id="line2d_17"><path d="M 83.945 153.435 
-L 340.2 127.524 
-L 596.455 98.218 
+" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="152.224" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="131.757" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="113.123" class="c8"/></g></g><g id="line2d_15"><path d="M 83.945 152.224 
+L 340.2 125.141 
+L 596.455 96.063 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -75,9 +73,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="153.435" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="127.524" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="98.218" class="c9"/></g></g><g id="line2d_18"><path d="M 83.945 153.435 
-L 340.2 125.943 
-L 596.455 74.883 
+" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="152.224" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="125.141" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="96.063" class="c9"/></g></g><g id="line2d_16"><path d="M 83.945 152.224 
+L 340.2 121.738 
+L 596.455 71.557 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -88,7 +86,7 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="153.435" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="125.943" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="74.883" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
+" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="152.224" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="121.738" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="71.557" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
 L 58.32 54.648 
 " class="c11"/></g><g id="patch_4"><path d="M 622.08 185.328 
 L 622.08 54.648 
@@ -96,4 +94,4 @@ L 622.08 54.648
 L 622.08 185.328 
 " class="c11"/></g><g id="patch_6"><path d="M 58.32 54.648 
 L 622.08 54.648 
-" class="c11"/></g></g><g id="text_10"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #abff5b" x="263.952" y="16.632" transform="rotate(-0 263.952 16.632)">Nift</text></g><g id="text_11"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #ffbd9a" x="357.264" y="16.632" transform="rotate(-0 357.264 16.632)">Python</text></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d2b4ef" x="450.576" y="16.632" transform="rotate(-0 450.576 16.632)">Node</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #e9dc91" x="543.888" y="16.632" transform="rotate(-0 543.888 16.632)">Bun</text></g><g id="text_14"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #88cdb5" x="637.2" y="16.632" transform="rotate(-0 637.2 16.632)">Go</text></g><g id="text_15"><text style="font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #a3b3a0" x="58.32" y="39.204" transform="rotate(-0 58.32 39.204)">LINEAR SCALE</text></g></g><defs><clipPath id="p8eedefa2bb"><rect x="58.32" y="54.648" width="563.76" height="130.68"/></clipPath></defs></svg>
+" class="c11"/></g></g><g id="text_9"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #abff5b" x="263.952" y="16.632" transform="rotate(-0 263.952 16.632)">Nift</text></g><g id="text_10"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #ffbd9a" x="357.264" y="16.632" transform="rotate(-0 357.264 16.632)">Python</text></g><g id="text_11"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d2b4ef" x="450.576" y="16.632" transform="rotate(-0 450.576 16.632)">Node</text></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #e9dc91" x="543.888" y="16.632" transform="rotate(-0 543.888 16.632)">Bun</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #88cdb5" x="637.2" y="16.632" transform="rotate(-0 637.2 16.632)">Go</text></g><g id="text_14"><text style="font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #a3b3a0" x="58.32" y="39.204" transform="rotate(-0 58.32 39.204)">LINEAR SCALE</text></g></g><defs><clipPath id="p8eedefa2bb"><rect x="58.32" y="54.648" width="563.76" height="130.68"/></clipPath></defs></svg>

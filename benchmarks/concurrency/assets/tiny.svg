@@ -11,21 +11,21 @@ L 58.32 54.648
 z
 " class="c0"/></g><g id="matplotlib.axis_1"><g id="xtick_1"><g id="line2d_1"><defs><path id="meb49c0b95c" d="M 0 0 
 L 0 3.5 
-" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.167" transform="rotate(-0 83.945 199.167)">10 tasks</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="254.782" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="254.782" y="199.167" transform="rotate(-0 254.782 199.167)">100 tasks</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="425.618" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="425.618" y="199.167" transform="rotate(-0 425.618 199.167)">1000 tasks</text></g></g><g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">10000 tasks</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_5"><path d="M 58.32 181.34 
-L 622.08 181.34 
+" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.167" transform="rotate(-0 83.945 199.167)">10 tasks</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="254.782" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="254.782" y="199.167" transform="rotate(-0 254.782 199.167)">100 tasks</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="425.618" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="425.618" y="199.167" transform="rotate(-0 425.618 199.167)">1000 tasks</text></g></g><g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">10000 tasks</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_5"><path d="M 58.32 179.696 
+L 622.08 179.696 
 " clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_6"><defs><path id="m131011f9a1" d="M 0 0 
 L -3.5 0 
-" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="181.34" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="185.139" transform="rotate(-0 51.32 185.139)">1</text></g></g><g id="ytick_2"><g id="line2d_7"><path d="M 58.32 154.041 
-L 622.08 154.041 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_8"><g><use xlink:href="#m131011f9a1" x="58.32" y="154.041" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="157.84" transform="rotate(-0 51.32 157.84)">10</text></g></g><g id="ytick_3"><g id="line2d_9"><path d="M 58.32 126.742 
-L 622.08 126.742 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_10"><g><use xlink:href="#m131011f9a1" x="58.32" y="126.742" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="130.541" transform="rotate(-0 51.32 130.541)">100</text></g></g><g id="ytick_4"><g id="line2d_11"><path d="M 58.32 99.444 
-L 622.08 99.444 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_12"><g><use xlink:href="#m131011f9a1" x="58.32" y="99.444" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="103.242" transform="rotate(-0 51.32 103.242)">1000</text></g></g><g id="ytick_5"><g id="line2d_13"><path d="M 58.32 72.145 
-L 622.08 72.145 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_14"><g><use xlink:href="#m131011f9a1" x="58.32" y="72.145" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="75.944" transform="rotate(-0 51.32 75.944)">10000</text></g></g><g id="text_10"><text class="c3" x="15.056" y="119.988" transform="rotate(-90 15.056 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_15"><path d="M 83.945 166.046 
-L 254.782 148.291 
-L 425.618 114.639 
+" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="179.696" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="183.495" transform="rotate(-0 51.32 183.495)">1</text></g></g><g id="ytick_2"><g id="line2d_7"><path d="M 58.32 153.172 
+L 622.08 153.172 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_8"><g><use xlink:href="#m131011f9a1" x="58.32" y="153.172" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="156.971" transform="rotate(-0 51.32 156.971)">10</text></g></g><g id="ytick_3"><g id="line2d_9"><path d="M 58.32 126.649 
+L 622.08 126.649 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_10"><g><use xlink:href="#m131011f9a1" x="58.32" y="126.649" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="130.448" transform="rotate(-0 51.32 130.448)">100</text></g></g><g id="ytick_4"><g id="line2d_11"><path d="M 58.32 100.125 
+L 622.08 100.125 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_12"><g><use xlink:href="#m131011f9a1" x="58.32" y="100.125" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="103.924" transform="rotate(-0 51.32 103.924)">1000</text></g></g><g id="ytick_5"><g id="line2d_13"><path d="M 58.32 73.602 
+L 622.08 73.602 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_14"><g><use xlink:href="#m131011f9a1" x="58.32" y="73.602" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="77.401" transform="rotate(-0 51.32 77.401)">10000</text></g></g><g id="text_10"><text class="c3" x="15.056" y="119.988" transform="rotate(-90 15.056 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_15"><path d="M 83.945 165.414 
+L 254.782 148.656 
+L 425.618 112.956 
 L 596.455 60.588 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
@@ -37,10 +37,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="166.046" class="c6"/><use xlink:href="#m61e878b024" x="254.782" y="148.291" class="c6"/><use xlink:href="#m61e878b024" x="425.618" y="114.639" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="60.588" class="c6"/></g></g><g id="line2d_16"><path d="M 83.945 175.985 
-L 254.782 171.256 
-L 425.618 151.663 
-L 596.455 128.793 
+" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="165.414" class="c6"/><use xlink:href="#m61e878b024" x="254.782" y="148.656" class="c6"/><use xlink:href="#m61e878b024" x="425.618" y="112.956" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="60.588" class="c6"/></g></g><g id="line2d_16"><path d="M 83.945 177.824 
+L 254.782 172.961 
+L 425.618 154.784 
+L 596.455 129.311 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -51,10 +51,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="175.985" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="254.782" y="171.256" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="425.618" y="151.663" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="128.793" class="c7"/></g></g><g id="line2d_17"><path d="M 83.945 170.182 
-L 254.782 168.738 
-L 425.618 156.36 
-L 596.455 140.163 
+" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="177.824" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="254.782" y="172.961" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="425.618" y="154.784" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="129.311" class="c7"/></g></g><g id="line2d_17"><path d="M 83.945 170.521 
+L 254.782 169.177 
+L 425.618 156.826 
+L 596.455 140.511 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -65,10 +65,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="170.182" class="c8"/><use xlink:href="#m71117cc5d6" x="254.782" y="168.738" class="c8"/><use xlink:href="#m71117cc5d6" x="425.618" y="156.36" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="140.163" class="c8"/></g></g><g id="line2d_18"><path d="M 83.945 152.083 
-L 254.782 150.983 
-L 425.618 148.665 
-L 596.455 142.446 
+" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="170.521" class="c8"/><use xlink:href="#m71117cc5d6" x="254.782" y="169.177" class="c8"/><use xlink:href="#m71117cc5d6" x="425.618" y="156.826" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="140.511" class="c8"/></g></g><g id="line2d_18"><path d="M 83.945 152.972 
+L 254.782 151.947 
+L 425.618 150.467 
+L 596.455 142.915 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -79,10 +79,10 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="152.083" class="c9"/><use xlink:href="#m2263ea23d6" x="254.782" y="150.983" class="c9"/><use xlink:href="#m2263ea23d6" x="425.618" y="148.665" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="142.446" class="c9"/></g></g><g id="line2d_19"><path d="M 83.945 179.388 
-L 254.782 176.091 
-L 425.618 167.092 
-L 596.455 145.561 
+" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="152.972" class="c9"/><use xlink:href="#m2263ea23d6" x="254.782" y="151.947" class="c9"/><use xlink:href="#m2263ea23d6" x="425.618" y="150.467" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="142.915" class="c9"/></g></g><g id="line2d_19"><path d="M 83.945 179.388 
+L 254.782 177.698 
+L 425.618 166.814 
+L 596.455 146.543 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -93,7 +93,7 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="254.782" y="176.091" class="c10"/><use xlink:href="#m153a816141" x="425.618" y="167.092" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="145.561" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
+" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="254.782" y="177.698" class="c10"/><use xlink:href="#m153a816141" x="425.618" y="166.814" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="146.543" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
 L 58.32 54.648 
 " class="c11"/></g><g id="patch_4"><path d="M 622.08 185.328 
 L 622.08 54.648 

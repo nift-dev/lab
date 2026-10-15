@@ -11,16 +11,16 @@ L 58.32 54.648
 z
 " class="c0"/></g><g id="matplotlib.axis_1"><g id="xtick_1"><g id="line2d_1"><defs><path id="meb49c0b95c" d="M 0 0 
 L 0 3.5 
-" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.214" transform="rotate(-0 83.945 199.214)">100 files</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="340.2" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="340.2" y="199.214" transform="rotate(-0 340.2 199.214)">1000 files</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="596.455" y="199.214" transform="rotate(-0 596.455 199.214)">10000 files</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_4"><path d="M 58.32 149.608 
-L 622.08 149.608 
+" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.214" transform="rotate(-0 83.945 199.214)">100 files</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="340.2" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="340.2" y="199.214" transform="rotate(-0 340.2 199.214)">1000 files</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="596.455" y="199.214" transform="rotate(-0 596.455 199.214)">10000 files</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_4"><path d="M 58.32 150.074 
+L 622.08 150.074 
 " clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_5"><defs><path id="m131011f9a1" d="M 0 0 
 L -3.5 0 
-" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="149.608" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="153.407" transform="rotate(-0 51.32 153.407)">10</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 108.41 
-L 622.08 108.41 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="108.41" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="112.209" transform="rotate(-0 51.32 112.209)">100</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 67.213 
-L 622.08 67.213 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="67.213" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="71.011" transform="rotate(-0 51.32 71.011)">1000</text></g></g><g id="text_7"><text class="c3" x="21.077" y="119.988" transform="rotate(-90 21.077 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_10"><path d="M 83.945 140.057 
-L 340.2 101.11 
+" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="150.074" class="c2"/></g></g><g id="text_4"><text class="c5" x="51.32" y="153.872" transform="rotate(-0 51.32 153.872)">10</text></g></g><g id="ytick_2"><g id="line2d_6"><path d="M 58.32 108.653 
+L 622.08 108.653 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_7"><g><use xlink:href="#m131011f9a1" x="58.32" y="108.653" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="112.452" transform="rotate(-0 51.32 112.452)">100</text></g></g><g id="ytick_3"><g id="line2d_8"><path d="M 58.32 67.233 
+L 622.08 67.233 
+" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_9"><g><use xlink:href="#m131011f9a1" x="58.32" y="67.233" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="71.031" transform="rotate(-0 51.32 71.031)">1000</text></g></g><g id="text_7"><text class="c3" x="21.077" y="119.988" transform="rotate(-90 21.077 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_10"><path d="M 83.945 135.329 
+L 340.2 101.922 
 L 596.455 60.588 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
@@ -32,9 +32,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="140.057" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="101.11" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="60.588" class="c6"/></g></g><g id="line2d_11"><path d="M 83.945 135.22 
-L 340.2 105.795 
-L 596.455 67.48 
+" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="135.329" class="c6"/><use xlink:href="#m61e878b024" x="340.2" y="101.922" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="60.588" class="c6"/></g></g><g id="line2d_11"><path d="M 83.945 137.451 
+L 340.2 107.434 
+L 596.455 66.598 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -45,9 +45,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="135.22" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="105.795" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="67.48" class="c7"/></g></g><g id="line2d_12"><path d="M 83.945 141.678 
-L 340.2 110.875 
-L 596.455 74.102 
+" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="137.451" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="340.2" y="107.434" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="66.598" class="c7"/></g></g><g id="line2d_12"><path d="M 83.945 140.661 
+L 340.2 113.055 
+L 596.455 73.468 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -58,9 +58,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="141.678" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="110.875" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="74.102" class="c8"/></g></g><g id="line2d_13"><path d="M 83.945 140.529 
-L 340.2 128.896 
-L 596.455 103.592 
+" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="140.661" class="c8"/><use xlink:href="#m71117cc5d6" x="340.2" y="113.055" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="73.468" class="c8"/></g></g><g id="line2d_13"><path d="M 83.945 142.53 
+L 340.2 131.71 
+L 596.455 103.98 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -71,9 +71,9 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="140.529" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="128.896" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="103.592" class="c9"/></g></g><g id="line2d_14"><path d="M 83.945 179.388 
-L 340.2 153.474 
-L 596.455 114.85 
+" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="142.53" class="c9"/><use xlink:href="#m2263ea23d6" x="340.2" y="131.71" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="103.98" class="c9"/></g></g><g id="line2d_14"><path d="M 83.945 179.388 
+L 340.2 154.089 
+L 596.455 114.461 
 " clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
@@ -84,7 +84,7 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="153.474" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="114.85" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
+" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="340.2" y="154.089" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="114.461" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
 L 58.32 54.648 
 " class="c11"/></g><g id="patch_4"><path d="M 622.08 185.328 
 L 622.08 54.648 
