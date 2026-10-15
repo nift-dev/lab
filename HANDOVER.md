@@ -377,3 +377,5 @@ TanStack integration revision: connected green/coral modules and lavender bounda
 ## Nift + TanStack publication — 2026-10-15
 
 User approved the revised Integrations collection and connected-module report for publication. Release retains all pinned measurements, qualifications and scoped conclusions; removes draft labels only. Canonical evidence is already public at experiment commit c7469b59ba2ccf519ab85ae83485ed3783545a8f. No new raw evidence cohort is required. Source stage precedes deployment main; external announcements and outreach remain unauthorized. See docs/TANSTACK-INTEGRATION-REVIEW.md.
+
+Integration publication verified live: release source3fbc5df, deployment3225ebc, canonical experiment evidencec7469b5. Homepage/collection/report/CSS match local bytes; live navigation, desktop/mobile, ten plots and all15 evidence links pass. Publication receipt is recorded in docs/TANSTACK-INTEGRATION-REVIEW.md; external receipts/screenshots stay outside Labs. No outreach performed.

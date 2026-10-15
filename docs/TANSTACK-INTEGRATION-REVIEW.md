@@ -36,3 +36,13 @@ Publication approved by the user on 2026-10-15. Release removes draft labels and
 ## Design/editorial revision
 
 Replaced the hero board with connected static-generation and selective-interaction modules. Nift green, TanStack coral and interface lavender express ownership; modular card shapes and monospace hero give this report its own identity. Removed the underscore. Scoped all full-stack statements to the evaluated implementations: standalone Nift full-stack development was not evaluated, and no general preference is inferred. Ten chart values/scales and evidence pins remain unchanged. Rebuilt, rechecked all 15 evidence links, mobile overflow and text contrast. Publication approved after this revision.
+
+## Live publication verified — 2026-10-15
+
+- Release source: `3fbc5df`; deployment: `3225ebcc5d8cd0b3c1d6b09edc84392c0eb4eb7e`.
+- Canonical evidence/source commit: `c7469b59ba2ccf519ab85ae83485ed3783545a8f` (already public in the experiment repository; no duplicate lab-evidence payload needed).
+- GitHub Pages reports this deployment built successfully. Homepage, collection, report and CSS respond 200 and exactly match local publication SHA-256 hashes. Agora and SpaceX reports also match unchanged local files.
+- Live browser navigation follows homepage → Integrations → Nift + TanStack. Connected modules, conditional recommendation and all ten plots are present; desktop and 390px mobile checks pass without page overflow.
+- All 15 repository/evidence links resolve. Build, renderer, local-link, storage and preservation checks pass; 192 existing publication files remain byte-identical.
+- Release receipt and screenshots are preserved outside Labs in `.lab-tools/tanstack-integration-review` in the parent workspace. The review ZIP was preserved there under `archives/`.
+- Measurements remain single observations with different runtime contracts, generated-corpus and production-certification qualifications intact. No benchmark rerun, experiment modification, announcement or outreach.
