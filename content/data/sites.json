@@ -133,10 +133,10 @@
     "agent_repo": "https://github.com/nift-experiments/spacex-agent"
   },
   {
-    "name": "Agora Docs — Nift + TanStack Start",
+    "name": "Agora Docs",
     "slug": "agora",
     "page": "sites/agora/",
-    "description": "Retained TanStack Start, React and authored MDX. Two source models, qualified pipeline observations and an explicitly bounded production-certification story.",
+    "description": "A 2,003-page documentation publication retaining TanStack Start and React, with lower observed build time and memory and dependency-aware incremental work through Nift.",
     "category": "Hybrid integration / source models",
     "status": "Publication review draft",
     "upstream_framework": "TanStack Start / Fumadocs",
