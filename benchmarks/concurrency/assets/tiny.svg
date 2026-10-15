@@ -9,25 +9,25 @@ L 622.08 185.328
 L 622.08 54.648 
 L 58.32 54.648 
 z
-" class="c0"/></g><g id="matplotlib.axis_1"><g id="xtick_1"><g id="line2d_1"><defs><path id="meb49c0b95c" d="M 0 0 
+" class="c0"/></g><g id="matplotlib.axis_1"><g id="xtick_1"><g id="line2d_1"><defs><path id="m19d53266ea" d="M 0 0 
 L 0 3.5 
-" class="c1"/></defs><g><use xlink:href="#meb49c0b95c" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.167" transform="rotate(-0 83.945 199.167)">10 tasks</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#meb49c0b95c" x="254.782" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="254.782" y="199.167" transform="rotate(-0 254.782 199.167)">100 tasks</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#meb49c0b95c" x="425.618" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="425.618" y="199.167" transform="rotate(-0 425.618 199.167)">1000 tasks</text></g></g><g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#meb49c0b95c" x="596.455" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">10000 tasks</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_5"><path d="M 58.32 179.696 
+" class="c1"/></defs><g><use xlink:href="#m19d53266ea" x="83.945" y="185.328" class="c2"/></g></g><g id="text_1"><text class="c3" x="83.945" y="199.167" transform="rotate(-0 83.945 199.167)">10 tasks</text></g></g><g id="xtick_2"><g id="line2d_2"><g><use xlink:href="#m19d53266ea" x="254.782" y="185.328" class="c2"/></g></g><g id="text_2"><text class="c3" x="254.782" y="199.167" transform="rotate(-0 254.782 199.167)">100 tasks</text></g></g><g id="xtick_3"><g id="line2d_3"><g><use xlink:href="#m19d53266ea" x="425.618" y="185.328" class="c2"/></g></g><g id="text_3"><text class="c3" x="425.618" y="199.167" transform="rotate(-0 425.618 199.167)">1000 tasks</text></g></g><g id="xtick_4"><g id="line2d_4"><g><use xlink:href="#m19d53266ea" x="596.455" y="185.328" class="c2"/></g></g><g id="text_4"><text class="c3" x="596.455" y="199.167" transform="rotate(-0 596.455 199.167)">10000 tasks</text></g></g></g><g id="matplotlib.axis_2"><g id="ytick_1"><g id="line2d_5"><path d="M 58.32 179.696 
 L 622.08 179.696 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_6"><defs><path id="m131011f9a1" d="M 0 0 
+" clip-path="url(#pc11fc28471)" class="c4"/></g><g id="line2d_6"><defs><path id="m4b478d1d67" d="M 0 0 
 L -3.5 0 
-" class="c1"/></defs><g><use xlink:href="#m131011f9a1" x="58.32" y="179.696" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="183.495" transform="rotate(-0 51.32 183.495)">1</text></g></g><g id="ytick_2"><g id="line2d_7"><path d="M 58.32 153.172 
+" class="c1"/></defs><g><use xlink:href="#m4b478d1d67" x="58.32" y="179.696" class="c2"/></g></g><g id="text_5"><text class="c5" x="51.32" y="183.495" transform="rotate(-0 51.32 183.495)">1</text></g></g><g id="ytick_2"><g id="line2d_7"><path d="M 58.32 153.172 
 L 622.08 153.172 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_8"><g><use xlink:href="#m131011f9a1" x="58.32" y="153.172" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="156.971" transform="rotate(-0 51.32 156.971)">10</text></g></g><g id="ytick_3"><g id="line2d_9"><path d="M 58.32 126.649 
+" clip-path="url(#pc11fc28471)" class="c4"/></g><g id="line2d_8"><g><use xlink:href="#m4b478d1d67" x="58.32" y="153.172" class="c2"/></g></g><g id="text_6"><text class="c5" x="51.32" y="156.971" transform="rotate(-0 51.32 156.971)">10</text></g></g><g id="ytick_3"><g id="line2d_9"><path d="M 58.32 126.649 
 L 622.08 126.649 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_10"><g><use xlink:href="#m131011f9a1" x="58.32" y="126.649" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="130.448" transform="rotate(-0 51.32 130.448)">100</text></g></g><g id="ytick_4"><g id="line2d_11"><path d="M 58.32 100.125 
+" clip-path="url(#pc11fc28471)" class="c4"/></g><g id="line2d_10"><g><use xlink:href="#m4b478d1d67" x="58.32" y="126.649" class="c2"/></g></g><g id="text_7"><text class="c5" x="51.32" y="130.448" transform="rotate(-0 51.32 130.448)">100</text></g></g><g id="ytick_4"><g id="line2d_11"><path d="M 58.32 100.125 
 L 622.08 100.125 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_12"><g><use xlink:href="#m131011f9a1" x="58.32" y="100.125" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="103.924" transform="rotate(-0 51.32 103.924)">1000</text></g></g><g id="ytick_5"><g id="line2d_13"><path d="M 58.32 73.602 
+" clip-path="url(#pc11fc28471)" class="c4"/></g><g id="line2d_12"><g><use xlink:href="#m4b478d1d67" x="58.32" y="100.125" class="c2"/></g></g><g id="text_8"><text class="c5" x="51.32" y="103.924" transform="rotate(-0 51.32 103.924)">1000</text></g></g><g id="ytick_5"><g id="line2d_13"><path d="M 58.32 73.602 
 L 622.08 73.602 
-" clip-path="url(#p8eedefa2bb)" class="c4"/></g><g id="line2d_14"><g><use xlink:href="#m131011f9a1" x="58.32" y="73.602" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="77.401" transform="rotate(-0 51.32 77.401)">10000</text></g></g><g id="text_10"><text class="c3" x="15.056" y="119.988" transform="rotate(-90 15.056 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_15"><path d="M 83.945 165.414 
+" clip-path="url(#pc11fc28471)" class="c4"/></g><g id="line2d_14"><g><use xlink:href="#m4b478d1d67" x="58.32" y="73.602" class="c2"/></g></g><g id="text_9"><text class="c5" x="51.32" y="77.401" transform="rotate(-0 51.32 77.401)">10000</text></g></g><g id="text_10"><text class="c3" x="15.056" y="119.988" transform="rotate(-90 15.056 119.988)">Booted isolated request (ms)</text></g></g><g id="line2d_15"><path d="M 83.945 165.414 
 L 254.782 148.656 
 L 425.618 112.956 
 L 596.455 60.588 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m61e878b024" d="M 0 2 
+" clip-path="url(#pc11fc28471)" style="fill: none; stroke: #abff5b; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m16f6406117" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -37,11 +37,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #abff5b"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m61e878b024" x="83.945" y="165.414" class="c6"/><use xlink:href="#m61e878b024" x="254.782" y="148.656" class="c6"/><use xlink:href="#m61e878b024" x="425.618" y="112.956" class="c6"/><use xlink:href="#m61e878b024" x="596.455" y="60.588" class="c6"/></g></g><g id="line2d_16"><path d="M 83.945 177.824 
+" style="stroke: #abff5b"/></defs><g clip-path="url(#pc11fc28471)"><use xlink:href="#m16f6406117" x="83.945" y="165.414" class="c6"/><use xlink:href="#m16f6406117" x="254.782" y="148.656" class="c6"/><use xlink:href="#m16f6406117" x="425.618" y="112.956" class="c6"/><use xlink:href="#m16f6406117" x="596.455" y="60.588" class="c6"/></g></g><g id="line2d_16"><path d="M 83.945 177.824 
 L 254.782 172.961 
 L 425.618 154.784 
 L 596.455 129.311 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m7f0fc4f7d1" d="M 0 2 
+" clip-path="url(#pc11fc28471)" style="fill: none; stroke: #ffbd9a; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m41bd227d6d" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -51,11 +51,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #ffbd9a"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m7f0fc4f7d1" x="83.945" y="177.824" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="254.782" y="172.961" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="425.618" y="154.784" class="c7"/><use xlink:href="#m7f0fc4f7d1" x="596.455" y="129.311" class="c7"/></g></g><g id="line2d_17"><path d="M 83.945 170.521 
+" style="stroke: #ffbd9a"/></defs><g clip-path="url(#pc11fc28471)"><use xlink:href="#m41bd227d6d" x="83.945" y="177.824" class="c7"/><use xlink:href="#m41bd227d6d" x="254.782" y="172.961" class="c7"/><use xlink:href="#m41bd227d6d" x="425.618" y="154.784" class="c7"/><use xlink:href="#m41bd227d6d" x="596.455" y="129.311" class="c7"/></g></g><g id="line2d_17"><path d="M 83.945 170.521 
 L 254.782 169.177 
 L 425.618 156.826 
 L 596.455 140.511 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m71117cc5d6" d="M 0 2 
+" clip-path="url(#pc11fc28471)" style="fill: none; stroke: #d2b4ef; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="mb7b8af0bd3" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -65,11 +65,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #d2b4ef"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m71117cc5d6" x="83.945" y="170.521" class="c8"/><use xlink:href="#m71117cc5d6" x="254.782" y="169.177" class="c8"/><use xlink:href="#m71117cc5d6" x="425.618" y="156.826" class="c8"/><use xlink:href="#m71117cc5d6" x="596.455" y="140.511" class="c8"/></g></g><g id="line2d_18"><path d="M 83.945 152.972 
+" style="stroke: #d2b4ef"/></defs><g clip-path="url(#pc11fc28471)"><use xlink:href="#mb7b8af0bd3" x="83.945" y="170.521" class="c8"/><use xlink:href="#mb7b8af0bd3" x="254.782" y="169.177" class="c8"/><use xlink:href="#mb7b8af0bd3" x="425.618" y="156.826" class="c8"/><use xlink:href="#mb7b8af0bd3" x="596.455" y="140.511" class="c8"/></g></g><g id="line2d_18"><path d="M 83.945 152.972 
 L 254.782 151.947 
 L 425.618 150.467 
 L 596.455 142.915 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m2263ea23d6" d="M 0 2 
+" clip-path="url(#pc11fc28471)" style="fill: none; stroke: #e9dc91; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m4e137c43d8" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -79,11 +79,11 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #e9dc91"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m2263ea23d6" x="83.945" y="152.972" class="c9"/><use xlink:href="#m2263ea23d6" x="254.782" y="151.947" class="c9"/><use xlink:href="#m2263ea23d6" x="425.618" y="150.467" class="c9"/><use xlink:href="#m2263ea23d6" x="596.455" y="142.915" class="c9"/></g></g><g id="line2d_19"><path d="M 83.945 179.388 
+" style="stroke: #e9dc91"/></defs><g clip-path="url(#pc11fc28471)"><use xlink:href="#m4e137c43d8" x="83.945" y="152.972" class="c9"/><use xlink:href="#m4e137c43d8" x="254.782" y="151.947" class="c9"/><use xlink:href="#m4e137c43d8" x="425.618" y="150.467" class="c9"/><use xlink:href="#m4e137c43d8" x="596.455" y="142.915" class="c9"/></g></g><g id="line2d_19"><path d="M 83.945 179.388 
 L 254.782 177.698 
 L 425.618 166.814 
 L 596.455 146.543 
-" clip-path="url(#p8eedefa2bb)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="m153a816141" d="M 0 2 
+" clip-path="url(#pc11fc28471)" style="fill: none; stroke: #88cdb5; stroke-width: 1.6; stroke-linecap: square"/><defs><path id="ma657276924" d="M 0 2 
 C 0.53 2 1.039 1.789 1.414 1.414 
 C 1.789 1.039 2 0.53 2 0 
 C 2 -0.53 1.789 -1.039 1.414 -1.414 
@@ -93,7 +93,7 @@ C -1.789 -1.039 -2 -0.53 -2 0
 C -2 0.53 -1.789 1.039 -1.414 1.414 
 C -1.039 1.789 -0.53 2 0 2 
 z
-" style="stroke: #88cdb5"/></defs><g clip-path="url(#p8eedefa2bb)"><use xlink:href="#m153a816141" x="83.945" y="179.388" class="c10"/><use xlink:href="#m153a816141" x="254.782" y="177.698" class="c10"/><use xlink:href="#m153a816141" x="425.618" y="166.814" class="c10"/><use xlink:href="#m153a816141" x="596.455" y="146.543" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
+" style="stroke: #88cdb5"/></defs><g clip-path="url(#pc11fc28471)"><use xlink:href="#ma657276924" x="83.945" y="179.388" class="c10"/><use xlink:href="#ma657276924" x="254.782" y="177.698" class="c10"/><use xlink:href="#ma657276924" x="425.618" y="166.814" class="c10"/><use xlink:href="#ma657276924" x="596.455" y="146.543" class="c10"/></g></g><g id="patch_3"><path d="M 58.32 185.328 
 L 58.32 54.648 
 " class="c11"/></g><g id="patch_4"><path d="M 622.08 185.328 
 L 622.08 54.648 
@@ -101,4 +101,4 @@ L 622.08 54.648
 L 622.08 185.328 
 " class="c11"/></g><g id="patch_6"><path d="M 58.32 54.648 
 L 622.08 54.648 
-" class="c11"/></g></g><g id="text_11"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #abff5b" x="263.952" y="16.632" transform="rotate(-0 263.952 16.632)">Nift</text></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #ffbd9a" x="357.264" y="16.632" transform="rotate(-0 357.264 16.632)">Python</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d2b4ef" x="450.576" y="16.632" transform="rotate(-0 450.576 16.632)">Node</text></g><g id="text_14"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #e9dc91" x="543.888" y="16.632" transform="rotate(-0 543.888 16.632)">Bun</text></g><g id="text_15"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #88cdb5" x="637.2" y="16.632" transform="rotate(-0 637.2 16.632)">Go</text></g><g id="text_16"><text style="font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #a3b3a0" x="58.32" y="39.204" transform="rotate(-0 58.32 39.204)">LOGARITHMIC SCALE</text></g></g><defs><clipPath id="p8eedefa2bb"><rect x="58.32" y="54.648" width="563.76" height="130.68"/></clipPath></defs></svg>
+" class="c11"/></g><g id="text_11"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #d7dfd6" x="58.32" y="19.648" transform="rotate(-0 58.32 19.648)">Nift v4.12 final · A little work in every branch.</text></g></g><g id="text_12"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #abff5b" x="263.952" y="16.632" transform="rotate(-0 263.952 16.632)">Nift v4.12 final</text></g><g id="text_13"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #ffbd9a" x="357.264" y="16.632" transform="rotate(-0 357.264 16.632)">Python</text></g><g id="text_14"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #d2b4ef" x="450.576" y="16.632" transform="rotate(-0 450.576 16.632)">Node</text></g><g id="text_15"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #e9dc91" x="543.888" y="16.632" transform="rotate(-0 543.888 16.632)">Bun</text></g><g id="text_16"><text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: end; fill: #88cdb5" x="637.2" y="16.632" transform="rotate(-0 637.2 16.632)">Go</text></g><g id="text_17"><text style="font-size: 9px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #a3b3a0" x="58.32" y="39.204" transform="rotate(-0 58.32 39.204)">LOGARITHMIC SCALE</text></g></g><defs><clipPath id="pc11fc28471"><rect x="58.32" y="54.648" width="563.76" height="130.68"/></clipPath></defs></svg>

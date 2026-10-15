@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" role="img" aria-labelledby="title desc">
-<title id="title">Filtering / 10k files</title><desc id="desc">Extension .md selects 20%; group00 prefix 5%; size ≥768 bytes 40%. Extension/group/size are correlated. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
+<title id="title">Nift v4.12 final · Filtering / 10k files</title><desc id="desc">Extension .md selects 20%; group00 prefix 5%; size ≥768 bytes 40%. Extension/group/size are correlated. Exact values in the adjacent table. Logarithmic vertical axis.</desc>
 <rect width="840" height="440" fill="#202622" rx="12"/>
-<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">ms · LOGARITHMIC SCALE</text>
+<text x="70" y="30" fill="#c3cdc4" font-family="sans-serif" font-size="13">Nift v4.12 final · ms · LOGARITHMIC SCALE</text>
 <path d="M70 350.0H805" stroke="#3b463d"/><text x="58" y="354.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">10</text>
 <path d="M70 220.0H805" stroke="#3b463d"/><text x="58" y="224.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">100</text>
 <path d="M70 90.0H805" stroke="#3b463d"/><text x="58" y="94.0" text-anchor="end" fill="#b6c0b7" font-family="sans-serif" font-size="12">1000</text>
@@ -11,7 +11,7 @@
 <path d="M450.0 350V144.81180836059218" stroke="#b1ff68" stroke-width="12.0"/><circle cx="450.0" cy="144.81180836059218" r="3" fill="#b1ff68"/>
 <path d="M563.3333333333333 350V146.8992732930288" stroke="#b1ff68" stroke-width="12.0"/><circle cx="563.3333333333333" cy="146.8992732930288" r="3" fill="#b1ff68"/>
 <path d="M676.6666666666666 350V153.56240940016062" stroke="#b1ff68" stroke-width="12.0"/><circle cx="676.6666666666666" cy="153.56240940016062" r="3" fill="#b1ff68"/>
-<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift</text>
+<circle cx="80" cy="410" r="4" fill="#b1ff68"/><text x="92" y="414" fill="#b1ff68" font-family="sans-serif" font-size="14">Nift v4.12 final</text>
 <path d="M128.33333333333334 350V203.97550074030843" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="128.33333333333334" cy="203.97550074030843" r="3" fill="#ffbd9a"/>
 <path d="M241.66666666666666 350V203.4015476039226" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="241.66666666666666" cy="203.4015476039226" r="3" fill="#ffbd9a"/>
 <path d="M354.99999999999994 350V201.46072714339294" stroke="#ffbd9a" stroke-width="12.0"/><circle cx="354.99999999999994" cy="201.46072714339294" r="3" fill="#ffbd9a"/>

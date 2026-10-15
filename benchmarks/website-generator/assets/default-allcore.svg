@@ -2,12 +2,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="273.6pt" viewBox="0 0 648 273.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <title>Default all-core builds: 10,000 pages</title>
+ <title>Nift v4.12 final: normal all-core builds — 10,000 pages</title>
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title>Default all-core builds: 10,000 pages</dc:title>
+    <dc:title>Nift v4.12 final: normal all-core builds — 10,000 pages</dc:title>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -275,7 +275,7 @@ L 628.965379 55.16
     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f1e9da" x="466.069162" y="210.121638" transform="rotate(-0 466.069162 210.121638)">1.437</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #f1e9da" x="337.062689" y="20.16" transform="rotate(-0 337.062689 20.16)">Default all-core builds: 10,000 pages</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #f1e9da" x="337.062689" y="20.16" transform="rotate(-0 337.062689 20.16)">Nift v4.12 final: normal all-core builds — 10,000 pages</text>
    </g>
    <g id="legend_1">
     <g id="patch_11">
