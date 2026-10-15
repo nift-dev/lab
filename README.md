@@ -8,6 +8,8 @@ collection, not the scope of the entire lab.
 ## Structure and ownership
 
 - `/`: `content/index.html`, the general Labs homepage.
+- `/integrations/`: `content/integrations/index.html`, the integration-study collection.
+- `/integrations/tanstack/`: the local-review greenfield Nift + TanStack report.
 - `/sites/`: `content/sites/index.html`, the website-experiment catalogue.
 - `/sites/<slug>/`: `content/sites/<slug>/index.html`, an experiment report.
 - Labs templates: `templates/labs/`; Labs assets: `public/labs/`.
@@ -259,3 +261,20 @@ python3 scripts/check_storage_policy.py
 ## Agora Docs publication
 
 `/sites/agora/` is the approved Agora Docs report, centered on the hybrid Nift + TanStack Start architecture. Its single-observation values and process-tree RSS remain explicitly qualified. Canonical evidence is pinned to its immutable published lab-evidence cohort. Run `python3 scripts/check_agora_evidence.py`, `python3 scripts/render_agora.py`, normal Nift/validation/storage checks and `python3 scripts/check_agora_links.py`. See docs/AGORA-PUBLICATION.md for certification gaps and the exact approval-gated release sequence. Labs/evidence release was approved on 15 October 2026; social announcements and maintainer outreach remain outside scope.
+
+## Nift + TanStack integration
+
+The new Integrations collection is separate from production-site migrations. Agora remains under Migrations. `/integrations/tanstack/` compares the integrated Nift + Start application, the optimized Start control and Nift-first islands using the pinned `c7469b5` evidence. The report has its own pipeline-board assets and displays both time and sampled process-tree memory for full and incremental cases.
+
+```sh
+python3 scripts/render_tanstack_integration.py
+nift build --all
+nift build
+python3 scripts/render_tanstack_integration.py --check
+python3 scripts/validate.py
+python3 scripts/check_tanstack_integration_links.py
+python3 scripts/check_storage_policy.py
+nift status
+```
+
+The renderer verifies canonical evidence hashes outside Labs and maintains only compact `published.json` plus displayed HTML here. Ordinary Nift builds are offline. See `docs/TANSTACK-INTEGRATION-REVIEW.md` for review scope and validation. Publication approved on 15 October 2026. External announcements and maintainer outreach remain outside scope.

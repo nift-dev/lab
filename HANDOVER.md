@@ -367,3 +367,13 @@ Agora design/editorial revision: the local draft uses a coral/green communicatio
 ## Agora published — 2026-10-15
 
 Publication approved and completed at https://lab.nift.dev/sites/agora/. Release source30d7583 and deployed publicationded6a06 retain the approved signal identity and recommendation. Homepage/card activation, exact live HTML/CSS hashes, six repository/evidence links and all97 pinned canonical evidence artifacts pass. Desktop/mobile320/390/1440 checks pass. Evidence pin42a602ad is preserved through a normal merge of concurrent evidence work. See docs/AGORA-PUBLICATION.md and canonical audits/publication/agora/20261015/. Both accepted migration implementations remain untouched. No outreach or announcements are authorized; keep the report's production-certification and measurement qualifications intact. Earlier local-draft/hold notes are historical.
+
+## Nift + TanStack Integrations local draft — 2026-10-15
+
+Added `/integrations/` and `/integrations/tanstack/`, plus navigation and homepage discovery. Distinct pipeline-board report presents the pinned three-way experiment, paired full/incremental time and tree-RSS plots, selective JS delivery, conditional recommendations and retained limitations. No benchmarks rerun, experiment changes, push, deployment or outreach. See docs/TANSTACK-INTEGRATION-REVIEW.md for preview and validation. Keep this draft local pending explicit review/publication approval.
+
+TanStack integration revision: connected green/coral modules and lavender boundaries replace the initial hero; underscore removed. Recommendations now explicitly leave untested full-stack architectures open and retain the negative Start-planner results. Measurements unchanged; local-only publication hold remains.
+
+## Nift + TanStack publication — 2026-10-15
+
+User approved the revised Integrations collection and connected-module report for publication. Release retains all pinned measurements, qualifications and scoped conclusions; removes draft labels only. Canonical evidence is already public at experiment commit c7469b59ba2ccf519ab85ae83485ed3783545a8f. No new raw evidence cohort is required. Source stage precedes deployment main; external announcements and outreach remain unauthorized. See docs/TANSTACK-INTEGRATION-REVIEW.md.

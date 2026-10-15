@@ -5082,6 +5082,76 @@
       "path": "sites/agora/20261015-optimized/measurements/final-optimized/agora-agent-shared-layout.json",
       "sha256": "1611fa77f6f064cf23efff1689921170f77abe43a30d3236f3c75182234e70ee",
       "origin_sha256": "1611fa77f6f064cf23efff1689921170f77abe43a30d3236f3c75182234e70ee"
+    },
+    "content/integrations/tanstack/source/results-phase2.json": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/results-phase2.json",
+      "sha256": "f49c3b998d15a2c624d1fdf881111cd15cfe80cdeae841fc8e5e35563dbac32c",
+      "origin_sha256": "f49c3b998d15a2c624d1fdf881111cd15cfe80cdeae841fc8e5e35563dbac32c"
+    },
+    "content/integrations/tanstack/source/results.json": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/results.json",
+      "sha256": "8e8e74ad5e8baec12e448b46c6a02fccbfc672600f133b032f13689bcc931c2a",
+      "origin_sha256": "8e8e74ad5e8baec12e448b46c6a02fccbfc672600f133b032f13689bcc931c2a"
+    },
+    "content/integrations/tanstack/source/javascript.json": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/javascript.json",
+      "sha256": "a643e4fa9d8744bf6136a825740ed2594ce8ab81dc6bf12a59b59f04bf969fbe",
+      "origin_sha256": "a643e4fa9d8744bf6136a825740ed2594ce8ab81dc6bf12a59b59f04bf969fbe"
+    },
+    "content/integrations/tanstack/source/parity.json": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/parity.json",
+      "sha256": "008a2133b757b72eaa57450104bc6daffd4f360266f57df4249c2e9f58da006a",
+      "origin_sha256": "008a2133b757b72eaa57450104bc6daffd4f360266f57df4249c2e9f58da006a"
+    },
+    "content/integrations/tanstack/source/clean-clone.json": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/clean-clone.json",
+      "sha256": "74787a68eaca2c5c312d281a9d5650ff86256c3af6b154ca9fe86b2e37561560",
+      "origin_sha256": "74787a68eaca2c5c312d281a9d5650ff86256c3af6b154ca9fe86b2e37561560"
+    },
+    "content/integrations/tanstack/source/REPORT.md": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/REPORT.md",
+      "sha256": "6d36b9006b695ad48c93889c97399f8bcf13a5bbf553da90e642e6732a09e1d5",
+      "origin_sha256": "6d36b9006b695ad48c93889c97399f8bcf13a5bbf553da90e642e6732a09e1d5"
+    },
+    "content/integrations/tanstack/source/MAINTENANCE.md": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/MAINTENANCE.md",
+      "sha256": "79a4a68f63aa9243397a9ac2e615e7e9a35295e051f814eaaf9c4291119fb0db",
+      "origin_sha256": "79a4a68f63aa9243397a9ac2e615e7e9a35295e051f814eaaf9c4291119fb0db"
+    },
+    "content/integrations/tanstack/source/BASELINE-62-PAGES.md": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/BASELINE-62-PAGES.md",
+      "sha256": "7fa9cd2110ba59191af9e13ce270795a547566ea8b5f5693cc3a132a9f929555",
+      "origin_sha256": "7fa9cd2110ba59191af9e13ce270795a547566ea8b5f5693cc3a132a9f929555"
+    },
+    "content/integrations/tanstack/source/environment-phase2.json": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/environment-phase2.json",
+      "sha256": "e9de039bfad9779ba87f3bc59b66fb4841e3091fc0a5194238c39fcdde6d2b8f",
+      "origin_sha256": "e9de039bfad9779ba87f3bc59b66fb4841e3091fc0a5194238c39fcdde6d2b8f"
+    },
+    "content/integrations/tanstack/source/references-unchanged.json": {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/references-unchanged.json",
+      "sha256": "461e83619468915ac9b0798c1582523f56b847b85433bf535324ca4e4bb7e17b",
+      "origin_sha256": "461e83619468915ac9b0798c1582523f56b847b85433bf535324ca4e4bb7e17b"
     }
   }
 }

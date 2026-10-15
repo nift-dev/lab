@@ -1,0 +1,274 @@
+{
+  "repo": "nift-experiments/nift-tanstack",
+  "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+  "samplePolicy": "one serialized observation per case; not medians; earlier Phase 2 cohort is not interleaved with islands",
+  "metrics": {
+    "hybrid": {
+      "fresh": {
+        "seconds": 25.203037526924163,
+        "treeMiB": 388.97265625,
+        "individualMiB": 341.45703125
+      },
+      "warm-full": {
+        "seconds": 8.589805423049256,
+        "treeMiB": 271.64453125,
+        "individualMiB": 163.5859375
+      },
+      "unchanged": {
+        "seconds": 0.8590295452158898,
+        "treeMiB": 104.6796875,
+        "individualMiB": 58.83203125
+      },
+      "docs-edit": {
+        "seconds": 1.7599891300778836,
+        "treeMiB": 206.09375,
+        "individualMiB": 164.41796875
+      },
+      "shared-layout": {
+        "seconds": 8.921075592050329,
+        "treeMiB": 384.140625,
+        "individualMiB": 335.8125
+      }
+    },
+    "control": {
+      "fresh": {
+        "seconds": 23.115033496171236,
+        "treeMiB": 402.68359375,
+        "individualMiB": 356.53125
+      },
+      "warm-full": {
+        "seconds": 7.3039993869606405,
+        "treeMiB": 271.68359375,
+        "individualMiB": 176.25
+      },
+      "unchanged": {
+        "seconds": 0.16800699988380075,
+        "treeMiB": 86.61328125,
+        "individualMiB": 61.87109375
+      },
+      "docs-edit": {
+        "seconds": 1.1164123620837927,
+        "treeMiB": 199.46484375,
+        "individualMiB": 158.19140625
+      },
+      "shared-layout": {
+        "seconds": 8.160311935003847,
+        "treeMiB": 375.8359375,
+        "individualMiB": 330.29296875
+      }
+    },
+    "nift-first": {
+      "fresh": {
+        "seconds": 16.118768016807735,
+        "treeMiB": 276.34765625,
+        "individualMiB": 188.7109375
+      },
+      "warm-full": {
+        "seconds": 2.454637927003205,
+        "treeMiB": 183.16015625,
+        "individualMiB": 142.7578125
+      },
+      "unchanged": {
+        "seconds": 1.1500801851507276,
+        "treeMiB": 138.9765625,
+        "individualMiB": 69.87890625
+      },
+      "docs-edit": {
+        "seconds": 2.068625222193077,
+        "treeMiB": 183.0078125,
+        "individualMiB": 143.2734375
+      },
+      "shared-layout": {
+        "seconds": 1.769663322949782,
+        "treeMiB": 90.984375,
+        "individualMiB": 70.5546875
+      }
+    }
+  },
+  "javascript": {
+    "method": "Actual browser HTTP response-body bytes through no-store localhost proxies; includes loaded .js resources, excludes HTTP headers/TLS/inline scripts. Adapters do not compress. Gzip totals are calculated package estimates, not actual transfer. No claim of Web Vitals or network latency.",
+    "captures": [
+      {
+        "capture": "network-mdx-control",
+        "jsResponseBytes": 395711,
+        "jsRequests": 4,
+        "jsPaths": [
+          "/assets/index-nmHK3L4n.js",
+          "/assets/link-CTn7aEBm.js",
+          "/assets/createServerFn-BT5EFuTs.js",
+          "/assets/docs._-D4DyqtRg.js"
+        ],
+        "inlineScriptBytesInHTML": 9561,
+        "externalPlusInlineScriptBytes": 405272
+      },
+      {
+        "capture": "network-mdx-hybrid",
+        "jsResponseBytes": 395711,
+        "jsRequests": 4,
+        "jsPaths": [
+          "/assets/index-nmHK3L4n.js",
+          "/assets/link-CTn7aEBm.js",
+          "/assets/createServerFn-BT5EFuTs.js",
+          "/assets/docs._-D4DyqtRg.js"
+        ],
+        "inlineScriptBytesInHTML": 9561,
+        "externalPlusInlineScriptBytes": 405272
+      },
+      {
+        "capture": "network-mdx-nift-first",
+        "jsResponseBytes": 221084,
+        "jsRequests": 3,
+        "jsPaths": [
+          "/assets/docs.js",
+          "/assets/shell.js",
+          "/assets/jsx-runtime-ZduMg_1v.js"
+        ],
+        "inlineScriptBytesInHTML": 0,
+        "externalPlusInlineScriptBytes": 221084
+      },
+      {
+        "capture": "network-plain-control",
+        "jsResponseBytes": 395711,
+        "jsRequests": 4,
+        "jsPaths": [
+          "/assets/index-nmHK3L4n.js",
+          "/assets/link-CTn7aEBm.js",
+          "/assets/docs._-D4DyqtRg.js",
+          "/assets/createServerFn-BT5EFuTs.js"
+        ],
+        "inlineScriptBytesInHTML": 8345,
+        "externalPlusInlineScriptBytes": 404056
+      },
+      {
+        "capture": "network-plain-hybrid",
+        "jsResponseBytes": 395711,
+        "jsRequests": 4,
+        "jsPaths": [
+          "/assets/index-nmHK3L4n.js",
+          "/assets/link-CTn7aEBm.js",
+          "/assets/createServerFn-BT5EFuTs.js",
+          "/assets/docs._-D4DyqtRg.js"
+        ],
+        "inlineScriptBytesInHTML": 8345,
+        "externalPlusInlineScriptBytes": 404056
+      },
+      {
+        "capture": "network-plain-nift-first",
+        "jsResponseBytes": 746,
+        "jsRequests": 1,
+        "jsPaths": [
+          "/assets/shell.js"
+        ],
+        "inlineScriptBytesInHTML": 0,
+        "externalPlusInlineScriptBytes": 746
+      }
+    ],
+    "allPublishedJS": {
+      "hybrid": {
+        "files": 13,
+        "uncompressedBytes": 419381,
+        "sumIndividualGzipBytes": 134904
+      },
+      "control": {
+        "files": 13,
+        "uncompressedBytes": 419381,
+        "sumIndividualGzipBytes": 134904
+      },
+      "nift-first": {
+        "files": 7,
+        "uncompressedBytes": 466002,
+        "sumIndividualGzipBytes": 142191
+      }
+    }
+  },
+  "corpus": {
+    "documents": 3000,
+    "mdx": 979,
+    "originalGuides": 62,
+    "islandMounts": 1958,
+    "htmlEntries": 3089,
+    "cleanPublicationFiles": 3102
+  },
+  "sources": [
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/results-phase2.json",
+      "sha256": "f49c3b998d15a2c624d1fdf881111cd15cfe80cdeae841fc8e5e35563dbac32c",
+      "origin_sha256": "f49c3b998d15a2c624d1fdf881111cd15cfe80cdeae841fc8e5e35563dbac32c",
+      "alias": "content/integrations/tanstack/source/results-phase2.json"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/results.json",
+      "sha256": "8e8e74ad5e8baec12e448b46c6a02fccbfc672600f133b032f13689bcc931c2a",
+      "origin_sha256": "8e8e74ad5e8baec12e448b46c6a02fccbfc672600f133b032f13689bcc931c2a",
+      "alias": "content/integrations/tanstack/source/results.json"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/javascript.json",
+      "sha256": "a643e4fa9d8744bf6136a825740ed2594ce8ab81dc6bf12a59b59f04bf969fbe",
+      "origin_sha256": "a643e4fa9d8744bf6136a825740ed2594ce8ab81dc6bf12a59b59f04bf969fbe",
+      "alias": "content/integrations/tanstack/source/javascript.json"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/parity.json",
+      "sha256": "008a2133b757b72eaa57450104bc6daffd4f360266f57df4249c2e9f58da006a",
+      "origin_sha256": "008a2133b757b72eaa57450104bc6daffd4f360266f57df4249c2e9f58da006a",
+      "alias": "content/integrations/tanstack/source/parity.json"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/clean-clone.json",
+      "sha256": "74787a68eaca2c5c312d281a9d5650ff86256c3af6b154ca9fe86b2e37561560",
+      "origin_sha256": "74787a68eaca2c5c312d281a9d5650ff86256c3af6b154ca9fe86b2e37561560",
+      "alias": "content/integrations/tanstack/source/clean-clone.json"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/REPORT.md",
+      "sha256": "6d36b9006b695ad48c93889c97399f8bcf13a5bbf553da90e642e6732a09e1d5",
+      "origin_sha256": "6d36b9006b695ad48c93889c97399f8bcf13a5bbf553da90e642e6732a09e1d5",
+      "alias": "content/integrations/tanstack/source/REPORT.md"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/MAINTENANCE.md",
+      "sha256": "79a4a68f63aa9243397a9ac2e615e7e9a35295e051f814eaaf9c4291119fb0db",
+      "origin_sha256": "79a4a68f63aa9243397a9ac2e615e7e9a35295e051f814eaaf9c4291119fb0db",
+      "alias": "content/integrations/tanstack/source/MAINTENANCE.md"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/BASELINE-62-PAGES.md",
+      "sha256": "7fa9cd2110ba59191af9e13ce270795a547566ea8b5f5693cc3a132a9f929555",
+      "origin_sha256": "7fa9cd2110ba59191af9e13ce270795a547566ea8b5f5693cc3a132a9f929555",
+      "alias": "content/integrations/tanstack/source/BASELINE-62-PAGES.md"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/environment-phase2.json",
+      "sha256": "e9de039bfad9779ba87f3bc59b66fb4841e3091fc0a5194238c39fcdde6d2b8f",
+      "origin_sha256": "e9de039bfad9779ba87f3bc59b66fb4841e3091fc0a5194238c39fcdde6d2b8f",
+      "alias": "content/integrations/tanstack/source/environment-phase2.json"
+    },
+    {
+      "repo": "nift-experiments/nift-tanstack",
+      "commit": "c7469b59ba2ccf519ab85ae83485ed3783545a8f",
+      "path": "evaluation/nift-first/references-unchanged.json",
+      "sha256": "461e83619468915ac9b0798c1582523f56b847b85433bf535324ca4e4bb7e17b",
+      "origin_sha256": "461e83619468915ac9b0798c1582523f56b847b85433bf535324ca4e4bb7e17b",
+      "alias": "content/integrations/tanstack/source/references-unchanged.json"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "name":"Nift + TanStack",
+    "slug":"tanstack",
+    "page":"integrations/tanstack/",
+    "description":"Three architectures, one 3,000-document fixture. Investigate static ownership, selective interactivity and the full-stack application boundary.",
+    "category":"Greenfield integration",
+    "status":"Published study",
+    "stack":"Nift + the TanStack ecosystem",
+    "workload":"3,000 documents · 979 MDX",
+    "repo":"https://github.com/nift-experiments/nift-tanstack",
+    "commit":"c7469b59ba2ccf519ab85ae83485ed3783545a8f"
+  }
+]

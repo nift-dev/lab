@@ -15,12 +15,14 @@
   "hierarchy-fingerprint": "",
   "dependencies": [
     "content/data/benchmarks.json",
+    "content/data/integrations.json",
     "content/data/sites.json",
     "content/index.html",
     "templates/labs/benchmark-entry.html",
     "templates/labs/entry.html",
     "templates/labs/head.html",
     "templates/labs/icons.html",
+    "templates/labs/integration-entry.html",
     "templates/labs/methodology.html",
     "templates/labs/template.html"
   ],
@@ -35,6 +37,8 @@
     "public/benchmarks/template-engines/index.html",
     "public/benchmarks/website-generator/index.html",
     "public/index.html",
+    "public/integrations/index.html",
+    "public/integrations/tanstack/index.html",
     "public/labs/identity/favicon-16.png",
     "public/labs/identity/favicon-180.png",
     "public/labs/identity/favicon-32.png",

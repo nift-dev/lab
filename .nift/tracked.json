@@ -104,6 +104,16 @@
       "name": "sites/agora/",
       "title": "Agora Docs \u2014 Nift + TanStack Start",
       "template": "templates/sites/agora/template.html"
+    },
+    {
+      "name": "integrations/",
+      "title": "Integrations \u2014 Nift Labs",
+      "template": "templates/labs/template.html"
+    },
+    {
+      "name": "integrations/tanstack/",
+      "title": "Nift + TanStack",
+      "template": "templates/integrations/tanstack/template.html"
     }
   ]
 }
