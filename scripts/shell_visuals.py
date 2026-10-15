@@ -2,7 +2,7 @@
 import html,math
 esc=lambda x:html.escape(str(x))
 COLORS={'bash':'#ed85dc','zsh':'#cab9d8','fish':'#f09583','nu':'#c392ff','nift':'#59f58a','external-baseline':'#f5cb79'}
-LABELS={'bash':'Bash','zsh':'Zsh','fish':'Fish','nu':'Nushell','nift':'Nift v4.12 final','external-baseline':'GNU baseline'}
+LABELS={'bash':'Bash','zsh':'Zsh','fish':'Fish','nu':'Nushell','nift':'Nift','external-baseline':'GNU baseline'}
 def fmt(v):return f'{v:,.3f}' if v<100 else f'{v:,.1f}'
 def aligned_chart(names,rows,caption,unit='ms',distribution=None):
  """rows: [(metric, {participant: numeric value})]. Geometry uses exact values.
