@@ -18,6 +18,7 @@
   <nav aria-label="Main">
     <a href="./" aria-current="page">Lab</a>
     <a href="sites/" >Migrations</a>
+    <a href="integrations/" >Integrations</a>
     <a href="benchmarks/" >Benchmarks</a>
     <a href="https://github.com/nift-experiments/lab-evidence">Evidence ↗</a>
     <a href="https://nift.dev">Nift ↗</a>
@@ -27,7 +28,7 @@
                                <div class="hero-copy">
                                  <p class="eyebrow"><span class="dot"></span> Nift Labs / experimental engineering</p>
                                  <h1>Ideas in.<br><em>Evidence out.</em></h1>
-                                 <p class="lede">Production-scale migrations. Runtime benchmarks. Build-system and task-runner experiments. We put software to the test and leave the evidence in the open.</p>
+                                 <p class="lede">Production-scale migrations. Composable integrations. Runtime benchmarks. Build-system and task-runner experiments. We put software to the test and leave the evidence in the open.</p>
                                  <div class="hero-actions"><a class="button" href="sites/">Explore the experiments <span>↗</span></a><a class="text-link" href="benchmarks/">View benchmarks →</a></div>
                                  <div class="hero-notes"><span>Real workloads</span><span>Explicit boundaries</span><span>Public evidence</span></div>
                                </div>
@@ -36,8 +37,9 @@
                              
                              <section class="section" aria-labelledby="fields-title">
                                <div class="section-label"><p class="eyebrow">01 / Fields of inquiry</p><h2 id="fields-title">A lab with room to grow.</h2></div>
-                               <a class="category" href="sites/"><span class="index">01</span><div><h3>Website experiments</h3><p>Public content corpora, rebuilt with Nift. Independent designs, real workloads, and evidence you can inspect.</p></div><span class="category-tag">Open collection ↗</span></a>
+                               <a class="category" href="sites/"><span class="index">01</span><div><h3>Migrations</h3><p>Public content corpora, rebuilt with Nift. Independent designs, real workloads, and evidence you can inspect.</p></div><span class="category-tag">Open collection ↗</span></a>
                                <a class="category" href="benchmarks/"><span class="index">02</span><div><h3>Nift Benchmarks</h3><p>Start runtimes, execute scripts, build pages, inspect native build graphs, orchestrate tasks, assemble templates run concurrent work and transform project trees. Eight experiments with retained evidence and distinct measurement boundaries.</p></div><span class="category-tag">Open collection ↗</span></a>
+                               <a class="category" href="integrations/"><span class="index">03</span><div><h3>Integrations</h3><p>Nift alongside application frameworks, UI libraries and build tools. Compare architectures and make the boundaries explicit.</p></div><span class="category-tag">Open collection ↗</span></a>
                                <div class="research-fields"><p class="eyebrow">On the horizon</p><p>Scaling investigations <span>/</span> Framework comparisons <span>/</span> Runtime &amp; scripting <span>/</span> Languages &amp; FFI <span>/</span> Packages &amp; tooling</p></div>
                              </section>
                              <section class="section" aria-labelledby="reports-title">
@@ -158,9 +160,16 @@
                                                               <a class="read-link" href="benchmarks/filesystem-automation/">Read the benchmark <span>→</span></a>
                                                             </article></div>
                              </section>
+                             <section class="section" aria-labelledby="integrations-title"><div class="section-label"><p class="eyebrow">04 / Integrations</p><h2 id="integrations-title">Compose the architecture.</h2></div><div class="experiment-grid"><article class="experiment integration-tanstack">
+                                                                                                                                                                                                                                                             <div class="entry-top"><span class="eyebrow">Greenfield integration</span><span class="status">Published study</span></div>
+                                                                                                                                                                                                                                                             <a class="entry-link" href="integrations/tanstack/"><h3>Nift + TanStack <span aria-hidden="true">↗</span></h3></a>
+                                                                                                                                                                                                                                                             <p>Three architectures, one 3,000-document fixture. Investigate static ownership, selective interactivity and the full-stack application boundary.</p>
+                                                                                                                                                                                                                                                             <dl class="entry-meta"><div><dt>Stack</dt><dd>Nift + the TanStack ecosystem</dd></div><div><dt>Workload</dt><dd>3,000 documents · 979 MDX</dd></div></dl>
+                                                                                                                                                                                                                                                             <a class="read-link" href="integrations/tanstack/">Read the integration <span aria-hidden="true">→</span></a>
+                                                                                                                                                                                                                                                           </article></div></section>
                              <section class="methodology section" aria-labelledby="method-title">
                                <p class="eyebrow">A note on method</p>
-                               <div><h2 id="method-title">The workload is real.<br>The design is an experiment.</h2><p>We use real public content corpora to investigate build-system performance and implementation characteristics. Unless a report explicitly says otherwise, these are independent interpretations rather than pixel-perfect migrations.</p><p>Exact upstream commits are recorded where available so each result can be tied to a specific corpus. Each report describes its measurement boundaries, evidence, and limitations.</p></div>
+                               <div><h2 id="method-title">The workload is real.<br>The design is an experiment.</h2><p>We use real public content corpora and explicitly labelled generated fixtures to investigate build-system performance and implementation characteristics. Unless a report explicitly says otherwise, these are independent interpretations rather than pixel-perfect migrations.</p><p>Exact upstream commits are recorded where available so each result can be tied to a specific corpus. Each report describes its measurement boundaries, evidence, and limitations.</p></div>
                              </section></main>
 <footer class="wrap"><span>Nift Labs <span class="footer-divider">/</span> experiments in the open</span><a href="https://github.com/nift-experiments/lab-evidence">Inspect the evidence ↗</a></footer>
 </body>
