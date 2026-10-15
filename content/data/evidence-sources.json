@@ -1,6 +1,6 @@
 {
   "evidence_repo": "nift-experiments/lab-evidence",
-  "evidence_commit": "75c1588149a295702ec4006e25efc7ba4f05394f",
+  "evidence_commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
   "files": {
     "public/benchmarks/evidence/README.md": {
       "repo": "nift-experiments/lab-evidence",
@@ -166,10 +166,10 @@
     },
     "public/benchmarks/evidence/incremental-memory/website-generator.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "audits/incremental-memory/snapshots/website-generator.json",
-      "sha256": "b87a573cd673a94381ee0e18d5cac30446e3bfcee58bbe092830bff1f3c0e3fb",
-      "origin_sha256": "ce5eec6103ca76532b4c02af355a984aff9756e18e2ecc05df4fae0552f4bc71",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/publication/website-iteration-memory.json",
+      "sha256": "7c27755a45e0d909595b530068c8a70bdef0fd025d0f66931668b084a5f57e72",
+      "origin_sha256": "7c27755a45e0d909595b530068c8a70bdef0fd025d0f66931668b084a5f57e72",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "public/benchmarks/evidence/nift-installer.sh": {
       "repo": "nift-experiments/lab-evidence",
@@ -1272,31 +1272,31 @@
     },
     "public/benchmarks/website-generator/evidence/targeted-builds.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/targeted-builds.json",
-      "sha256": "39db8ebf08357193e8113c1f68fd4cbb91edf9286dd58c4a7c35efccbcaa8026",
-      "origin_sha256": "39db8ebf08357193e8113c1f68fd4cbb91edf9286dd58c4a7c35efccbcaa8026",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/targeted-builds.json",
+      "sha256": "415579032738b15cb462f42d67a0e5eafcca5e815c7969cbd7da67f687502934",
+      "origin_sha256": "415579032738b15cb462f42d67a0e5eafcca5e815c7969cbd7da67f687502934",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "public/benchmarks/website-generator/evidence/website-100.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/website-100.json",
-      "sha256": "11c2e77c6f5e0d3e67186c2e74a30a86e8855a1f8720fd38eed2c4beb90555be",
-      "origin_sha256": "11c2e77c6f5e0d3e67186c2e74a30a86e8855a1f8720fd38eed2c4beb90555be",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/website-100.json",
+      "sha256": "ef1811f7e2c438e5b15d01d0bcb2df9cb2045c9d10458324599de73e93143991",
+      "origin_sha256": "ef1811f7e2c438e5b15d01d0bcb2df9cb2045c9d10458324599de73e93143991",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "public/benchmarks/website-generator/evidence/website-1000.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/website-1000.json",
-      "sha256": "3d06ecd04b9c2ebb065fd5e28362073178093b5d323ec30530de50f56bbbe80e",
-      "origin_sha256": "3d06ecd04b9c2ebb065fd5e28362073178093b5d323ec30530de50f56bbbe80e",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/website-1000.json",
+      "sha256": "b736c0dffbefe2a8be5aa9248d26baed6eee613bd266f82f3f24b52bf9f85c63",
+      "origin_sha256": "b736c0dffbefe2a8be5aa9248d26baed6eee613bd266f82f3f24b52bf9f85c63",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "public/benchmarks/website-generator/evidence/website-10000.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/website-10000.json",
-      "sha256": "8ae85a263168af0d8c88b76489d812a3f797559bc06c216960d17a78f9a7b01f",
-      "origin_sha256": "8ae85a263168af0d8c88b76489d812a3f797559bc06c216960d17a78f9a7b01f",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/website-10000.json",
+      "sha256": "f420e4f034742b17ede75419bb1d50d508bd5218ca98ea6ef0c4cb0df6a3a8a5",
+      "origin_sha256": "f420e4f034742b17ede75419bb1d50d508bd5218ca98ea6ef0c4cb0df6a3a8a5",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "content/benchmarks/archives/20261008-v480/scripting/archive-identity.json": {
       "repo": "nift-experiments/lab-evidence",
@@ -2364,31 +2364,31 @@
     },
     "content/benchmarks/data/targeted-builds.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/targeted-builds.json",
-      "sha256": "39db8ebf08357193e8113c1f68fd4cbb91edf9286dd58c4a7c35efccbcaa8026",
-      "origin_sha256": "39db8ebf08357193e8113c1f68fd4cbb91edf9286dd58c4a7c35efccbcaa8026",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/targeted-builds.json",
+      "sha256": "415579032738b15cb462f42d67a0e5eafcca5e815c7969cbd7da67f687502934",
+      "origin_sha256": "415579032738b15cb462f42d67a0e5eafcca5e815c7969cbd7da67f687502934",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "content/benchmarks/data/website-100.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/website-100.json",
-      "sha256": "11c2e77c6f5e0d3e67186c2e74a30a86e8855a1f8720fd38eed2c4beb90555be",
-      "origin_sha256": "11c2e77c6f5e0d3e67186c2e74a30a86e8855a1f8720fd38eed2c4beb90555be",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/website-100.json",
+      "sha256": "ef1811f7e2c438e5b15d01d0bcb2df9cb2045c9d10458324599de73e93143991",
+      "origin_sha256": "ef1811f7e2c438e5b15d01d0bcb2df9cb2045c9d10458324599de73e93143991",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "content/benchmarks/data/website-1000.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/website-1000.json",
-      "sha256": "3d06ecd04b9c2ebb065fd5e28362073178093b5d323ec30530de50f56bbbe80e",
-      "origin_sha256": "3d06ecd04b9c2ebb065fd5e28362073178093b5d323ec30530de50f56bbbe80e",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/website-1000.json",
+      "sha256": "b736c0dffbefe2a8be5aa9248d26baed6eee613bd266f82f3f24b52bf9f85c63",
+      "origin_sha256": "b736c0dffbefe2a8be5aa9248d26baed6eee613bd266f82f3f24b52bf9f85c63",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "content/benchmarks/data/website-10000.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "benchmarks/website-generator/website-10000.json",
-      "sha256": "8ae85a263168af0d8c88b76489d812a3f797559bc06c216960d17a78f9a7b01f",
-      "origin_sha256": "8ae85a263168af0d8c88b76489d812a3f797559bc06c216960d17a78f9a7b01f",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/official-allcore/website-10000.json",
+      "sha256": "f420e4f034742b17ede75419bb1d50d508bd5218ca98ea6ef0c4cb0df6a3a8a5",
+      "origin_sha256": "f420e4f034742b17ede75419bb1d50d508bd5218ca98ea6ef0c4cb0df6a3a8a5",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "content/data/incremental-memory/ai-sdk.json": {
       "repo": "nift-experiments/lab-evidence",
@@ -2441,10 +2441,10 @@
     },
     "content/data/incremental-memory/website-generator.json": {
       "repo": "nift-experiments/lab-evidence",
-      "path": "audits/incremental-memory/snapshots/website-generator.json",
-      "sha256": "b87a573cd673a94381ee0e18d5cac30446e3bfcee58bbe092830bff1f3c0e3fb",
-      "origin_sha256": "ce5eec6103ca76532b4c02af355a984aff9756e18e2ecc05df4fae0552f4bc71",
-      "commit": "6250bc46604ad82713644cfb2a8bb46850573340"
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/publication/website-iteration-memory.json",
+      "sha256": "7c27755a45e0d909595b530068c8a70bdef0fd025d0f66931668b084a5f57e72",
+      "origin_sha256": "7c27755a45e0d909595b530068c8a70bdef0fd025d0f66931668b084a5f57e72",
+      "commit": "c8eb7e58b53104ea7edcad2158812844e44924d4"
     },
     "content/sites/ai-sdk/data/authored-A10-CLOSEOUT-PROOF.json": {
       "repo": "nift-experiments/ai-sdk",
@@ -5152,6 +5152,277 @@
       "path": "evaluation/nift-first/references-unchanged.json",
       "sha256": "461e83619468915ac9b0798c1582523f56b847b85433bf535324ca4e4bb7e17b",
       "origin_sha256": "461e83619468915ac9b0798c1582523f56b847b85433bf535324ca4e4bb7e17b"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/shell-fresh-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-fresh-summary.json",
+      "sha256": "ba78fb41da4692757d1908ad45e497838749caaed8aaa7543c1557a65c7ae74d"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/shell-fresh-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-fresh-summary.json",
+      "sha256": "ba78fb41da4692757d1908ad45e497838749caaed8aaa7543c1557a65c7ae74d"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/rc-before.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/rc-before.json",
+      "sha256": "db2d33a5fd65abf9f33f10f6aa234ff4627de1ed9f2ba54b183a073f66fa2192"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/rc-before.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/rc-before.json",
+      "sha256": "db2d33a5fd65abf9f33f10f6aa234ff4627de1ed9f2ba54b183a073f66fa2192"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/shell-application-cold.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-application-cold.json",
+      "sha256": "a0a785f8282e6ff1214ecf9baea4e41c3953efccbf4c3edcecb8eab9fa9b69a9"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/shell-application-cold.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-application-cold.json",
+      "sha256": "a0a785f8282e6ff1214ecf9baea4e41c3953efccbf4c3edcecb8eab9fa9b69a9"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/shell-repeated-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-repeated-summary.json",
+      "sha256": "c4f6fb0573461ca842753c843301df7275874b3247c96fad12148dd8b5b2fe4e"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/shell-repeated-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-repeated-summary.json",
+      "sha256": "c4f6fb0573461ca842753c843301df7275874b3247c96fad12148dd8b5b2fe4e"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/rc-after.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/rc-after.json",
+      "sha256": "82575bceb3da6b74e32b81b5f15e0c328f11a5950acf132b65560db375af6aad"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/rc-after.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/rc-after.json",
+      "sha256": "82575bceb3da6b74e32b81b5f15e0c328f11a5950acf132b65560db375af6aad"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/shell-repeated.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-repeated.json",
+      "sha256": "62c6e4f5881129ebac72c2fcc60943955ee9e3c2474a3fdf72895160f292f5dd"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/shell-repeated.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-repeated.json",
+      "sha256": "62c6e4f5881129ebac72c2fcc60943955ee9e3c2474a3fdf72895160f292f5dd"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/workload-validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/workload-validation.json",
+      "sha256": "141722a3299ed1e67b12d0d47b6dc8083b165a2dabf6f8d8367aeed8c44ac462"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/workload-validation.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/workload-validation.json",
+      "sha256": "141722a3299ed1e67b12d0d47b6dc8083b165a2dabf6f8d8367aeed8c44ac462"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/shell-workloads.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-workloads.json",
+      "sha256": "cd0d7c0768c3c45cf7d00f2eaf438cbdc73c27737f48f2d85a18afeabb49580f"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/shell-workloads.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/official-refresh/shell-workloads.json",
+      "sha256": "cd0d7c0768c3c45cf7d00f2eaf438cbdc73c27737f48f2d85a18afeabb49580f"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/independent-audit.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/independent-audit.json",
+      "sha256": "5887dc494ccf0f3e06ea30bd895b36599aef3b14dee8af5ca99b32729ab08856"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/independent-audit.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/independent-audit.json",
+      "sha256": "5887dc494ccf0f3e06ea30bd895b36599aef3b14dee8af5ca99b32729ab08856"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/candidate-built.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/candidate-built.json",
+      "sha256": "8cf730e7a589d5b32193788827fe72ee7c2a68442e3ac6bdc94c7ccc2852fb73"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/candidate-built.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/candidate-built.json",
+      "sha256": "8cf730e7a589d5b32193788827fe72ee7c2a68442e3ac6bdc94c7ccc2852fb73"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/refresh-readiness.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/refresh-readiness.json",
+      "sha256": "6b856254d0362802156675e49badb612118a04fcf59c02b56e4d9e029ba81437"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/refresh-readiness.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/refresh-readiness.json",
+      "sha256": "6b856254d0362802156675e49badb612118a04fcf59c02b56e4d9e029ba81437"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/normalized-current-metrics.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/normalized-current-metrics.json",
+      "sha256": "d3586cac087a407257645275f3b96d8691b08e9c663dbcda6b836bfd5adb5a39"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/normalized-current-metrics.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/normalized-current-metrics.json",
+      "sha256": "d3586cac087a407257645275f3b96d8691b08e9c663dbcda6b836bfd5adb5a39"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/dpkg-versions.tsv",
+      "sha256": "a3fb555f68942b0b6074845e42eb8243897123e1e2596d76ff9c9d6f9442e398"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/dpkg-versions.tsv",
+      "sha256": "a3fb555f68942b0b6074845e42eb8243897123e1e2596d76ff9c9d6f9442e398"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/shell/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "public/benchmarks/shell/evidence/20261015-v4120-final-c14d068/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/shell/20261015-v4120-final-c14d068/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/scripting.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/official-refresh/scripting.json",
+      "sha256": "9ef3bb1f78bfe6c60da74580ae9b5d4c10ea87adeb57963731faf4a34b62d5d6"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/scripting.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/official-refresh/scripting.json",
+      "sha256": "9ef3bb1f78bfe6c60da74580ae9b5d4c10ea87adeb57963731faf4a34b62d5d6"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/scripting-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/official-refresh/scripting-summary.json",
+      "sha256": "437a5d15c962dbabfa2f06d3e2bcd5a264001e0620e5c80dc041cf8c3cfc2cc9"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/scripting-summary.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/official-refresh/scripting-summary.json",
+      "sha256": "437a5d15c962dbabfa2f06d3e2bcd5a264001e0620e5c80dc041cf8c3cfc2cc9"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/independent-audit.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/independent-audit.json",
+      "sha256": "f0a023a97fddddd0442398d34d2edb7bed9e4fe1a4de222934b3941fa46939d8"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/independent-audit.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/independent-audit.json",
+      "sha256": "f0a023a97fddddd0442398d34d2edb7bed9e4fe1a4de222934b3941fa46939d8"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/candidate-built.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/candidate-built.json",
+      "sha256": "ac8bb043ec0cbeeb75e167a42aef431e0416bc2279ad4575826a879ebd56f918"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/candidate-built.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/candidate-built.json",
+      "sha256": "ac8bb043ec0cbeeb75e167a42aef431e0416bc2279ad4575826a879ebd56f918"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/refresh-readiness.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/refresh-readiness.json",
+      "sha256": "25b3ed3e236f1f6cc907c05333c128ec1ed4e71caa7f1834dedefe06c26ffb04"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/refresh-readiness.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/refresh-readiness.json",
+      "sha256": "25b3ed3e236f1f6cc907c05333c128ec1ed4e71caa7f1834dedefe06c26ffb04"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/normalized-current-metrics.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/normalized-current-metrics.json",
+      "sha256": "54b913ab125528021f12d7b17483985641dc252f7ebfa846ef04e41a418d7eff"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/normalized-current-metrics.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/normalized-current-metrics.json",
+      "sha256": "54b913ab125528021f12d7b17483985641dc252f7ebfa846ef04e41a418d7eff"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/dpkg-versions.tsv",
+      "sha256": "a3fb555f68942b0b6074845e42eb8243897123e1e2596d76ff9c9d6f9442e398"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/dpkg-versions.tsv": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/dpkg-versions.tsv",
+      "sha256": "a3fb555f68942b0b6074845e42eb8243897123e1e2596d76ff9c9d6f9442e398"
+    },
+    "content/benchmarks/data/history/20261015-v4120-final-c14d068/scripting/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "public/benchmarks/scripting/evidence/20261015-v4120-final-c14d068/compiler.txt": {
+      "repo": "nift-experiments/lab-evidence",
+      "commit": "19e390183b9bcb039abe6aa553ad88a2305b49ee",
+      "path": "benchmarks/scripting/20261015-v4120-final-c14d068/compiler.txt",
+      "sha256": "3e8cc208c40f60832f67377aa1b03c3e7e858f20cd5d365464944700c0bd7ad1"
+    },
+    "public/benchmarks/filesystem-automation/evidence/postexec-memory.json": {
+      "repo": "nift-experiments/lab-evidence",
+      "path": "campaigns/20261015-website-allcore-publication-c14d068/filesystem-postexec/collected/postexec-memory.json",
+      "commit": "011231ccba384648e1164002a7b2ce2cd1bf52d1",
+      "sha256": "fbed33649e3e018f349501b977312b284022823995f5a14da48ad9707f1024ef",
+      "origin_sha256": "fbed33649e3e018f349501b977312b284022823995f5a14da48ad9707f1024ef"
     }
   }
 }
